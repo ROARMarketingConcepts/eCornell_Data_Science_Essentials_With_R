@@ -1,0 +1,88 @@
+---
+title: "Summarize and Visualize Two Categorical Variables"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+## Step 1: Load the data set and define the colors.
+
+```{r, echo = FALSE}
+#eCornell Hex Codes: 
+crimson = '#b31b1b' #Crimson
+lightGray = '#cecece' #lightGray
+darkGray = '#606366'
+skyBlue = '#92b2c4' #skyblue
+gold = '#fbb040' #gold
+ecBlack = '#393f47' #ecBlack
+
+titanic <- read.table("titanic.txt", header = TRUE)
+SurvivedFactor <- factor(titanic$Survived, 
+                         levels = c("0", "1"),
+                         labels = c("No", "Yes"))
+titanic$Survived <- SurvivedFactor
+```
+
+Q: Was the survival rate among male passengers higher than the survival rate among female passengers? 
+
+We need to know four numbers: 
+    1. Number of male passengers who survived 
+    2. Number of female passengers who survived 
+    3. Number of male passengers who did not survive 
+    4. Number of female passengers who did not survive
+
+## Step 2: Create a contingency table and calculate proportions of survivors grouped by sex.
+
+Create a contingency table with the table() command that shows the number of individuals in each of the four groups of interest. 
+
+Use the table() command on the whole data set.
+
+```{r}
+table(titanic$Sex, titanic$Survived)
+```
+
+Use the prop.table() command to calculate proportions of survivors.
+
+```{r}
+prop.table(table(titanic$Sex, titanic$Survived), 1)
+# Setting second argument to 1 will give us proportions 
+# within each row (% survivors among female, % survivors among male)
+
+# Change this to 2 to calculate proportions
+# within each column (e.g., % males among survivors)
+```
+
+## Step 3: Create a stacked barplot to show number of survivors grouped by sex.
+
+Next, use the transpose command, t(), along with the barplot() command to create a stacked barplot that displays Sex on the x-axis. 
+
+```{r}
+tbl <- table(titanic$Sex,titanic$Survived)
+tbl # Sex in rows, survival in columns
+# The barplot function creates one bar for each column, so you'll need to transpose tbl before making a barplot
+t(tbl) # Switch rows/columns to get one bar per gender
+par(mar=2+c(5.1,4.1,4.1,2.1),cex.axis=1, cex.main=1.5, cex.lab=1.5)
+barplot(t(tbl), 
+        main="Survived?", cex.names = 1.5, 
+        col = c(crimson, darkGray), # Bars will be crimson and darkGray
+        legend.text=c("No","Yes"), # Create a legend
+        args.legend=list(x="topleft",cex=1)) # Legend will be at the top left of the plot
+```
+
+## Step 4: Create a stacked barplot to show proportion of survivors grouped by sex.
+
+Use the prop.table() command and  transpose the data to make a stacked barplot that shows proportions instead of numbers. 
+
+```{r,echo=TRUE}
+pt=prop.table(table(titanic$Sex,titanic$Survived),1)
+t(pt) # Switch rows to columns
+par(mar=2+c(5.1,4.1,4.1,2.1),cex.axis=1, cex.main=1.5, cex.lab=1.5)
+barplot(t(pt), 
+        main="Survived?", cex.names = 1.5,     
+        col = c(crimson, darkGray),
+        legend.text=c("No","Yes"),
+        args.legend=list(x="topleft",cex=1))
+```
+
+
+
