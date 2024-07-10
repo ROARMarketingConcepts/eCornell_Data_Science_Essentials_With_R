@@ -1,0 +1,101 @@
+---
+title: "Summarize and Visualize One Categorical Variable"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+## Step 1: Load the data set and define colors.
+
+```{r, echo = FALSE}
+#eCornell Hex Codes: 
+crimson = '#b31b1b' #Crimson
+lightGray = '#cecece' #lightGray
+darkGray = '#606366'
+skyBlue = '#92b2c4' #skyblue
+gold = '#fbb040' #gold
+ecBlack = '#393f47' #ecBlack
+
+titanic <- read.table("titanic.txt", header = TRUE)
+```
+
+## Step 2: Change Survived to a factor.
+
+Use the factor() function to change `titanic$Survived` into a vector called SurvivedFactor, then replace the original `titanic$Survived` variable with the new vector SurvivedFactor. 
+
+```{r}
+str(titanic)
+SurvivedFactor <- factor(titanic$Survived, 
+                         levels = c("0", "1"), 
+                         labels = c("No", "Yes"))
+titanic$Survived <- SurvivedFactor # Note that here we're replacing the Survived column with the SurvivedFactor column, instead of adding it to the data set as a new column
+
+head(titanic, n = 10)
+str(titanic)
+```
+
+Look at the first $11$ passengers in the titanic data: 
+
+```{r, echo=FALSE}
+head(titanic, n=11)
+```
+
+## Step 3: Construct a frequency table.
+
+Use the table() command in R to construct a *frequency table*. Note that here we're only working with the first 11 passengers in the data set. 
+
+```{r}
+table(head(titanic$Survived, n=11)) # Make a table of the number of passengers that didn't survive and the number that did, from only the first 11 passengers. 
+```
+
+## Step 4: Make a relative frequency table.
+
+Count *relative frequency* (proportion) of survivors and non-survivors in the data.
+
+```{r}
+# Manually check the proportion of survivors and non-survivors
+6/(6+5) # Proportion that didn't survive
+5/(6+5) # Proportion that survived
+prop.table(table(head(titanic$Survived, n=11))) # Use the prop.table() function to do this automatically
+```
+
+## Step 5: Make frequency and relative frequency tables of all passenger survival.
+
+Next, calculate the frequency and relative frequency for the entire titanic data set.
+
+```{r}
+tbl.titanic <- table(titanic$Survived)
+tbl.titanic
+prop.table(tbl.titanic)
+```
+
+## Step 6: Make a barplot of the survival of Titanic passengers.
+
+Use the table you create of passenger survival to create a barplot with the command barplot(). 
+
+```{r}
+counts = table(titanic$Survived) # counts is a frequency table of the titanic$Survived column
+
+par(mar=2+c(5.1,4.1,4.1,2.1)) # Set the margin around the plot
+barplot(counts, # counts tells R the number of bars to make and the height of those bars
+        main="Survival of Titanic Passengers", 
+        col = crimson,
+        ylab="Number of passengers", xlab="Survived?", 
+        cex.axis=1.5, cex.main=1.5, 
+        cex.names=1.5, cex.lab=1.5)
+```
+
+## Step 7: Make a barplot of the survival proportions of Titanic passengers.
+
+Plot the proportion of survivors by dividing counts by the total number of passengers, then making a new barplot. 
+
+```{r}
+totnum = sum(counts)
+par(mar=2+c(5.1,4.1,4.1,2.1))
+barplot(counts / totnum, 
+        main="Survival of Titanic Passengers", col = crimson,
+        ylab="Proportion of passengers", xlab="Survived?",
+        ylim=c(0,1),cex.axis=1.5, cex.main=1.5, 
+        cex.names=1.5, cex.lab=1.5)
+```
+
