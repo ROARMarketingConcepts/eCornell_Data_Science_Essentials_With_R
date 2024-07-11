@@ -1,0 +1,133 @@
+---
+title: "cis446_project2_v2"
+author: "eCornell"
+date: "7/11/2024"
+output: html_document
+---
+In this part of the course project, you will work with a subset of the Student Survey data set that contains information on students who watch either a lot or very little TV each week. This data set is from a survey of college student habits and includes the following variables: 
+
+~ *ExerciseLevel*: Whether the student exercises more than eight hours per week (HighExcs) or less than eight hours per week (LowExcs)
+~ *TVLevel*: Whether the student watches TV for more than seven hours per week (HighTV) or less than three hours per week (LowTV)
+~ *Award*: Type of award the student is most interested in: Nobel or Olympic
+
+You will analyze these data through the lens of a data scientist working for the campus store in which the Student Survey data was collected. 
+
+Your team is thinking about running a TV ad marketing to college students and they want to know whether running a TV advertisement is worthwhile. If it is, they also want to know what their discount strategy should be. To answer these questions, you will use the Student Survey data set to determine whether it is worthwhile to run a TV ad, whether your store should advertise a discount on sports gear or science books, and whether there are any confounding factors that might influence the association between how much TV students watch and their interests. You will first determine the percentage of students in the HighTV category, then examine the association between TV level and preferred Award, and finally examine whether the exercise level of those students is a confounding factor. 
+
+The data set you will work with is loaded in the code chunk below. The variables in this version of the data set are TV (numerical), ExerciseLevel (categorical: HighExcs and LowExcs), TVLevel (categorical: HighTV and LowTV), and Award (categorical: Nobel or Olympic). Use the following command to load the data frame in R.  
+
+```{r}
+dat <- read.csv('StudentSurveyProject2.csv')
+```
+
+## Step 1: 
+Your team assumes that if at least 40% of the students are in the HighTV category, a televised ad campaign would be worthwhile. Determine the proportion of students in the HighTV category.
+
+```{r}
+result <- table(dat$TVLevel)
+prop_HighTV1 <- result[1]/(result[1]+result[2])
+prop_HighTV1
+```
+
+## Step 2: 
+Visualize the proportion of students in each TV level with a barplot. Based on your results, should your team run a televised ad campaign?
+
+```{r}
+
+proportions <- prop.table(result)
+library(lattice)
+
+crimson = '#b31b1b' #Crimson
+
+barplot(proportions,
+        main="Proportions of TVLevel Feature", 
+        col = crimson,
+        ylab="Proportion", xlab="TVLevel")
+```
+
+__Since the proportion of HighTV is 0.482 which is > 0.40, we should run the campaign.__ 
+
+
+## Step 3: 
+Your team assumes that if more students who watch a lot of TV are interested in Nobel Prizes, they will prefer science books. In contrast, your team assumes that if more students who watch a lot of TV are interested in the Olympics, they will prefer sports gear. 
+
+Create a table that shows the proportions of HighTV and LowTV students that prefer each award type. Your team will use this table to decide whether to run a sale on science books or sports gear based on their assumptions, above.
+
+```{r}
+tbl <- prop.table(table(dat$TVLevel,dat$Award))
+```
+
+## Step 4: 
+Create a stacked barplot to present the results of the previous analysis to your team. Recall that your team assumes that if more students who watch a lot of TV are interested in Nobel Prizes, they will prefer science books, whereas if more students who watch a lot of TV are interested in the Olympics, they will prefer sports gear. 
+
+Based on your results, should your team discount science books or sports gear?
+
+```{r}
+
+#eCornell Hex Codes: 
+crimson = '#b31b1b' #Crimson
+lightGray = '#cecece' #lightGray
+darkGray = '#606366'
+skyBlue = '#92b2c4' #skyblue
+gold = '#fbb040' #gold
+ecBlack = '#393f47' #ecBlack
+
+barplot(t(tbl), 
+        main="Proportions of Awards by TVLevel", cex.names = 1.5, 
+        col = c(crimson, darkGray), # Bars will be crimson and darkGray
+        legend.text=c("Nobel","Olympic"), # Create a legend
+        ylab = "Proportion",
+        args.legend=list(x="topright",cex=1)) 
+```
+
+__The proportion of HighTV students who are interested in Olympic awards is higher than those who are interested in Nobel awards. Therefore, we should discount sports gear.__
+
+## Step 5: 
+TV ads are expensive, so before your team runs the campaign you decide to check for confounding factors. Your team has assumed that students who prefer the Olympics will be interested in sports gear, but the amount of exercise students do could influence the association between the award a student prefers and the amount of TV they watch. For instance, if the students who prefer the Olympics and watch more TV are primarily from the HighExcs group, the team would consider featuring exercise gear instead of sports gear in the TV ad.
+
+Check whether the difference in the level of TV watched by students who are more interested in different awards is influenced by their level of exercise. Summarize this information by creating a table of proportions.
+
+```{r}
+dat$TVLevelBin=ifelse(dat$TVLevel=="HighTV", 1, 0) # Use the ifelse() function to turn "HighTV" into 1 and "LowTV" into 0
+
+# The aggregate() function takes the formula for a question then performs the specified function on each group created by the question: 
+prop = aggregate(TVLevelBin ~ Award + ExerciseLevel, # This argument tells R how we want to separate our data: We'll calculate the proportions based on SurvBin, and separate groups based on both Passenger Class and Sex, for a total of six groups
+               FUN=mean, # Calculate the mean for each group (mean could be switched for another function, such as median)
+               data=dat)  # Perform this function on the titanic data 
+prop
+```
+
+## Step 6: 
+Create a side-by-side barplot that shows how student exercise levels influence the association between a student's preferred award and the amount of TV they watch. 
+
+```{r}
+library(lattice) # Load the lattice package so you can make a side-by-side barplot
+
+#eCornell Hex Codes: 
+crimson = '#b31b1b' #Crimson
+lightGray = '#cecece' #lightGray
+darkGray = '#606366'
+skyBlue = '#92b2c4' #skyblue
+gold = '#fbb040' #gold
+ecBlack = '#393f47' #ecBlack
+
+barchart(TVLevelBin ~ ExerciseLevel, # Plot the TVLevel by ExerciseLevel
+         groups=Award,     # Break up passenger class by sex
+         dat=prop,       # Use the prop data set
+         pch=19, cex=1.5, ylim=c(0,1), 
+         main="Proportion of HighTV Levels",
+         par.settings = list(superpose.polygon = list(col=c(crimson, darkGray))),             # Make the colors crimson and gray
+         scales=list(cex=1.5), # Make the axes bigger than standard
+         xlab=list(label="Exercise Level", cex = 1.5), # Add exercise class labels to the x-axis
+         ylab=list(label="Proportion HighTV", cex = 1.5), # Add the label "Proportion HighTV" to the y-axis
+         auto.key=list(space="right",cex=1.5)) # Add the plot legend to the right side of the plot. 
+```
+```
+
+## Step 7: 
+Based on the side-by-side barplot and the table you made to understand how exercise level influences the relationship between award of interest and TV level, is exercise level a confounding factor? Why or why not?
+
+__Looking at the side-by-side barplot the proportions of `HighTV` watchers w/r/t `Award` choice, the proportions do not change significantly with the level of exercise. For both Nobel and Olympic awards, there is an approximate proportion delta of 0.08 between `HighExcs` and `LowExcs`.  I would conclude that the level of exercise is not a confounding factor for this population.__
+
+## This is the end of Part Two of the course project ##
+## Don't forget to save and submit your work ##
