@@ -1,0 +1,95 @@
+---
+title: "project_3"
+author: "eCornell"
+date: "7/12/2024"
+output: html_document
+---
+In this project, you will use real stock return data to explore whether the daily returns of Apple (AAPL) stocks show different patterns before and after a financial crisis.
+
+You will work with the values of the daily returns of AAPL stock throughout 2009, after the financial crisis. Once you've summarized and visualized those data, you will compare them to some of the summary statistics for AAPL stock in 2007, before the U.S. financial crisis.
+
+The following code chunk creates the data frame, AAPL, that you will use for this part of the course project.
+
+```{r}
+AAPL <- read.csv('AAPL2009.csv', header=TRUE, stringsAsFactors=FALSE)
+n <- nrow(AAPL)
+
+AAPL$ret <- NA
+AAPL$ret[2:n] <- 100*(AAPL$Close[2:n]/AAPL$Close[1:(n-1)] - 1)
+AAPL <- AAPL[-1,]
+```
+
+## Step 1
+
+In this project, you will determine whether the daily returns of Apple (AAPL) stocks show different patterns before and after a financial crisis. What analysis type do you need to perform to answer this question? What variable type(s) will you need to use?
+
+## Step 2
+
+Draw a histogram of the 2009 AAPL returns.
+```{r}
+hist(AAPL$ret)
+```
+
+## Step 3
+
+How many clusters do you see in the histogram you created in Step 2?
+
+13
+
+## Step 4
+
+How would you describe the shape of the histogram you created in Step 2? 
+
+__Normal or Gaussian (bell-shaped)__
+
+## Step 5
+
+Do you see any obvious outliers in the histogram you created in Step 2? If so, what do they tell you?
+
+Yes, there is a small mount of return values > 6.0% and also some values approaching -6.0%.  This shows that there is some volatility in the value of the returns.
+
+## Step 6
+
+Calculate the average return of AAPL stocks in 2009.
+```{r}
+result1 <- mean(AAPL$ret)
+result1
+```
+
+## Step 7 
+
+Determine the 5% value at risk for AAPL stocks in 2009. (Recall that value at risk should be reported as a positive number.)
+```{r}
+# calculate 5% VaR for AAPL
+result2 <- abs(quantile(AAPL$ret, 0.05))
+result2
+```
+
+## Step 8 
+
+Calculate the standard deviation for AAPL stocks in 2009.
+```{r}
+result3 <- sd(AAPL$ret)
+result3
+```
+
+## Step 9
+
+In 2007, the mean daily return of AAPL stocks was 0.38% and the value at risk (VaR) was 3.36%. 
+
+Use your calculations of the mean daily return of AAPL stocks and their VaR in 2009 to explain whether or not the financial crisis caused AAPL stock to 1) be worth less and 2) become more volatile. 
+
+Mean daily returns:
+2007: 0.38%
+2009: 0.36%
+
+VaR
+2007: 3.36%
+2009: 2.73%
+
+__1. Because the mean daily return of AAPL stock was higher in 2007 compared to 2009, the financial crisis caused the stock to be worth less.__
+
+__2. The VaR for 2009 is less that that of 2007...therefore the financial crisis caused the stock to be less volatile.__
+
+## This is the end of Part Three of the course project ##
+## Don't forget to save and submit your work ##

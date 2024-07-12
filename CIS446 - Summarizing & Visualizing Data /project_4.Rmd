@@ -1,0 +1,113 @@
+---
+title: "project_4"
+author: "eCornell"
+date: "7/12/2024"
+output: html_document
+---
+
+One way that investors in the financial market can decrease their risk is by holding stocks that are not strongly correlated with one another. When the market is not doing well, however, stocks are sometimes more strongly correlated than usual. If the time period of stock return data affects the correlation between stocks, you can think of time period as a confounding factor. 
+
+In this project, you will use real stock return data to explore whether the daily returns of two stocks show a pattern of being more closely correlated during a financial crisis. 
+
+To answer this question, you will work with daily stock return data. The stock return data can have one of two labels: `quiet`, which refers to a period of 30 days in the beginning of 2007, or `crisis`, which refers to a period of 30 days during the 2008-2009 U.S. financial crisis. 
+
+The following code chunk loads two data frames — GS (Goldman Sachs stock data) and citi (Citigroup stock data) — each of which has 60 daily stock return values: 30 from the quiet period and 30 from the crisis period. Each data frame also has a variable called Period which indicates its quiet/crisis status. 
+
+```{r}
+GS <- read.csv("GS.csv")
+citi <- read.csv("C.csv")
+```
+
+## Step 1
+
+What analysis type (univariate, bivariate, or multivariate) should you use to answer this question? What variable type (categorical, numerical, or both) will you need to use?
+
+__bivariate analysis using both categorical and numerical variables.__
+
+## Step 2
+
+Create a side-by-side boxplot of the closing prices of GS returns in both the quiet and crisis periods. Do the same for Citigroup stock returns. In which of the two periods are the returns lower?
+
+```{r}
+boxplot(GS$ret ~ GS$period, main = "GS Returns", xlab = "Period", ylab = "Return")
+
+boxplot(citi$ret ~ citi$period, main = "Citi Returns", xlab = "Period", ylab = "Return")
+```
+
+__Based on an examination of the barplots, the returns for both stocks appear to be lower in the `crisis` period.__
+
+## Step 3
+
+Next, calculate the Pearson correlation between GS and Citi stock returns for the entire data set. 
+
+```{r}
+result <- cor(GS$ret,citi$ret)
+result
+```
+
+## Step 4
+
+Visualize the association between the returns of the two stocks with a scatterplot.
+
+```{r}
+ret_df <- data.frame(GS$ret,citi$ret)
+colnames(ret_df) <- c("GS","citi")
+
+#eCornell Hex Codes: 
+crimson = '#b31b1b' #Crimson
+lightGray = '#cecece' #lightGray
+darkGray = '#606366'
+skyBlue = '#92b2c4' #skyblue
+gold = '#fbb040' #gold
+ecBlack = '#393f47' #ecBlack
+
+colorcode <- c(crimson, ecBlack) 
+pchcode <- c(19,17)
+plot(ret_df$GS, ret_df$citi, col = colorcode, pch = pchcode,
+     xlab = 'GS Return', ylab = 'Citi Return')
+legend('topleft', c('GS', 'citi'), pch = c(19, 17), col = c(crimson, ecBlack))
+```
+
+## Step 5
+
+Use the variable Period to create a point- and color-coded scatterplot that distinguishes the returns during the quiet period from the returns during the crisis period. 
+
+```{r}
+colorcode <- ifelse(GS$period == 'crisis' | citi$period == 'crisis', crimson, ecBlack) # Crisis periods will be crimson, quiet periods will be ecBlack
+plot(GS$ret,citi$ret, col = colorcode, pch = c(19,17),
+     xlab = 'GS Return', ylab = 'Citi Return')
+legend('topleft', c('GS crisis', 'Citi crisis', 'GS quiet', 'Citi quiet'), pch = c(19, 17, 19, 17), col = c(crimson, crimson,ecBlack,ecBlack))
+```
+
+## Step 6
+
+Describe what the scatterplot you created in Step 5 shows about the association between the two stocks. 
+
+__An examination of the scatterplot shows that both GS and Citi's returns have higher volatility (variability) during a crisis and 
+lower volatility during a quiet period.__
+
+## Step 7
+
+Calculate two Pearson correlation values — one between the returns of the two stocks during the quiet period and one during the crisis period. During which period is the correlation higher?
+
+```{r}
+GS_crisis <- GS[GS$period == 'crisis',]
+GS_quiet <- GS[GS$period == 'quiet',]
+citi_crisis <- citi[citi$period == 'crisis',]
+citi_quiet <- citi[citi$period == 'quiet',]
+
+cor_crisis <- cor(GS_crisis$ret,citi_crisis$ret)
+cor_crisis
+
+cor_quiet <- cor(GS_quiet$ret,citi_quiet$ret)
+cor_quiet
+
+```
+
+__The correlation between `GS$ret` and `citi$ret` is higher during the `crisis` period.__
+
+## Step 8
+
+Based on the scatterplot you created and the correlation coefficients you calculated, is the time period a confounding factor when you think about the association between the two stocks? Explain why or why not. 
+
+__Yes, I believe that the time period is definitely a confounding factor because of the differences in GS/citi return volatility and correlation is quite significant between a `crisis` and `quiet` period.__
