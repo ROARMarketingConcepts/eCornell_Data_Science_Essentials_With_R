@@ -1,0 +1,65 @@
+---
+title: "Error Types"
+author: "eCornell"
+date: "7/1/2021"
+output: html_document
+---
+Scenario: 
+In this example, you will assume that you've run a clinical trial to compare an Old treatment and a New treatment. Both treatments have 2 possible outcomes- either the treatment works (is successful) or does not work (is not successful).
+
+You want to specify an appropriate cut-off value to help you determine when your results are significant. In this case, assume that the sample (observed) statistic is 7%. 
+
+## Step 1: Run and visualize the simulation
+```{r}
+# Both new and old treatments have same chance of success: (27+22)/(52+51) = 47.6%
+set.seed(1) #set the seed so your results are reproducible
+
+outcome = c("Worked", "Did not Work") #possible outcomes
+
+# Run the simulation: 
+nsim = 100000
+store_p_diff = rep(0, nsim)
+
+p_new = 27/52 # Observed proportion of New treatment success
+p_old = 22/51 # Observed proportion of Old treatment success
+p_all = (27+22)/(52+51) # Proportion of successful treatments under the null hypothesis (27+22)/(52+51) = 47.6%
+
+for (i in 1:nsim){
+ result_new = sample(outcome, 52, replace = TRUE, prob = c(p_all, 1-p_all))
+ p_new_sim = mean(result_new == "Worked")
+
+ result_old = sample(outcome, 51, replace = TRUE, prob = c(p_all, 1-p_all))
+ p_old_sim = mean(result_old == "Worked")
+
+ p_diff = p_new_sim - p_old_sim
+ store_p_diff[i] = p_diff
+ 
+}
+# Create the histogram: 
+hist(store_p_diff, breaks = 40, freq = FALSE, col = "black",
+     main = 'Null Distribution Sample Differences (New - Old)',
+     xlab = 'Difference in Success Rates (New - Old)')
+
+# Plot the sample statistic of 7% on the histogram:
+abline(v = 0.07, lwd = 4, col = "red")
+```
+
+## Step 2: Determine how often the sample statistic is >7% by random chance.
+
+```{r}
+mean(store_p_diff > 0.07)
+```
+A cut-off at 7% would correspond to 21.6% chance of a False Positive (FP or type-I error); this is high. 
+
+##Step 3: Pick a cut-off value with a 5% chance of a false positive.
+
+Use the quantile() function to pick a cut-off that gives a lower chance of FP (say 5%).
+```{r}
+cutoff <- quantile(store_p_diff, prob = 0.95)
+cutoff
+abline(v = cutoff, lwd = 4, col = "blue")
+```
+
+If we want to control the chance of FP at 5%, we should only go with the alternative (say the new treatment is 'promising enough') when the difference in the success rate of new treatment is at least 16.48% higher than the success of the old one. 
+
+Interestingly, a sample statistic > 16.48% is the same as a p-value < 5%.

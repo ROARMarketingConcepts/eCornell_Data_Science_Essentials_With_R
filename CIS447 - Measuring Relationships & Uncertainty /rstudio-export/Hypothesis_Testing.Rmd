@@ -1,0 +1,66 @@
+---
+title: "Hypothesis_Testing"
+author: "eCornell"
+date: "7/1/2021"
+output: html_document
+---
+Scenario: 
+Use this R Markdown file as a guide to testing hypotheses. In this example, you will assume that you've run a clinical trial to compare an Old treatment and a New treatment. Both treatments have two possible outcomes — either the treatment works (is successful) or does not work (is not successful).
+
+##Step 1: Determine your null hypothesis.
+
+You saw a result of 27/52 recoveries in the New treatment and 22/51 recoveries in the Old treatment. This gives you a sample statistic of 27/52 - 22/51 = 8.8%, and you want to choose between two hypotheses: (i) the two treatments work equally well, i.e. their population success rates are the same; (ii) the two treatments have different success rates in the population.
+
+The null hypothesis is that each treatment works equally well, so you expect (27+22)/(52+51) = 47% of individuals to recover. 
+
+## Step 2: Simulate the null distribution of the statistic. 
+```{r}
+# Both New and Old treatments have the same chance of success: (27+22)/(52+51) = 47.6%
+set.seed(1) # Set the seed so your results are reproducible
+
+outcome = c("Worked", "Did not Work") #possible outcomes
+
+# Run the simulation: 
+nsim = 100000
+store_p_diff = rep(0, nsim)
+
+p_new = 27/52 # Observed proportion of New treatment success
+p_old = 22/51 # Observed proportion of Old treatment success
+p_all = (27+22)/(52+51) # Proportion of successful treatments under the null hypothesis (27+22)/(52+51) = 47.6%
+
+for (i in 1:nsim){
+ result_new = sample(outcome, 52, replace = TRUE, prob = c(p_all, 1-p_all))
+ p_new_sim = mean(result_new == "Worked")
+
+ result_old = sample(outcome, 51, replace = TRUE, prob = c(p_all, 1-p_all))
+ p_old_sim = mean(result_old == "Worked")
+
+ p_diff = p_new_sim - p_old_sim
+ store_p_diff[i] = p_diff
+ 
+}
+```
+
+##Step 3: Determine where the observed statistic falls along the null distribution.
+Create a histogram of the simulation results, then use the `abline()` command to examine where your observed (sample) statistic falls. 
+```{r}
+hist(store_p_diff, breaks = 40, freq = FALSE, col = "black",
+     main = 'Null Distribution Sample Differences (New - Old)',
+     xlab = 'Difference in Success Rates (New - Old)')
+
+# Use this line to see where your sample statistic of 8.8% falls: 
+abline(v = 0.088, lwd = 4, col = "red") #In this function, v specifies that the line is vertical, lwd specifies the thickness, and col specifies the color
+```
+
+## Step 4: Calculate the p-value.
+
+Assuming the null hypothesis holds (new = old), how often do we see sample statistics that are larger than the observed statistic 8.8%? 
+
+```{r}
+# calculate p-value
+mean(store_p_diff > 0.088)
+```
+
+18% (roughly 1 in 5)
+
+We see that if the null hypothesis were true (both treatment had the same 47.6% success rate in population), there is an 1 in 5 chance of seeing that the new treatment has a 8.8% or higher success rate compared with the old treatment. So it does look like there is some evidence in favor of the alternative, but it is not very strong.
