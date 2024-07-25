@@ -2,7 +2,9 @@
 title: "Measuring Uncertainty With Bootstrap Methods"
 author: "eCornell"
 date: "7/26/2021"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 Scenario: Use this R Markdown file to help you create bootstrap samples of numerical data, and use them to create confidence intervals that you can use to test a hypothesis. The example in this file tests whether the median income in Canada in 1971 was 7000 CAD based on the Prestige data set in R.   
 
