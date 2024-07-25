@@ -1,0 +1,32 @@
+---
+title: "Resampling With Permutation"
+author: "eCornell"
+date: "7/26/2021"
+output:
+  pdf_document: default
+  html_document: default
+---
+Scenario: Use this R Markdown file as a guide to resampling with permutation. This example compares student exam scores across two different course sections.
+
+##Step 1: Create a sample data set.
+
+```{r}
+# Create the example data frame: 
+dat = data.frame(Score = c(10, 20, 30, 40, 50, 60, 70), Name = c("Alice", "Bob", "Catie", "Dave", "Eve", "Frank", "George"), Section = c("A", "A", "A",  "A", "B", "B", "B"))
+dat # Examine the data set
+set.seed(1) #set the seed for reproducibility 
+```
+
+##Step 2: Resample with permutation.
+To do permutation resampling in R, use the `sample()` function with `replace = FALSE`.
+```{r}
+1:7 #the vector you'll use for permutation
+perm.id = sample(1:7, size = 7, replace = FALSE) # the permuted vector
+perm.id # note that this vector is no longer in numerical order
+dat.perm = dat # make the permuted data set equal to the original data set
+dat.perm$Score = dat$Score[perm.id] #shuffle *only* the scores
+dat.perm #examine the permuted data frame
+```
+
+Note that after permutation, there is a mix of low and high scores in each section. The average scores of Sections A and B are no longer very different.
+

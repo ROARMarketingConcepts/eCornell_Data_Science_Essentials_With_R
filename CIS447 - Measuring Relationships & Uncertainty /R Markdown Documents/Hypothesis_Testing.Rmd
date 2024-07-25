@@ -2,7 +2,9 @@
 title: "Hypothesis_Testing"
 author: "eCornell"
 date: "7/1/2021"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 Scenario: 
 Use this R Markdown file as a guide to testing hypotheses. In this example, you will assume that you've run a clinical trial to compare an Old treatment and a New treatment. Both treatments have two possible outcomes — either the treatment works (is successful) or does not work (is not successful).

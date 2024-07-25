@@ -2,7 +2,9 @@
 title: "Error Types"
 author: "eCornell"
 date: "7/1/2021"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 Scenario: 
 In this example, you will assume that you've run a clinical trial to compare an Old treatment and a New treatment. Both treatments have 2 possible outcomes- either the treatment works (is successful) or does not work (is not successful).
@@ -55,6 +57,13 @@ A cut-off at 7% would correspond to 21.6% chance of a False Positive (FP or type
 
 Use the quantile() function to pick a cut-off that gives a lower chance of FP (say 5%).
 ```{r}
+# Create the histogram: 
+hist(store_p_diff, breaks = 40, freq = FALSE, col = "black",
+     main = 'Null Distribution Sample Differences (New - Old)',
+     xlab = 'Difference in Success Rates (New - Old)')
+
+# Plot the sample statistic of 7% on the histogram:
+abline(v = 0.07, lwd = 4, col = "red")
 cutoff <- quantile(store_p_diff, prob = 0.95)
 cutoff
 abline(v = cutoff, lwd = 4, col = "blue")
