@@ -88,15 +88,14 @@ hist(store_median, breaks = 20, freq = FALSE, col = ecBlack,
     border ='white', main = 'Bootstrap Distribution of Median Incomes',
     xlab = 'Median Income (CAD)')
 abline(v = ci.95, col = crimson, lwd = 4, lty = 2)
+
+# Test if the population median income is 7000 CAD or not.
+# Plot a vertical line over the histogram at 7000
+abline(v=7000, col = skyBlue, lwd = 3)
 ```
 
 ## Step 4: Use the confidence intervals to test a hypothesis.
 
 Test if the population median income is 7000 CAD or not.
-
-```{r}
-# Plot a vertical line over the histogram at 7000
-abline(v=7000, col = skyBlue, lwd = 3)
-```
 
 Since 7000 CAD is not included in 95% CI, we will conclude that the population median income is NOT 7000 CAD, and we are 95% confident about our conclusion.
