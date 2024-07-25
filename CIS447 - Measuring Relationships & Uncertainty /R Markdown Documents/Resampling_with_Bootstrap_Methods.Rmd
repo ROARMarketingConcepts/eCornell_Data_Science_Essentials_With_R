@@ -1,0 +1,102 @@
+---
+title: "Resampling With Bootstrap Methods"
+author: "eCornell"
+date: "7/21/2021"
+output:
+  pdf_document: default
+  html_document: default
+---
+Scenario: Use this R Markdown file to help you create bootstrap samples of numerical data. This file outlines two examples: 
+- one in which you want to compare the exam scores of two different course sections, and
+- one in which you want to test a hypothesis about the median income in Canada based on the Prestige data set in R. You can start by creating bootstrap samples of the median income. 
+
+# Step 1: Load the prestige data set and create colors.
+
+```{r}
+library(carData) # The Prestige data set is available in the carData library
+
+data(Prestige)  # Load the Prestige data set
+
+# Exclude any observations that do not have an entry in the type column:
+Prestige = Prestige[!is.na(Prestige$type),] 
+
+#eCornell Hex Codes: 
+crimson = '#b31b1b' #Crimson
+lightGray = '#cecece' #lightGray
+darkGray = '#606366' #darkGray
+skyBlue = '#92b2c4' #skyblue
+gold = '#fbb040' #gold
+ecBlack = '#393f47' #ecBlack
+```
+
+# Step 2: Bootstrap resampling on a small example.
+Create the example data frame:
+```{r}
+dat = data.frame(Name = c("Alice", "Bob", "Catie", "Dave", "Eve"), Score = c(10, 20, 30, 40, 50))
+dat # View the data frame
+set.seed(1) #Set the seed for reproducibility
+```
+
+Then, to create bootstrap samples from this data set, you can use the `sample()` function with `replace = TRUE`.
+
+```{r}
+# This example data set will sample from the vector 1:5
+1:5 
+# Sample with replacement to create the boot.id vector
+boot.id = sample(1:5, size = 5, replace = TRUE) 
+boot.id
+# Use the boot.id vector to create the bootstrap sample from your original data set
+dat.boot = dat[boot.id,] 
+# View the bootstrapped data set dat.boot
+dat.boot 
+```
+
+# Step 3: Examine the prestige data set.
+
+First, look at the profession types in the prestige data set.
+```{r}
+head(Prestige[Prestige$type == 'bc',])
+head(Prestige[Prestige$type == 'wc',])
+head(Prestige[Prestige$type == 'prof',])
+```
+
+Then, examine the histogram of incomes in this data set. Notice that the histogram is right skewed with some outliers, and has a median of 6035 CAD.
+
+```{r}
+# Create a histogram with a vertical line at the observed median income 
+median(Prestige$income)
+hist(Prestige$income, breaks = 20, freq = TRUE, col = ecBlack, border ='white',
+     main = 'Histogram of Income', xlab = 'Income (CAD)')
+# The abline() function creates a line on a plot. The argument v = x tells R to plot a vertical line at x.
+abline(v=median(Prestige$income), col = crimson, lwd = 3)
+# The legend command adds text to the plot.
+legend('topright', legend = paste('median =', median(Prestige$income)), bty = 'n')
+```
+
+## Step 4: Use bootstrap resampling on the prestige data set.
+Set the seed for reproducibility.
+```{r}
+set.seed(1)
+```
+
+Use `sample()` function to create a bootstrap data set. Run this code chunk several times to see the variation. 
+```{r}
+# Create bootstrap vector, boot.id
+boot.id = sample(1:98, size = 98, replace = TRUE) 
+
+# Create a new data frame, Prestige.boot, so that each row matches the rows sampled from the bootstrap vector.
+Prestige.boot = Prestige[boot.id,] 
+
+# Draw histogram of the bootstrapped data with the median plotted on it. 
+hist(Prestige.boot$income, breaks = 20, freq = TRUE, col = ecBlack,
+     border = 'white', main = 'Histogram of Income', xlab = 'Income (CAD)')
+abline(v=median(Prestige$income), col = crimson, lwd = 3)
+legend('topright', legend = paste('median =', median(Prestige.boot$income)), bty = 'n')
+
+```
+
+Notice that: 
+- histograms of median income are changing across different bootstrap samples, and
+- median incomes change from sample to sample, but all of the bootstrap data sets  maintain the overall shape of the histogram: right-skewed with some outliers.
+
+
