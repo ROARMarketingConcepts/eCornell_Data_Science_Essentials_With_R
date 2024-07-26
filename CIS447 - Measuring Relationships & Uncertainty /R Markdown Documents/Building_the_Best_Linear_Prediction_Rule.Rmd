@@ -1,0 +1,112 @@
+---
+title: "Practice Building the Best Linear Prediction Rule"
+author: "eCornell"
+date: "10/01/2021"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+## Step 1: Load the data and define colors.
+```{r}
+library(carData) # The Prestige data set is available in the carData library
+data(Prestige)   
+# Exclude any observations that do not have an entry in the type column:
+Prestige = Prestige[!is.na(Prestige$type),] 
+
+#eCornell Hex Codes: 
+crimson = '#b31b1b'   #crimson
+lightGray = '#cecece' #lightGray
+darkGray = '#606366'  #darkGray
+skyBlue = '#92b2c4'   #skyblue
+gold = '#fbb040'      #gold
+ecBlack = '#393f47'   #ecBlack
+```
+
+##Step 2: Use a grid search to find the best fit line.
+Use R to systematically search over a wide range of possible slopes and intercepts, then calculate the MSE for each combination to find the best fit line.
+
+```{r}
+# Create two vectors to form the grid
+# a.grid represents the intercept values. This vector goes from -12 to -8 and by 0.01
+a.grid = seq(-12, -8, by = 0.01) 
+# Examine the a.grid vector
+a.grid 
+
+# b.grid represents the slope values. This vector goes from 4 to 7 and by 0.01
+b.grid = seq(4, 7, by = 0.01) 
+
+# We don't know which line will be best, so start with a slope of 0 and an intercept of 0. As we search through the grid, these values will be replaced by values that give lower MSE. MSE for the line prestige = 0 + 0*education
+a.best = 0 # This is the starting intercept value
+b.best = 0 # This is the starting slope value
+MSE.best = mean(Prestige$prestige^2) 
+```
+
+##Step 3: Use a nested for loop to search for the best intercept and slope.
+Use a nested for loop (one for loop nested inside another for loop) to search through the entire grid. This for loop will keep the intercept (a) the same and search through each slope (b) value in the b.grid vector, and then move to the next a value and search through the b.grid vector, etc. 
+```{r}
+for (a in a.grid){
+  for (b in b.grid){
+    # Find the predicted prestige value at a, b:
+    prestige.fit = a + b * Prestige$education
+    # Find the error of the predicted value by comparing it with the observed value:
+    prestige.error = Prestige$prestige - prestige.fit
+    # Calculate MSE at a,b:
+    MSE = mean(prestige.error^2)
+    # Determine whether this MSE value is better than the previous best value. If it is, update the best a, b, and MSE values: 
+    if (MSE < MSE.best){
+      a.best = a
+      b.best = b
+      MSE.best = MSE
+    }
+  }
+}
+
+# Print the best values
+print(c(a.best, b.best, MSE.best))
+```
+##Step 4: Plot the best fit line with the data.
+Plot the best fit line you found in the previous step, and compare it to the other lines you examined. 
+```{r}
+plot(prestige ~ education, data = Prestige, 
+     pch = 19, col = ecBlack,
+     main = 'Regression Line (grid search)', 
+     ylim = c(15, 100))
+abline(a = a.best, b = b.best, 
+       col = crimson, lwd = 2)
+legend('topleft', legend = 
+       paste('MSE = ', round(MSE.best, 2)), 
+       bty = 'n')
+abline(a = -10, b = 5, 
+       col = lightGray, lwd = 1)
+abline(a = -10, b = 7, 
+       col = lightGray, lwd = 1)
+```
+##Step 5: Use and interpret a regression analysis.
+Use R function lm() to find the regression line. The key outputs from this function are:
+regression coefficients: intercept and slope
+residuals: prediction errors of the fitted line
+```{r}
+fit.prestige <- lm(prestige ~ education, data = Prestige)
+# An object to store all the outputs of your regression (slope, intercept, predicted values, errors etc.)
+fit.prestige 
+
+fit.prestige$coefficients[1]   # Intercept
+fit.prestige$coefficients[2]   # Slope
+mean(fit.prestige$residuals^2) # MSE
+```
+In regression analysis, we are primarily interested in slope b.
+"b = 5.39": for every additional year of education, average prestige score of workers in a job increases by 5.39 points. 
+
+##Step 6: Visualize the best fit line.
+Look at how the regression line fits the data. 
+```{r}
+# Create a plot: 
+plot(prestige ~ education, data = Prestige, pch = 19, col = ecBlack,
+     main = 'Regression line (using lm())', ylim = c(15, 100))
+abline(fit.prestige, col = crimson, lwd = 3) # the regression object is an argument in abline() so you don't have to write out the slope and intercept
+# Add a legend:
+legend('topleft', legend = paste('MSE = ',   
+       round(mean(fit.prestige$residuals^2), 2)), bty = 'n',
+       lwd = 3, col = crimson)
+```
