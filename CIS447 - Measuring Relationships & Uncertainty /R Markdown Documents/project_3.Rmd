@@ -144,7 +144,7 @@ main = 'Bootstrap Distribution of Slopes')
 abline(v = quantile(b.boot, probs = c(0.025, 0.975)), lty = 2, col = crimson, lwd = 2)
 ```
 
-Since both the correlation coefficient = 0.74 and calculated = 0.68 are located within their respective 95% confidence intervals, we can say that we are 95% confident that there is no statistically significant difference between these sample population statistics vs. the total population.
+Since both the correlation coefficient = 0.74 and calculated slope = 0.68 are located within their respective 95% confidence intervals, we can say that we are 95% confident that there is no statistically significant difference between these sample population statistics vs. the total population.
 
 ## This is the end of Part Three of the course project. ##
 ## Remember to save and submit your work! ##
