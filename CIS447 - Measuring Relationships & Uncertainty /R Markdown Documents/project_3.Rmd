@@ -60,7 +60,9 @@ We see from the plot that there is a positive correlation between student income
 ```{r}
 # Pearson correlation
 pearson_cor = cor(school$parent_income, school$student_income, method = c("pearson"))
+pearson_cor
 ```
+
 
 ## Step 3
 
