@@ -1,0 +1,59 @@
+---
+title: "Filtering Data"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Step 1: Load your data.
+
+```{r loading data and library,warning=FALSE,message=FALSE}
+library(tidyverse)
+Credit <- read.csv("credit_cards.csv")
+```
+
+## Step 2: Filter data with the filter() function and the logical operator "==".
+Recall that the filter() function takes two arguments: the argument to specify the data set and the argument for how you'll filter the observations in your data.
+
+Here, you'll use the filter() function to select only students by using the logical operator for "is equal to," which is "==": 
+
+```{r}
+filter(Credit, Student == "Yes")
+```
+
+## Step 3: Filter data with the logical operator ">".
+Next, filter your data to select only those credit card holders that have a balance greater than zero:
+
+```{r}
+filter(Credit, Balance > 0)
+```
+
+## Step 4: Filter data with multiple logical operators.
+Finally, filter your data by multiple attributes: 
+
+```{r}
+filter(Credit, Student == "Yes" & Balance > 0)
+
+filter(Credit, Student == "Yes" | Education > 13)
+```
+ 
+## Step 5: Deselect unwanted variables with the select() function.
+The select() function also takes two arguments: the data set and the variables you would like to select or deselect. Here, you'll deselect ID from the Credit data set:
+
+```{r}
+select(Credit, -ID)
+```
+ 
+## Step 6: Select or deselect a set of variables.
+To deselect a set of variables, use the c() function to combine the variables, then add a minus sign in front of the set. To select a set, don't add a minus sign in front of the set:
+
+```{r}
+select(Credit, -c(ID, Income))
+
+select(Credit, c(Income, Limit, Rating))
+```
+ 

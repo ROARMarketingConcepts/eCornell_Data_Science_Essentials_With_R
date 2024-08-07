@@ -1,0 +1,54 @@
+---
+title: "Filter_Select_Quiz.Rmd"
+author: "eCornell"
+date: "8/7/2024"
+output:
+  pdf_document: default
+  html_document: default
+---
+Use these libraries and this data set for all questions:
+
+```{r setup}
+library(tidyverse)
+Credit <- read.csv("credit_cards.csv")
+```
+
+*CQ1:* 
+Use the filter() function to keep only those individuals who are under 50 years old in the Credit data set. Assign the new data set to an object called CQ1.
+```{r}
+Credit <- read.csv("credit_cards.csv")
+CQ1 <- filter(Credit, Age < 50)
+head(CQ1)
+```
+
+*CQ2:* 
+Use the filter() function to keep only those individuals who have more than one credit card and are not a student. Assign the new data set to an object called CQ2.
+```{r}
+Credit <- read.csv("credit_cards.csv")
+CQ2 <- filter(Credit, Student == 'No' & Cards >= 2)
+head(CQ2)
+```
+
+*CQ3:* 
+Use the filter() function to keep only those individuals who have a credit rating above 350 or an income greater than $45,000 (recall that income is measured in units of $1,000). Assign the new data set to an object called CQ3.
+```{r}
+Credit <- read.csv("credit_cards.csv")
+CQ3 <- filter(Credit, Rating > 350 | Income > 45)
+head(CQ3)
+```
+
+*CQ4:*
+Use the select() function to remove the Married variable from the Credit data set. Assign the new data set to an object called CQ4.
+```{r}
+Credit <- read.csv("credit_cards.csv")
+CQ4 <- select(Credit, -c(Married))
+head(CQ4)
+```
+
+*CQ5:*
+Use the select() function to keep only the Limit, Cards, and Balance variables in the Credit data set. Assign the new data set to an object called CQ5.
+```{r}
+Credit <- read.csv("credit_cards.csv")
+CQ5 <- select(Credit, c(Limit,Cards,Balance))
+head(CQ5)
+```
