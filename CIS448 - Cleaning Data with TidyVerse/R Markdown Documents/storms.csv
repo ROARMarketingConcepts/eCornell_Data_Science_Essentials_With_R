@@ -1,0 +1,3322 @@
+Name,Date,Status,Category,Wind,Pressure,TS_diameter,HU_diameter
+Alex,7/31/2004 18:00,tropical depression,-1,25,1010,0,0
+Alex,8/1/2004 0:00,tropical depression,-1,25,1009,0,0
+Alex,8/1/2004 6:00,tropical depression,-1,25,1009,0,0
+Alex,8/1/2004 12:00,tropical depression,-1,30,1009,0,0
+Alex,8/1/2004 18:00,tropical storm,0,35,1009,57.539,0
+Alex,8/2/2004 0:00,tropical storm,0,35,1007,57.539,0
+Alex,8/2/2004 6:00,tropical storm,0,40,1005,172.617,0
+Alex,8/2/2004 12:00,tropical storm,0,50,992,155.3553,0
+Alex,8/2/2004 18:00,tropical storm,0,50,993,143.8475,0
+Alex,8/3/2004 0:00,tropical storm,0,60,987,143.8475,0
+Alex,8/3/2004 6:00,hurricane,1,70,983,149.6014,46.0312
+Alex,8/3/2004 12:00,hurricane,2,85,974,149.6014,46.0312
+Alex,8/3/2004 18:00,hurricane,2,85,972,189.8787,57.539
+Alex,8/4/2004 0:00,hurricane,1,80,974,178.3709,63.2929
+Alex,8/4/2004 6:00,hurricane,1,80,973,224.4021,74.8007
+Alex,8/4/2004 12:00,hurricane,2,85,973,224.4021,74.8007
+Alex,8/4/2004 18:00,hurricane,2,95,965,258.9255,74.8007
+Alex,8/5/2004 0:00,hurricane,3,105,957,258.9255,80.5546
+Alex,8/5/2004 6:00,hurricane,3,105,957,345.234,80.5546
+Alex,8/5/2004 12:00,hurricane,3,100,962,437.2964,80.5546
+Alex,8/5/2004 18:00,hurricane,2,90,970,431.5425,57.539
+Alex,8/6/2004 0:00,hurricane,1,75,978,431.5425,57.539
+Alex,8/6/2004 6:00,hurricane,1,65,984,431.5425,57.539
+Alex,8/6/2004 12:00,tropical storm,0,50,987,431.5425,0
+Bonnie,8/3/2004 12:00,tropical depression,-1,25,1010,0,0
+Bonnie,8/3/2004 18:00,tropical depression,-1,25,1010,0,0
+Bonnie,8/4/2004 0:00,tropical depression,-1,30,1010,0,0
+Bonnie,8/4/2004 6:00,tropical depression,-1,30,1010,0,0
+Bonnie,8/4/2004 12:00,tropical depression,-1,30,1010,0,0
+Bonnie,8/8/2004 12:00,tropical depression,-1,25,1009,0,0
+Bonnie,8/8/2004 18:00,tropical depression,-1,25,1008,0,0
+Bonnie,8/9/2004 0:00,tropical depression,-1,25,1008,0,0
+Bonnie,8/9/2004 6:00,tropical depression,-1,30,1008,0,0
+Bonnie,8/9/2004 12:00,tropical storm,0,35,1008,57.539,0
+Bonnie,8/9/2004 18:00,tropical storm,0,40,1007,57.539,0
+Bonnie,8/10/2004 0:00,tropical storm,0,45,1006,57.539,0
+Bonnie,8/10/2004 6:00,tropical storm,0,45,1005,57.539,0
+Bonnie,8/10/2004 12:00,tropical storm,0,50,1002,57.539,0
+Bonnie,8/10/2004 18:00,tropical storm,0,45,1003,74.8007,0
+Bonnie,8/11/2004 0:00,tropical storm,0,40,1003,57.539,0
+Bonnie,8/11/2004 6:00,tropical storm,0,40,1003,80.5546,0
+Bonnie,8/11/2004 12:00,tropical storm,0,45,1001,97.8163,0
+Bonnie,8/11/2004 18:00,tropical storm,0,55,1001,97.8163,0
+Bonnie,8/12/2004 0:00,tropical storm,0,50,1007,97.8163,0
+Bonnie,8/12/2004 6:00,tropical storm,0,45,1008,97.8163,0
+Bonnie,8/12/2004 12:00,tropical storm,0,45,1002,97.8163,0
+Bonnie,8/12/2004 18:00,tropical depression,-1,30,1006,0,0
+Bonnie,8/13/2004 0:00,tropical depression,-1,25,1008,0,0
+Bonnie,8/13/2004 6:00,tropical depression,-1,25,1008,0,0
+Bonnie,8/13/2004 12:00,tropical depression,-1,25,1008,0,0
+Bonnie,8/13/2004 18:00,tropical depression,-1,25,1008,0,0
+Charley,8/9/2004 12:00,tropical depression,-1,30,1010,0,0
+Charley,8/9/2004 18:00,tropical depression,-1,30,1009,0,0
+Charley,8/10/2004 0:00,tropical depression,-1,30,1009,0,0
+Charley,8/10/2004 6:00,tropical storm,0,35,1007,86.3085,0
+Charley,8/10/2004 12:00,tropical storm,0,40,1004,143.8475,0
+Charley,8/10/2004 18:00,tropical storm,0,45,1000,143.8475,0
+Charley,8/11/2004 0:00,tropical storm,0,55,999,143.8475,0
+Charley,8/11/2004 6:00,tropical storm,0,55,999,143.8475,0
+Charley,8/11/2004 12:00,tropical storm,0,60,995,172.617,0
+Charley,8/11/2004 18:00,hurricane,1,65,993,172.617,28.7695
+Charley,8/12/2004 0:00,hurricane,1,65,992,172.617,28.7695
+Charley,8/12/2004 6:00,hurricane,1,75,988,172.617,23.0156
+Charley,8/12/2004 12:00,hurricane,1,80,984,189.8787,40.2773
+Charley,8/12/2004 18:00,hurricane,2,90,980,207.1404,46.0312
+Charley,8/13/2004 0:00,hurricane,2,90,976,207.1404,46.0312
+Charley,8/13/2004 6:00,hurricane,3,105,966,207.1404,46.0312
+Charley,8/13/2004 12:00,hurricane,2,95,969,189.8787,46.0312
+Charley,8/14/2004 0:00,hurricane,1,75,970,132.3397,46.0312
+Charley,8/14/2004 6:00,hurricane,1,75,993,161.1092,69.0468
+Charley,8/14/2004 12:00,hurricane,1,65,988,161.1092,46.0312
+Charley,8/14/2004 18:00,tropical storm,0,60,1000,120.8319,0
+Danielle,8/13/2004 12:00,tropical depression,-1,30,1009,0,0
+Danielle,8/13/2004 18:00,tropical depression,-1,30,1009,0,0
+Danielle,8/14/2004 0:00,tropical storm,0,35,1009,103.5702,0
+Danielle,8/14/2004 6:00,tropical storm,0,40,1004,115.078,0
+Danielle,8/14/2004 12:00,tropical storm,0,45,1004,126.5858,0
+Danielle,8/14/2004 18:00,tropical storm,0,55,994,189.8787,0
+Danielle,8/15/2004 0:00,hurricane,1,65,987,224.4021,46.0312
+Danielle,8/15/2004 6:00,hurricane,1,75,981,224.4021,51.7851
+Danielle,8/15/2004 12:00,hurricane,1,80,978,224.4021,51.7851
+Danielle,8/15/2004 18:00,hurricane,2,85,975,224.4021,57.539
+Danielle,8/16/2004 0:00,hurricane,2,90,970,218.6482,46.0312
+Danielle,8/16/2004 6:00,hurricane,2,90,970,207.1404,46.0312
+Danielle,8/16/2004 12:00,hurricane,2,90,970,189.8787,46.0312
+Danielle,8/16/2004 18:00,hurricane,2,95,964,172.617,51.7851
+Danielle,8/17/2004 0:00,hurricane,2,95,965,172.617,51.7851
+Danielle,8/17/2004 6:00,hurricane,2,90,970,172.617,46.0312
+Danielle,8/17/2004 12:00,hurricane,2,90,970,172.617,40.2773
+Danielle,8/17/2004 18:00,hurricane,2,85,974,172.617,46.0312
+Danielle,8/18/2004 0:00,hurricane,1,75,981,172.617,46.0312
+Danielle,8/18/2004 6:00,hurricane,1,65,985,149.6014,23.0156
+Danielle,8/18/2004 12:00,tropical storm,0,55,994,138.0936,0
+Danielle,8/18/2004 18:00,tropical storm,0,45,1005,103.5702,0
+Danielle,8/19/2004 0:00,tropical storm,0,40,1007,138.0936,0
+Danielle,8/19/2004 6:00,tropical storm,0,40,1007,103.5702,0
+Danielle,8/19/2004 12:00,tropical storm,0,35,1007,103.5702,0
+Danielle,8/19/2004 18:00,tropical storm,0,35,1007,103.5702,0
+Danielle,8/20/2004 0:00,tropical storm,0,35,1009,103.5702,0
+Danielle,8/20/2004 6:00,tropical storm,0,35,1010,103.5702,0
+Danielle,8/20/2004 12:00,tropical storm,0,35,1011,103.5702,0
+Danielle,8/20/2004 18:00,tropical depression,-1,30,1012,0,0
+Danielle,8/21/2004 0:00,tropical depression,-1,30,1012,0,0
+Danielle,8/21/2004 6:00,tropical depression,-1,30,1013,0,0
+Danielle,8/21/2004 12:00,tropical depression,-1,25,1014,0,0
+Gaston,8/27/2004 12:00,tropical depression,-1,25,1015,0,0
+Gaston,8/27/2004 18:00,tropical depression,-1,25,1014,0,0
+Gaston,8/28/2004 0:00,tropical depression,-1,30,1011,0,0
+Gaston,8/28/2004 6:00,tropical storm,0,35,1005,57.539,0
+Gaston,8/28/2004 12:00,tropical storm,0,45,1000,57.539,0
+Gaston,8/28/2004 18:00,tropical storm,0,50,997,132.3397,0
+Gaston,8/29/2004 0:00,tropical storm,0,55,994,115.078,0
+Gaston,8/29/2004 6:00,tropical storm,0,60,991,115.078,0
+Gaston,8/29/2004 12:00,hurricane,1,65,986,92.0624,11.5078
+Gaston,8/29/2004 18:00,tropical storm,0,45,992,69.0468,0
+Gaston,8/30/2004 0:00,tropical depression,-1,30,995,0,0
+Gaston,8/30/2004 6:00,tropical depression,-1,30,998,0,0
+Gaston,8/30/2004 12:00,tropical depression,-1,25,1000,0,0
+Gaston,8/30/2004 18:00,tropical depression,-1,30,1002,0,0
+Gaston,8/31/2004 0:00,tropical storm,0,35,1001,51.7851,0
+Gaston,8/31/2004 6:00,tropical storm,0,35,1001,51.7851,0
+Gaston,8/31/2004 12:00,tropical storm,0,35,1001,51.7851,0
+Gaston,8/31/2004 18:00,tropical storm,0,35,999,138.0936,0
+Gaston,9/1/2004 0:00,tropical storm,0,40,999,172.617,0
+Gaston,9/1/2004 6:00,tropical storm,0,45,999,207.1404,0
+Hermine,8/27/2004 18:00,tropical depression,-1,25,1016,0,0
+Hermine,8/28/2004 0:00,tropical depression,-1,25,1016,0,0
+Hermine,8/28/2004 6:00,tropical depression,-1,25,1016,0,0
+Hermine,8/28/2004 12:00,tropical depression,-1,30,1015,0,0
+Hermine,8/28/2004 18:00,tropical depression,-1,30,1015,0,0
+Hermine,8/29/2004 0:00,tropical depression,-1,30,1014,0,0
+Hermine,8/29/2004 6:00,tropical depression,-1,30,1014,0,0
+Hermine,8/29/2004 12:00,tropical storm,0,35,1012,86.3085,0
+Hermine,8/29/2004 18:00,tropical storm,0,40,1005,86.3085,0
+Hermine,8/30/2004 0:00,tropical storm,0,40,1005,115.078,0
+Hermine,8/30/2004 6:00,tropical storm,0,50,1002,103.5702,0
+Hermine,8/30/2004 12:00,tropical storm,0,45,1007,115.078,0
+Hermine,8/30/2004 18:00,tropical storm,0,45,1008,143.8475,0
+Hermine,8/31/2004 0:00,tropical storm,0,35,1011,46.0312,0
+Hermine,8/31/2004 6:00,tropical storm,0,35,1012,28.7695,0
+Ivan,9/2/2004 18:00,tropical depression,-1,25,1009,0,0
+Ivan,9/3/2004 0:00,tropical depression,-1,30,1007,0,0
+Ivan,9/3/2004 6:00,tropical storm,0,35,1005,57.539,0
+Ivan,9/3/2004 12:00,tropical storm,0,40,1003,57.539,0
+Ivan,9/3/2004 18:00,tropical storm,0,45,1000,212.8943,0
+Ivan,9/4/2004 0:00,tropical storm,0,45,999,212.8943,0
+Ivan,9/4/2004 6:00,tropical storm,0,50,997,184.1248,0
+Ivan,9/4/2004 12:00,tropical storm,0,50,997,184.1248,0
+Ivan,9/4/2004 18:00,tropical storm,0,55,994,184.1248,0
+Ivan,9/5/2004 0:00,tropical storm,0,60,991,218.6482,0
+Ivan,9/5/2004 6:00,hurricane,1,65,987,207.1404,46.0312
+Ivan,9/5/2004 12:00,hurricane,2,85,977,230.156,46.0312
+Ivan,9/5/2004 18:00,hurricane,3,110,955,230.156,46.0312
+Ivan,9/6/2004 6:00,hurricane,3,110,950,253.1716,69.0468
+Ivan,9/6/2004 12:00,hurricane,3,110,955,276.1872,69.0468
+Ivan,9/6/2004 18:00,hurricane,2,90,969,195.6326,51.7851
+Ivan,9/7/2004 0:00,hurricane,2,90,964,218.6482,69.0468
+Ivan,9/7/2004 6:00,hurricane,2,95,965,230.156,86.3085
+Ivan,9/7/2004 12:00,hurricane,3,100,963,230.156,86.3085
+Ivan,9/7/2004 18:00,hurricane,3,105,956,304.9567,86.3085
+Ivan,9/16/2004 0:00,hurricane,3,110,931,460.312,189.8787
+Ivan,9/16/2004 6:00,hurricane,3,105,943,402.773,189.8787
+Ivan,9/16/2004 12:00,hurricane,1,70,965,374.0035,92.0624
+Ivan,9/16/2004 18:00,tropical storm,0,50,975,115.078,0
+Ivan,9/17/2004 0:00,tropical depression,-1,30,986,0,0
+Ivan,9/17/2004 6:00,tropical depression,-1,25,991,0,0
+Ivan,9/17/2004 12:00,tropical depression,-1,20,994,0,0
+Ivan,9/17/2004 18:00,tropical depression,-1,20,996,0,0
+Ivan,9/18/2004 0:00,tropical depression,-1,20,999,0,0
+Ivan,9/18/2004 6:00,tropical depression,-1,15,998,0,0
+Ivan,9/18/2004 12:00,tropical depression,-1,15,1000,0,0
+Ivan,9/22/2004 18:00,tropical depression,-1,30,1008,0,0
+Ivan,9/23/2004 0:00,tropical storm,0,35,1007,86.3085,0
+Ivan,9/23/2004 6:00,tropical storm,0,35,1007,86.3085,0
+Ivan,9/23/2004 12:00,tropical storm,0,50,998,115.078,0
+Ivan,9/23/2004 18:00,tropical storm,0,40,1003,103.5702,0
+Ivan,9/24/2004 0:00,tropical depression,-1,30,1003,0,0
+Ivan,9/24/2004 2:00,tropical depression,-1,30,1004,0,0
+Ivan,9/24/2004 6:00,tropical depression,-1,25,1009,0,0
+AL102004,9/7/2004 12:00,tropical depression,-1,25,1009,0,0
+AL102004,9/7/2004 18:00,tropical depression,-1,25,1009,0,0
+AL102004,9/8/2004 0:00,tropical depression,-1,25,1010,0,0
+AL102004,9/8/2004 6:00,tropical depression,-1,25,1011,0,0
+AL102004,9/8/2004 12:00,tropical depression,-1,25,1012,0,0
+AL102004,9/8/2004 18:00,tropical depression,-1,25,1012,0,0
+AL102004,9/9/2004 0:00,tropical depression,-1,30,1012,0,0
+AL102004,9/9/2004 6:00,tropical depression,-1,30,1013,0,0
+Jeanne,9/13/2004 18:00,tropical depression,-1,25,1010,0,0
+Jeanne,9/14/2004 0:00,tropical depression,-1,25,1010,0,0
+Jeanne,9/14/2004 4:00,tropical depression,-1,30,1009,0,0
+Jeanne,9/14/2004 6:00,tropical depression,-1,30,1009,0,0
+Jeanne,9/14/2004 12:00,tropical storm,0,35,1006,51.7851,0
+Jeanne,9/14/2004 18:00,tropical storm,0,50,996,80.5546,0
+Jeanne,9/15/2004 0:00,tropical storm,0,55,996,80.5546,0
+Jeanne,9/15/2004 6:00,tropical storm,0,55,994,80.5546,0
+Jeanne,9/15/2004 12:00,tropical storm,0,60,991,115.078,0
+Jeanne,9/15/2004 18:00,tropical storm,0,60,991,138.0936,0
+Jeanne,9/16/2004 0:00,tropical storm,0,60,993,138.0936,0
+Jeanne,9/16/2004 6:00,tropical storm,0,60,992,63.2929,0
+Jeanne,9/16/2004 12:00,hurricane,1,70,984,63.2929,23.0156
+Jeanne,9/16/2004 18:00,hurricane,1,65,988,138.0936,23.0156
+Jeanne,9/17/2004 0:00,tropical storm,0,60,990,138.0936,0
+Jeanne,9/17/2004 6:00,tropical storm,0,55,990,138.0936,0
+Jeanne,9/17/2004 12:00,tropical storm,0,50,990,258.9255,0
+Jeanne,9/17/2004 18:00,tropical depression,-1,30,1002,0,0
+Jeanne,9/18/2004 0:00,tropical storm,0,40,1000,17.2617,0
+Jeanne,9/18/2004 6:00,tropical storm,0,45,1000,86.3085,0
+Jeanne,9/18/2004 12:00,tropical storm,0,45,1000,86.3085,0
+Jeanne,9/18/2004 18:00,tropical storm,0,40,1005,86.3085,0
+Jeanne,9/19/2004 0:00,tropical storm,0,40,1002,86.3085,0
+Jeanne,9/19/2004 6:00,tropical storm,0,40,1002,86.3085,0
+Jeanne,9/19/2004 12:00,tropical storm,0,40,1000,86.3085,0
+Jeanne,9/19/2004 18:00,tropical storm,0,45,996,172.617,0
+Jeanne,9/20/2004 0:00,tropical storm,0,50,994,172.617,0
+Jeanne,9/20/2004 6:00,tropical storm,0,55,992,189.8787,0
+Jeanne,9/20/2004 12:00,tropical storm,0,60,989,195.6326,0
+Jeanne,9/20/2004 18:00,hurricane,1,75,984,195.6326,46.0312
+Jeanne,9/21/2004 0:00,hurricane,1,75,982,207.1404,46.0312
+Jeanne,9/21/2004 6:00,hurricane,1,75,972,224.4021,86.3085
+Jeanne,9/21/2004 12:00,hurricane,1,75,972,224.4021,80.5546
+Jeanne,9/21/2004 18:00,hurricane,1,75,972,224.4021,80.5546
+Jeanne,9/22/2004 0:00,hurricane,1,80,972,218.6482,80.5546
+Jeanne,9/22/2004 6:00,hurricane,2,85,968,241.6638,80.5546
+Jeanne,9/22/2004 12:00,hurricane,2,85,968,253.1716,80.5546
+Jeanne,9/22/2004 18:00,hurricane,2,85,967,253.1716,80.5546
+Jeanne,9/23/2004 0:00,hurricane,2,85,966,253.1716,80.5546
+Jeanne,9/23/2004 6:00,hurricane,2,85,966,253.1716,80.5546
+Jeanne,9/23/2004 12:00,hurricane,1,80,966,253.1716,80.5546
+Jeanne,9/23/2004 18:00,hurricane,1,75,966,253.1716,80.5546
+Jeanne,9/24/2004 0:00,hurricane,1,70,966,253.1716,80.5546
+Jeanne,9/24/2004 6:00,hurricane,1,75,969,258.9255,80.5546
+Jeanne,9/24/2004 12:00,hurricane,1,80,969,270.4333,86.3085
+Jeanne,9/24/2004 18:00,hurricane,2,85,968,270.4333,86.3085
+Jeanne,9/25/2004 0:00,hurricane,2,85,964,327.9723,120.8319
+Jeanne,9/25/2004 6:00,hurricane,2,90,960,327.9723,120.8319
+Jeanne,9/25/2004 12:00,hurricane,3,100,957,293.4489,120.8319
+Jeanne,9/25/2004 18:00,hurricane,3,105,952,310.7106,120.8319
+Jeanne,9/26/2004 0:00,hurricane,3,105,951,350.9879,138.0936
+Jeanne,9/26/2004 6:00,hurricane,2,95,953,350.9879,115.078
+Jeanne,9/26/2004 12:00,hurricane,1,75,965,316.4645,34.5234
+Jeanne,9/26/2004 18:00,tropical storm,0,55,970,316.4645,0
+Jeanne,9/27/2004 0:00,tropical storm,0,45,978,258.9255,0
+Jeanne,9/27/2004 6:00,tropical storm,0,40,981,304.9567,0
+Jeanne,9/27/2004 12:00,tropical storm,0,35,987,304.9567,0
+Jeanne,9/27/2004 18:00,tropical depression,-1,30,993,0,0
+Jeanne,9/28/2004 0:00,tropical depression,-1,25,998,0,0
+Jeanne,9/28/2004 6:00,tropical depression,-1,20,999,0,0
+Jeanne,9/28/2004 12:00,tropical depression,-1,20,1000,0,0
+Jeanne,9/28/2004 18:00,tropical depression,-1,25,999,0,0
+Karl,9/16/2004 6:00,tropical depression,-1,30,1008,0,0
+Karl,9/16/2004 12:00,tropical depression,-1,30,1007,0,0
+Karl,9/16/2004 18:00,tropical storm,0,35,1005,69.0468,0
+Karl,9/17/2004 0:00,tropical storm,0,40,1002,92.0624,0
+Karl,9/17/2004 6:00,tropical storm,0,50,997,126.5858,0
+Karl,9/17/2004 12:00,tropical storm,0,55,994,138.0936,0
+Karl,9/17/2004 18:00,tropical storm,0,55,992,172.617,0
+Karl,9/18/2004 0:00,hurricane,1,70,984,172.617,28.7695
+Karl,9/18/2004 6:00,hurricane,2,85,975,195.6326,40.2773
+Karl,9/18/2004 12:00,hurricane,2,90,970,241.6638,40.2773
+Karl,9/18/2004 18:00,hurricane,2,95,965,241.6638,51.7851
+Karl,9/19/2004 0:00,hurricane,2,95,965,241.6638,51.7851
+Karl,9/19/2004 6:00,hurricane,3,100,960,258.9255,63.2929
+Karl,9/19/2004 12:00,hurricane,3,105,955,241.6638,63.2929
+Karl,9/19/2004 18:00,hurricane,3,110,951,276.1872,69.0468
+Karl,9/20/2004 0:00,hurricane,3,110,951,276.1872,69.0468
+Karl,9/20/2004 12:00,hurricane,3,110,951,356.7418,103.5702
+Karl,9/20/2004 18:00,hurricane,3,110,951,374.0035,120.8319
+Karl,9/21/2004 18:00,hurricane,3,105,948,517.851,172.617
+Karl,9/22/2004 0:00,hurricane,3,100,955,517.851,172.617
+Karl,9/22/2004 6:00,hurricane,2,95,962,517.851,172.617
+Karl,9/22/2004 12:00,hurricane,2,90,967,517.851,172.617
+Karl,9/22/2004 18:00,hurricane,2,90,970,517.851,172.617
+Karl,9/23/2004 0:00,hurricane,2,95,965,546.6205,143.8475
+Karl,9/23/2004 6:00,hurricane,3,110,951,575.39,143.8475
+Karl,9/23/2004 12:00,hurricane,3,105,953,604.1595,143.8475
+Karl,9/23/2004 18:00,hurricane,2,90,955,632.929,143.8475
+Karl,9/24/2004 0:00,hurricane,1,80,957,632.929,143.8475
+Karl,9/24/2004 6:00,hurricane,1,75,959,661.6985,143.8475
+Karl,9/24/2004 12:00,hurricane,1,70,961,690.468,161.1092
+Karl,9/24/2004 18:00,hurricane,1,65,962,776.7765,161.1092
+Lisa,9/19/2004 18:00,tropical depression,-1,30,1004,0,0
+Lisa,9/20/2004 0:00,tropical depression,-1,30,1004,0,0
+Lisa,9/20/2004 6:00,tropical depression,-1,30,1004,0,0
+Lisa,9/20/2004 12:00,tropical storm,0,40,1002,92.0624,0
+Lisa,9/20/2004 18:00,tropical storm,0,50,997,103.5702,0
+Lisa,9/21/2004 0:00,tropical storm,0,55,994,103.5702,0
+Lisa,9/21/2004 6:00,tropical storm,0,60,990,103.5702,0
+Lisa,9/21/2004 12:00,tropical storm,0,60,990,103.5702,0
+Lisa,9/21/2004 18:00,tropical storm,0,60,990,103.5702,0
+Lisa,9/22/2004 0:00,tropical storm,0,55,994,115.078,0
+Lisa,9/22/2004 6:00,tropical storm,0,50,997,115.078,0
+Lisa,9/22/2004 12:00,tropical storm,0,45,1000,92.0624,0
+Lisa,9/22/2004 18:00,tropical storm,0,45,1000,92.0624,0
+Lisa,9/23/2004 0:00,tropical storm,0,45,1000,92.0624,0
+Lisa,9/23/2004 6:00,tropical storm,0,40,1002,115.078,0
+Lisa,9/23/2004 12:00,tropical storm,0,35,1003,115.078,0
+Lisa,9/23/2004 18:00,tropical depression,-1,30,1005,0,0
+Lisa,9/24/2004 0:00,tropical depression,-1,30,1005,0,0
+Lisa,9/24/2004 6:00,tropical storm,0,40,1002,69.0468,0
+Lisa,9/24/2004 12:00,tropical storm,0,35,1003,69.0468,0
+Lisa,9/24/2004 18:00,tropical depression,-1,30,1005,0,0
+Lisa,9/25/2004 0:00,tropical depression,-1,30,1005,0,0
+Lisa,9/25/2004 6:00,tropical storm,0,35,1003,86.3085,0
+Lisa,9/25/2004 12:00,tropical storm,0,45,1000,86.3085,0
+Lisa,9/25/2004 18:00,tropical storm,0,45,1000,86.3085,0
+Lisa,9/26/2004 0:00,tropical storm,0,45,1000,115.078,0
+Lisa,9/26/2004 6:00,tropical storm,0,50,997,172.617,0
+Lisa,9/26/2004 12:00,tropical storm,0,55,994,172.617,0
+Lisa,9/26/2004 18:00,tropical storm,0,50,997,172.617,0
+Lisa,9/27/2004 0:00,tropical storm,0,45,1000,201.3865,0
+Lisa,9/27/2004 6:00,tropical storm,0,45,1000,230.156,0
+Lisa,9/27/2004 12:00,tropical storm,0,45,1000,172.617,0
+Lisa,9/27/2004 18:00,tropical storm,0,40,1002,86.3085,0
+Lisa,9/28/2004 0:00,tropical storm,0,40,1002,143.8475,0
+Lisa,9/28/2004 6:00,tropical storm,0,40,1002,143.8475,0
+Lisa,9/28/2004 12:00,tropical storm,0,45,1000,143.8475,0
+Lisa,9/28/2004 18:00,tropical storm,0,55,994,143.8475,0
+Lisa,9/29/2004 0:00,tropical storm,0,60,990,172.617,0
+Lisa,9/29/2004 6:00,tropical storm,0,60,990,287.695,0
+Lisa,9/29/2004 12:00,tropical storm,0,60,990,316.4645,0
+Lisa,9/29/2004 18:00,tropical storm,0,60,990,316.4645,0
+Lisa,9/30/2004 0:00,tropical storm,0,60,990,402.773,0
+Lisa,9/30/2004 6:00,tropical storm,0,55,994,402.773,0
+Lisa,9/30/2004 12:00,tropical storm,0,50,997,264.6794,0
+Lisa,9/30/2004 18:00,tropical storm,0,45,1000,212.8943,0
+Lisa,10/1/2004 0:00,tropical storm,0,50,997,212.8943,0
+Lisa,10/1/2004 6:00,tropical storm,0,55,994,212.8943,0
+Lisa,10/1/2004 12:00,tropical storm,0,60,990,172.617,0
+Lisa,10/1/2004 18:00,tropical storm,0,60,990,149.6014,0
+Lisa,10/2/2004 0:00,tropical storm,0,60,990,149.6014,0
+Lisa,10/2/2004 6:00,hurricane,1,65,987,149.6014,23.0156
+Lisa,10/2/2004 12:00,hurricane,1,65,987,149.6014,23.0156
+Lisa,10/2/2004 18:00,tropical storm,0,55,994,143.8475,0
+Lisa,10/3/2004 0:00,tropical storm,0,50,997,143.8475,0
+Matthew,10/8/2004 12:00,tropical depression,-1,30,1007,0,0
+Matthew,10/8/2004 18:00,tropical storm,0,35,1004,172.617,0
+Matthew,10/9/2004 0:00,tropical storm,0,40,1000,172.617,0
+Matthew,10/9/2004 6:00,tropical storm,0,35,1002,115.078,0
+Matthew,10/9/2004 12:00,tropical storm,0,35,1002,115.078,0
+Matthew,10/9/2004 18:00,tropical storm,0,40,997,138.0936,0
+Matthew,10/10/2004 0:00,tropical storm,0,40,998,138.0936,0
+Matthew,10/10/2004 6:00,tropical storm,0,40,999,115.078,0
+Matthew,10/10/2004 12:00,tropical depression,-1,30,1000,0,0
+Matthew,10/10/2004 18:00,tropical depression,-1,25,1002,0,0
+Otto,11/30/2004 18:00,tropical storm,0,40,997,201.3865,0
+Otto,12/1/2004 0:00,tropical storm,0,40,997,241.6638,0
+Otto,12/1/2004 6:00,tropical storm,0,40,997,241.6638,0
+Otto,12/1/2004 12:00,tropical storm,0,40,997,184.1248,0
+Otto,12/1/2004 18:00,tropical storm,0,35,997,138.0936,0
+Otto,12/2/2004 0:00,tropical storm,0,35,997,103.5702,0
+Otto,12/2/2004 6:00,tropical storm,0,35,996,74.8007,0
+Otto,12/2/2004 12:00,tropical depression,-1,30,995,0,0
+Otto,12/2/2004 18:00,tropical depression,-1,30,996,0,0
+Otto,12/3/2004 0:00,tropical depression,-1,30,997,0,0
+Emily,7/11/2005 0:00,tropical depression,-1,25,1010,0,0
+Emily,7/11/2005 6:00,tropical depression,-1,30,1009,0,0
+Emily,7/11/2005 12:00,tropical depression,-1,30,1009,0,0
+Emily,7/11/2005 18:00,tropical depression,-1,30,1007,0,0
+Emily,7/12/2005 0:00,tropical storm,0,35,1006,57.539,0
+Emily,7/12/2005 6:00,tropical storm,0,40,1005,57.539,0
+Emily,7/12/2005 12:00,tropical storm,0,45,1004,74.8007,0
+Emily,7/12/2005 18:00,tropical storm,0,45,1004,74.8007,0
+Emily,7/13/2005 0:00,tropical storm,0,45,1003,115.078,0
+Emily,7/13/2005 6:00,tropical storm,0,45,1003,143.8475,0
+Emily,7/13/2005 12:00,tropical storm,0,50,1003,149.6014,0
+Emily,7/13/2005 18:00,tropical storm,0,55,1003,218.6482,0
+Emily,7/14/2005 0:00,hurricane,1,70,999,218.6482,23.0156
+Emily,7/14/2005 6:00,hurricane,1,75,991,218.6482,28.7695
+Emily,7/14/2005 12:00,hurricane,2,85,980,207.1404,46.0312
+Emily,7/14/2005 18:00,hurricane,3,100,971,189.8787,46.0312
+Emily,7/15/2005 0:00,hurricane,3,110,959,212.8943,46.0312
+Emily,7/15/2005 18:00,hurricane,2,95,969,230.156,46.0312
+Emily,7/16/2005 0:00,hurricane,3,110,958,207.1404,57.539
+Emily,7/18/2005 12:00,hurricane,1,65,975,247.4177,34.5234
+Emily,7/18/2005 18:00,hurricane,1,65,984,172.617,34.5234
+Emily,7/19/2005 0:00,hurricane,1,75,981,201.3865,34.5234
+Emily,7/19/2005 6:00,hurricane,1,80,980,207.1404,57.539
+Emily,7/19/2005 12:00,hurricane,1,80,977,235.9099,63.2929
+Emily,7/19/2005 18:00,hurricane,2,85,959,253.1716,80.5546
+Emily,7/20/2005 0:00,hurricane,3,110,948,264.6794,97.8163
+Emily,7/20/2005 6:00,hurricane,3,110,944,264.6794,97.8163
+Emily,7/20/2005 12:00,hurricane,3,110,944,247.4177,97.8163
+Emily,7/20/2005 18:00,tropical storm,1,70,975,218.6482,69.0468
+Emily,7/21/2005 0:00,tropical storm,0,45,995,138.0936,0
+Emily,7/21/2005 6:00,tropical depression,-1,30,1000,0,0
+Emily,7/21/2005 12:00,tropical depression,-1,25,1007,0,0
+Franklin,7/21/2005 18:00,tropical depression,-1,30,1010,0,0
+Franklin,7/22/2005 0:00,tropical storm,0,40,1009,40.2773,0
+Franklin,7/22/2005 6:00,tropical storm,0,40,1008,40.2773,0
+Franklin,7/22/2005 12:00,tropical storm,0,45,1007,34.5234,0
+Franklin,7/22/2005 18:00,tropical storm,0,45,1006,51.7851,0
+Franklin,7/23/2005 0:00,tropical storm,0,45,1003,86.3085,0
+Franklin,7/23/2005 6:00,tropical storm,0,50,1001,115.078,0
+Franklin,7/23/2005 12:00,tropical storm,0,60,1001,132.3397,0
+Franklin,7/23/2005 18:00,tropical storm,0,60,1001,138.0936,0
+Franklin,7/24/2005 0:00,tropical storm,0,55,1001,120.8319,0
+Franklin,7/24/2005 6:00,tropical storm,0,55,1001,103.5702,0
+Franklin,7/24/2005 12:00,tropical storm,0,45,1001,103.5702,0
+Franklin,7/24/2005 18:00,tropical storm,0,45,1000,103.5702,0
+Franklin,7/25/2005 0:00,tropical storm,0,40,1000,120.8319,0
+Franklin,7/25/2005 6:00,tropical storm,0,40,1000,138.0936,0
+Franklin,7/25/2005 12:00,tropical storm,0,40,999,172.617,0
+Franklin,7/25/2005 18:00,tropical storm,0,40,999,172.617,0
+Franklin,7/26/2005 0:00,tropical storm,0,35,1000,172.617,0
+Franklin,7/26/2005 6:00,tropical storm,0,35,1001,138.0936,0
+Franklin,7/26/2005 12:00,tropical storm,0,35,1002,103.5702,0
+Franklin,7/26/2005 18:00,tropical storm,0,35,1001,103.5702,0
+Franklin,7/27/2005 0:00,tropical storm,0,40,1000,103.5702,0
+Franklin,7/27/2005 6:00,tropical storm,0,40,1000,103.5702,0
+Franklin,7/27/2005 12:00,tropical storm,0,45,999,103.5702,0
+Franklin,7/27/2005 18:00,tropical storm,0,45,999,149.6014,0
+Franklin,7/28/2005 0:00,tropical storm,0,50,997,184.1248,0
+Franklin,7/28/2005 6:00,tropical storm,0,50,997,184.1248,0
+Franklin,7/28/2005 12:00,tropical storm,0,45,999,115.078,0
+Franklin,7/28/2005 18:00,tropical storm,0,50,997,132.3397,0
+Franklin,7/29/2005 0:00,tropical storm,0,50,997,143.8475,0
+Franklin,7/29/2005 6:00,tropical storm,0,50,997,155.3553,0
+Franklin,7/29/2005 12:00,tropical storm,0,50,997,189.8787,0
+Franklin,7/29/2005 18:00,tropical storm,0,50,999,184.1248,0
+Gert,7/23/2005 18:00,tropical depression,-1,25,1011,0,0
+Gert,7/24/2005 0:00,tropical depression,-1,30,1009,0,0
+Gert,7/24/2005 6:00,tropical storm,0,35,1009,57.539,0
+Gert,7/24/2005 12:00,tropical storm,0,35,1008,115.078,0
+Gert,7/24/2005 18:00,tropical storm,0,35,1007,172.617,0
+Gert,7/25/2005 0:00,tropical storm,0,40,1005,172.617,0
+Gert,7/25/2005 6:00,tropical depression,-1,30,1006,0,0
+Gert,7/25/2005 12:00,tropical depression,-1,25,1006,0,0
+Harvey,8/2/2005 18:00,tropical depression,-1,30,1006,0,0
+Harvey,8/3/2005 0:00,tropical depression,-1,30,1005,0,0
+Harvey,8/3/2005 6:00,tropical storm,0,40,1003,103.5702,0
+Harvey,8/3/2005 12:00,tropical storm,0,45,1001,103.5702,0
+Harvey,8/3/2005 18:00,tropical storm,0,50,999,103.5702,0
+Harvey,8/4/2005 0:00,tropical storm,0,50,997,103.5702,0
+Harvey,8/4/2005 6:00,tropical storm,0,50,995,103.5702,0
+Harvey,8/4/2005 12:00,tropical storm,0,50,995,120.8319,0
+Harvey,8/4/2005 18:00,tropical storm,0,55,994,120.8319,0
+Harvey,8/5/2005 0:00,tropical storm,0,55,994,138.0936,0
+Harvey,8/5/2005 6:00,tropical storm,0,55,994,138.0936,0
+Harvey,8/5/2005 12:00,tropical storm,0,50,995,155.3553,0
+Harvey,8/5/2005 18:00,tropical storm,0,45,997,155.3553,0
+Harvey,8/6/2005 0:00,tropical storm,0,45,997,172.617,0
+Harvey,8/6/2005 6:00,tropical storm,0,50,995,172.617,0
+Harvey,8/6/2005 12:00,tropical storm,0,50,995,155.3553,0
+Harvey,8/6/2005 18:00,tropical storm,0,50,995,149.6014,0
+Harvey,8/7/2005 0:00,tropical storm,0,50,995,149.6014,0
+Harvey,8/7/2005 6:00,tropical storm,0,50,995,149.6014,0
+Harvey,8/7/2005 12:00,tropical storm,0,45,998,149.6014,0
+Harvey,8/7/2005 18:00,tropical storm,0,45,998,149.6014,0
+Harvey,8/8/2005 0:00,tropical storm,0,45,998,172.617,0
+Harvey,8/8/2005 6:00,tropical storm,0,45,998,172.617,0
+Harvey,8/8/2005 12:00,tropical storm,0,45,998,207.1404,0
+Harvey,8/8/2005 18:00,tropical storm,0,45,998,207.1404,0
+Ten,8/13/2005 12:00,tropical depression,-1,25,1009,0,0
+Ten,8/13/2005 18:00,tropical depression,-1,30,1008,0,0
+Ten,8/14/2005 0:00,tropical depression,-1,30,1008,0,0
+Ten,8/14/2005 6:00,tropical depression,-1,25,1009,0,0
+Ten,8/14/2005 12:00,tropical depression,-1,25,1009,0,0
+Katrina,8/23/2005 18:00,tropical depression,-1,30,1008,0,0
+Katrina,8/24/2005 0:00,tropical depression,-1,30,1007,0,0
+Katrina,8/24/2005 6:00,tropical depression,-1,30,1007,0,0
+Katrina,8/24/2005 12:00,tropical storm,0,35,1006,69.0468,0
+Katrina,8/24/2005 18:00,tropical storm,0,40,1003,69.0468,0
+Katrina,8/25/2005 0:00,tropical storm,0,45,1000,69.0468,0
+Katrina,8/25/2005 6:00,tropical storm,0,50,997,69.0468,0
+Katrina,8/25/2005 12:00,tropical storm,0,55,994,126.5858,0
+Katrina,8/25/2005 18:00,tropical storm,0,60,988,149.6014,0
+Katrina,8/26/2005 0:00,hurricane,1,70,983,138.0936,23.0156
+Katrina,8/26/2005 6:00,hurricane,1,65,987,132.3397,23.0156
+Katrina,8/26/2005 12:00,hurricane,1,75,979,138.0936,34.5234
+Katrina,8/26/2005 18:00,hurricane,2,85,968,149.6014,40.2773
+Katrina,8/27/2005 0:00,hurricane,2,90,959,189.8787,51.7851
+Katrina,8/27/2005 6:00,hurricane,2,95,950,253.1716,74.8007
+Katrina,8/27/2005 12:00,hurricane,3,100,942,253.1716,74.8007
+Katrina,8/27/2005 18:00,hurricane,3,100,948,264.6794,92.0624
+Katrina,8/28/2005 0:00,hurricane,3,100,941,276.1872,120.8319
+Katrina,8/29/2005 12:00,hurricane,3,110,923,402.773,172.617
+Katrina,8/29/2005 18:00,hurricane,1,80,948,322.2184,92.0624
+Katrina,8/30/2005 0:00,tropical storm,0,50,961,189.8787,0
+Katrina,8/30/2005 6:00,tropical storm,0,40,978,172.617,0
+Katrina,8/30/2005 12:00,tropical depression,-1,30,985,0,0
+Katrina,8/30/2005 18:00,tropical depression,-1,30,990,0,0
+Lee,8/28/2005 12:00,tropical depression,-1,25,1009,0,0
+Lee,8/28/2005 18:00,tropical depression,-1,25,1007,0,0
+Lee,8/29/2005 0:00,tropical depression,-1,25,1007,0,0
+Lee,8/29/2005 6:00,tropical depression,-1,25,1007,0,0
+Lee,8/29/2005 12:00,tropical depression,-1,25,1008,0,0
+Lee,8/31/2005 6:00,tropical depression,-1,30,1007,0,0
+Lee,8/31/2005 12:00,tropical storm,0,35,1006,69.0468,0
+Lee,8/31/2005 18:00,tropical storm,0,35,1007,69.0468,0
+Lee,9/1/2005 0:00,tropical depression,-1,30,1009,0,0
+Lee,9/1/2005 6:00,tropical depression,-1,30,1010,0,0
+Lee,9/1/2005 12:00,tropical depression,-1,30,1010,0,0
+Lee,9/1/2005 18:00,tropical depression,-1,30,1010,0,0
+Lee,9/2/2005 0:00,tropical depression,-1,25,1010,0,0
+Maria,9/1/2005 12:00,tropical depression,-1,30,1008,0,0
+Maria,9/1/2005 18:00,tropical depression,-1,30,1008,0,0
+Maria,9/2/2005 0:00,tropical depression,-1,30,1008,0,0
+Maria,9/2/2005 6:00,tropical depression,-1,30,1008,0,0
+Maria,9/2/2005 12:00,tropical storm,0,35,1006,69.0468,0
+Maria,9/2/2005 18:00,tropical storm,0,40,1003,69.0468,0
+Maria,9/3/2005 0:00,tropical storm,0,45,1001,103.5702,0
+Maria,9/3/2005 6:00,tropical storm,0,45,1000,103.5702,0
+Maria,9/3/2005 12:00,tropical storm,0,50,997,115.078,0
+Maria,9/3/2005 18:00,tropical storm,0,55,994,138.0936,0
+Maria,9/4/2005 0:00,tropical storm,0,60,990,149.6014,0
+Maria,9/4/2005 6:00,hurricane,1,65,987,149.6014,23.0156
+Maria,9/4/2005 12:00,hurricane,1,65,987,172.617,34.5234
+Maria,9/4/2005 18:00,hurricane,1,75,980,172.617,34.5234
+Maria,9/5/2005 0:00,hurricane,1,75,980,172.617,34.5234
+Maria,9/5/2005 6:00,hurricane,1,80,977,178.3709,34.5234
+Maria,9/5/2005 12:00,hurricane,2,85,975,207.1404,46.0312
+Maria,9/5/2005 18:00,hurricane,2,90,970,207.1404,46.0312
+Maria,9/6/2005 0:00,hurricane,3,100,962,207.1404,46.0312
+Maria,9/6/2005 6:00,hurricane,2,90,970,207.1404,40.2773
+Maria,9/6/2005 12:00,hurricane,1,80,975,230.156,40.2773
+Maria,9/6/2005 18:00,hurricane,1,75,980,230.156,40.2773
+Maria,9/7/2005 0:00,hurricane,1,65,987,230.156,69.0468
+Maria,9/7/2005 6:00,hurricane,1,70,983,322.2184,103.5702
+Maria,9/7/2005 12:00,hurricane,1,75,980,431.5425,172.617
+Maria,9/7/2005 18:00,hurricane,1,75,980,431.5425,172.617
+Maria,9/8/2005 0:00,hurricane,1,70,982,431.5425,155.3553
+Maria,9/8/2005 6:00,hurricane,1,65,985,431.5425,155.3553
+Maria,9/8/2005 12:00,hurricane,1,65,985,460.312,86.3085
+Maria,9/8/2005 18:00,hurricane,1,65,985,460.312,86.3085
+Maria,9/9/2005 0:00,tropical storm,0,60,987,460.312,0
+Maria,9/9/2005 6:00,tropical storm,0,55,987,431.5425,0
+Maria,9/9/2005 12:00,tropical storm,0,55,988,402.773,0
+Maria,9/9/2005 18:00,tropical storm,0,50,988,402.773,0
+Maria,9/10/2005 0:00,tropical storm,0,50,988,402.773,0
+Maria,9/10/2005 6:00,tropical storm,0,50,988,402.773,0
+Nate,9/5/2005 18:00,tropical depression,-1,30,1008,0,0
+Nate,9/6/2005 0:00,tropical storm,0,35,1005,92.0624,0
+Nate,9/6/2005 6:00,tropical storm,0,40,1002,92.0624,0
+Nate,9/6/2005 12:00,tropical storm,0,50,1000,92.0624,0
+Nate,9/6/2005 18:00,tropical storm,0,50,997,138.0936,0
+Nate,9/7/2005 0:00,tropical storm,0,55,994,138.0936,0
+Nate,9/7/2005 6:00,tropical storm,0,60,990,138.0936,0
+Nate,9/7/2005 12:00,hurricane,1,65,987,207.1404,46.0312
+Nate,9/7/2005 18:00,hurricane,1,70,985,207.1404,46.0312
+Nate,9/8/2005 0:00,hurricane,1,75,984,207.1404,46.0312
+Nate,9/8/2005 6:00,hurricane,1,75,982,207.1404,46.0312
+Nate,9/8/2005 12:00,hurricane,1,75,982,207.1404,46.0312
+Nate,9/8/2005 18:00,hurricane,1,75,982,207.1404,46.0312
+Nate,9/9/2005 0:00,hurricane,1,80,979,345.234,51.7851
+Nate,9/9/2005 6:00,hurricane,1,70,985,379.7574,115.078
+Nate,9/9/2005 12:00,hurricane,1,65,986,379.7574,51.7851
+Nate,9/9/2005 18:00,tropical storm,0,55,991,379.7574,0
+Nate,9/10/2005 0:00,tropical storm,0,55,997,345.234,0
+Nate,9/10/2005 6:00,tropical storm,0,45,997,345.234,0
+Nate,9/10/2005 12:00,tropical storm,0,45,997,345.234,0
+Ophelia,9/6/2005 6:00,tropical depression,-1,25,1009,0,0
+Ophelia,9/6/2005 12:00,tropical depression,-1,25,1010,0,0
+Ophelia,9/6/2005 16:00,tropical depression,-1,25,1010,0,0
+Ophelia,9/6/2005 18:00,tropical depression,-1,25,1010,0,0
+Ophelia,9/7/2005 0:00,tropical depression,-1,30,1006,0,0
+Ophelia,9/7/2005 6:00,tropical storm,0,35,1003,69.0468,0
+Ophelia,9/7/2005 12:00,tropical storm,0,40,1000,69.0468,0
+Ophelia,9/7/2005 18:00,tropical storm,0,45,997,103.5702,0
+Ophelia,9/8/2005 0:00,tropical storm,0,45,994,103.5702,0
+Ophelia,9/8/2005 6:00,tropical storm,0,50,994,115.078,0
+Ophelia,9/8/2005 12:00,tropical storm,0,55,988,115.078,0
+Ophelia,9/8/2005 18:00,tropical storm,0,60,988,161.1092,0
+Ophelia,9/9/2005 0:00,hurricane,1,65,990,138.0936,23.0156
+Ophelia,9/9/2005 6:00,tropical storm,0,55,990,138.0936,0
+Ophelia,9/9/2005 12:00,tropical storm,0,55,983,138.0936,0
+Ophelia,9/9/2005 18:00,hurricane,1,65,983,161.1092,28.7695
+Ophelia,9/10/2005 0:00,tropical storm,0,60,983,172.617,0
+Ophelia,9/10/2005 6:00,tropical storm,0,60,984,207.1404,0
+Ophelia,9/10/2005 12:00,hurricane,1,65,976,258.9255,28.7695
+Ophelia,9/10/2005 18:00,hurricane,1,70,977,276.1872,28.7695
+Ophelia,9/11/2005 0:00,hurricane,1,70,977,276.1872,63.2929
+Ophelia,9/11/2005 6:00,hurricane,1,75,978,299.2028,63.2929
+Ophelia,9/11/2005 12:00,hurricane,1,70,978,299.2028,63.2929
+Ophelia,9/11/2005 18:00,hurricane,1,65,978,322.2184,57.539
+Ophelia,9/12/2005 0:00,tropical storm,0,60,980,322.2184,0
+Ophelia,9/12/2005 6:00,tropical storm,0,60,985,322.2184,0
+Ophelia,9/12/2005 12:00,tropical storm,0,55,988,310.7106,0
+Ophelia,9/12/2005 18:00,tropical storm,0,60,989,299.2028,0
+Ophelia,9/13/2005 0:00,tropical storm,0,60,989,299.2028,0
+Ophelia,9/13/2005 6:00,tropical storm,0,60,990,299.2028,0
+Ophelia,9/13/2005 12:00,tropical storm,0,60,989,276.1872,0
+Ophelia,9/13/2005 18:00,tropical storm,0,60,988,276.1872,0
+Ophelia,9/14/2005 0:00,hurricane,1,65,985,253.1716,86.3085
+Ophelia,9/14/2005 6:00,hurricane,1,70,980,253.1716,86.3085
+Ophelia,9/14/2005 12:00,hurricane,1,75,980,253.1716,86.3085
+Ophelia,9/14/2005 18:00,hurricane,1,75,979,253.1716,86.3085
+Ophelia,9/15/2005 0:00,hurricane,1,75,979,253.1716,74.8007
+Ophelia,9/15/2005 6:00,hurricane,1,70,982,253.1716,74.8007
+Ophelia,9/15/2005 12:00,hurricane,1,65,984,253.1716,74.8007
+Ophelia,9/15/2005 18:00,hurricane,1,65,986,253.1716,40.2773
+Ophelia,9/16/2005 0:00,tropical storm,0,60,987,230.156,0
+Ophelia,9/16/2005 6:00,tropical storm,0,55,993,201.3865,0
+Ophelia,9/16/2005 12:00,tropical storm,0,50,995,201.3865,0
+Ophelia,9/16/2005 18:00,tropical storm,0,55,993,201.3865,0
+Ophelia,9/17/2005 0:00,tropical storm,0,55,995,218.6482,0
+Ophelia,9/17/2005 6:00,tropical storm,0,50,1000,241.6638,0
+Ophelia,9/17/2005 12:00,tropical storm,0,50,997,241.6638,0
+Ophelia,9/17/2005 18:00,tropical storm,0,50,995,241.6638,0
+Philippe,9/17/2005 12:00,tropical depression,-1,30,1008,0,0
+Philippe,9/17/2005 18:00,tropical storm,0,35,1007,86.3085,0
+Philippe,9/18/2005 0:00,tropical storm,0,40,1003,103.5702,0
+Philippe,9/18/2005 6:00,tropical storm,0,45,1000,103.5702,0
+Philippe,9/18/2005 12:00,tropical storm,0,50,996,103.5702,0
+Philippe,9/18/2005 18:00,tropical storm,0,55,993,126.5858,0
+Philippe,9/19/2005 0:00,hurricane,1,65,987,126.5858,17.2617
+Philippe,9/19/2005 6:00,hurricane,1,65,987,115.078,17.2617
+Philippe,9/19/2005 12:00,hurricane,1,65,987,115.078,17.2617
+Philippe,9/19/2005 18:00,hurricane,1,65,987,120.8319,17.2617
+Philippe,9/20/2005 0:00,hurricane,1,70,985,120.8319,17.2617
+Philippe,9/20/2005 6:00,hurricane,1,65,987,161.1092,17.2617
+Philippe,9/20/2005 12:00,tropical storm,0,60,990,161.1092,0
+Philippe,9/20/2005 18:00,tropical storm,0,55,992,138.0936,0
+Philippe,9/21/2005 0:00,tropical storm,0,55,994,138.0936,0
+Philippe,9/21/2005 6:00,tropical storm,0,50,997,172.617,0
+Philippe,9/21/2005 12:00,tropical storm,0,45,1000,138.0936,0
+Philippe,9/21/2005 18:00,tropical storm,0,40,1001,115.078,0
+Philippe,9/22/2005 0:00,tropical storm,0,35,1002,103.5702,0
+Philippe,9/22/2005 6:00,tropical storm,0,35,1003,86.3085,0
+Philippe,9/22/2005 12:00,tropical storm,0,35,1003,86.3085,0
+Philippe,9/22/2005 18:00,tropical storm,0,35,1003,86.3085,0
+Philippe,9/23/2005 0:00,tropical storm,0,35,1003,86.3085,0
+Philippe,9/23/2005 6:00,tropical storm,0,35,1003,69.0468,0
+Philippe,9/23/2005 12:00,tropical depression,-1,30,1003,0,0
+Rita,9/18/2005 0:00,tropical depression,-1,25,1009,0,0
+Rita,9/18/2005 6:00,tropical depression,-1,25,1009,0,0
+Rita,9/18/2005 12:00,tropical depression,-1,30,1007,0,0
+Rita,9/18/2005 18:00,tropical storm,0,35,1005,155.3553,0
+Rita,9/19/2005 0:00,tropical storm,0,45,1002,172.617,0
+Rita,9/19/2005 6:00,tropical storm,0,50,999,161.1092,0
+Rita,9/19/2005 12:00,tropical storm,0,55,997,195.6326,0
+Rita,9/19/2005 18:00,tropical storm,0,60,994,195.6326,0
+Rita,9/20/2005 0:00,tropical storm,0,60,992,189.8787,0
+Rita,9/20/2005 6:00,tropical storm,0,60,990,189.8787,0
+Rita,9/20/2005 12:00,hurricane,1,70,985,207.1404,28.7695
+Rita,9/20/2005 18:00,hurricane,2,85,975,235.9099,74.8007
+Rita,9/21/2005 0:00,hurricane,2,95,967,235.9099,74.8007
+Rita,9/21/2005 6:00,hurricane,3,110,955,235.9099,80.5546
+Rita,9/23/2005 18:00,hurricane,3,110,930,356.7418,138.0936
+Rita,9/24/2005 0:00,hurricane,3,105,931,345.234,138.0936
+Rita,9/24/2005 6:00,hurricane,3,100,935,345.234,138.0936
+Rita,9/24/2005 12:00,hurricane,1,65,949,241.6638,69.0468
+Rita,9/24/2005 18:00,tropical storm,0,45,974,195.6326,0
+Rita,9/25/2005 0:00,tropical storm,0,35,982,115.078,0
+Rita,9/25/2005 6:00,tropical depression,-1,30,989,0,0
+Rita,9/25/2005 12:00,tropical depression,-1,25,995,0,0
+Rita,9/25/2005 18:00,tropical depression,-1,25,1000,0,0
+Rita,9/26/2005 0:00,tropical depression,-1,20,1003,0,0
+Nineteen,9/30/2005 12:00,tropical depression,-1,25,1009,0,0
+Nineteen,9/30/2005 18:00,tropical depression,-1,30,1007,0,0
+Nineteen,10/1/2005 0:00,tropical depression,-1,30,1006,0,0
+Nineteen,10/1/2005 6:00,tropical depression,-1,30,1008,0,0
+Nineteen,10/1/2005 12:00,tropical depression,-1,30,1008,0,0
+Nineteen,10/1/2005 18:00,tropical depression,-1,30,1008,0,0
+Nineteen,10/2/2005 0:00,tropical depression,-1,30,1008,0,0
+Nineteen,10/2/2005 6:00,tropical depression,-1,25,1008,0,0
+Nineteen,10/2/2005 12:00,tropical depression,-1,25,1009,0,0
+Stan,10/1/2005 12:00,tropical depression,-1,25,1007,0,0
+Stan,10/1/2005 18:00,tropical depression,-1,30,1005,0,0
+Stan,10/2/2005 0:00,tropical depression,-1,30,1004,0,0
+Stan,10/2/2005 6:00,tropical storm,0,40,1003,103.5702,0
+Stan,10/2/2005 12:00,tropical storm,0,35,1003,120.8319,0
+Stan,10/2/2005 18:00,tropical storm,0,35,1004,120.8319,0
+Stan,10/3/2005 0:00,tropical depression,-1,30,1003,0,0
+Stan,10/3/2005 6:00,tropical storm,0,35,1003,115.078,0
+Stan,10/3/2005 12:00,tropical storm,0,40,1000,115.078,0
+Stan,10/3/2005 18:00,tropical storm,0,50,997,138.0936,0
+Stan,10/4/2005 0:00,tropical storm,0,55,990,138.0936,0
+Stan,10/4/2005 6:00,hurricane,1,65,987,189.8787,34.5234
+Stan,10/4/2005 12:00,hurricane,1,70,977,189.8787,34.5234
+Stan,10/4/2005 18:00,tropical storm,0,45,988,103.5702,0
+Stan,10/5/2005 0:00,tropical depression,-1,30,1000,0,0
+Stan,10/5/2005 6:00,tropical depression,-1,25,1004,0,0
+Tammy,10/5/2005 6:00,tropical storm,0,35,1006,161.1092,0
+Tammy,10/5/2005 12:00,tropical storm,0,40,1004,287.695,0
+Tammy,10/5/2005 18:00,tropical storm,0,45,1001,304.9567,0
+Tammy,10/6/2005 0:00,tropical storm,0,45,1002,264.6794,0
+Tammy,10/6/2005 6:00,tropical storm,0,35,1005,264.6794,0
+Tammy,10/6/2005 12:00,tropical depression,-1,25,1005,0,0
+Tammy,10/6/2005 18:00,tropical depression,-1,15,1006,0,0
+Vince,10/9/2005 12:00,tropical storm,0,55,995,138.0936,0
+Vince,10/9/2005 18:00,hurricane,1,65,988,161.1092,34.5234
+Vince,10/10/2005 0:00,tropical storm,0,60,990,138.0936,0
+Vince,10/10/2005 6:00,tropical storm,0,50,992,115.078,0
+Vince,10/10/2005 12:00,tropical storm,0,45,995,115.078,0
+Vince,10/10/2005 18:00,tropical storm,0,35,998,115.078,0
+Vince,10/11/2005 0:00,tropical depression,-1,30,1000,0,0
+Vince,10/11/2005 6:00,tropical depression,-1,30,1002,0,0
+Vince,10/11/2005 9:00,tropical depression,-1,30,1002,0,0
+Vince,10/11/2005 12:00,tropical depression,-1,30,1003,0,0
+Wilma,10/15/2005 18:00,tropical depression,-1,25,1004,0,0
+Wilma,10/16/2005 0:00,tropical depression,-1,25,1004,0,0
+Wilma,10/16/2005 6:00,tropical depression,-1,30,1003,0,0
+Wilma,10/16/2005 12:00,tropical depression,-1,30,1003,0,0
+Wilma,10/16/2005 18:00,tropical depression,-1,30,1002,0,0
+Wilma,10/17/2005 0:00,tropical depression,-1,30,1001,0,0
+Wilma,10/17/2005 6:00,tropical storm,0,35,1000,46.0312,0
+Wilma,10/17/2005 12:00,tropical storm,0,40,999,69.0468,0
+Wilma,10/17/2005 18:00,tropical storm,0,45,997,103.5702,0
+Wilma,10/18/2005 0:00,tropical storm,0,55,988,138.0936,0
+Wilma,10/18/2005 6:00,tropical storm,0,60,982,138.0936,0
+Wilma,10/18/2005 12:00,hurricane,1,65,979,207.1404,34.5234
+Wilma,10/18/2005 18:00,hurricane,1,75,975,224.4021,34.5234
+Wilma,10/22/2005 6:00,hurricane,3,110,935,374.0035,172.617
+Wilma,10/22/2005 12:00,hurricane,3,100,947,374.0035,172.617
+Wilma,10/22/2005 18:00,hurricane,2,85,958,374.0035,172.617
+Wilma,10/23/2005 0:00,hurricane,2,85,960,374.0035,138.0936
+Wilma,10/23/2005 6:00,hurricane,2,85,962,402.773,115.078
+Wilma,10/23/2005 12:00,hurricane,2,85,961,431.5425,115.078
+Wilma,10/23/2005 18:00,hurricane,2,90,963,402.773,143.8475
+Wilma,10/24/2005 0:00,hurricane,2,95,958,402.773,143.8475
+Wilma,10/24/2005 6:00,hurricane,3,110,953,431.5425,172.617
+Wilma,10/24/2005 12:00,hurricane,2,95,950,460.312,172.617
+Wilma,10/24/2005 18:00,hurricane,3,105,955,460.312,172.617
+Wilma,10/25/2005 0:00,hurricane,3,110,955,517.851,172.617
+Wilma,10/25/2005 6:00,hurricane,3,100,963,661.6985,155.3553
+Wilma,10/25/2005 12:00,hurricane,2,90,970,661.6985,155.3553
+Wilma,10/25/2005 18:00,hurricane,1,75,976,661.6985,138.0936
+Beta,10/26/2005 18:00,tropical depression,-1,30,1007,0,0
+Beta,10/27/2005 0:00,tropical depression,-1,30,1007,0,0
+Beta,10/27/2005 6:00,tropical storm,0,35,1005,57.539,0
+Beta,10/27/2005 12:00,tropical storm,0,45,1000,80.5546,0
+Beta,10/27/2005 18:00,tropical storm,0,50,997,80.5546,0
+Beta,10/28/2005 0:00,tropical storm,0,50,995,80.5546,0
+Beta,10/28/2005 6:00,tropical storm,0,50,994,80.5546,0
+Beta,10/28/2005 12:00,tropical storm,0,50,993,80.5546,0
+Beta,10/28/2005 18:00,tropical storm,0,50,991,80.5546,0
+Beta,10/29/2005 0:00,tropical storm,0,60,988,92.0624,0
+Beta,10/29/2005 6:00,hurricane,1,70,985,103.5702,34.5234
+Beta,10/29/2005 12:00,hurricane,1,75,982,115.078,34.5234
+Beta,10/29/2005 18:00,hurricane,1,75,980,115.078,34.5234
+Beta,10/30/2005 0:00,hurricane,2,90,970,115.078,34.5234
+Beta,10/30/2005 6:00,hurricane,3,100,962,115.078,34.5234
+Beta,10/30/2005 12:00,hurricane,2,90,970,115.078,34.5234
+Beta,10/30/2005 18:00,tropical storm,0,55,990,126.5858,0
+Beta,10/31/2005 0:00,tropical depression,-1,20,1000,0,0
+Gamma,11/14/2005 0:00,tropical depression,-1,30,1007,0,0
+Gamma,11/14/2005 6:00,tropical depression,-1,30,1006,0,0
+Gamma,11/14/2005 12:00,tropical depression,-1,30,1006,0,0
+Gamma,11/14/2005 18:00,tropical depression,-1,30,1005,0,0
+Gamma,11/15/2005 0:00,tropical depression,-1,30,1004,0,0
+Gamma,11/15/2005 6:00,tropical storm,0,35,1004,46.0312,0
+Gamma,11/15/2005 12:00,tropical storm,0,35,1004,46.0312,0
+Gamma,11/15/2005 18:00,tropical depression,-1,30,1005,0,0
+Gamma,11/16/2005 0:00,tropical depression,-1,30,1006,0,0
+Gamma,11/16/2005 6:00,tropical depression,-1,30,1006,0,0
+Gamma,11/16/2005 12:00,tropical depression,-1,25,1006,0,0
+Gamma,11/18/2005 18:00,tropical storm,0,35,1006,86.3085,0
+Gamma,11/19/2005 0:00,tropical storm,0,40,1005,103.5702,0
+Gamma,11/19/2005 6:00,tropical storm,0,40,1004,103.5702,0
+Gamma,11/19/2005 12:00,tropical storm,0,45,1002,103.5702,0
+Gamma,11/19/2005 18:00,tropical storm,0,40,1004,103.5702,0
+Gamma,11/20/2005 0:00,tropical storm,0,40,1005,103.5702,0
+Gamma,11/20/2005 6:00,tropical storm,0,35,1006,103.5702,0
+Gamma,11/20/2005 12:00,tropical depression,-1,30,1007,0,0
+Gamma,11/20/2005 18:00,tropical depression,-1,30,1007,0,0
+Gamma,11/21/2005 0:00,tropical depression,-1,25,1008,0,0
+Epsilon,11/29/2005 6:00,tropical storm,0,45,993,155.3553,0
+Epsilon,11/29/2005 12:00,tropical storm,0,45,993,155.3553,0
+Epsilon,11/29/2005 18:00,tropical storm,0,45,993,155.3553,0
+Epsilon,11/30/2005 0:00,tropical storm,0,45,993,189.8787,0
+Epsilon,11/30/2005 6:00,tropical storm,0,50,992,189.8787,0
+Epsilon,11/30/2005 12:00,tropical storm,0,55,991,172.617,0
+Epsilon,11/30/2005 18:00,tropical storm,0,50,991,172.617,0
+Epsilon,12/1/2005 0:00,tropical storm,0,50,992,172.617,0
+Epsilon,12/1/2005 6:00,tropical storm,0,50,992,172.617,0
+Epsilon,12/1/2005 12:00,tropical storm,0,50,992,172.617,0
+Epsilon,12/1/2005 18:00,tropical storm,0,55,991,207.1404,0
+Epsilon,12/2/2005 0:00,tropical storm,0,55,991,207.1404,0
+Epsilon,12/2/2005 6:00,tropical storm,0,55,990,189.8787,0
+Epsilon,12/2/2005 12:00,tropical storm,0,60,989,189.8787,0
+Epsilon,12/2/2005 18:00,hurricane,1,65,987,207.1404,34.5234
+Epsilon,12/3/2005 0:00,hurricane,1,65,987,230.156,34.5234
+Epsilon,12/3/2005 6:00,hurricane,1,65,987,230.156,34.5234
+Epsilon,12/3/2005 12:00,hurricane,1,65,987,230.156,34.5234
+Epsilon,12/3/2005 18:00,hurricane,1,65,987,230.156,46.0312
+Epsilon,12/4/2005 0:00,hurricane,1,65,987,218.6482,28.7695
+Epsilon,12/4/2005 6:00,hurricane,1,65,987,201.3865,23.0156
+Epsilon,12/4/2005 12:00,hurricane,1,70,984,201.3865,23.0156
+Epsilon,12/4/2005 18:00,hurricane,1,70,985,201.3865,23.0156
+Epsilon,12/5/2005 0:00,hurricane,1,70,985,201.3865,23.0156
+Epsilon,12/5/2005 6:00,hurricane,1,75,981,201.3865,23.0156
+Epsilon,12/5/2005 12:00,hurricane,1,75,981,201.3865,23.0156
+Epsilon,12/5/2005 18:00,hurricane,1,70,985,201.3865,23.0156
+Epsilon,12/6/2005 0:00,hurricane,1,65,986,201.3865,23.0156
+Epsilon,12/6/2005 6:00,hurricane,1,65,986,241.6638,51.7851
+Epsilon,12/6/2005 12:00,hurricane,1,65,987,253.1716,28.7695
+Epsilon,12/6/2005 18:00,hurricane,1,65,987,247.4177,34.5234
+Epsilon,12/7/2005 0:00,hurricane,1,65,987,235.9099,63.2929
+Epsilon,12/7/2005 6:00,hurricane,1,65,987,264.6794,57.539
+Epsilon,12/7/2005 12:00,hurricane,1,65,987,276.1872,28.7695
+Epsilon,12/7/2005 18:00,tropical storm,0,60,991,218.6482,0
+Epsilon,12/8/2005 0:00,tropical storm,0,50,997,189.8787,0
+Epsilon,12/8/2005 6:00,tropical storm,0,35,1003,115.078,0
+Epsilon,12/8/2005 12:00,tropical depression,-1,30,1005,0,0
+Zeta,12/30/2005 0:00,tropical depression,-1,30,1009,0,0
+Zeta,12/30/2005 6:00,tropical storm,0,40,1005,201.3865,0
+Zeta,12/30/2005 12:00,tropical storm,0,45,1002,247.4177,0
+Zeta,12/30/2005 18:00,tropical storm,0,45,1000,270.4333,0
+Zeta,12/31/2005 0:00,tropical storm,0,45,1000,287.695,0
+Zeta,12/31/2005 6:00,tropical storm,0,50,997,258.9255,0
+Zeta,12/31/2005 12:00,tropical storm,0,50,997,224.4021,0
+Zeta,12/31/2005 18:00,tropical storm,0,45,1000,224.4021,0
+Zeta,1/1/2006 0:00,tropical storm,0,50,997,201.3865,0
+Zeta,1/1/2006 6:00,tropical storm,0,50,997,201.3865,0
+Zeta,1/1/2006 12:00,tropical storm,0,50,997,230.156,0
+Zeta,1/1/2006 18:00,tropical storm,0,55,994,195.6326,0
+Zeta,1/2/2006 0:00,tropical storm,0,55,994,189.8787,0
+Zeta,1/2/2006 6:00,tropical storm,0,50,997,184.1248,0
+Zeta,1/2/2006 12:00,tropical storm,0,45,1000,184.1248,0
+Zeta,1/2/2006 18:00,tropical storm,0,50,997,184.1248,0
+Zeta,1/3/2006 0:00,tropical storm,0,55,994,201.3865,0
+Zeta,1/3/2006 6:00,tropical storm,0,55,994,201.3865,0
+Zeta,1/3/2006 12:00,tropical storm,0,55,994,201.3865,0
+Zeta,1/3/2006 18:00,tropical storm,0,55,994,201.3865,0
+Zeta,1/4/2006 0:00,tropical storm,0,55,994,230.156,0
+Zeta,1/4/2006 6:00,tropical storm,0,50,997,230.156,0
+Zeta,1/4/2006 12:00,tropical storm,0,45,1000,201.3865,0
+Zeta,1/4/2006 18:00,tropical storm,0,40,1002,172.617,0
+Zeta,1/5/2006 0:00,tropical storm,0,35,1005,115.078,0
+Zeta,1/5/2006 6:00,tropical storm,0,35,1005,115.078,0
+Zeta,1/5/2006 12:00,tropical storm,0,35,1006,115.078,0
+Zeta,1/5/2006 18:00,tropical storm,0,35,1007,103.5702,0
+Zeta,1/6/2006 0:00,tropical storm,0,35,1007,86.3085,0
+Zeta,1/6/2006 6:00,tropical depression,-1,30,1007,0,0
+Zeta,1/6/2006 12:00,tropical depression,-1,30,1008,0,0
+Alberto,6/10/2006 6:00,tropical depression,-1,25,1004,0,0
+Alberto,6/10/2006 12:00,tropical depression,-1,30,1003,0,0
+Alberto,6/10/2006 18:00,tropical depression,-1,30,1003,0,0
+Alberto,6/11/2006 0:00,tropical storm,0,35,1003,115.078,0
+Alberto,6/11/2006 6:00,tropical storm,0,35,1003,115.078,0
+Alberto,6/11/2006 12:00,tropical storm,0,40,1002,172.617,0
+Alberto,6/11/2006 18:00,tropical storm,0,40,1004,230.156,0
+Alberto,6/12/2006 0:00,tropical storm,0,40,1004,230.156,0
+Alberto,6/12/2006 6:00,tropical storm,0,45,1004,230.156,0
+Alberto,6/12/2006 12:00,tropical storm,0,60,1000,230.156,0
+Alberto,6/12/2006 18:00,tropical storm,0,60,997,241.6638,0
+Alberto,6/13/2006 0:00,tropical storm,0,60,995,230.156,0
+Alberto,6/13/2006 6:00,tropical storm,0,55,995,241.6638,0
+Alberto,6/13/2006 12:00,tropical storm,0,45,996,184.1248,0
+Alberto,6/13/2006 18:00,tropical storm,0,35,997,172.617,0
+Alberto,6/14/2006 0:00,tropical storm,0,35,1001,149.6014,0
+Alberto,6/14/2006 6:00,tropical depression,-1,30,1003,0,0
+AL022006,7/17/2006 6:00,tropical depression,-1,30,1008,0,0
+AL022006,7/17/2006 12:00,tropical storm,0,40,1003,69.0468,0
+AL022006,7/17/2006 18:00,tropical storm,0,45,998,69.0468,0
+AL022006,7/18/2006 0:00,tropical storm,0,40,999,69.0468,0
+AL022006,7/18/2006 6:00,tropical storm,0,35,1004,69.0468,0
+Beryl,7/18/2006 12:00,tropical depression,-1,30,1010,0,0
+Beryl,7/18/2006 18:00,tropical storm,0,35,1008,46.0312,0
+Beryl,7/19/2006 0:00,tropical storm,0,35,1006,69.0468,0
+Beryl,7/19/2006 6:00,tropical storm,0,35,1005,69.0468,0
+Beryl,7/19/2006 12:00,tropical storm,0,40,1004,138.0936,0
+Beryl,7/19/2006 18:00,tropical storm,0,50,1003,143.8475,0
+Beryl,7/20/2006 0:00,tropical storm,0,50,1002,195.6326,0
+Beryl,7/20/2006 6:00,tropical storm,0,50,1001,207.1404,0
+Beryl,7/20/2006 12:00,tropical storm,0,50,1002,207.1404,0
+Beryl,7/20/2006 18:00,tropical storm,0,45,1002,207.1404,0
+Beryl,7/21/2006 0:00,tropical storm,0,45,1003,161.1092,0
+Beryl,7/21/2006 6:00,tropical storm,0,45,1000,143.8475,0
+Beryl,7/21/2006 12:00,tropical storm,0,40,1002,201.3865,0
+Chris,8/1/2006 0:00,tropical depression,-1,30,1011,0,0
+Chris,8/1/2006 6:00,tropical storm,0,35,1009,34.5234,0
+Chris,8/1/2006 12:00,tropical storm,0,40,1006,34.5234,0
+Chris,8/1/2006 18:00,tropical storm,0,50,1004,46.0312,0
+Chris,8/2/2006 0:00,tropical storm,0,50,1003,69.0468,0
+Chris,8/2/2006 6:00,tropical storm,0,55,1001,103.5702,0
+Chris,8/2/2006 12:00,tropical storm,0,55,1001,103.5702,0
+Chris,8/2/2006 18:00,tropical storm,0,50,1004,80.5546,0
+Chris,8/3/2006 0:00,tropical storm,0,50,1007,80.5546,0
+Chris,8/3/2006 6:00,tropical storm,0,40,1010,80.5546,0
+Chris,8/3/2006 12:00,tropical storm,0,35,1011,80.5546,0
+Chris,8/3/2006 18:00,tropical depression,-1,30,1011,0,0
+Chris,8/4/2006 0:00,tropical depression,-1,30,1011,0,0
+Debby,8/21/2006 18:00,tropical depression,-1,30,1007,0,0
+Debby,8/22/2006 0:00,tropical depression,-1,30,1007,0,0
+Debby,8/22/2006 6:00,tropical depression,-1,30,1007,0,0
+Debby,8/22/2006 12:00,tropical depression,-1,30,1007,0,0
+Debby,8/22/2006 18:00,tropical depression,-1,30,1005,0,0
+Debby,8/23/2006 0:00,tropical storm,0,35,1003,69.0468,0
+Debby,8/23/2006 6:00,tropical storm,0,40,1002,86.3085,0
+Debby,8/23/2006 12:00,tropical storm,0,45,1001,92.0624,0
+Debby,8/23/2006 18:00,tropical storm,0,45,1001,80.5546,0
+Debby,8/24/2006 0:00,tropical storm,0,45,1000,80.5546,0
+Debby,8/24/2006 6:00,tropical storm,0,45,999,80.5546,0
+Debby,8/24/2006 12:00,tropical storm,0,45,1000,80.5546,0
+Debby,8/24/2006 18:00,tropical storm,0,45,1000,80.5546,0
+Debby,8/25/2006 0:00,tropical storm,0,45,1000,80.5546,0
+Debby,8/25/2006 6:00,tropical storm,0,45,1001,69.0468,0
+Debby,8/25/2006 12:00,tropical storm,0,40,1002,86.3085,0
+Debby,8/25/2006 18:00,tropical storm,0,35,1005,103.5702,0
+Debby,8/26/2006 0:00,tropical storm,0,35,1008,103.5702,0
+Debby,8/26/2006 6:00,tropical depression,-1,30,1009,0,0
+Ernesto,8/24/2006 18:00,tropical depression,-1,30,1008,0,0
+Ernesto,8/25/2006 0:00,tropical depression,-1,30,1007,0,0
+Ernesto,8/25/2006 6:00,tropical depression,-1,30,1005,0,0
+Ernesto,8/25/2006 12:00,tropical storm,0,35,1005,92.0624,0
+Ernesto,8/25/2006 18:00,tropical storm,0,35,1004,92.0624,0
+Ernesto,8/26/2006 0:00,tropical storm,0,40,1002,92.0624,0
+Ernesto,8/26/2006 6:00,tropical storm,0,45,999,115.078,0
+Ernesto,8/26/2006 12:00,tropical storm,0,50,997,115.078,0
+Ernesto,8/26/2006 18:00,tropical storm,0,55,997,115.078,0
+Ernesto,8/27/2006 0:00,tropical storm,0,55,995,115.078,0
+Ernesto,8/27/2006 6:00,hurricane,1,65,992,138.0936,11.5078
+Ernesto,8/27/2006 12:00,tropical storm,0,55,997,126.5858,0
+Ernesto,8/27/2006 18:00,tropical storm,0,45,1002,115.078,0
+Ernesto,8/28/2006 0:00,tropical storm,0,40,1003,69.0468,0
+Ernesto,8/28/2006 6:00,tropical storm,0,40,1004,69.0468,0
+Ernesto,8/28/2006 12:00,tropical storm,0,35,1005,103.5702,0
+Ernesto,8/28/2006 18:00,tropical storm,0,35,1007,138.0936,0
+Ernesto,8/29/2006 0:00,tropical storm,0,35,1007,103.5702,0
+Ernesto,8/29/2006 6:00,tropical storm,0,40,1006,86.3085,0
+Ernesto,8/29/2006 12:00,tropical storm,0,40,1006,86.3085,0
+Ernesto,8/29/2006 18:00,tropical storm,0,40,1005,115.078,0
+Ernesto,8/30/2006 0:00,tropical storm,0,40,1004,132.3397,0
+Ernesto,8/30/2006 6:00,tropical storm,0,40,1003,132.3397,0
+Ernesto,8/30/2006 12:00,tropical storm,0,35,1002,69.0468,0
+Ernesto,8/30/2006 18:00,tropical storm,0,35,1001,23.0156,0
+Ernesto,8/31/2006 0:00,tropical storm,0,35,1000,57.539,0
+Ernesto,8/31/2006 6:00,tropical storm,0,45,999,86.3085,0
+Ernesto,8/31/2006 12:00,tropical storm,0,55,995,103.5702,0
+Ernesto,8/31/2006 18:00,tropical storm,0,60,993,184.1248,0
+Ernesto,9/1/2006 0:00,tropical storm,0,60,988,195.6326,0
+Ernesto,9/1/2006 6:00,tropical storm,0,50,985,161.1092,0
+Ernesto,9/1/2006 12:00,tropical depression,-1,30,991,0,0
+Gordon,9/10/2006 18:00,tropical depression,-1,25,1012,0,0
+Gordon,9/11/2006 0:00,tropical depression,-1,30,1011,0,0
+Gordon,9/11/2006 6:00,tropical depression,-1,30,1010,0,0
+Gordon,9/11/2006 12:00,tropical storm,0,35,1008,46.0312,0
+Gordon,9/11/2006 18:00,tropical storm,0,40,1005,46.0312,0
+Gordon,9/12/2006 0:00,tropical storm,0,50,1003,86.3085,0
+Gordon,9/12/2006 6:00,tropical storm,0,50,1000,86.3085,0
+Gordon,9/12/2006 12:00,tropical storm,0,50,998,86.3085,0
+Gordon,9/12/2006 18:00,tropical storm,0,55,994,103.5702,0
+Gordon,9/13/2006 0:00,hurricane,1,65,987,115.078,23.0156
+Gordon,9/13/2006 6:00,hurricane,1,70,984,143.8475,23.0156
+Gordon,9/13/2006 12:00,hurricane,1,80,980,184.1248,46.0312
+Gordon,9/13/2006 18:00,hurricane,2,95,965,201.3865,57.539
+Gordon,9/14/2006 0:00,hurricane,3,105,955,235.9099,57.539
+Gordon,9/14/2006 6:00,hurricane,3,105,956,235.9099,57.539
+Gordon,9/14/2006 12:00,hurricane,3,105,956,241.6638,57.539
+Gordon,9/14/2006 18:00,hurricane,3,105,958,241.6638,57.539
+Gordon,9/15/2006 0:00,hurricane,3,100,960,241.6638,57.539
+Gordon,9/15/2006 6:00,hurricane,2,95,965,224.4021,57.539
+Gordon,9/15/2006 12:00,hurricane,2,85,973,207.1404,57.539
+Gordon,9/15/2006 18:00,hurricane,1,80,976,207.1404,57.539
+Gordon,9/16/2006 0:00,hurricane,1,75,980,207.1404,46.0312
+Gordon,9/16/2006 6:00,hurricane,1,70,983,207.1404,46.0312
+Gordon,9/16/2006 12:00,hurricane,1,65,987,207.1404,46.0312
+Gordon,9/16/2006 18:00,hurricane,1,65,987,207.1404,46.0312
+Gordon,9/17/2006 0:00,hurricane,1,65,987,218.6482,46.0312
+Gordon,9/17/2006 6:00,hurricane,1,65,987,218.6482,46.0312
+Gordon,9/17/2006 12:00,hurricane,1,70,983,207.1404,46.0312
+Gordon,9/17/2006 18:00,hurricane,1,70,983,207.1404,46.0312
+Gordon,9/18/2006 0:00,hurricane,1,75,981,184.1248,46.0312
+Gordon,9/18/2006 6:00,hurricane,1,75,979,184.1248,46.0312
+Gordon,9/18/2006 12:00,hurricane,1,80,976,184.1248,57.539
+Gordon,9/18/2006 18:00,hurricane,2,85,972,184.1248,63.2929
+Gordon,9/19/2006 0:00,hurricane,2,85,972,184.1248,69.0468
+Gordon,9/19/2006 6:00,hurricane,2,90,970,241.6638,69.0468
+Gordon,9/19/2006 12:00,hurricane,1,80,977,287.695,69.0468
+Gordon,9/19/2006 18:00,hurricane,1,75,979,287.695,69.0468
+Gordon,9/20/2006 0:00,hurricane,1,70,980,258.9255,69.0468
+Gordon,9/20/2006 6:00,hurricane,1,70,980,310.7106,63.2929
+Gordon,9/20/2006 12:00,hurricane,1,65,983,310.7106,69.0468
+Gordon,9/20/2006 18:00,hurricane,1,65,983,310.7106,80.5546
+Isaac,9/27/2006 18:00,tropical depression,-1,30,1012,0,0
+Isaac,9/28/2006 0:00,tropical depression,-1,30,1012,0,0
+Isaac,9/28/2006 6:00,tropical storm,0,35,1008,115.078,0
+Isaac,9/28/2006 12:00,tropical storm,0,40,1006,115.078,0
+Isaac,9/28/2006 18:00,tropical storm,0,40,1006,166.8631,0
+Isaac,9/29/2006 0:00,tropical storm,0,40,1006,212.8943,0
+Isaac,9/29/2006 6:00,tropical storm,0,40,1006,212.8943,0
+Isaac,9/29/2006 12:00,tropical storm,0,45,1003,201.3865,0
+Isaac,9/29/2006 18:00,tropical storm,0,50,1000,201.3865,0
+Isaac,9/30/2006 0:00,tropical storm,0,60,997,201.3865,0
+Isaac,9/30/2006 6:00,tropical storm,0,60,995,201.3865,0
+Isaac,9/30/2006 12:00,hurricane,1,65,992,207.1404,69.0468
+Isaac,9/30/2006 18:00,hurricane,1,70,989,207.1404,69.0468
+Isaac,10/1/2006 0:00,hurricane,1,75,987,218.6482,57.539
+Isaac,10/1/2006 6:00,hurricane,1,75,985,218.6482,46.0312
+Isaac,10/1/2006 12:00,hurricane,1,70,986,241.6638,46.0312
+Isaac,10/1/2006 18:00,hurricane,1,70,987,241.6638,46.0312
+Isaac,10/2/2006 0:00,hurricane,1,65,988,287.695,46.0312
+Isaac,10/2/2006 6:00,hurricane,1,65,989,316.4645,23.0156
+Isaac,10/2/2006 12:00,tropical storm,0,60,990,345.234,0
+Isaac,10/2/2006 18:00,tropical storm,0,55,995,345.234,0
+Barry,6/1/2007 12:00,tropical depression,-1,30,1004,0,0
+Barry,6/1/2007 18:00,tropical storm,0,40,1000,126.5858,0
+Barry,6/2/2007 0:00,tropical storm,0,50,997,126.5858,0
+Barry,6/2/2007 6:00,tropical storm,0,45,998,138.0936,0
+Barry,6/2/2007 12:00,tropical storm,0,40,1000,138.0936,0
+Barry,6/2/2007 14:00,tropical depression,-1,30,1000,0,0
+Barry,6/2/2007 18:00,tropical depression,-1,30,1001,0,0
+Chantal,7/31/2007 0:00,tropical depression,-1,30,1007,0,0
+Chantal,7/31/2007 6:00,tropical storm,0,35,1004,69.0468,0
+Chantal,7/31/2007 12:00,tropical storm,0,45,999,276.1872,0
+Chantal,7/31/2007 18:00,tropical storm,0,45,999,304.9567,0
+Chantal,8/1/2007 0:00,tropical storm,0,45,994,270.4333,0
+Dean,8/13/2007 6:00,tropical depression,-1,30,1006,0,0
+Dean,8/13/2007 12:00,tropical depression,-1,30,1005,0,0
+Dean,8/13/2007 18:00,tropical depression,-1,30,1005,0,0
+Dean,8/14/2007 0:00,tropical depression,-1,30,1005,0,0
+Dean,8/14/2007 6:00,tropical depression,-1,30,1005,0,0
+Dean,8/14/2007 12:00,tropical storm,0,35,1004,34.5234,0
+Dean,8/14/2007 18:00,tropical storm,0,40,1002,86.3085,0
+Dean,8/15/2007 0:00,tropical storm,0,50,997,103.5702,0
+Dean,8/15/2007 6:00,tropical storm,0,50,997,103.5702,0
+Dean,8/15/2007 12:00,tropical storm,0,50,997,103.5702,0
+Dean,8/15/2007 18:00,tropical storm,0,55,994,103.5702,0
+Dean,8/16/2007 0:00,tropical storm,0,60,991,103.5702,0
+Dean,8/16/2007 6:00,hurricane,1,70,984,120.8319,23.0156
+Dean,8/16/2007 12:00,hurricane,1,80,972,172.617,34.5234
+Dean,8/16/2007 18:00,hurricane,1,80,972,224.4021,46.0312
+Dean,8/17/2007 0:00,hurricane,1,80,976,224.4021,46.0312
+Dean,8/17/2007 6:00,hurricane,1,80,975,241.6638,46.0312
+Dean,8/17/2007 12:00,hurricane,2,90,967,299.2028,46.0312
+Dean,8/17/2007 18:00,hurricane,3,110,961,322.2184,51.7851
+Dean,8/21/2007 12:00,hurricane,3,110,935,345.234,80.5546
+Dean,8/21/2007 18:00,hurricane,1,75,960,276.1872,69.0468
+Dean,8/22/2007 0:00,hurricane,1,65,979,287.695,69.0468
+Dean,8/22/2007 6:00,hurricane,1,70,979,316.4645,69.0468
+Dean,8/22/2007 12:00,hurricane,1,80,976,333.7262,69.0468
+Dean,8/22/2007 18:00,hurricane,1,75,974,333.7262,34.5234
+Dean,8/23/2007 0:00,tropical depression,-1,30,998,0,0
+Erin,8/15/2007 0:00,tropical depression,-1,25,1006,0,0
+Erin,8/15/2007 6:00,tropical depression,-1,25,1006,0,0
+Erin,8/15/2007 12:00,tropical depression,-1,30,1005,0,0
+Erin,8/15/2007 18:00,tropical storm,0,35,1004,69.0468,0
+Erin,8/16/2007 0:00,tropical storm,0,35,1003,86.3085,0
+Erin,8/16/2007 6:00,tropical storm,0,35,1005,86.3085,0
+Erin,8/16/2007 10:00,tropical depression,-1,30,1006,0,0
+Erin,8/16/2007 12:00,tropical depression,-1,30,1006,0,0
+Erin,8/16/2007 18:00,tropical depression,-1,25,1006,0,0
+Erin,8/17/2007 0:00,tropical depression,-1,25,1006,0,0
+Erin,8/17/2007 6:00,tropical depression,-1,25,1007,0,0
+Felix,8/31/2007 12:00,tropical depression,-1,25,1009,0,0
+Felix,8/31/2007 18:00,tropical depression,-1,30,1008,0,0
+Felix,9/1/2007 0:00,tropical storm,0,35,1007,17.2617,0
+Felix,9/1/2007 6:00,tropical storm,0,40,1005,34.5234,0
+Felix,9/1/2007 12:00,tropical storm,0,50,1001,80.5546,0
+Felix,9/1/2007 18:00,tropical storm,0,60,999,161.1092,0
+Felix,9/2/2007 0:00,hurricane,1,65,992,161.1092,17.2617
+Felix,9/2/2007 6:00,hurricane,2,85,985,189.8787,28.7695
+Felix,9/2/2007 12:00,hurricane,2,90,980,189.8787,40.2773
+Felix,9/4/2007 18:00,hurricane,2,85,962,132.3397,46.0312
+Felix,9/5/2007 0:00,tropical storm,0,50,982,74.8007,0
+Felix,9/5/2007 6:00,tropical depression,-1,25,1004,0,0
+Gabrielle,9/8/2007 18:00,tropical storm,0,35,1009,103.5702,0
+Gabrielle,9/9/2007 0:00,tropical storm,0,40,1007,109.3241,0
+Gabrielle,9/9/2007 6:00,tropical storm,0,45,1004,80.5546,0
+Gabrielle,9/9/2007 12:00,tropical storm,0,50,1004,80.5546,0
+Gabrielle,9/9/2007 18:00,tropical storm,0,45,1006,97.8163,0
+Gabrielle,9/10/2007 0:00,tropical storm,0,40,1007,120.8319,0
+Gabrielle,9/10/2007 6:00,tropical depression,-1,30,1008,0,0
+Gabrielle,9/10/2007 12:00,tropical depression,-1,30,1009,0,0
+Gabrielle,9/10/2007 18:00,tropical depression,-1,30,1010,0,0
+Gabrielle,9/11/2007 0:00,tropical depression,-1,30,1010,0,0
+Gabrielle,9/11/2007 6:00,tropical depression,-1,30,1010,0,0
+Ingrid,9/12/2007 6:00,tropical depression,-1,25,1009,0,0
+Ingrid,9/12/2007 12:00,tropical depression,-1,30,1008,0,0
+Ingrid,9/12/2007 18:00,tropical depression,-1,30,1007,0,0
+Ingrid,9/13/2007 0:00,tropical depression,-1,30,1006,0,0
+Ingrid,9/13/2007 6:00,tropical storm,0,35,1005,51.7851,0
+Ingrid,9/13/2007 12:00,tropical storm,0,35,1005,51.7851,0
+Ingrid,9/13/2007 18:00,tropical storm,0,35,1004,51.7851,0
+Ingrid,9/14/2007 0:00,tropical storm,0,35,1002,103.5702,0
+Ingrid,9/14/2007 6:00,tropical storm,0,35,1003,103.5702,0
+Ingrid,9/14/2007 12:00,tropical storm,0,40,1004,103.5702,0
+Ingrid,9/14/2007 18:00,tropical storm,0,40,1004,103.5702,0
+Ingrid,9/15/2007 0:00,tropical storm,0,35,1005,92.0624,0
+Ingrid,9/15/2007 6:00,tropical storm,0,35,1005,92.0624,0
+Ingrid,9/15/2007 12:00,tropical storm,0,35,1005,40.2773,0
+Ingrid,9/15/2007 18:00,tropical depression,-1,30,1006,0,0
+Ingrid,9/16/2007 0:00,tropical depression,-1,30,1006,0,0
+Ingrid,9/16/2007 6:00,tropical depression,-1,30,1006,0,0
+Ingrid,9/16/2007 12:00,tropical depression,-1,30,1006,0,0
+Ingrid,9/16/2007 18:00,tropical depression,-1,30,1007,0,0
+Ingrid,9/17/2007 0:00,tropical depression,-1,25,1009,0,0
+Humberto,9/12/2007 12:00,tropical storm,0,35,1006,46.0312,0
+Humberto,9/12/2007 18:00,tropical storm,0,45,1001,80.5546,0
+Humberto,9/13/2007 0:00,tropical storm,0,55,997,80.5546,0
+Humberto,9/13/2007 6:00,hurricane,1,80,985,86.3085,17.2617
+Humberto,9/13/2007 12:00,hurricane,1,65,989,63.2929,17.2617
+Humberto,9/13/2007 18:00,tropical storm,0,35,1000,51.7851,0
+Humberto,9/14/2007 0:00,tropical depression,-1,25,1006,0,0
+Ten,9/21/2007 18:00,tropical depression,-1,30,1005,0,0
+Ten,9/22/2007 0:00,tropical depression,-1,25,1006,0,0
+Jerry,9/24/2007 0:00,tropical storm,0,35,1003,138.0936,0
+Jerry,9/24/2007 6:00,tropical storm,0,35,1004,172.617,0
+Jerry,9/24/2007 12:00,tropical storm,0,35,1004,103.5702,0
+Jerry,9/24/2007 18:00,tropical depression,-1,30,1004,0,0
+Karen,9/25/2007 0:00,tropical depression,-1,30,1006,0,0
+Karen,9/25/2007 6:00,tropical storm,0,35,1005,80.5546,0
+Karen,9/25/2007 12:00,tropical storm,0,35,1005,80.5546,0
+Karen,9/25/2007 18:00,tropical storm,0,35,1005,80.5546,0
+Karen,9/26/2007 0:00,tropical storm,0,40,1003,80.5546,0
+Karen,9/26/2007 6:00,tropical storm,0,50,997,80.5546,0
+Karen,9/26/2007 12:00,hurricane,1,65,988,149.6014,51.7851
+Karen,9/26/2007 18:00,hurricane,1,65,990,207.1404,57.539
+Karen,9/27/2007 0:00,tropical storm,0,60,995,345.234,0
+Karen,9/27/2007 6:00,tropical storm,0,55,998,345.234,0
+Karen,9/27/2007 12:00,tropical storm,0,55,1002,276.1872,0
+Karen,9/27/2007 18:00,tropical storm,0,50,1005,253.1716,0
+Karen,9/28/2007 0:00,tropical storm,0,50,1005,253.1716,0
+Karen,9/28/2007 6:00,tropical storm,0,40,1007,218.6482,0
+Karen,9/28/2007 12:00,tropical storm,0,35,1008,184.1248,0
+Karen,9/28/2007 18:00,tropical storm,0,35,1008,195.6326,0
+Karen,9/29/2007 0:00,tropical storm,0,35,1008,207.1404,0
+Karen,9/29/2007 6:00,tropical depression,-1,30,1008,0,0
+Lorenzo,9/25/2007 18:00,tropical depression,-1,25,1009,0,0
+Lorenzo,9/26/2007 0:00,tropical depression,-1,25,1008,0,0
+Lorenzo,9/26/2007 6:00,tropical depression,-1,25,1007,0,0
+Lorenzo,9/26/2007 12:00,tropical depression,-1,30,1008,0,0
+Lorenzo,9/26/2007 18:00,tropical depression,-1,30,1009,0,0
+Lorenzo,9/27/2007 0:00,tropical depression,-1,30,1008,0,0
+Lorenzo,9/27/2007 6:00,tropical depression,-1,30,1009,0,0
+Lorenzo,9/27/2007 12:00,tropical storm,0,45,1006,69.0468,0
+Lorenzo,9/27/2007 18:00,tropical storm,0,60,1001,103.5702,0
+Lorenzo,9/28/2007 0:00,hurricane,1,70,990,115.078,34.5234
+Lorenzo,9/28/2007 6:00,hurricane,1,65,993,115.078,34.5234
+Lorenzo,9/28/2007 12:00,tropical depression,-1,30,1002,0,0
+Lorenzo,9/28/2007 18:00,tropical depression,-1,20,1008,0,0
+Melissa,9/28/2007 6:00,tropical depression,-1,25,1010,0,0
+Melissa,9/28/2007 12:00,tropical depression,-1,30,1009,0,0
+Melissa,9/28/2007 18:00,tropical depression,-1,30,1008,0,0
+Melissa,9/29/2007 0:00,tropical depression,-1,30,1007,0,0
+Melissa,9/29/2007 6:00,tropical storm,0,35,1006,138.0936,0
+Melissa,9/29/2007 12:00,tropical storm,0,35,1005,138.0936,0
+Melissa,9/29/2007 18:00,tropical storm,0,35,1005,138.0936,0
+Melissa,9/30/2007 0:00,tropical storm,0,35,1005,138.0936,0
+Melissa,9/30/2007 6:00,tropical depression,-1,30,1006,0,0
+Melissa,9/30/2007 12:00,tropical depression,-1,25,1007,0,0
+Fifteen,10/11/2007 12:00,tropical depression,-1,30,1011,0,0
+Fifteen,10/11/2007 18:00,tropical depression,-1,30,1011,0,0
+Fifteen,10/12/2007 0:00,tropical depression,-1,30,1011,0,0
+Fifteen,10/12/2007 6:00,tropical depression,-1,30,1011,0,0
+Fifteen,10/12/2007 12:00,tropical depression,-1,25,1011,0,0
+Fifteen,10/12/2007 18:00,tropical depression,-1,25,1012,0,0
+Noel,10/28/2007 0:00,tropical depression,-1,30,1003,0,0
+Noel,10/28/2007 6:00,tropical depression,-1,30,1002,0,0
+Noel,10/28/2007 12:00,tropical storm,0,40,999,115.078,0
+Noel,10/28/2007 18:00,tropical storm,0,50,996,155.3553,0
+Noel,10/29/2007 0:00,tropical storm,0,50,999,189.8787,0
+Noel,10/29/2007 6:00,tropical storm,0,45,1002,258.9255,0
+Noel,10/29/2007 12:00,tropical storm,0,40,1002,276.1872,0
+Noel,10/29/2007 18:00,tropical storm,0,45,1001,287.695,0
+Noel,10/30/2007 0:00,tropical storm,0,45,999,287.695,0
+Noel,10/30/2007 6:00,tropical storm,0,50,997,287.695,0
+Noel,10/30/2007 12:00,tropical storm,0,40,999,201.3865,0
+Noel,10/30/2007 18:00,tropical storm,0,35,1000,172.617,0
+Noel,10/31/2007 0:00,tropical storm,0,35,1000,172.617,0
+Noel,10/31/2007 6:00,tropical storm,0,35,1000,172.617,0
+Noel,10/31/2007 12:00,tropical storm,0,45,995,184.1248,0
+Noel,10/31/2007 18:00,tropical storm,0,45,995,230.156,0
+Noel,11/1/2007 0:00,tropical storm,0,50,995,247.4177,0
+Noel,11/1/2007 6:00,tropical storm,0,50,993,247.4177,0
+Noel,11/1/2007 12:00,tropical storm,0,50,993,230.156,0
+Noel,11/1/2007 18:00,tropical storm,0,55,992,258.9255,0
+Noel,11/2/2007 0:00,hurricane,1,70,981,316.4645,46.0312
+Noel,11/2/2007 6:00,hurricane,1,70,981,425.7886,74.8007
+Noel,11/2/2007 12:00,hurricane,1,70,981,483.3276,103.5702
+Noel,11/2/2007 18:00,hurricane,1,70,980,483.3276,103.5702
+Olga,12/11/2007 18:00,tropical storm,0,50,1003,258.9255,0
+Olga,12/12/2007 0:00,tropical storm,0,50,1003,287.695,0
+Olga,12/12/2007 6:00,tropical storm,0,40,1005,345.234,0
+Olga,12/12/2007 12:00,tropical storm,0,35,1008,345.234,0
+Olga,12/12/2007 18:00,tropical depression,-1,30,1008,0,0
+Arthur,5/31/2008 0:00,tropical storm,0,35,1005,172.617,0
+Arthur,5/31/2008 6:00,tropical storm,0,40,1004,201.3865,0
+Arthur,5/31/2008 9:00,tropical storm,0,40,1004,230.156,0
+Arthur,5/31/2008 12:00,tropical storm,0,35,1005,258.9255,0
+Arthur,5/31/2008 18:00,tropical storm,0,35,1005,258.9255,0
+Arthur,6/1/2008 0:00,tropical storm,0,35,1006,172.617,0
+Arthur,6/1/2008 6:00,tropical storm,0,35,1006,230.156,0
+Arthur,6/1/2008 12:00,tropical depression,-1,30,1006,0,0
+Arthur,6/1/2008 18:00,tropical depression,-1,30,1006,0,0
+Cristobal,7/19/2008 0:00,tropical depression,-1,25,1010,0,0
+Cristobal,7/19/2008 6:00,tropical depression,-1,25,1009,0,0
+Cristobal,7/19/2008 12:00,tropical storm,0,35,1007,86.3085,0
+Cristobal,7/19/2008 18:00,tropical storm,0,45,1006,86.3085,0
+Cristobal,7/20/2008 0:00,tropical storm,0,45,1006,86.3085,0
+Cristobal,7/20/2008 6:00,tropical storm,0,45,1006,86.3085,0
+Cristobal,7/20/2008 12:00,tropical storm,0,45,1006,115.078,0
+Cristobal,7/20/2008 18:00,tropical storm,0,45,1007,115.078,0
+Cristobal,7/21/2008 0:00,tropical storm,0,45,1005,115.078,0
+Cristobal,7/21/2008 6:00,tropical storm,0,50,1004,126.5858,0
+Cristobal,7/21/2008 12:00,tropical storm,0,55,1000,138.0936,0
+Cristobal,7/21/2008 18:00,tropical storm,0,55,1000,138.0936,0
+Cristobal,7/22/2008 0:00,tropical storm,0,55,1000,138.0936,0
+Cristobal,7/22/2008 6:00,tropical storm,0,55,1000,138.0936,0
+Cristobal,7/22/2008 12:00,tropical storm,0,55,998,138.0936,0
+Cristobal,7/22/2008 18:00,tropical storm,0,50,1000,120.8319,0
+Cristobal,7/23/2008 0:00,tropical storm,0,45,1001,120.8319,0
+Cristobal,7/23/2008 6:00,tropical storm,0,40,1004,138.0936,0
+Edouard,8/3/2008 12:00,tropical depression,-1,25,1010,0,0
+Edouard,8/3/2008 18:00,tropical depression,-1,30,1009,0,0
+Edouard,8/4/2008 0:00,tropical storm,0,45,1002,34.5234,0
+Edouard,8/4/2008 6:00,tropical storm,0,40,1005,34.5234,0
+Edouard,8/4/2008 12:00,tropical storm,0,40,1002,34.5234,0
+Edouard,8/4/2008 18:00,tropical storm,0,40,1001,138.0936,0
+Edouard,8/5/2008 0:00,tropical storm,0,50,999,138.0936,0
+Edouard,8/5/2008 6:00,tropical storm,0,55,997,138.0936,0
+Edouard,8/5/2008 12:00,tropical storm,0,55,996,120.8319,0
+Edouard,8/5/2008 18:00,tropical storm,0,40,999,69.0468,0
+Edouard,8/6/2008 0:00,tropical depression,-1,30,1003,0,0
+Fay,8/15/2008 12:00,tropical depression,-1,30,1011,0,0
+Fay,8/15/2008 18:00,tropical storm,0,35,1009,86.3085,0
+Fay,8/16/2008 0:00,tropical storm,0,40,1008,155.3553,0
+Fay,8/16/2008 6:00,tropical storm,0,40,1008,155.3553,0
+Fay,8/16/2008 12:00,tropical storm,0,40,1007,155.3553,0
+Fay,8/16/2008 18:00,tropical storm,0,40,1007,103.5702,0
+Fay,8/17/2008 0:00,tropical storm,0,45,1005,103.5702,0
+Fay,8/17/2008 6:00,tropical storm,0,45,1004,103.5702,0
+Fay,8/17/2008 12:00,tropical storm,0,45,1003,103.5702,0
+Fay,8/17/2008 18:00,tropical storm,0,45,1006,103.5702,0
+Fay,8/18/2008 0:00,tropical storm,0,45,1001,103.5702,0
+Fay,8/18/2008 6:00,tropical storm,0,45,1003,103.5702,0
+Fay,8/18/2008 12:00,tropical storm,0,50,1002,115.078,0
+Fay,8/18/2008 18:00,tropical storm,0,50,1000,161.1092,0
+Fay,8/19/2008 0:00,tropical storm,0,50,997,161.1092,0
+Fay,8/19/2008 6:00,tropical storm,0,55,994,161.1092,0
+Fay,8/19/2008 12:00,tropical storm,0,55,988,149.6014,0
+Fay,8/19/2008 18:00,tropical storm,0,60,986,207.1404,0
+Fay,8/20/2008 0:00,tropical storm,0,55,988,172.617,0
+Fay,8/20/2008 6:00,tropical storm,0,50,992,172.617,0
+Fay,8/20/2008 12:00,tropical storm,0,45,994,115.078,0
+Fay,8/20/2008 18:00,tropical storm,0,45,997,149.6014,0
+Fay,8/21/2008 0:00,tropical storm,0,50,993,230.156,0
+Fay,8/21/2008 6:00,tropical storm,0,50,993,230.156,0
+Fay,8/21/2008 12:00,tropical storm,0,50,993,230.156,0
+Fay,8/21/2008 18:00,tropical storm,0,55,993,230.156,0
+Fay,8/22/2008 0:00,tropical storm,0,50,994,264.6794,0
+Fay,8/22/2008 6:00,tropical storm,0,50,995,172.617,0
+Fay,8/22/2008 12:00,tropical storm,0,45,996,138.0936,0
+Fay,8/22/2008 18:00,tropical storm,0,40,997,184.1248,0
+Fay,8/23/2008 0:00,tropical storm,0,45,996,92.0624,0
+Fay,8/23/2008 6:00,tropical storm,0,45,997,92.0624,0
+Fay,8/23/2008 12:00,tropical storm,0,40,998,92.0624,0
+Fay,8/23/2008 18:00,tropical storm,0,40,999,92.0624,0
+Fay,8/24/2008 0:00,tropical depression,-1,30,999,0,0
+Fay,8/24/2008 6:00,tropical depression,-1,30,999,0,0
+Fay,8/24/2008 12:00,tropical depression,-1,30,1000,0,0
+Fay,8/24/2008 18:00,tropical depression,-1,30,1001,0,0
+Fay,8/25/2008 0:00,tropical depression,-1,30,1001,0,0
+Fay,8/25/2008 6:00,tropical depression,-1,30,1002,0,0
+Fay,8/25/2008 12:00,tropical depression,-1,25,1002,0,0
+Fay,8/25/2008 18:00,tropical depression,-1,25,1002,0,0
+Fay,8/26/2008 0:00,tropical depression,-1,20,1002,0,0
+Fay,8/26/2008 6:00,tropical depression,-1,20,1003,0,0
+Fay,8/26/2008 12:00,tropical depression,-1,20,1003,0,0
+Fay,8/26/2008 18:00,tropical depression,-1,20,1004,0,0
+Fay,8/27/2008 0:00,tropical depression,-1,15,1005,0,0
+Gustav,8/25/2008 0:00,tropical depression,-1,25,1008,0,0
+Gustav,8/25/2008 6:00,tropical depression,-1,30,1005,0,0
+Gustav,8/25/2008 12:00,tropical storm,0,35,1002,69.0468,0
+Gustav,8/25/2008 18:00,tropical storm,0,50,996,86.3085,0
+Gustav,8/26/2008 0:00,tropical storm,0,60,991,86.3085,0
+Gustav,8/26/2008 6:00,hurricane,1,75,986,103.5702,28.7695
+Gustav,8/26/2008 12:00,hurricane,1,80,981,103.5702,28.7695
+Gustav,8/26/2008 18:00,hurricane,1,70,992,86.3085,17.2617
+Gustav,8/27/2008 0:00,tropical storm,0,50,995,86.3085,0
+Gustav,8/27/2008 6:00,tropical storm,0,45,999,86.3085,0
+Gustav,8/27/2008 12:00,tropical storm,0,45,998,51.7851,0
+Gustav,8/27/2008 18:00,tropical storm,0,45,999,51.7851,0
+Gustav,8/28/2008 0:00,tropical storm,0,40,999,69.0468,0
+Gustav,8/28/2008 6:00,tropical storm,0,45,995,86.3085,0
+Gustav,8/28/2008 12:00,tropical storm,0,60,984,115.078,0
+Gustav,8/28/2008 18:00,tropical storm,0,60,984,115.078,0
+Gustav,8/29/2008 0:00,tropical storm,0,60,987,149.6014,0
+Gustav,8/29/2008 2:00,tropical storm,0,60,987,149.6014,0
+Gustav,8/29/2008 6:00,tropical storm,0,55,990,207.1404,0
+Gustav,8/29/2008 12:00,tropical storm,0,50,989,207.1404,0
+Gustav,8/29/2008 18:00,hurricane,1,65,984,253.1716,28.7695
+Gustav,8/30/2008 0:00,hurricane,1,75,975,276.1872,57.539
+Gustav,8/30/2008 6:00,hurricane,2,85,968,276.1872,69.0468
+Gustav,8/30/2008 12:00,hurricane,3,110,955,276.1872,86.3085
+Gustav,8/31/2008 6:00,hurricane,3,105,960,339.4801,86.3085
+Gustav,8/31/2008 12:00,hurricane,3,100,961,356.7418,80.5546
+Gustav,8/31/2008 18:00,hurricane,2,95,960,391.2652,97.8163
+Gustav,9/1/2008 0:00,hurricane,2,95,953,414.2808,115.078
+Gustav,9/1/2008 6:00,hurricane,2,95,954,414.2808,115.078
+Gustav,9/1/2008 12:00,hurricane,2,95,955,402.773,126.5858
+Gustav,9/1/2008 15:00,hurricane,2,90,954,362.4957,92.0624
+Gustav,9/1/2008 18:00,hurricane,2,85,958,333.7262,63.2929
+Gustav,9/2/2008 0:00,tropical storm,0,60,971,201.3865,0
+Gustav,9/2/2008 6:00,tropical storm,0,40,981,92.0624,0
+Gustav,9/2/2008 12:00,tropical depression,-1,30,989,0,0
+Gustav,9/2/2008 18:00,tropical depression,-1,20,993,0,0
+Gustav,9/3/2008 0:00,tropical depression,-1,20,995,0,0
+Gustav,9/3/2008 6:00,tropical depression,-1,20,997,0,0
+Gustav,9/3/2008 12:00,tropical depression,-1,20,997,0,0
+Gustav,9/3/2008 18:00,tropical depression,-1,20,998,0,0
+Gustav,9/4/2008 0:00,tropical depression,-1,15,998,0,0
+Gustav,9/4/2008 6:00,tropical depression,-1,15,999,0,0
+Hanna,8/28/2008 0:00,tropical depression,-1,30,1007,0,0
+Hanna,8/28/2008 6:00,tropical depression,-1,30,1004,0,0
+Hanna,8/28/2008 12:00,tropical storm,0,35,1003,57.539,0
+Hanna,8/28/2008 18:00,tropical storm,0,35,1003,57.539,0
+Hanna,8/29/2008 0:00,tropical storm,0,40,1001,92.0624,0
+Hanna,8/29/2008 6:00,tropical storm,0,45,1000,103.5702,0
+Hanna,8/29/2008 12:00,tropical storm,0,45,1000,120.8319,0
+Hanna,8/29/2008 18:00,tropical storm,0,45,1000,172.617,0
+Hanna,8/30/2008 0:00,tropical storm,0,45,1000,230.156,0
+Hanna,8/30/2008 6:00,tropical storm,0,45,1000,230.156,0
+Hanna,8/30/2008 12:00,tropical storm,0,45,1000,247.4177,0
+Hanna,8/30/2008 18:00,tropical storm,0,45,1000,276.1872,0
+Hanna,8/31/2008 0:00,tropical storm,0,50,999,322.2184,0
+Hanna,8/31/2008 6:00,tropical storm,0,45,999,310.7106,0
+Hanna,8/31/2008 12:00,tropical storm,0,40,999,276.1872,0
+Hanna,8/31/2008 18:00,tropical storm,0,40,997,230.156,0
+Hanna,9/1/2008 0:00,tropical storm,0,45,997,230.156,0
+Hanna,9/1/2008 6:00,tropical storm,0,50,996,253.1716,0
+Hanna,9/1/2008 12:00,tropical storm,0,60,990,276.1872,0
+Hanna,9/1/2008 18:00,hurricane,1,70,985,276.1872,46.0312
+Hanna,9/2/2008 0:00,hurricane,1,75,977,287.695,46.0312
+Hanna,9/2/2008 6:00,hurricane,1,65,980,287.695,69.0468
+Hanna,9/2/2008 12:00,tropical storm,0,60,983,287.695,0
+Hanna,9/2/2008 18:00,tropical storm,0,55,985,287.695,0
+Hanna,9/3/2008 0:00,tropical storm,0,55,988,316.4645,0
+Hanna,9/3/2008 6:00,tropical storm,0,50,991,374.0035,0
+Hanna,9/3/2008 12:00,tropical storm,0,45,996,460.312,0
+Hanna,9/3/2008 18:00,tropical storm,0,50,994,460.312,0
+Hanna,9/3/2008 19:00,tropical storm,0,50,994,460.312,0
+Hanna,9/4/2008 0:00,tropical storm,0,55,989,494.8354,0
+Hanna,9/4/2008 6:00,tropical storm,0,60,990,494.8354,0
+Hanna,9/4/2008 12:00,tropical storm,0,55,989,494.8354,0
+Hanna,9/4/2008 18:00,tropical storm,0,55,989,489.0815,0
+Hanna,9/5/2008 0:00,tropical storm,0,55,987,431.5425,0
+Hanna,9/5/2008 6:00,tropical storm,0,55,984,397.0191,0
+Hanna,9/5/2008 12:00,tropical storm,0,55,980,397.0191,0
+Hanna,9/5/2008 18:00,tropical storm,0,60,980,374.0035,0
+Hanna,9/6/2008 0:00,tropical storm,0,60,980,316.4645,0
+Hanna,9/6/2008 6:00,tropical storm,0,60,981,287.695,0
+Hanna,9/6/2008 7:00,tropical storm,0,60,981,287.695,0
+Hanna,9/6/2008 12:00,tropical storm,0,45,985,201.3865,0
+Hanna,9/6/2008 18:00,tropical storm,0,45,993,201.3865,0
+Hanna,9/7/2008 0:00,tropical storm,0,45,994,201.3865,0
+Ike,9/1/2008 6:00,tropical depression,-1,30,1006,0,0
+Ike,9/1/2008 12:00,tropical storm,0,35,1005,155.3553,0
+Ike,9/1/2008 18:00,tropical storm,0,45,1003,212.8943,0
+Ike,9/2/2008 0:00,tropical storm,0,45,1002,241.6638,0
+Ike,9/2/2008 6:00,tropical storm,0,45,1000,276.1872,0
+Ike,9/2/2008 12:00,tropical storm,0,50,999,276.1872,0
+Ike,9/2/2008 18:00,tropical storm,0,55,996,276.1872,0
+Ike,9/3/2008 0:00,tropical storm,0,55,994,270.4333,0
+Ike,9/3/2008 6:00,tropical storm,0,55,992,264.6794,0
+Ike,9/3/2008 12:00,tropical storm,0,60,989,258.9255,0
+Ike,9/3/2008 18:00,hurricane,1,75,979,253.1716,34.5234
+Ike,9/4/2008 0:00,hurricane,3,105,956,253.1716,57.539
+Ike,9/5/2008 12:00,hurricane,3,105,954,224.4021,80.5546
+Ike,9/5/2008 18:00,hurricane,3,100,959,224.4021,80.5546
+Ike,9/6/2008 0:00,hurricane,3,100,962,230.156,80.5546
+Ike,9/6/2008 6:00,hurricane,3,100,964,235.9099,80.5546
+Ike,9/6/2008 12:00,hurricane,2,95,965,241.6638,80.5546
+Ike,9/7/2008 12:00,hurricane,3,110,947,281.9411,103.5702
+Ike,9/7/2008 13:00,hurricane,3,110,947,281.9411,103.5702
+Ike,9/7/2008 18:00,hurricane,3,105,946,287.695,103.5702
+Ike,9/8/2008 6:00,hurricane,3,100,950,345.234,103.5702
+Ike,9/8/2008 12:00,hurricane,2,85,960,350.9879,97.8163
+Ike,9/8/2008 18:00,hurricane,1,75,964,350.9879,69.0468
+Ike,9/9/2008 0:00,hurricane,1,70,965,379.7574,69.0468
+Ike,9/9/2008 6:00,hurricane,1,70,965,379.7574,69.0468
+Ike,9/9/2008 12:00,hurricane,1,70,965,374.0035,34.5234
+Ike,9/9/2008 14:00,hurricane,1,70,965,374.0035,34.5234
+Ike,9/9/2008 18:00,hurricane,1,65,966,368.2496,34.5234
+Ike,9/10/2008 0:00,hurricane,1,65,968,379.7574,34.5234
+Ike,9/10/2008 6:00,hurricane,1,70,964,379.7574,51.7851
+Ike,9/10/2008 12:00,hurricane,1,80,959,385.5113,103.5702
+Ike,9/10/2008 18:00,hurricane,2,85,958,391.2652,138.0936
+Ike,9/11/2008 0:00,hurricane,2,85,944,402.773,155.3553
+Ike,9/11/2008 6:00,hurricane,2,85,945,425.7886,172.617
+Ike,9/11/2008 12:00,hurricane,2,85,946,483.3276,155.3553
+Ike,9/11/2008 18:00,hurricane,2,85,952,483.3276,155.3553
+Ike,9/12/2008 0:00,hurricane,2,85,954,471.8198,184.1248
+Ike,9/12/2008 6:00,hurricane,2,90,954,454.5581,189.8787
+Ike,9/12/2008 12:00,hurricane,2,95,954,448.8042,189.8787
+Ike,9/12/2008 18:00,hurricane,2,95,954,448.8042,189.8787
+Ike,9/13/2008 0:00,hurricane,2,95,952,448.8042,195.6326
+Ike,9/13/2008 6:00,hurricane,2,95,951,402.773,189.8787
+Ike,9/13/2008 7:00,hurricane,2,95,950,402.773,189.8787
+Ike,9/13/2008 12:00,hurricane,2,85,959,287.695,92.0624
+Ike,9/13/2008 18:00,tropical storm,0,50,974,218.6482,0
+Ike,9/14/2008 0:00,tropical storm,0,35,980,103.5702,0
+Ike,9/14/2008 6:00,tropical storm,0,35,985,103.5702,0
+Josephine,9/2/2008 0:00,tropical depression,-1,30,1007,0,0
+Josephine,9/2/2008 6:00,tropical storm,0,35,1005,34.5234,0
+Josephine,9/2/2008 12:00,tropical storm,0,35,1005,34.5234,0
+Josephine,9/2/2008 18:00,tropical storm,0,45,1000,92.0624,0
+Josephine,9/3/2008 0:00,tropical storm,0,50,997,172.617,0
+Josephine,9/3/2008 6:00,tropical storm,0,55,994,184.1248,0
+Josephine,9/3/2008 12:00,tropical storm,0,55,994,207.1404,0
+Josephine,9/3/2008 18:00,tropical storm,0,55,994,207.1404,0
+Josephine,9/4/2008 0:00,tropical storm,0,50,997,172.617,0
+Josephine,9/4/2008 6:00,tropical storm,0,50,997,172.617,0
+Josephine,9/4/2008 12:00,tropical storm,0,45,1000,138.0936,0
+Josephine,9/4/2008 18:00,tropical storm,0,40,1002,138.0936,0
+Josephine,9/5/2008 0:00,tropical storm,0,40,1002,172.617,0
+Josephine,9/5/2008 6:00,tropical storm,0,40,1002,172.617,0
+Josephine,9/5/2008 12:00,tropical storm,0,40,1003,138.0936,0
+Josephine,9/5/2008 18:00,tropical storm,0,35,1004,103.5702,0
+Josephine,9/6/2008 0:00,tropical depression,-1,30,1006,0,0
+Kyle,9/25/2008 0:00,tropical depression,-1,30,1005,0,0
+Kyle,9/25/2008 6:00,tropical storm,0,35,1003,103.5702,0
+Kyle,9/25/2008 12:00,tropical storm,0,40,1002,115.078,0
+Kyle,9/25/2008 18:00,tropical storm,0,40,1001,115.078,0
+Kyle,9/26/2008 0:00,tropical storm,0,45,998,132.3397,0
+Kyle,9/26/2008 6:00,tropical storm,0,50,996,184.1248,0
+Kyle,9/26/2008 12:00,tropical storm,0,50,998,230.156,0
+Kyle,9/26/2008 18:00,tropical storm,0,50,1000,207.1404,0
+Kyle,9/27/2008 0:00,tropical storm,0,55,998,207.1404,0
+Kyle,9/27/2008 6:00,tropical storm,0,60,996,287.695,0
+Kyle,9/27/2008 12:00,hurricane,1,65,996,287.695,69.0468
+Kyle,9/27/2008 18:00,hurricane,1,70,995,287.695,69.0468
+Kyle,9/28/2008 0:00,hurricane,1,70,995,287.695,69.0468
+Kyle,9/28/2008 6:00,hurricane,1,70,992,287.695,69.0468
+Kyle,9/28/2008 12:00,hurricane,1,75,989,333.7262,115.078
+Kyle,9/28/2008 18:00,hurricane,1,70,984,356.7418,132.3397
+Kyle,9/29/2008 0:00,hurricane,1,65,985,368.2496,126.5858
+Marco,10/6/2008 0:00,tropical depression,-1,25,1006,0,0
+Marco,10/6/2008 6:00,tropical depression,-1,30,1005,0,0
+Marco,10/6/2008 12:00,tropical storm,0,40,1002,23.0156,0
+Marco,10/6/2008 18:00,tropical storm,0,50,999,34.5234,0
+Marco,10/7/2008 0:00,tropical storm,0,55,998,23.0156,0
+Marco,10/7/2008 6:00,tropical storm,0,55,998,23.0156,0
+Marco,10/7/2008 12:00,tropical storm,0,55,998,34.5234,0
+Marco,10/7/2008 18:00,tropical depression,-1,30,1007,0,0
+Nana,10/12/2008 6:00,tropical depression,-1,30,1007,0,0
+Nana,10/12/2008 12:00,tropical storm,0,35,1006,69.0468,0
+Nana,10/12/2008 18:00,tropical storm,0,35,1005,80.5546,0
+Nana,10/13/2008 0:00,tropical storm,0,35,1004,97.8163,0
+Nana,10/13/2008 6:00,tropical storm,0,35,1005,115.078,0
+Nana,10/13/2008 12:00,tropical depression,-1,30,1006,0,0
+Nana,10/13/2008 18:00,tropical depression,-1,30,1007,0,0
+Nana,10/14/2008 0:00,tropical depression,-1,30,1007,0,0
+Nana,10/14/2008 6:00,tropical depression,-1,30,1007,0,0
+Omar,10/13/2008 6:00,tropical depression,-1,25,1005,0,0
+Omar,10/13/2008 12:00,tropical depression,-1,30,1005,0,0
+Omar,10/13/2008 18:00,tropical depression,-1,30,1004,0,0
+Omar,10/14/2008 0:00,tropical storm,0,35,1001,46.0312,0
+Omar,10/14/2008 6:00,tropical storm,0,40,997,103.5702,0
+Omar,10/14/2008 12:00,tropical storm,0,50,991,138.0936,0
+Omar,10/14/2008 18:00,tropical storm,0,60,983,155.3553,0
+Omar,10/15/2008 0:00,hurricane,1,65,983,189.8787,34.5234
+Omar,10/15/2008 6:00,hurricane,1,70,985,224.4021,34.5234
+Omar,10/15/2008 12:00,hurricane,1,75,984,224.4021,34.5234
+Omar,10/15/2008 18:00,hurricane,1,80,977,224.4021,46.0312
+Omar,10/16/2008 0:00,hurricane,2,95,970,224.4021,51.7851
+Omar,10/16/2008 12:00,hurricane,2,90,975,224.4021,57.539
+Omar,10/16/2008 18:00,hurricane,1,70,985,207.1404,57.539
+Omar,10/17/2008 0:00,hurricane,1,65,986,207.1404,46.0312
+Omar,10/17/2008 6:00,hurricane,1,70,984,207.1404,46.0312
+Omar,10/17/2008 12:00,hurricane,1,75,982,207.1404,46.0312
+Omar,10/17/2008 18:00,hurricane,1,65,985,189.8787,23.0156
+Omar,10/18/2008 0:00,tropical storm,0,55,988,172.617,0
+Omar,10/18/2008 6:00,tropical storm,0,50,991,172.617,0
+Sixteen,10/14/2008 12:00,tropical depression,-1,25,1004,0,0
+Sixteen,10/14/2008 18:00,tropical depression,-1,25,1005,0,0
+Sixteen,10/15/2008 0:00,tropical depression,-1,25,1005,0,0
+Sixteen,10/15/2008 6:00,tropical depression,-1,25,1005,0,0
+Sixteen,10/15/2008 12:00,tropical depression,-1,25,1005,0,0
+Sixteen,10/15/2008 12:00,tropical depression,-1,25,1005,0,0
+Sixteen,10/15/2008 18:00,tropical depression,-1,25,1006,0,0
+Paloma,11/5/2008 18:00,tropical depression,-1,25,1004,0,0
+Paloma,11/6/2008 0:00,tropical depression,-1,30,1004,0,0
+Paloma,11/6/2008 6:00,tropical storm,0,35,1003,23.0156,0
+Paloma,11/6/2008 12:00,tropical storm,0,40,1000,57.539,0
+Paloma,11/6/2008 18:00,tropical storm,0,55,994,103.5702,0
+Paloma,11/7/2008 0:00,hurricane,1,65,987,115.078,28.7695
+Paloma,11/7/2008 6:00,hurricane,1,65,985,120.8319,28.7695
+Paloma,11/7/2008 12:00,hurricane,1,75,979,149.6014,40.2773
+Paloma,11/7/2008 18:00,hurricane,1,80,975,184.1248,51.7851
+Paloma,11/8/2008 0:00,hurricane,3,100,964,195.6326,57.539
+Paloma,11/8/2008 6:00,hurricane,3,110,951,207.1404,57.539
+Paloma,11/9/2008 0:00,hurricane,2,90,968,149.6014,34.5234
+Paloma,11/9/2008 1:00,hurricane,2,85,970,149.6014,34.5234
+Paloma,11/9/2008 6:00,tropical storm,0,55,990,69.0468,0
+Paloma,11/9/2008 12:00,tropical storm,0,35,1002,34.5234,0
+Paloma,11/9/2008 18:00,tropical depression,-1,25,1004,0,0
+One,5/28/2009 6:00,tropical depression,-1,25,1007,0,0
+One,5/28/2009 12:00,tropical depression,-1,25,1007,0,0
+One,5/28/2009 18:00,tropical depression,-1,30,1006,0,0
+One,5/29/2009 0:00,tropical depression,-1,30,1006,0,0
+One,5/29/2009 6:00,tropical depression,-1,30,1006,0,0
+One,5/29/2009 12:00,tropical depression,-1,30,1006,0,0
+One,5/29/2009 18:00,tropical depression,-1,25,1007,0,0
+Ana,8/11/2009 6:00,tropical depression,-1,25,1007,0,0
+Ana,8/11/2009 12:00,tropical depression,-1,25,1006,0,0
+Ana,8/11/2009 18:00,tropical depression,-1,25,1006,0,0
+Ana,8/12/2009 0:00,tropical depression,-1,30,1006,0,0
+Ana,8/12/2009 6:00,tropical depression,-1,30,1006,0,0
+Ana,8/12/2009 12:00,tropical storm,0,35,1005,51.7851,0
+Ana,8/12/2009 18:00,tropical storm,0,35,1005,51.7851,0
+Ana,8/13/2009 0:00,tropical depression,-1,30,1006,0,0
+Ana,8/15/2009 0:00,tropical depression,-1,30,1005,0,0
+Ana,8/15/2009 6:00,tropical storm,0,35,1003,69.0468,0
+Ana,8/15/2009 12:00,tropical storm,0,35,1003,69.0468,0
+Ana,8/15/2009 18:00,tropical storm,0,35,1003,69.0468,0
+Ana,8/16/2009 0:00,tropical storm,0,35,1003,69.0468,0
+Ana,8/16/2009 6:00,tropical storm,0,35,1004,69.0468,0
+Ana,8/16/2009 12:00,tropical depression,-1,30,1006,0,0
+Bill,8/15/2009 6:00,tropical depression,-1,30,1007,0,0
+Bill,8/15/2009 12:00,tropical depression,-1,30,1006,0,0
+Bill,8/15/2009 18:00,tropical storm,0,35,1004,57.539,0
+Bill,8/16/2009 0:00,tropical storm,0,35,1004,69.0468,0
+Bill,8/16/2009 6:00,tropical storm,0,40,1002,172.617,0
+Bill,8/16/2009 12:00,tropical storm,0,50,997,241.6638,0
+Bill,8/16/2009 18:00,tropical storm,0,55,994,241.6638,0
+Bill,8/17/2009 0:00,tropical storm,0,60,990,241.6638,0
+Bill,8/17/2009 6:00,hurricane,1,65,987,281.9411,51.7851
+Bill,8/17/2009 12:00,hurricane,1,75,977,264.6794,57.539
+Bill,8/17/2009 18:00,hurricane,1,80,970,264.6794,57.539
+Bill,8/18/2009 0:00,hurricane,2,85,967,293.4489,57.539
+Bill,8/18/2009 6:00,hurricane,2,90,965,293.4489,57.539
+Bill,8/18/2009 12:00,hurricane,2,95,963,345.234,80.5546
+Bill,8/18/2009 18:00,hurricane,3,100,962,345.234,80.5546
+Bill,8/19/2009 0:00,hurricane,3,105,955,345.234,80.5546
+Bill,8/20/2009 12:00,hurricane,3,105,952,460.312,138.0936
+Bill,8/20/2009 18:00,hurricane,3,110,948,460.312,155.3553
+Bill,8/21/2009 0:00,hurricane,3,110,943,460.312,155.3553
+Bill,8/21/2009 6:00,hurricane,3,105,951,460.312,155.3553
+Bill,8/21/2009 12:00,hurricane,3,100,954,460.312,155.3553
+Bill,8/21/2009 18:00,hurricane,2,95,956,431.5425,120.8319
+Bill,8/22/2009 0:00,hurricane,2,90,957,431.5425,120.8319
+Bill,8/22/2009 6:00,hurricane,2,90,960,431.5425,120.8319
+Bill,8/22/2009 12:00,hurricane,2,85,961,431.5425,120.8319
+Bill,8/22/2009 18:00,hurricane,1,80,961,431.5425,120.8319
+Bill,8/23/2009 0:00,hurricane,1,80,961,425.7886,120.8319
+Bill,8/23/2009 6:00,hurricane,1,75,962,489.0815,120.8319
+Bill,8/23/2009 12:00,hurricane,1,70,965,489.0815,120.8319
+Bill,8/23/2009 18:00,hurricane,1,65,970,489.0815,92.0624
+Bill,8/24/2009 0:00,hurricane,1,65,973,535.1127,92.0624
+Bill,8/24/2009 2:00,tropical storm,0,60,974,535.1127,0
+Bill,8/24/2009 3:00,tropical storm,0,60,976,535.1127,0
+Bill,8/24/2009 6:00,tropical storm,0,60,980,535.1127,0
+Claudette,8/16/2009 6:00,tropical depression,-1,30,1011,0,0
+Claudette,8/16/2009 12:00,tropical storm,0,35,1010,46.0312,0
+Claudette,8/16/2009 18:00,tropical storm,0,50,1008,103.5702,0
+Claudette,8/17/2009 0:00,tropical storm,0,45,1005,103.5702,0
+Claudette,8/17/2009 6:00,tropical storm,0,40,1005,92.0624,0
+Claudette,8/17/2009 12:00,tropical depression,-1,25,1013,0,0
+Claudette,8/17/2009 18:00,tropical depression,-1,20,1017,0,0
+Danny,8/26/2009 9:00,tropical storm,0,40,1009,276.1872,0
+Danny,8/26/2009 12:00,tropical storm,0,40,1009,276.1872,0
+Danny,8/26/2009 18:00,tropical storm,0,45,1009,276.1872,0
+Danny,8/27/2009 0:00,tropical storm,0,50,1006,293.4489,0
+Danny,8/27/2009 6:00,tropical storm,0,50,1006,293.4489,0
+Danny,8/27/2009 12:00,tropical storm,0,50,1006,327.9723,0
+Danny,8/27/2009 18:00,tropical storm,0,45,1008,310.7106,0
+Danny,8/28/2009 0:00,tropical storm,0,40,1008,276.1872,0
+Danny,8/28/2009 6:00,tropical storm,0,35,1008,172.617,0
+Danny,8/28/2009 12:00,tropical storm,0,35,1008,172.617,0
+Danny,8/28/2009 18:00,tropical storm,0,35,1007,172.617,0
+Danny,8/29/2009 0:00,tropical storm,0,35,1006,172.617,0
+Erika,9/1/2009 18:00,tropical storm,0,45,1007,120.8319,0
+Erika,9/2/2009 0:00,tropical storm,0,45,1004,161.1092,0
+Erika,9/2/2009 6:00,tropical storm,0,45,1005,161.1092,0
+Erika,9/2/2009 12:00,tropical storm,0,35,1008,143.8475,0
+Erika,9/2/2009 18:00,tropical storm,0,35,1008,172.617,0
+Erika,9/3/2009 0:00,tropical storm,0,35,1009,230.156,0
+Erika,9/3/2009 6:00,tropical storm,0,40,1008,230.156,0
+Erika,9/3/2009 12:00,tropical storm,0,40,1008,172.617,0
+Erika,9/3/2009 18:00,tropical depression,-1,30,1008,0,0
+Fred,9/7/2009 18:00,tropical depression,-1,30,1005,0,0
+Fred,9/8/2009 0:00,tropical storm,0,35,1004,69.0468,0
+Fred,9/8/2009 6:00,tropical storm,0,45,1000,86.3085,0
+Fred,9/8/2009 12:00,tropical storm,0,55,994,86.3085,0
+Fred,9/8/2009 18:00,tropical storm,0,60,990,120.8319,0
+Fred,9/9/2009 0:00,hurricane,1,70,983,155.3553,34.5234
+Fred,9/9/2009 6:00,hurricane,2,90,970,189.8787,46.0312
+Fred,9/9/2009 12:00,hurricane,3,105,958,189.8787,57.539
+Fred,9/9/2009 18:00,hurricane,3,100,960,207.1404,57.539
+Fred,9/10/2009 0:00,hurricane,2,95,965,207.1404,51.7851
+Fred,9/10/2009 6:00,hurricane,2,90,970,207.1404,51.7851
+Fred,9/10/2009 12:00,hurricane,2,85,974,207.1404,51.7851
+Fred,9/10/2009 18:00,hurricane,1,80,975,207.1404,51.7851
+Fred,9/11/2009 0:00,hurricane,1,80,975,207.1404,46.0312
+Fred,9/11/2009 6:00,hurricane,1,75,980,189.8787,46.0312
+Fred,9/11/2009 12:00,hurricane,1,65,987,189.8787,34.5234
+Fred,9/11/2009 18:00,tropical storm,0,55,994,172.617,0
+Fred,9/12/2009 0:00,tropical storm,0,50,998,155.3553,0
+Fred,9/12/2009 6:00,tropical storm,0,40,1002,138.0936,0
+Fred,9/12/2009 12:00,tropical storm,0,35,1003,86.3085,0
+Eight,9/25/2009 18:00,tropical depression,-1,30,1008,0,0
+Eight,9/26/2009 0:00,tropical depression,-1,30,1008,0,0
+Eight,9/26/2009 6:00,tropical depression,-1,30,1008,0,0
+Eight,9/26/2009 12:00,tropical depression,-1,30,1008,0,0
+Eight,9/26/2009 18:00,tropical depression,-1,25,1008,0,0
+Henri,10/6/2009 0:00,tropical depression,-1,30,1008,0,0
+Henri,10/6/2009 6:00,tropical storm,0,35,1007,51.7851,0
+Henri,10/6/2009 12:00,tropical storm,0,35,1007,51.7851,0
+Henri,10/6/2009 18:00,tropical storm,0,35,1007,51.7851,0
+Henri,10/7/2009 0:00,tropical storm,0,40,1006,69.0468,0
+Henri,10/7/2009 6:00,tropical storm,0,45,1005,69.0468,0
+Henri,10/7/2009 12:00,tropical storm,0,45,1006,69.0468,0
+Henri,10/7/2009 18:00,tropical storm,0,40,1007,103.5702,0
+Henri,10/8/2009 0:00,tropical storm,0,35,1008,103.5702,0
+Henri,10/8/2009 6:00,tropical depression,-1,30,1010,0,0
+Henri,10/8/2009 12:00,tropical depression,-1,30,1011,0,0
+Ida,11/4/2009 6:00,tropical depression,-1,30,1007,0,0
+Ida,11/4/2009 12:00,tropical storm,0,35,1004,34.5234,0
+Ida,11/4/2009 18:00,tropical storm,0,45,998,74.8007,0
+Ida,11/5/2009 0:00,tropical storm,0,55,995,74.8007,0
+Ida,11/5/2009 6:00,hurricane,1,65,987,92.0624,23.0156
+Ida,11/5/2009 12:00,hurricane,1,70,985,115.078,23.0156
+Ida,11/5/2009 18:00,tropical storm,0,50,996,103.5702,0
+Ida,11/6/2009 0:00,tropical storm,0,35,1003,69.0468,0
+Ida,11/6/2009 6:00,tropical depression,-1,30,1005,0,0
+Ida,11/6/2009 12:00,tropical depression,-1,30,1006,0,0
+Ida,11/6/2009 18:00,tropical depression,-1,30,1007,0,0
+Ida,11/7/2009 0:00,tropical depression,-1,30,1006,0,0
+Ida,11/7/2009 6:00,tropical storm,0,35,1004,46.0312,0
+Ida,11/7/2009 12:00,tropical storm,0,55,997,149.6014,0
+Ida,11/7/2009 18:00,tropical storm,0,60,990,189.8787,0
+Ida,11/8/2009 0:00,hurricane,1,70,987,189.8787,17.2617
+Ida,11/8/2009 6:00,hurricane,1,80,984,189.8787,17.2617
+Ida,11/8/2009 12:00,hurricane,2,85,983,189.8787,17.2617
+Ida,11/8/2009 18:00,hurricane,2,85,975,207.1404,51.7851
+Ida,11/9/2009 0:00,hurricane,2,90,979,224.4021,51.7851
+Ida,11/9/2009 6:00,hurricane,1,80,988,253.1716,51.7851
+Ida,11/9/2009 12:00,tropical storm,0,60,989,287.695,0
+Ida,11/9/2009 18:00,hurricane,1,65,990,287.695,23.0156
+Ida,11/9/2009 21:00,hurricane,1,75,990,287.695,23.0156
+Ida,11/10/2009 0:00,tropical storm,0,60,993,287.695,0
+Ida,11/10/2009 6:00,tropical storm,0,50,998,258.9255,0
+Alex,6/25/2010 18:00,tropical depression,-1,30,1005,0,0
+Alex,6/26/2010 0:00,tropical depression,-1,30,1004,0,0
+Alex,6/26/2010 6:00,tropical storm,0,40,1004,103.5702,0
+Alex,6/26/2010 12:00,tropical storm,0,40,1004,103.5702,0
+Alex,6/26/2010 18:00,tropical storm,0,55,996,149.6014,0
+Alex,6/27/2010 0:00,tropical storm,0,55,995,138.0936,0
+Alex,6/27/2010 6:00,tropical storm,0,55,991,138.0936,0
+Alex,6/27/2010 12:00,tropical storm,0,45,992,103.5702,0
+Alex,6/27/2010 18:00,tropical storm,0,35,993,69.0468,0
+Alex,6/28/2010 0:00,tropical storm,0,40,991,103.5702,0
+Alex,6/28/2010 6:00,tropical storm,0,40,991,103.5702,0
+Alex,6/28/2010 12:00,tropical storm,0,50,989,103.5702,0
+Alex,6/28/2010 18:00,tropical storm,0,50,990,103.5702,0
+Alex,6/29/2010 0:00,tropical storm,0,55,987,138.0936,0
+Alex,6/29/2010 6:00,tropical storm,0,55,985,172.617,0
+Alex,6/29/2010 12:00,tropical storm,0,60,983,230.156,0
+Alex,6/29/2010 18:00,tropical storm,0,60,981,230.156,0
+Alex,6/30/2010 0:00,hurricane,1,65,973,322.2184,34.5234
+Alex,6/30/2010 6:00,hurricane,1,70,966,322.2184,40.2773
+Alex,6/30/2010 12:00,hurricane,1,75,958,322.2184,74.8007
+Alex,6/30/2010 15:00,hurricane,1,75,958,322.2184,74.8007
+Alex,6/30/2010 18:00,hurricane,1,80,962,356.7418,74.8007
+Alex,7/1/2010 0:00,hurricane,2,90,948,345.234,74.8007
+Alex,7/1/2010 2:00,hurricane,2,95,946,345.234,74.8007
+Alex,7/1/2010 6:00,hurricane,1,75,963,345.234,34.5234
+Alex,7/1/2010 12:00,tropical storm,0,60,977,276.1872,0
+Alex,7/1/2010 18:00,tropical storm,0,40,987,189.8787,0
+Alex,7/2/2010 0:00,tropical depression,-1,30,997,0,0
+Two,7/8/2010 0:00,tropical depression,-1,30,1005,0,0
+Two,7/8/2010 6:00,tropical depression,-1,30,1006,0,0
+Two,7/8/2010 12:00,tropical depression,-1,30,1006,0,0
+Two,7/8/2010 14:00,tropical depression,-1,30,1006,0,0
+Two,7/8/2010 18:00,tropical depression,-1,25,1007,0,0
+Two,7/9/2010 0:00,tropical depression,-1,25,1007,0,0
+Bonnie,7/22/2010 6:00,tropical depression,-1,30,1009,0,0
+Bonnie,7/22/2010 12:00,tropical depression,-1,30,1008,0,0
+Bonnie,7/22/2010 18:00,tropical depression,-1,30,1007,0,0
+Bonnie,7/22/2010 23:00,tropical storm,0,35,1006,34.5234,0
+Bonnie,7/23/2010 0:00,tropical storm,0,35,1006,46.0312,0
+Bonnie,7/23/2010 5:00,tropical storm,0,40,1005,80.5546,0
+Bonnie,7/23/2010 6:00,tropical storm,0,40,1005,86.3085,0
+Bonnie,7/23/2010 12:00,tropical storm,0,35,1006,103.5702,0
+Bonnie,7/23/2010 14:00,tropical storm,0,35,1007,92.0624,0
+Bonnie,7/23/2010 18:00,tropical depression,-1,30,1008,0,0
+Bonnie,7/24/2010 0:00,tropical depression,-1,30,1010,0,0
+Bonnie,7/24/2010 6:00,tropical depression,-1,30,1013,0,0
+Bonnie,7/24/2010 12:00,tropical depression,-1,25,1013,0,0
+Bonnie,7/24/2010 18:00,tropical depression,-1,25,1013,0,0
+Colin,8/2/2010 12:00,tropical depression,-1,30,1007,0,0
+Colin,8/2/2010 18:00,tropical depression,-1,30,1007,0,0
+Colin,8/3/2010 0:00,tropical depression,-1,30,1007,0,0
+Colin,8/3/2010 6:00,tropical storm,0,35,1006,34.5234,0
+Colin,8/3/2010 12:00,tropical storm,0,35,1007,34.5234,0
+Colin,8/5/2010 12:00,tropical storm,0,40,1008,103.5702,0
+Colin,8/5/2010 18:00,tropical storm,0,45,1007,103.5702,0
+Colin,8/5/2010 21:00,tropical storm,0,50,1005,103.5702,0
+Colin,8/6/2010 0:00,tropical storm,0,50,1006,103.5702,0
+Colin,8/6/2010 6:00,tropical storm,0,40,1007,103.5702,0
+Colin,8/6/2010 12:00,tropical storm,0,40,1007,103.5702,0
+Colin,8/6/2010 18:00,tropical storm,0,40,1008,103.5702,0
+Colin,8/7/2010 0:00,tropical storm,0,40,1008,103.5702,0
+Colin,8/7/2010 6:00,tropical storm,0,35,1009,103.5702,0
+Colin,8/7/2010 12:00,tropical storm,0,35,1010,103.5702,0
+Colin,8/7/2010 18:00,tropical storm,0,35,1012,103.5702,0
+Colin,8/8/2010 0:00,tropical depression,-1,30,1012,0,0
+Colin,8/8/2010 6:00,tropical depression,-1,30,1013,0,0
+Five,8/10/2010 18:00,tropical depression,-1,30,1008,0,0
+Five,8/11/2010 0:00,tropical depression,-1,30,1008,0,0
+Danielle,8/21/2010 18:00,tropical depression,-1,25,1008,0,0
+Danielle,8/22/2010 0:00,tropical depression,-1,30,1007,0,0
+Danielle,8/22/2010 6:00,tropical storm,0,35,1005,34.5234,0
+Danielle,8/22/2010 12:00,tropical storm,0,35,1005,34.5234,0
+Danielle,8/22/2010 18:00,tropical storm,0,35,1004,34.5234,0
+Danielle,8/23/2010 0:00,tropical storm,0,45,1000,86.3085,0
+Danielle,8/23/2010 6:00,tropical storm,0,50,997,120.8319,0
+Danielle,8/23/2010 12:00,tropical storm,0,55,994,120.8319,0
+Danielle,8/23/2010 18:00,hurricane,1,65,987,120.8319,28.7695
+Danielle,8/24/2010 0:00,hurricane,1,75,982,155.3553,40.2773
+Danielle,8/24/2010 6:00,hurricane,1,80,977,172.617,46.0312
+Danielle,8/24/2010 12:00,hurricane,1,70,984,207.1404,46.0312
+Danielle,8/24/2010 18:00,hurricane,1,65,987,207.1404,46.0312
+Danielle,8/25/2010 0:00,hurricane,1,70,984,207.1404,46.0312
+Danielle,8/25/2010 6:00,hurricane,1,70,984,207.1404,46.0312
+Danielle,8/25/2010 12:00,hurricane,1,70,984,207.1404,46.0312
+Danielle,8/25/2010 18:00,hurricane,1,75,980,207.1404,46.0312
+Danielle,8/26/2010 0:00,hurricane,1,80,977,276.1872,63.2929
+Danielle,8/26/2010 6:00,hurricane,2,85,973,276.1872,63.2929
+Danielle,8/26/2010 12:00,hurricane,2,85,973,276.1872,63.2929
+Danielle,8/26/2010 18:00,hurricane,2,90,970,276.1872,74.8007
+Danielle,8/27/2010 0:00,hurricane,2,95,966,327.9723,86.3085
+Danielle,8/27/2010 6:00,hurricane,3,110,953,327.9723,97.8163
+Danielle,8/27/2010 12:00,hurricane,3,110,948,327.9723,97.8163
+Danielle,8/28/2010 0:00,hurricane,3,105,946,356.7418,115.078
+Danielle,8/28/2010 6:00,hurricane,2,95,950,379.7574,115.078
+Danielle,8/28/2010 12:00,hurricane,2,95,952,379.7574,115.078
+Danielle,8/28/2010 18:00,hurricane,2,90,955,414.2808,132.3397
+Danielle,8/29/2010 0:00,hurricane,2,85,958,448.8042,132.3397
+Danielle,8/29/2010 6:00,hurricane,1,80,964,448.8042,132.3397
+Danielle,8/29/2010 12:00,hurricane,1,75,966,483.3276,115.078
+Danielle,8/29/2010 18:00,hurricane,1,75,968,552.3744,138.0936
+Danielle,8/30/2010 0:00,hurricane,1,70,969,552.3744,138.0936
+Danielle,8/30/2010 6:00,hurricane,1,65,970,586.8978,138.0936
+Danielle,8/30/2010 12:00,hurricane,1,65,970,552.3744,138.0936
+Danielle,8/30/2010 18:00,tropical storm,0,60,973,552.3744,0
+Fiona,8/30/2010 12:00,tropical depression,-1,30,1007,0,0
+Fiona,8/30/2010 18:00,tropical storm,0,35,1007,120.8319,0
+Fiona,8/31/2010 0:00,tropical storm,0,35,1007,103.5702,0
+Fiona,8/31/2010 6:00,tropical storm,0,35,1006,103.5702,0
+Fiona,8/31/2010 12:00,tropical storm,0,35,1006,103.5702,0
+Fiona,8/31/2010 18:00,tropical storm,0,40,1006,155.3553,0
+Fiona,9/1/2010 0:00,tropical storm,0,45,1004,155.3553,0
+Fiona,9/1/2010 6:00,tropical storm,0,50,1001,189.8787,0
+Fiona,9/1/2010 12:00,tropical storm,0,50,998,207.1404,0
+Fiona,9/1/2010 18:00,tropical storm,0,55,999,207.1404,0
+Fiona,9/2/2010 0:00,tropical storm,0,50,1000,138.0936,0
+Fiona,9/2/2010 6:00,tropical storm,0,45,1001,120.8319,0
+Fiona,9/2/2010 12:00,tropical storm,0,45,1002,120.8319,0
+Fiona,9/2/2010 18:00,tropical storm,0,45,1003,103.5702,0
+Fiona,9/3/2010 0:00,tropical storm,0,40,1005,103.5702,0
+Fiona,9/3/2010 6:00,tropical storm,0,40,1007,103.5702,0
+Fiona,9/3/2010 12:00,tropical storm,0,35,1010,69.0468,0
+Fiona,9/3/2010 18:00,tropical storm,0,35,1011,69.0468,0
+Gaston,9/1/2010 6:00,tropical depression,-1,30,1007,0,0
+Gaston,9/1/2010 12:00,tropical storm,0,35,1005,40.2773,0
+Gaston,9/1/2010 18:00,tropical storm,0,35,1005,40.2773,0
+Gaston,9/2/2010 0:00,tropical depression,-1,30,1006,0,0
+Gaston,9/2/2010 6:00,tropical depression,-1,30,1007,0,0
+Gaston,9/2/2010 12:00,tropical depression,-1,30,1008,0,0
+Hermine,9/5/2010 18:00,tropical depression,-1,25,1004,0,0
+Hermine,9/6/2010 0:00,tropical depression,-1,30,1002,0,0
+Hermine,9/6/2010 6:00,tropical storm,0,40,1001,103.5702,0
+Hermine,9/6/2010 12:00,tropical storm,0,45,998,138.0936,0
+Hermine,9/6/2010 18:00,tropical storm,0,50,995,138.0936,0
+Hermine,9/7/2010 0:00,tropical storm,0,55,991,126.5858,0
+Hermine,9/7/2010 2:00,tropical storm,0,60,989,126.5858,0
+Hermine,9/7/2010 6:00,tropical storm,0,55,990,126.5858,0
+Hermine,9/7/2010 12:00,tropical storm,0,45,991,103.5702,0
+Hermine,9/7/2010 18:00,tropical storm,0,40,996,46.0312,0
+Hermine,9/8/2010 0:00,tropical depression,-1,30,1003,0,0
+Hermine,9/8/2010 6:00,tropical depression,-1,25,1004,0,0
+Hermine,9/8/2010 12:00,tropical depression,-1,20,1005,0,0
+Hermine,9/8/2010 18:00,tropical depression,-1,20,1005,0,0
+Hermine,9/9/2010 0:00,tropical depression,-1,20,1005,0,0
+Hermine,9/9/2010 6:00,tropical depression,-1,20,1005,0,0
+Hermine,9/9/2010 12:00,tropical depression,-1,20,1005,0,0
+Igor,9/8/2010 6:00,tropical depression,-1,30,1006,0,0
+Igor,9/8/2010 12:00,tropical storm,0,40,1005,86.3085,0
+Igor,9/8/2010 18:00,tropical storm,0,40,1005,86.3085,0
+Igor,9/9/2010 0:00,tropical storm,0,40,1005,86.3085,0
+Igor,9/9/2010 6:00,tropical storm,0,35,1005,86.3085,0
+Igor,9/9/2010 12:00,tropical depression,-1,30,1006,0,0
+Igor,9/9/2010 18:00,tropical depression,-1,30,1006,0,0
+Igor,9/10/2010 0:00,tropical depression,-1,30,1004,0,0
+Igor,9/10/2010 6:00,tropical depression,-1,30,1004,0,0
+Igor,9/10/2010 12:00,tropical storm,0,35,1004,34.5234,0
+Igor,9/10/2010 18:00,tropical storm,0,40,1002,46.0312,0
+Igor,9/11/2010 0:00,tropical storm,0,50,999,46.0312,0
+Igor,9/11/2010 6:00,tropical storm,0,60,995,92.0624,0
+Igor,9/11/2010 12:00,tropical storm,0,60,995,184.1248,0
+Igor,9/11/2010 18:00,tropical storm,0,60,995,184.1248,0
+Igor,9/12/2010 0:00,hurricane,1,65,987,184.1248,17.2617
+Igor,9/12/2010 6:00,hurricane,1,70,985,184.1248,17.2617
+Igor,9/12/2010 12:00,hurricane,2,90,970,230.156,51.7851
+Igor,9/17/2010 6:00,hurricane,3,110,935,517.851,155.3553
+Igor,9/17/2010 12:00,hurricane,3,100,945,517.851,155.3553
+Igor,9/17/2010 18:00,hurricane,2,90,947,575.39,155.3553
+Igor,9/18/2010 0:00,hurricane,2,90,947,575.39,155.3553
+Igor,9/18/2010 6:00,hurricane,2,85,939,575.39,155.3553
+Igor,9/18/2010 12:00,hurricane,2,85,939,575.39,155.3553
+Igor,9/18/2010 18:00,hurricane,1,80,945,575.39,143.8475
+Igor,9/19/2010 0:00,hurricane,1,80,945,575.39,143.8475
+Igor,9/19/2010 6:00,hurricane,1,75,949,575.39,155.3553
+Igor,9/19/2010 12:00,hurricane,1,75,949,632.929,155.3553
+Igor,9/19/2010 18:00,hurricane,1,70,952,632.929,155.3553
+Igor,9/20/2010 0:00,hurricane,1,65,953,632.929,172.617
+Igor,9/20/2010 6:00,hurricane,1,65,957,690.468,172.617
+Igor,9/20/2010 12:00,hurricane,1,65,960,690.468,172.617
+Igor,9/20/2010 18:00,hurricane,1,65,960,690.468,155.3553
+Igor,9/21/2010 0:00,hurricane,1,65,960,805.546,155.3553
+Igor,9/21/2010 6:00,hurricane,1,65,960,805.546,155.3553
+Igor,9/21/2010 12:00,hurricane,1,65,955,863.085,155.3553
+Igor,9/21/2010 15:00,hurricane,1,75,950,863.085,155.3553
+Julia,9/12/2010 6:00,tropical depression,-1,30,1007,0,0
+Julia,9/12/2010 12:00,tropical depression,-1,30,1006,0,0
+Julia,9/12/2010 18:00,tropical storm,0,35,1005,120.8319,0
+Julia,9/13/2010 0:00,tropical storm,0,40,1004,120.8319,0
+Julia,9/13/2010 6:00,tropical storm,0,40,1004,120.8319,0
+Julia,9/13/2010 12:00,tropical storm,0,40,1004,120.8319,0
+Julia,9/13/2010 18:00,tropical storm,0,45,1003,120.8319,0
+Julia,9/14/2010 0:00,tropical storm,0,45,1002,120.8319,0
+Julia,9/14/2010 6:00,tropical storm,0,60,994,120.8319,0
+Julia,9/14/2010 12:00,hurricane,1,70,987,138.0936,46.0312
+Julia,9/14/2010 18:00,hurricane,1,80,979,155.3553,46.0312
+Julia,9/15/2010 0:00,hurricane,2,90,973,172.617,46.0312
+Julia,9/15/2010 6:00,hurricane,3,110,956,189.8787,57.539
+Julia,9/16/2010 0:00,hurricane,3,105,958,224.4021,57.539
+Julia,9/16/2010 6:00,hurricane,3,100,962,258.9255,57.539
+Julia,9/16/2010 12:00,hurricane,2,90,970,258.9255,57.539
+Julia,9/16/2010 18:00,hurricane,1,80,977,258.9255,57.539
+Julia,9/17/2010 0:00,hurricane,1,75,981,241.6638,57.539
+Julia,9/17/2010 6:00,hurricane,1,75,981,241.6638,57.539
+Julia,9/17/2010 12:00,hurricane,1,70,983,241.6638,57.539
+Julia,9/17/2010 18:00,hurricane,1,65,986,241.6638,57.539
+Julia,9/18/2010 0:00,tropical storm,0,60,988,258.9255,0
+Julia,9/18/2010 6:00,tropical storm,0,55,991,276.1872,0
+Julia,9/18/2010 12:00,tropical storm,0,50,994,293.4489,0
+Julia,9/18/2010 18:00,tropical storm,0,50,993,310.7106,0
+Julia,9/19/2010 0:00,tropical storm,0,55,989,327.9723,0
+Julia,9/19/2010 6:00,tropical storm,0,50,993,327.9723,0
+Julia,9/19/2010 12:00,tropical storm,0,45,995,327.9723,0
+Julia,9/19/2010 18:00,tropical storm,0,45,995,345.234,0
+Julia,9/20/2010 0:00,tropical storm,0,45,995,362.4957,0
+Julia,9/20/2010 6:00,tropical storm,0,40,997,345.234,0
+Julia,9/20/2010 12:00,tropical storm,0,40,999,345.234,0
+Karl,9/14/2010 12:00,tropical depression,-1,30,1003,0,0
+Karl,9/14/2010 18:00,tropical storm,0,35,1001,11.5078,0
+Karl,9/15/2010 0:00,tropical storm,0,40,999,34.5234,0
+Karl,9/15/2010 6:00,tropical storm,0,55,997,80.5546,0
+Karl,9/15/2010 12:00,tropical storm,0,55,991,86.3085,0
+Karl,9/15/2010 12:00,tropical storm,0,55,991,86.3085,0
+Karl,9/15/2010 18:00,tropical storm,0,45,994,63.2929,0
+Karl,9/16/2010 0:00,tropical storm,0,40,997,57.539,0
+Karl,9/16/2010 6:00,tropical storm,0,45,994,86.3085,0
+Karl,9/16/2010 12:00,tropical storm,0,55,986,120.8319,0
+Karl,9/16/2010 18:00,hurricane,1,70,982,126.5858,11.5078
+Karl,9/17/2010 0:00,hurricane,2,85,971,161.1092,17.2617
+Karl,9/17/2010 6:00,hurricane,2,95,966,184.1248,40.2773
+Karl,9/17/2010 12:00,hurricane,3,110,956,172.617,40.2773
+Karl,9/17/2010 15:00,hurricane,3,110,970,172.617,40.2773
+Karl,9/17/2010 16:00,hurricane,3,100,976,172.617,40.2773
+Karl,9/17/2010 18:00,hurricane,2,90,979,172.617,40.2773
+Karl,9/18/2010 0:00,tropical storm,0,60,995,69.0468,0
+Karl,9/18/2010 6:00,tropical depression,-1,25,1005,0,0
+Lisa,9/20/2010 18:00,tropical depression,-1,30,1006,0,0
+Lisa,9/21/2010 0:00,tropical storm,0,35,1005,63.2929,0
+Lisa,9/21/2010 6:00,tropical storm,0,40,1003,63.2929,0
+Lisa,9/21/2010 12:00,tropical storm,0,40,1002,69.0468,0
+Lisa,9/21/2010 18:00,tropical storm,0,40,1002,80.5546,0
+Lisa,9/22/2010 0:00,tropical storm,0,35,1003,92.0624,0
+Lisa,9/22/2010 6:00,tropical storm,0,35,1003,92.0624,0
+Lisa,9/22/2010 12:00,tropical storm,0,35,1003,92.0624,0
+Lisa,9/22/2010 18:00,tropical depression,-1,30,1005,0,0
+Lisa,9/23/2010 0:00,tropical depression,-1,30,1005,0,0
+Lisa,9/23/2010 6:00,tropical depression,-1,30,1005,0,0
+Lisa,9/23/2010 12:00,tropical storm,0,35,1004,92.0624,0
+Lisa,9/23/2010 18:00,tropical storm,0,35,1003,92.0624,0
+Lisa,9/24/2010 0:00,tropical storm,0,35,1002,92.0624,0
+Lisa,9/24/2010 6:00,tropical storm,0,40,1001,92.0624,0
+Lisa,9/24/2010 12:00,tropical storm,0,50,998,92.0624,0
+Lisa,9/24/2010 18:00,tropical storm,0,60,993,92.0624,0
+Lisa,9/24/2010 21:00,hurricane,1,65,988,92.0624,23.0156
+Lisa,9/25/2010 0:00,hurricane,1,75,982,92.0624,23.0156
+Lisa,9/25/2010 6:00,hurricane,1,70,986,92.0624,23.0156
+Lisa,9/25/2010 12:00,tropical storm,0,60,990,92.0624,0
+Lisa,9/25/2010 18:00,tropical storm,0,50,996,92.0624,0
+Lisa,9/26/2010 0:00,tropical storm,0,40,1002,92.0624,0
+Lisa,9/26/2010 6:00,tropical storm,0,35,1004,92.0624,0
+Lisa,9/26/2010 12:00,tropical depression,-1,30,1006,0,0
+Matthew,9/23/2010 12:00,tropical depression,-1,30,1008,0,0
+Matthew,9/23/2010 18:00,tropical storm,0,35,1007,103.5702,0
+Matthew,9/24/2010 0:00,tropical storm,0,40,1005,86.3085,0
+Matthew,9/24/2010 6:00,tropical storm,0,45,1003,86.3085,0
+Matthew,9/24/2010 12:00,tropical storm,0,45,1001,120.8319,0
+Matthew,9/24/2010 18:00,tropical storm,0,50,998,172.617,0
+Matthew,9/24/2010 19:00,tropical storm,0,50,998,172.617,0
+Matthew,9/25/2010 0:00,tropical storm,0,50,998,224.4021,0
+Matthew,9/25/2010 6:00,tropical storm,0,45,998,172.617,0
+Matthew,9/25/2010 12:00,tropical storm,0,35,1000,138.0936,0
+Matthew,9/25/2010 15:00,tropical storm,0,35,1000,138.0936,0
+Matthew,9/25/2010 18:00,tropical depression,-1,30,1000,0,0
+Matthew,9/26/2010 0:00,tropical depression,-1,30,1001,0,0
+Matthew,9/26/2010 6:00,tropical depression,-1,25,1002,0,0
+Nicole,9/28/2010 12:00,tropical storm,0,35,1001,345.234,0
+Nicole,9/28/2010 18:00,tropical storm,0,40,999,345.234,0
+Nicole,9/29/2010 0:00,tropical storm,0,35,997,345.234,0
+Nicole,9/29/2010 6:00,tropical storm,0,35,996,345.234,0
+Nicole,9/29/2010 12:00,tropical storm,0,40,995,345.234,0
+Otto,10/7/2010 12:00,tropical storm,0,45,994,207.1404,0
+Otto,10/7/2010 18:00,tropical storm,0,50,992,207.1404,0
+Otto,10/8/2010 0:00,tropical storm,0,55,989,241.6638,0
+Otto,10/8/2010 6:00,tropical storm,0,60,986,241.6638,0
+Otto,10/8/2010 12:00,hurricane,1,65,983,264.6794,40.2773
+Otto,10/8/2010 18:00,hurricane,1,70,980,264.6794,40.2773
+Otto,10/9/2010 0:00,hurricane,1,75,976,299.2028,40.2773
+Otto,10/9/2010 6:00,hurricane,1,75,978,299.2028,46.0312
+Otto,10/9/2010 12:00,hurricane,1,70,981,299.2028,46.0312
+Otto,10/9/2010 18:00,hurricane,1,65,985,299.2028,46.0312
+Otto,10/10/2010 0:00,tropical storm,0,60,988,299.2028,0
+Paula,10/11/2010 0:00,tropical depression,-1,30,1006,0,0
+Paula,10/11/2010 6:00,tropical storm,0,35,1005,69.0468,0
+Paula,10/11/2010 12:00,tropical storm,0,45,1004,86.3085,0
+Paula,10/11/2010 18:00,tropical storm,0,60,1001,103.5702,0
+Paula,10/12/2010 0:00,hurricane,1,65,996,103.5702,23.0156
+Paula,10/12/2010 6:00,hurricane,1,65,991,103.5702,23.0156
+Paula,10/12/2010 12:00,hurricane,1,75,986,103.5702,23.0156
+Paula,10/12/2010 18:00,hurricane,2,90,981,109.3241,40.2773
+Paula,10/13/2010 0:00,hurricane,2,90,981,109.3241,40.2773
+Paula,10/13/2010 6:00,hurricane,2,85,984,109.3241,28.7695
+Paula,10/13/2010 12:00,hurricane,2,85,987,109.3241,28.7695
+Paula,10/13/2010 18:00,hurricane,1,75,990,103.5702,23.0156
+Paula,10/14/2010 0:00,hurricane,1,75,993,103.5702,23.0156
+Paula,10/14/2010 6:00,hurricane,1,70,995,103.5702,23.0156
+Paula,10/14/2010 12:00,tropical storm,0,60,999,103.5702,0
+Paula,10/14/2010 15:00,tropical storm,0,55,1000,103.5702,0
+Paula,10/14/2010 18:00,tropical storm,0,50,1001,103.5702,0
+Paula,10/15/2010 0:00,tropical storm,0,40,1004,92.0624,0
+Paula,10/15/2010 6:00,tropical depression,-1,30,1008,0,0
+Richard,10/20/2010 6:00,tropical depression,-1,30,1008,0,0
+Richard,10/20/2010 12:00,tropical depression,-1,30,1008,0,0
+Richard,10/20/2010 18:00,tropical depression,-1,30,1008,0,0
+Richard,10/21/2010 0:00,tropical depression,-1,30,1007,0,0
+Richard,10/21/2010 6:00,tropical depression,-1,30,1007,0,0
+Richard,10/21/2010 12:00,tropical storm,0,35,1006,103.5702,0
+Richard,10/21/2010 18:00,tropical storm,0,35,1006,103.5702,0
+Richard,10/22/2010 0:00,tropical storm,0,35,1007,103.5702,0
+Richard,10/22/2010 6:00,tropical storm,0,35,1005,103.5702,0
+Richard,10/22/2010 12:00,tropical storm,0,35,1006,103.5702,0
+Richard,10/22/2010 18:00,tropical storm,0,40,1006,86.3085,0
+Richard,10/23/2010 0:00,tropical storm,0,40,1006,86.3085,0
+Richard,10/23/2010 6:00,tropical storm,0,45,1004,86.3085,0
+Richard,10/23/2010 12:00,tropical storm,0,50,1000,138.0936,0
+Richard,10/23/2010 18:00,tropical storm,0,55,998,138.0936,0
+Richard,10/24/2010 0:00,tropical storm,0,60,995,149.6014,0
+Richard,10/24/2010 6:00,hurricane,1,65,992,149.6014,11.5078
+Richard,10/24/2010 12:00,hurricane,1,75,990,161.1092,28.7695
+Richard,10/24/2010 18:00,hurricane,1,80,984,161.1092,28.7695
+Richard,10/25/2010 0:00,hurricane,2,85,977,161.1092,28.7695
+Richard,10/25/2010 0:00,hurricane,2,85,977,161.1092,28.7695
+Richard,10/25/2010 6:00,hurricane,1,65,988,126.5858,17.2617
+Richard,10/25/2010 12:00,tropical storm,0,40,997,126.5858,0
+Richard,10/25/2010 18:00,tropical depression,-1,30,1000,0,0
+Shary,10/28/2010 18:00,tropical depression,-1,30,1006,0,0
+Shary,10/29/2010 0:00,tropical storm,0,35,1004,155.3553,0
+Shary,10/29/2010 6:00,tropical storm,0,40,1002,155.3553,0
+Shary,10/29/2010 12:00,tropical storm,0,50,998,155.3553,0
+Shary,10/29/2010 18:00,tropical storm,0,55,993,155.3553,0
+Shary,10/30/2010 0:00,hurricane,1,65,990,149.6014,11.5078
+Shary,10/30/2010 6:00,hurricane,1,65,989,172.617,11.5078
+Shary,10/30/2010 12:00,hurricane,1,65,991,172.617,11.5078
+Tomas,10/29/2010 6:00,tropical depression,-1,30,1006,0,0
+Tomas,10/29/2010 12:00,tropical storm,0,35,1003,132.3397,0
+Tomas,10/29/2010 18:00,tropical storm,0,45,998,161.1092,0
+Tomas,10/30/2010 0:00,tropical storm,0,55,999,161.1092,0
+Tomas,10/30/2010 6:00,tropical storm,0,60,997,161.1092,0
+Tomas,10/30/2010 9:00,tropical storm,0,60,997,161.1092,0
+Tomas,10/30/2010 12:00,hurricane,1,65,993,195.6326,23.0156
+Tomas,10/30/2010 18:00,hurricane,1,80,990,195.6326,23.0156
+Tomas,10/30/2010 20:00,hurricane,2,85,987,195.6326,23.0156
+Tomas,10/31/2010 0:00,hurricane,2,85,982,195.6326,46.0312
+Tomas,10/31/2010 6:00,hurricane,2,85,983,195.6326,46.0312
+Tomas,10/31/2010 12:00,hurricane,1,80,988,195.6326,46.0312
+Tomas,10/31/2010 18:00,hurricane,1,65,994,195.6326,17.2617
+Tomas,11/1/2010 0:00,tropical storm,0,55,997,230.156,0
+Tomas,11/1/2010 6:00,tropical storm,0,45,1003,207.1404,0
+Tomas,11/1/2010 12:00,tropical storm,0,40,1005,161.1092,0
+Tomas,11/1/2010 18:00,tropical storm,0,40,1005,138.0936,0
+Tomas,11/2/2010 0:00,tropical storm,0,40,1005,115.078,0
+Tomas,11/2/2010 6:00,tropical storm,0,45,1003,115.078,0
+Tomas,11/2/2010 12:00,tropical storm,0,40,1004,115.078,0
+Tomas,11/2/2010 18:00,tropical storm,0,35,1006,103.5702,0
+Tomas,11/3/2010 0:00,tropical depression,-1,30,1006,0,0
+Tomas,11/3/2010 6:00,tropical depression,-1,30,1006,0,0
+Tomas,11/3/2010 12:00,tropical depression,-1,30,1006,0,0
+Tomas,11/3/2010 18:00,tropical storm,0,35,1004,69.0468,0
+Tomas,11/4/2010 0:00,tropical storm,0,40,1003,69.0468,0
+Tomas,11/4/2010 6:00,tropical storm,0,40,998,86.3085,0
+Tomas,11/4/2010 12:00,tropical storm,0,45,996,86.3085,0
+Tomas,11/4/2010 18:00,tropical storm,0,50,995,115.078,0
+Tomas,11/5/2010 0:00,tropical storm,0,60,989,138.0936,0
+Tomas,11/5/2010 6:00,hurricane,1,70,985,172.617,17.2617
+Tomas,11/5/2010 12:00,hurricane,1,75,987,195.6326,34.5234
+Tomas,11/5/2010 18:00,hurricane,1,70,992,195.6326,17.2617
+Tomas,11/6/2010 0:00,tropical storm,0,60,995,172.617,0
+Tomas,11/6/2010 6:00,tropical storm,0,60,992,172.617,0
+Tomas,11/6/2010 7:00,tropical storm,0,60,992,172.617,0
+Tomas,11/6/2010 12:00,tropical storm,0,60,990,172.617,0
+Tomas,11/6/2010 18:00,hurricane,1,65,988,201.3865,23.0156
+Tomas,11/7/2010 0:00,hurricane,1,70,987,201.3865,23.0156
+Tomas,11/7/2010 6:00,hurricane,1,65,990,201.3865,23.0156
+Tomas,11/7/2010 12:00,tropical storm,0,60,992,258.9255,0
+Tomas,11/7/2010 18:00,tropical storm,0,50,992,258.9255,0
+Don,7/27/2011 6:00,tropical depression,-1,30,1007,0,0
+Don,7/27/2011 12:00,tropical depression,-1,30,1006,0,0
+Don,7/27/2011 18:00,tropical storm,0,35,1003,46.0312,0
+Don,7/28/2011 0:00,tropical storm,0,35,1000,46.0312,0
+Don,7/28/2011 6:00,tropical storm,0,35,1000,69.0468,0
+Don,7/28/2011 12:00,tropical storm,0,40,1001,69.0468,0
+Don,7/28/2011 18:00,tropical storm,0,40,1004,69.0468,0
+Don,7/29/2011 0:00,tropical storm,0,45,997,69.0468,0
+Don,7/29/2011 6:00,tropical storm,0,45,1000,69.0468,0
+Don,7/29/2011 12:00,tropical storm,0,45,1002,69.0468,0
+Don,7/29/2011 18:00,tropical storm,0,45,1004,69.0468,0
+Don,7/30/2011 0:00,tropical storm,0,35,1006,69.0468,0
+Don,7/30/2011 2:00,tropical depression,-1,30,1007,0,0
+Emily,8/2/2011 0:00,tropical storm,0,40,1007,86.3085,0
+Emily,8/2/2011 6:00,tropical storm,0,40,1007,86.3085,0
+Emily,8/2/2011 12:00,tropical storm,0,40,1006,86.3085,0
+Emily,8/2/2011 18:00,tropical storm,0,40,1005,86.3085,0
+Emily,8/3/2011 0:00,tropical storm,0,45,1004,155.3553,0
+Emily,8/3/2011 6:00,tropical storm,0,45,1003,155.3553,0
+Emily,8/3/2011 12:00,tropical storm,0,45,1003,120.8319,0
+Emily,8/3/2011 18:00,tropical storm,0,45,1003,120.8319,0
+Emily,8/4/2011 0:00,tropical storm,0,45,1003,115.078,0
+Emily,8/4/2011 6:00,tropical storm,0,45,1004,115.078,0
+Emily,8/4/2011 12:00,tropical storm,0,45,1006,115.078,0
+Emily,8/6/2011 18:00,tropical depression,-1,30,1011,0,0
+Emily,8/7/2011 0:00,tropical storm,0,35,1010,69.0468,0
+Emily,8/7/2011 6:00,tropical storm,0,35,1009,69.0468,0
+Franklin,8/12/2011 18:00,tropical depression,-1,30,1009,0,0
+Franklin,8/13/2011 0:00,tropical depression,-1,30,1008,0,0
+Franklin,8/13/2011 6:00,tropical storm,0,35,1006,69.0468,0
+Franklin,8/13/2011 12:00,tropical storm,0,40,1004,69.0468,0
+Gert,8/13/2011 18:00,tropical depression,-1,30,1011,0,0
+Gert,8/14/2011 0:00,tropical depression,-1,30,1011,0,0
+Gert,8/14/2011 6:00,tropical storm,0,35,1011,69.0468,0
+Gert,8/14/2011 12:00,tropical storm,0,40,1010,69.0468,0
+Gert,8/14/2011 18:00,tropical storm,0,40,1009,69.0468,0
+Gert,8/15/2011 0:00,tropical storm,0,45,1006,69.0468,0
+Gert,8/15/2011 6:00,tropical storm,0,50,1003,103.5702,0
+Gert,8/15/2011 12:00,tropical storm,0,55,1000,120.8319,0
+Gert,8/15/2011 18:00,tropical storm,0,50,1003,120.8319,0
+Gert,8/16/2011 0:00,tropical storm,0,45,1005,103.5702,0
+Gert,8/16/2011 6:00,tropical storm,0,45,1007,103.5702,0
+Harvey,8/19/2011 0:00,tropical depression,-1,30,1006,0,0
+Harvey,8/19/2011 6:00,tropical depression,-1,30,1005,0,0
+Harvey,8/19/2011 12:00,tropical storm,0,35,1003,34.5234,0
+Harvey,8/19/2011 18:00,tropical storm,0,40,1001,40.2773,0
+Harvey,8/20/2011 0:00,tropical storm,0,45,995,40.2773,0
+Harvey,8/20/2011 6:00,tropical storm,0,50,994,63.2929,0
+Harvey,8/20/2011 12:00,tropical storm,0,50,998,69.0468,0
+Harvey,8/20/2011 18:00,tropical storm,0,55,995,69.0468,0
+Harvey,8/21/2011 0:00,tropical storm,0,35,1003,34.5234,0
+Harvey,8/21/2011 6:00,tropical depression,-1,30,1005,0,0
+Harvey,8/21/2011 12:00,tropical depression,-1,30,1005,0,0
+Harvey,8/21/2011 18:00,tropical depression,-1,30,1005,0,0
+Harvey,8/22/2011 0:00,tropical storm,0,35,1005,80.5546,0
+Harvey,8/22/2011 2:00,tropical storm,0,35,1005,80.5546,0
+Harvey,8/22/2011 6:00,tropical depression,-1,25,1006,0,0
+Harvey,8/22/2011 12:00,tropical depression,-1,20,1007,0,0
+Ten,8/25/2011 0:00,tropical depression,-1,30,1006,0,0
+Ten,8/25/2011 6:00,tropical depression,-1,30,1006,0,0
+Ten,8/25/2011 12:00,tropical depression,-1,30,1008,0,0
+Ten,8/25/2011 18:00,tropical depression,-1,30,1008,0,0
+Ten,8/26/2011 0:00,tropical depression,-1,30,1009,0,0
+Ten,8/26/2011 6:00,tropical depression,-1,30,1009,0,0
+Ten,8/26/2011 12:00,tropical depression,-1,30,1009,0,0
+Ten,8/26/2011 18:00,tropical depression,-1,30,1009,0,0
+Katia,8/29/2011 6:00,tropical depression,-1,25,1009,0,0
+Katia,8/29/2011 12:00,tropical depression,-1,30,1008,0,0
+Katia,8/29/2011 18:00,tropical depression,-1,30,1008,0,0
+Katia,8/30/2011 0:00,tropical storm,0,35,1006,34.5234,0
+Katia,8/30/2011 6:00,tropical storm,0,40,1004,34.5234,0
+Katia,8/30/2011 12:00,tropical storm,0,45,1001,92.0624,0
+Katia,8/30/2011 18:00,tropical storm,0,50,997,115.078,0
+Katia,8/31/2011 0:00,tropical storm,0,50,997,126.5858,0
+Katia,8/31/2011 6:00,tropical storm,0,55,994,138.0936,0
+Katia,8/31/2011 12:00,tropical storm,0,55,994,161.1092,0
+Katia,8/31/2011 18:00,tropical storm,0,60,990,201.3865,0
+Katia,9/1/2011 0:00,hurricane,1,65,988,218.6482,23.0156
+Katia,9/1/2011 6:00,hurricane,1,65,988,230.156,23.0156
+Katia,9/1/2011 12:00,hurricane,1,65,988,253.1716,34.5234
+Katia,9/1/2011 18:00,hurricane,1,65,988,264.6794,34.5234
+Katia,9/2/2011 0:00,hurricane,1,65,988,276.1872,34.5234
+Katia,9/2/2011 6:00,hurricane,1,65,988,276.1872,34.5234
+Katia,9/2/2011 12:00,hurricane,1,65,987,276.1872,34.5234
+Katia,9/2/2011 18:00,hurricane,1,65,987,276.1872,34.5234
+Katia,9/3/2011 0:00,hurricane,1,65,987,276.1872,34.5234
+Katia,9/3/2011 6:00,hurricane,1,65,987,276.1872,34.5234
+Katia,9/3/2011 12:00,hurricane,1,65,986,276.1872,34.5234
+Katia,9/3/2011 18:00,hurricane,1,65,982,276.1872,34.5234
+Katia,9/4/2011 0:00,hurricane,1,70,978,276.1872,34.5234
+Katia,9/4/2011 6:00,hurricane,1,75,969,276.1872,57.539
+Katia,9/4/2011 12:00,hurricane,2,85,961,276.1872,69.0468
+Katia,9/4/2011 18:00,hurricane,2,90,959,276.1872,80.5546
+Katia,9/5/2011 0:00,hurricane,2,90,957,287.695,80.5546
+Katia,9/5/2011 6:00,hurricane,2,95,954,287.695,92.0624
+Katia,9/5/2011 12:00,hurricane,3,100,950,310.7106,115.078
+Katia,9/5/2011 18:00,hurricane,3,110,946,322.2184,115.078
+Katia,9/6/2011 12:00,hurricane,3,105,954,333.7262,120.8319
+Katia,9/6/2011 18:00,hurricane,2,95,959,345.234,126.5858
+Katia,9/7/2011 0:00,hurricane,2,85,964,345.234,126.5858
+Katia,9/7/2011 6:00,hurricane,2,85,967,345.234,126.5858
+Katia,9/7/2011 12:00,hurricane,1,80,969,356.7418,126.5858
+Katia,9/7/2011 18:00,hurricane,1,80,969,379.7574,126.5858
+Katia,9/8/2011 0:00,hurricane,1,80,968,402.773,138.0936
+Katia,9/8/2011 6:00,hurricane,1,80,967,414.2808,149.6014
+Katia,9/8/2011 12:00,hurricane,1,80,966,414.2808,149.6014
+Katia,9/8/2011 18:00,hurricane,1,80,965,437.2964,138.0936
+Katia,9/9/2011 0:00,hurricane,1,80,964,437.2964,126.5858
+Katia,9/9/2011 6:00,hurricane,1,75,963,425.7886,120.8319
+Katia,9/9/2011 12:00,hurricane,1,75,961,437.2964,120.8319
+Katia,9/9/2011 18:00,hurricane,1,75,960,448.8042,126.5858
+Katia,9/10/2011 0:00,hurricane,1,75,958,483.3276,126.5858
+Katia,9/10/2011 6:00,hurricane,1,75,956,517.851,138.0936
+Al202011,9/1/2011 0:00,tropical depression,-1,25,1011,0,0
+Al202011,9/1/2011 6:00,tropical depression,-1,30,1008,0,0
+Al202011,9/1/2011 12:00,tropical storm,0,40,1004,69.0468,0
+Al202011,9/1/2011 18:00,tropical storm,0,35,1005,69.0468,0
+Al202011,9/2/2011 0:00,tropical storm,0,35,1005,69.0468,0
+Al202011,9/2/2011 6:00,tropical storm,0,40,1002,69.0468,0
+Al202011,9/2/2011 12:00,tropical storm,0,40,1002,69.0468,0
+Al202011,9/2/2011 18:00,tropical storm,0,35,1003,69.0468,0
+Lee,9/2/2011 0:00,tropical depression,-1,30,1007,0,0
+Lee,9/2/2011 6:00,tropical depression,-1,30,1006,0,0
+Lee,9/2/2011 12:00,tropical storm,0,35,1005,172.617,0
+Lee,9/2/2011 18:00,tropical storm,0,40,1003,201.3865,0
+Lee,9/3/2011 0:00,tropical storm,0,40,1001,304.9567,0
+Lee,9/3/2011 6:00,tropical storm,0,45,997,304.9567,0
+Maria,9/6/2011 18:00,tropical depression,-1,30,1008,0,0
+Maria,9/7/2011 0:00,tropical storm,0,35,1007,69.0468,0
+Maria,9/7/2011 6:00,tropical storm,0,40,1006,69.0468,0
+Maria,9/7/2011 12:00,tropical storm,0,45,1004,86.3085,0
+Maria,9/7/2011 18:00,tropical storm,0,45,1004,103.5702,0
+Maria,9/8/2011 0:00,tropical storm,0,45,1003,115.078,0
+Maria,9/8/2011 6:00,tropical storm,0,45,1002,172.617,0
+Maria,9/8/2011 12:00,tropical storm,0,40,1004,172.617,0
+Maria,9/8/2011 18:00,tropical storm,0,40,1004,155.3553,0
+Maria,9/9/2011 0:00,tropical storm,0,40,1004,155.3553,0
+Maria,9/9/2011 6:00,tropical storm,0,40,1003,155.3553,0
+Maria,9/10/2011 12:00,tropical storm,0,45,1005,172.617,0
+Maria,9/10/2011 18:00,tropical storm,0,45,1005,172.617,0
+Maria,9/11/2011 0:00,tropical storm,0,45,1005,207.1404,0
+Maria,9/11/2011 6:00,tropical storm,0,50,1004,207.1404,0
+Maria,9/11/2011 12:00,tropical storm,0,50,1004,207.1404,0
+Maria,9/11/2011 18:00,tropical storm,0,50,1005,218.6482,0
+Maria,9/12/2011 0:00,tropical storm,0,50,1005,218.6482,0
+Maria,9/12/2011 6:00,tropical storm,0,50,1005,218.6482,0
+Maria,9/12/2011 12:00,tropical storm,0,50,1006,207.1404,0
+Maria,9/12/2011 18:00,tropical storm,0,50,1006,276.1872,0
+Maria,9/13/2011 0:00,tropical storm,0,45,1006,276.1872,0
+Maria,9/13/2011 6:00,tropical storm,0,45,1006,207.1404,0
+Maria,9/13/2011 12:00,tropical storm,0,45,1006,207.1404,0
+Maria,9/13/2011 18:00,tropical storm,0,45,1005,172.617,0
+Maria,9/14/2011 0:00,tropical storm,0,45,1004,241.6638,0
+Maria,9/14/2011 6:00,tropical storm,0,50,1001,241.6638,0
+Maria,9/14/2011 12:00,tropical storm,0,50,1001,241.6638,0
+Maria,9/14/2011 18:00,tropical storm,0,55,1000,172.617,0
+Maria,9/15/2011 0:00,tropical storm,0,60,999,207.1404,0
+Maria,9/15/2011 6:00,tropical storm,0,60,995,207.1404,0
+Maria,9/15/2011 12:00,tropical storm,0,60,991,207.1404,0
+Maria,9/15/2011 18:00,hurricane,1,65,987,276.1872,46.0312
+Maria,9/16/2011 0:00,hurricane,1,70,984,276.1872,46.0312
+Maria,9/16/2011 6:00,hurricane,1,70,983,276.1872,46.0312
+Maria,9/16/2011 12:00,hurricane,1,65,983,345.234,69.0468
+Maria,9/16/2011 18:00,tropical storm,0,60,983,414.2808,0
+Maria,9/16/2011 18:00,tropical storm,0,60,983,414.2808,0
+Nate,9/7/2011 18:00,tropical storm,0,40,1004,103.5702,0
+Nate,9/8/2011 0:00,tropical storm,0,45,1003,172.617,0
+Nate,9/8/2011 6:00,tropical storm,0,50,1000,189.8787,0
+Nate,9/8/2011 12:00,tropical storm,0,55,997,189.8787,0
+Nate,9/8/2011 18:00,hurricane,1,65,995,224.4021,46.0312
+Nate,9/9/2011 0:00,hurricane,1,65,994,224.4021,46.0312
+Nate,9/9/2011 6:00,tropical storm,0,55,998,189.8787,0
+Nate,9/9/2011 12:00,tropical storm,0,50,999,189.8787,0
+Nate,9/9/2011 18:00,tropical storm,0,45,999,172.617,0
+Nate,9/10/2011 0:00,tropical storm,0,45,1000,172.617,0
+Nate,9/10/2011 6:00,tropical storm,0,45,1000,172.617,0
+Nate,9/10/2011 12:00,tropical storm,0,50,1000,172.617,0
+Nate,9/10/2011 18:00,tropical storm,0,55,1000,189.8787,0
+Nate,9/11/2011 0:00,tropical storm,0,55,1000,189.8787,0
+Nate,9/11/2011 6:00,tropical storm,0,50,1003,155.3553,0
+Nate,9/11/2011 12:00,tropical storm,0,40,1005,103.5702,0
+Nate,9/11/2011 16:00,tropical storm,0,40,1006,103.5702,0
+Nate,9/11/2011 18:00,tropical storm,0,35,1009,51.7851,0
+Ophelia,9/20/2011 18:00,tropical depression,-1,30,1007,0,0
+Ophelia,9/21/2011 0:00,tropical storm,0,40,1005,172.617,0
+Ophelia,9/21/2011 6:00,tropical storm,0,45,1004,276.1872,0
+Ophelia,9/21/2011 12:00,tropical storm,0,50,999,345.234,0
+Ophelia,9/21/2011 18:00,tropical storm,0,50,999,345.234,0
+Ophelia,9/22/2011 0:00,tropical storm,0,50,998,345.234,0
+Ophelia,9/22/2011 6:00,tropical storm,0,55,993,345.234,0
+Ophelia,9/22/2011 12:00,tropical storm,0,55,993,345.234,0
+Ophelia,9/22/2011 18:00,tropical storm,0,50,997,345.234,0
+Ophelia,9/23/2011 0:00,tropical storm,0,45,1000,322.2184,0
+Ophelia,9/23/2011 6:00,tropical storm,0,40,1003,276.1872,0
+Ophelia,9/23/2011 12:00,tropical storm,0,45,1003,253.1716,0
+Ophelia,9/23/2011 18:00,tropical storm,0,50,1001,253.1716,0
+Ophelia,9/24/2011 0:00,tropical storm,0,45,1004,253.1716,0
+Ophelia,9/24/2011 6:00,tropical storm,0,45,1005,253.1716,0
+Ophelia,9/24/2011 12:00,tropical storm,0,45,1005,253.1716,0
+Ophelia,9/24/2011 18:00,tropical storm,0,40,1007,253.1716,0
+Ophelia,9/25/2011 0:00,tropical storm,0,40,1008,253.1716,0
+Ophelia,9/25/2011 6:00,tropical storm,0,35,1008,230.156,0
+Ophelia,9/27/2011 12:00,tropical depression,-1,25,1010,0,0
+Ophelia,9/27/2011 18:00,tropical depression,-1,25,1009,0,0
+Ophelia,9/28/2011 0:00,tropical depression,-1,30,1009,0,0
+Ophelia,9/28/2011 6:00,tropical storm,0,40,1005,69.0468,0
+Ophelia,9/28/2011 12:00,tropical storm,0,40,1001,120.8319,0
+Ophelia,9/28/2011 18:00,tropical storm,0,45,1001,138.0936,0
+Ophelia,9/29/2011 0:00,tropical storm,0,50,995,172.617,0
+Ophelia,9/29/2011 6:00,tropical storm,0,55,995,172.617,0
+Ophelia,9/29/2011 12:00,tropical storm,0,55,991,172.617,0
+Ophelia,9/29/2011 18:00,hurricane,1,65,987,207.1404,28.7695
+Ophelia,9/30/2011 0:00,hurricane,1,70,982,241.6638,46.0312
+Ophelia,9/30/2011 6:00,hurricane,2,85,971,276.1872,51.7851
+Ophelia,9/30/2011 12:00,hurricane,2,95,966,276.1872,51.7851
+Ophelia,9/30/2011 18:00,hurricane,3,100,959,276.1872,51.7851
+Ophelia,10/1/2011 0:00,hurricane,3,105,955,310.7106,57.539
+Ophelia,10/1/2011 6:00,hurricane,3,105,951,310.7106,57.539
+Ophelia,10/1/2011 12:00,hurricane,3,105,948,310.7106,57.539
+Ophelia,10/1/2011 18:00,hurricane,3,110,946,310.7106,57.539
+Ophelia,10/2/2011 6:00,hurricane,3,110,945,310.7106,57.539
+Ophelia,10/2/2011 12:00,hurricane,3,105,951,310.7106,57.539
+Ophelia,10/2/2011 18:00,hurricane,2,90,960,333.7262,69.0468
+Ophelia,10/3/2011 0:00,hurricane,1,70,972,333.7262,69.0468
+Ophelia,10/3/2011 6:00,tropical storm,0,60,980,345.234,0
+Philippe,9/24/2011 6:00,tropical depression,-1,30,1007,0,0
+Philippe,9/24/2011 12:00,tropical storm,0,35,1006,34.5234,0
+Philippe,9/24/2011 18:00,tropical storm,0,35,1006,34.5234,0
+Philippe,9/25/2011 0:00,tropical storm,0,35,1006,51.7851,0
+Philippe,9/25/2011 6:00,tropical storm,0,40,1006,86.3085,0
+Philippe,9/25/2011 12:00,tropical storm,0,40,1006,86.3085,0
+Philippe,9/25/2011 18:00,tropical storm,0,45,1005,103.5702,0
+Philippe,9/26/2011 0:00,tropical storm,0,45,1005,120.8319,0
+Philippe,9/26/2011 6:00,tropical storm,0,45,1004,120.8319,0
+Philippe,9/26/2011 12:00,tropical storm,0,50,1003,120.8319,0
+Philippe,9/26/2011 18:00,tropical storm,0,50,1003,138.0936,0
+Philippe,9/27/2011 0:00,tropical storm,0,45,1004,155.3553,0
+Philippe,9/27/2011 6:00,tropical storm,0,45,1004,155.3553,0
+Philippe,9/27/2011 12:00,tropical storm,0,40,1005,138.0936,0
+Philippe,9/27/2011 18:00,tropical storm,0,35,1006,103.5702,0
+Philippe,9/28/2011 0:00,tropical depression,-1,30,1007,0,0
+Philippe,9/28/2011 6:00,tropical depression,-1,30,1007,0,0
+Philippe,9/28/2011 12:00,tropical storm,0,35,1006,120.8319,0
+Philippe,9/28/2011 18:00,tropical storm,0,40,1005,120.8319,0
+Philippe,9/29/2011 0:00,tropical storm,0,40,1005,120.8319,0
+Philippe,9/29/2011 6:00,tropical storm,0,45,1004,120.8319,0
+Philippe,9/29/2011 12:00,tropical storm,0,45,1004,103.5702,0
+Philippe,9/29/2011 18:00,tropical storm,0,45,1005,120.8319,0
+Philippe,9/30/2011 0:00,tropical storm,0,40,1007,103.5702,0
+Philippe,9/30/2011 6:00,tropical storm,0,40,1007,103.5702,0
+Philippe,9/30/2011 12:00,tropical storm,0,45,1006,120.8319,0
+Philippe,9/30/2011 18:00,tropical storm,0,45,1005,120.8319,0
+Philippe,10/1/2011 0:00,tropical storm,0,50,1003,120.8319,0
+Philippe,10/1/2011 6:00,tropical storm,0,55,999,138.0936,0
+Philippe,10/1/2011 12:00,tropical storm,0,60,997,155.3553,0
+Philippe,10/1/2011 18:00,tropical storm,0,60,995,172.617,0
+Philippe,10/2/2011 0:00,tropical storm,0,60,993,189.8787,0
+Philippe,10/2/2011 6:00,tropical storm,0,50,998,189.8787,0
+Philippe,10/2/2011 12:00,tropical storm,0,40,1004,189.8787,0
+Philippe,10/2/2011 18:00,tropical storm,0,40,1004,189.8787,0
+Philippe,10/3/2011 0:00,tropical storm,0,45,1004,189.8787,0
+Philippe,10/3/2011 6:00,tropical storm,0,50,1001,172.617,0
+Philippe,10/3/2011 12:00,tropical storm,0,55,998,155.3553,0
+Philippe,10/3/2011 18:00,tropical storm,0,60,995,155.3553,0
+Philippe,10/4/2011 0:00,hurricane,1,65,992,155.3553,28.7695
+Philippe,10/4/2011 6:00,hurricane,1,65,992,155.3553,28.7695
+Philippe,10/4/2011 12:00,tropical storm,0,60,993,138.0936,0
+Philippe,10/4/2011 18:00,tropical storm,0,60,994,138.0936,0
+Philippe,10/5/2011 0:00,tropical storm,0,60,994,120.8319,0
+Philippe,10/5/2011 6:00,tropical storm,0,60,994,120.8319,0
+Philippe,10/5/2011 12:00,tropical storm,0,55,995,138.0936,0
+Philippe,10/5/2011 18:00,tropical storm,0,55,995,138.0936,0
+Philippe,10/6/2011 0:00,tropical storm,0,60,992,138.0936,0
+Philippe,10/6/2011 6:00,hurricane,1,65,987,138.0936,23.0156
+Philippe,10/6/2011 12:00,hurricane,1,70,983,138.0936,23.0156
+Philippe,10/6/2011 18:00,hurricane,1,80,977,155.3553,40.2773
+Philippe,10/7/2011 0:00,hurricane,1,80,976,172.617,51.7851
+Philippe,10/7/2011 6:00,hurricane,1,80,976,172.617,57.539
+Philippe,10/7/2011 12:00,hurricane,1,80,977,189.8787,57.539
+Philippe,10/7/2011 18:00,hurricane,1,70,981,189.8787,46.0312
+Philippe,10/8/2011 0:00,hurricane,1,65,986,189.8787,34.5234
+Philippe,10/8/2011 6:00,tropical storm,0,60,987,189.8787,0
+Philippe,10/8/2011 12:00,tropical storm,0,60,987,189.8787,0
+Rina,10/23/2011 6:00,tropical depression,-1,25,1006,0,0
+Rina,10/23/2011 12:00,tropical depression,-1,25,1006,0,0
+Rina,10/23/2011 18:00,tropical depression,-1,30,1005,0,0
+Rina,10/24/2011 0:00,tropical storm,0,35,1004,69.0468,0
+Rina,10/24/2011 6:00,tropical storm,0,40,1003,92.0624,0
+Rina,10/24/2011 12:00,tropical storm,0,50,1001,138.0936,0
+Rina,10/24/2011 18:00,hurricane,1,65,991,184.1248,28.7695
+Rina,10/25/2011 0:00,hurricane,1,75,982,184.1248,28.7695
+Rina,10/25/2011 6:00,hurricane,2,90,976,184.1248,28.7695
+Rina,10/25/2011 12:00,hurricane,2,95,972,184.1248,28.7695
+Rina,10/25/2011 18:00,hurricane,3,100,971,201.3865,46.0312
+Rina,10/26/2011 0:00,hurricane,3,100,966,201.3865,51.7851
+Rina,10/26/2011 6:00,hurricane,3,100,969,207.1404,51.7851
+Rina,10/26/2011 12:00,hurricane,2,85,973,207.1404,46.0312
+Rina,10/26/2011 18:00,hurricane,1,80,976,184.1248,34.5234
+Rina,10/27/2011 0:00,hurricane,1,80,978,184.1248,34.5234
+Rina,10/27/2011 6:00,hurricane,1,65,987,155.3553,34.5234
+Rina,10/27/2011 12:00,tropical storm,0,60,988,155.3553,0
+Rina,10/27/2011 18:00,tropical storm,0,60,991,138.0936,0
+Rina,10/28/2011 0:00,tropical storm,0,55,996,115.078,0
+Rina,10/28/2011 2:00,tropical storm,0,50,996,115.078,0
+Rina,10/28/2011 6:00,tropical storm,0,50,998,103.5702,0
+Rina,10/28/2011 12:00,tropical storm,0,40,1002,40.2773,0
+Sean,11/8/2011 18:00,tropical storm,0,45,999,402.773,0
+Sean,11/9/2011 0:00,tropical storm,0,45,999,414.2808,0
+Sean,11/9/2011 6:00,tropical storm,0,50,996,425.7886,0
+Sean,11/9/2011 12:00,tropical storm,0,55,994,425.7886,0
+Sean,11/9/2011 18:00,tropical storm,0,55,991,425.7886,0
+Sean,11/10/2011 0:00,tropical storm,0,55,987,391.2652,0
+Sean,11/10/2011 6:00,tropical storm,0,55,984,356.7418,0
+Sean,11/10/2011 12:00,tropical storm,0,55,982,356.7418,0
+Sean,11/10/2011 18:00,tropical storm,0,55,983,356.7418,0
+Sean,11/11/2011 0:00,tropical storm,0,55,984,356.7418,0
+Sean,11/11/2011 6:00,tropical storm,0,50,987,287.695,0
+Sean,11/11/2011 12:00,tropical storm,0,45,991,287.695,0
+Sean,11/11/2011 18:00,tropical storm,0,40,995,258.9255,0
+Alberto,5/19/2012 6:00,tropical depression,-1,30,1008,0,0
+Alberto,5/19/2012 12:00,tropical storm,0,40,1005,69.0468,0
+Alberto,5/19/2012 18:00,tropical storm,0,45,997,80.5546,0
+Alberto,5/20/2012 0:00,tropical storm,0,50,995,80.5546,0
+Alberto,5/20/2012 6:00,tropical storm,0,45,998,69.0468,0
+Alberto,5/20/2012 12:00,tropical storm,0,40,1000,69.0468,0
+Alberto,5/20/2012 18:00,tropical storm,0,40,1005,92.0624,0
+Alberto,5/21/2012 0:00,tropical storm,0,35,1007,92.0624,0
+Alberto,5/21/2012 6:00,tropical storm,0,35,1007,80.5546,0
+Alberto,5/21/2012 12:00,tropical storm,0,35,1007,80.5546,0
+Alberto,5/21/2012 18:00,tropical storm,0,35,1006,80.5546,0
+Alberto,5/22/2012 0:00,tropical storm,0,35,1007,46.0312,0
+Alberto,5/22/2012 6:00,tropical storm,0,35,1007,46.0312,0
+Beryl,5/27/2012 18:00,tropical storm,0,55,997,207.1404,0
+Beryl,5/27/2012 23:00,tropical storm,0,60,992,207.1404,0
+Beryl,5/28/2012 0:00,tropical storm,0,60,993,207.1404,0
+Beryl,5/28/2012 4:00,tropical storm,0,55,994,207.1404,0
+Beryl,5/28/2012 6:00,tropical storm,0,50,996,138.0936,0
+Beryl,5/28/2012 12:00,tropical depression,-1,30,1000,0,0
+Beryl,5/28/2012 18:00,tropical depression,-1,30,1003,0,0
+Beryl,5/29/2012 0:00,tropical depression,-1,25,1005,0,0
+Beryl,5/29/2012 6:00,tropical depression,-1,25,1005,0,0
+Beryl,5/29/2012 12:00,tropical depression,-1,25,1006,0,0
+Beryl,5/29/2012 18:00,tropical depression,-1,25,1006,0,0
+Beryl,5/30/2012 0:00,tropical depression,-1,25,1004,0,0
+Beryl,5/30/2012 6:00,tropical storm,0,35,1002,115.078,0
+Beryl,5/30/2012 12:00,tropical storm,0,40,1000,115.078,0
+Chris,6/19/2012 12:00,tropical storm,0,40,1003,115.078,0
+Chris,6/19/2012 18:00,tropical storm,0,40,1003,115.078,0
+Chris,6/20/2012 0:00,tropical storm,0,40,1003,126.5858,0
+Chris,6/20/2012 6:00,tropical storm,0,40,1002,126.5858,0
+Chris,6/20/2012 12:00,tropical storm,0,45,1001,138.0936,0
+Chris,6/20/2012 18:00,tropical storm,0,50,999,138.0936,0
+Chris,6/21/2012 0:00,tropical storm,0,60,991,138.0936,0
+Chris,6/21/2012 6:00,hurricane,1,70,982,138.0936,28.7695
+Chris,6/21/2012 12:00,hurricane,1,75,974,149.6014,34.5234
+Chris,6/21/2012 18:00,hurricane,1,70,975,149.6014,28.7695
+Chris,6/22/2012 0:00,tropical storm,0,60,978,149.6014,0
+Chris,6/22/2012 6:00,tropical storm,0,50,982,149.6014,0
+Debby,6/23/2012 12:00,tropical storm,0,35,1002,172.617,0
+Debby,6/23/2012 18:00,tropical storm,0,40,1001,172.617,0
+Debby,6/24/2012 0:00,tropical storm,0,45,998,172.617,0
+Debby,6/24/2012 6:00,tropical storm,0,50,995,264.6794,0
+Debby,6/24/2012 12:00,tropical storm,0,55,994,322.2184,0
+Debby,6/24/2012 18:00,tropical storm,0,55,992,333.7262,0
+Debby,6/25/2012 0:00,tropical storm,0,50,990,356.7418,0
+Debby,6/25/2012 6:00,tropical storm,0,45,993,356.7418,0
+Debby,6/25/2012 12:00,tropical storm,0,40,994,333.7262,0
+Debby,6/25/2012 18:00,tropical storm,0,40,992,356.7418,0
+Debby,6/26/2012 0:00,tropical storm,0,45,991,333.7262,0
+Debby,6/26/2012 6:00,tropical storm,0,40,991,310.7106,0
+Debby,6/26/2012 12:00,tropical storm,0,40,992,264.6794,0
+Debby,6/26/2012 18:00,tropical storm,0,35,995,207.1404,0
+Debby,6/26/2012 21:00,tropical storm,0,35,995,207.1404,0
+Debby,6/27/2012 0:00,tropical depression,-1,30,997,0,0
+Debby,6/27/2012 6:00,tropical depression,-1,30,998,0,0
+Debby,6/27/2012 12:00,tropical depression,-1,30,1001,0,0
+Ernesto,8/1/2012 12:00,tropical depression,-1,30,1008,0,0
+Ernesto,8/1/2012 18:00,tropical depression,-1,30,1008,0,0
+Ernesto,8/2/2012 0:00,tropical depression,-1,30,1008,0,0
+Ernesto,8/2/2012 6:00,tropical depression,-1,30,1008,0,0
+Ernesto,8/2/2012 12:00,tropical storm,0,35,1007,103.5702,0
+Ernesto,8/2/2012 18:00,tropical storm,0,45,1006,103.5702,0
+Ernesto,8/3/2012 0:00,tropical storm,0,45,1005,138.0936,0
+Ernesto,8/3/2012 6:00,tropical storm,0,40,1005,161.1092,0
+Ernesto,8/3/2012 12:00,tropical storm,0,40,1003,184.1248,0
+Ernesto,8/3/2012 18:00,tropical storm,0,40,1003,184.1248,0
+Ernesto,8/4/2012 0:00,tropical storm,0,40,1004,149.6014,0
+Ernesto,8/4/2012 6:00,tropical storm,0,45,1005,149.6014,0
+Ernesto,8/4/2012 12:00,tropical storm,0,45,1005,149.6014,0
+Ernesto,8/4/2012 18:00,tropical storm,0,45,1005,138.0936,0
+Ernesto,8/5/2012 0:00,tropical storm,0,45,1006,138.0936,0
+Ernesto,8/5/2012 6:00,tropical storm,0,45,1006,126.5858,0
+Ernesto,8/5/2012 12:00,tropical storm,0,45,1006,126.5858,0
+Ernesto,8/5/2012 18:00,tropical storm,0,45,1005,126.5858,0
+Ernesto,8/6/2012 0:00,tropical storm,0,45,1003,126.5858,0
+Ernesto,8/6/2012 6:00,tropical storm,0,50,998,126.5858,0
+Ernesto,8/6/2012 12:00,tropical storm,0,55,996,126.5858,0
+Ernesto,8/6/2012 18:00,tropical storm,0,55,995,126.5858,0
+Ernesto,8/7/2012 0:00,tropical storm,0,55,994,126.5858,0
+Ernesto,8/7/2012 6:00,tropical storm,0,55,993,161.1092,0
+Ernesto,8/7/2012 12:00,hurricane,1,65,988,184.1248,23.0156
+Ernesto,8/7/2012 18:00,hurricane,1,75,983,218.6482,34.5234
+Ernesto,8/8/2012 0:00,hurricane,1,80,979,241.6638,34.5234
+Ernesto,8/8/2012 1:00,hurricane,1,80,977,241.6638,34.5234
+Ernesto,8/8/2012 3:00,hurricane,2,85,973,241.6638,34.5234
+Ernesto,8/8/2012 6:00,hurricane,1,80,973,241.6638,34.5234
+Ernesto,8/8/2012 12:00,tropical storm,0,60,983,241.6638,0
+Ernesto,8/8/2012 18:00,tropical storm,0,50,993,195.6326,0
+Ernesto,8/9/2012 0:00,tropical storm,0,55,993,195.6326,0
+Ernesto,8/9/2012 6:00,tropical storm,0,60,992,195.6326,0
+Ernesto,8/9/2012 12:00,tropical storm,0,55,989,172.617,0
+Ernesto,8/9/2012 16:00,tropical storm,0,55,989,172.617,0
+Ernesto,8/9/2012 18:00,tropical storm,0,50,993,138.0936,0
+Ernesto,8/10/2012 0:00,tropical storm,0,40,997,115.078,0
+Ernesto,8/10/2012 6:00,tropical depression,-1,30,1002,0,0
+Gordon,8/15/2012 12:00,tropical depression,-1,30,1013,0,0
+Gordon,8/15/2012 18:00,tropical depression,-1,30,1012,0,0
+Gordon,8/16/2012 0:00,tropical storm,0,35,1010,23.0156,0
+Gordon,8/16/2012 6:00,tropical storm,0,40,1009,34.5234,0
+Gordon,8/16/2012 12:00,tropical storm,0,45,1006,69.0468,0
+Gordon,8/16/2012 18:00,tropical storm,0,55,998,80.5546,0
+Gordon,8/17/2012 0:00,tropical storm,0,60,995,80.5546,0
+Gordon,8/17/2012 6:00,tropical storm,0,55,998,103.5702,0
+Gordon,8/17/2012 12:00,tropical storm,0,55,997,149.6014,0
+Gordon,8/17/2012 18:00,tropical storm,0,55,993,184.1248,0
+Gordon,8/18/2012 0:00,tropical storm,0,60,990,195.6326,0
+Gordon,8/18/2012 6:00,hurricane,1,65,987,218.6482,23.0156
+Gordon,8/18/2012 12:00,hurricane,1,75,979,218.6482,34.5234
+Gordon,8/18/2012 18:00,hurricane,2,90,969,218.6482,57.539
+Gordon,8/19/2012 0:00,hurricane,2,95,965,218.6482,57.539
+Gordon,8/19/2012 6:00,hurricane,2,90,969,218.6482,57.539
+Gordon,8/19/2012 12:00,hurricane,2,90,969,218.6482,57.539
+Gordon,8/19/2012 18:00,hurricane,1,80,977,218.6482,57.539
+Gordon,8/20/2012 0:00,hurricane,1,70,981,195.6326,57.539
+Gordon,8/20/2012 5:00,hurricane,1,65,984,195.6326,57.539
+Gordon,8/20/2012 6:00,hurricane,1,65,984,195.6326,57.539
+Gordon,8/20/2012 12:00,tropical storm,0,60,990,184.1248,0
+Isaac,8/21/2012 6:00,tropical depression,-1,30,1007,0,0
+Isaac,8/21/2012 12:00,tropical depression,-1,30,1006,0,0
+Isaac,8/21/2012 18:00,tropical storm,0,35,1005,46.0312,0
+Isaac,8/22/2012 0:00,tropical storm,0,40,1004,46.0312,0
+Isaac,8/22/2012 6:00,tropical storm,0,45,1003,57.539,0
+Isaac,8/22/2012 12:00,tropical storm,0,45,1004,103.5702,0
+Isaac,8/22/2012 18:00,tropical storm,0,45,1004,172.617,0
+Isaac,8/23/2012 0:00,tropical storm,0,45,1004,230.156,0
+Isaac,8/23/2012 6:00,tropical storm,0,45,1004,207.1404,0
+Isaac,8/23/2012 12:00,tropical storm,0,45,1003,184.1248,0
+Isaac,8/23/2012 18:00,tropical storm,0,45,1003,184.1248,0
+Isaac,8/24/2012 0:00,tropical storm,0,45,1002,207.1404,0
+Isaac,8/24/2012 6:00,tropical storm,0,45,998,253.1716,0
+Isaac,8/24/2012 12:00,tropical storm,0,50,995,299.2028,0
+Isaac,8/24/2012 18:00,tropical storm,0,55,993,345.234,0
+Isaac,8/25/2012 0:00,tropical storm,0,55,992,402.773,0
+Isaac,8/25/2012 6:00,tropical storm,0,55,991,333.7262,0
+Isaac,8/25/2012 12:00,tropical storm,0,50,997,299.2028,0
+Isaac,8/25/2012 15:00,tropical storm,0,50,997,299.2028,0
+Isaac,8/25/2012 18:00,tropical storm,0,50,997,310.7106,0
+Isaac,8/26/2012 0:00,tropical storm,0,50,997,356.7418,0
+Isaac,8/26/2012 6:00,tropical storm,0,55,995,310.7106,0
+Isaac,8/26/2012 12:00,tropical storm,0,55,995,310.7106,0
+Isaac,8/26/2012 18:00,tropical storm,0,50,992,310.7106,0
+Isaac,8/27/2012 0:00,tropical storm,0,50,990,345.234,0
+Isaac,8/27/2012 6:00,tropical storm,0,50,989,379.7574,0
+Isaac,8/27/2012 12:00,tropical storm,0,55,987,379.7574,0
+Isaac,8/27/2012 18:00,tropical storm,0,60,982,379.7574,0
+Isaac,8/28/2012 0:00,tropical storm,0,60,979,379.7574,0
+Isaac,8/28/2012 6:00,tropical storm,0,60,978,368.2496,0
+Isaac,8/28/2012 12:00,hurricane,1,65,975,356.7418,69.0468
+Isaac,8/28/2012 18:00,hurricane,1,70,972,368.2496,69.0468
+Isaac,8/29/2012 0:00,hurricane,1,70,967,379.7574,69.0468
+Isaac,8/29/2012 3:00,hurricane,1,70,965,379.7574,69.0468
+Isaac,8/29/2012 6:00,hurricane,1,70,966,379.7574,57.539
+Isaac,8/29/2012 8:00,hurricane,1,70,966,379.7574,57.539
+Isaac,8/29/2012 12:00,hurricane,1,65,968,379.7574,57.539
+Isaac,8/29/2012 18:00,tropical storm,0,60,973,379.7574,0
+Isaac,8/30/2012 0:00,tropical storm,0,55,977,333.7262,0
+Isaac,8/30/2012 6:00,tropical storm,0,55,982,276.1872,0
+Isaac,8/30/2012 12:00,tropical storm,0,45,987,230.156,0
+Isaac,8/30/2012 18:00,tropical storm,0,35,993,195.6326,0
+Isaac,8/31/2012 0:00,tropical depression,-1,30,998,0,0
+Isaac,8/31/2012 6:00,tropical depression,-1,25,1000,0,0
+Isaac,8/31/2012 12:00,tropical depression,-1,20,1001,0,0
+Isaac,8/31/2012 18:00,tropical depression,-1,20,1003,0,0
+Isaac,9/1/2012 0:00,tropical depression,-1,20,1004,0,0
+Isaac,9/1/2012 6:00,tropical depression,-1,20,1005,0,0
+Joyce,8/22/2012 6:00,tropical depression,-1,25,1011,0,0
+Joyce,8/22/2012 12:00,tropical depression,-1,30,1009,0,0
+Joyce,8/22/2012 18:00,tropical depression,-1,30,1009,0,0
+Joyce,8/23/2012 0:00,tropical depression,-1,30,1009,0,0
+Joyce,8/23/2012 6:00,tropical depression,-1,30,1009,0,0
+Joyce,8/23/2012 12:00,tropical storm,0,35,1007,138.0936,0
+Joyce,8/23/2012 18:00,tropical storm,0,35,1006,207.1404,0
+Joyce,8/24/2012 0:00,tropical depression,-1,30,1008,0,0
+Joyce,8/24/2012 6:00,tropical depression,-1,30,1008,0,0
+Kirk,8/28/2012 18:00,tropical depression,-1,30,1007,0,0
+Kirk,8/29/2012 0:00,tropical storm,0,40,1004,69.0468,0
+Kirk,8/29/2012 6:00,tropical storm,0,40,1003,80.5546,0
+Kirk,8/29/2012 12:00,tropical storm,0,45,1001,80.5546,0
+Kirk,8/29/2012 18:00,tropical storm,0,45,999,80.5546,0
+Kirk,8/30/2012 0:00,tropical storm,0,50,995,80.5546,0
+Kirk,8/30/2012 6:00,tropical storm,0,55,992,92.0624,0
+Kirk,8/30/2012 12:00,hurricane,1,65,989,103.5702,17.2617
+Kirk,8/30/2012 18:00,hurricane,1,75,985,103.5702,28.7695
+Kirk,8/31/2012 0:00,hurricane,1,80,981,103.5702,28.7695
+Kirk,8/31/2012 6:00,hurricane,2,90,970,103.5702,28.7695
+Kirk,8/31/2012 12:00,hurricane,2,90,972,115.078,34.5234
+Kirk,8/31/2012 18:00,hurricane,1,80,980,115.078,34.5234
+Kirk,9/1/2012 0:00,hurricane,1,70,988,115.078,17.2617
+Kirk,9/1/2012 6:00,hurricane,1,65,990,115.078,17.2617
+Kirk,9/1/2012 12:00,tropical storm,0,60,992,126.5858,0
+Kirk,9/1/2012 18:00,tropical storm,0,55,996,115.078,0
+Kirk,9/2/2012 0:00,tropical storm,0,55,998,138.0936,0
+Kirk,9/2/2012 6:00,tropical storm,0,50,1001,138.0936,0
+Kirk,9/2/2012 12:00,tropical storm,0,50,1002,138.0936,0
+Kirk,9/2/2012 18:00,tropical storm,0,45,1002,138.0936,0
+Leslie,8/30/2012 0:00,tropical depression,-1,30,1007,0,0
+Leslie,8/30/2012 6:00,tropical depression,-1,30,1006,0,0
+Leslie,8/30/2012 12:00,tropical storm,0,35,1005,34.5234,0
+Leslie,8/30/2012 18:00,tropical storm,0,40,1004,80.5546,0
+Leslie,8/31/2012 0:00,tropical storm,0,45,1002,80.5546,0
+Leslie,8/31/2012 6:00,tropical storm,0,50,1001,126.5858,0
+Leslie,8/31/2012 12:00,tropical storm,0,55,999,126.5858,0
+Leslie,8/31/2012 18:00,tropical storm,0,55,999,149.6014,0
+Leslie,9/1/2012 0:00,tropical storm,0,60,998,149.6014,0
+Leslie,9/1/2012 6:00,tropical storm,0,60,996,207.1404,0
+Leslie,9/1/2012 12:00,tropical storm,0,60,995,276.1872,0
+Leslie,9/1/2012 18:00,tropical storm,0,60,994,299.2028,0
+Leslie,9/2/2012 0:00,tropical storm,0,60,994,333.7262,0
+Leslie,9/2/2012 6:00,tropical storm,0,55,995,333.7262,0
+Leslie,9/2/2012 12:00,tropical storm,0,50,997,368.2496,0
+Leslie,9/2/2012 18:00,tropical storm,0,50,997,345.234,0
+Leslie,9/3/2012 0:00,tropical storm,0,50,997,345.234,0
+Leslie,9/3/2012 6:00,tropical storm,0,50,996,345.234,0
+Leslie,9/3/2012 12:00,tropical storm,0,50,993,345.234,0
+Leslie,9/3/2012 18:00,tropical storm,0,55,990,333.7262,0
+Leslie,9/4/2012 0:00,tropical storm,0,60,989,345.234,0
+Leslie,9/4/2012 6:00,tropical storm,0,60,988,333.7262,0
+Leslie,9/4/2012 12:00,tropical storm,0,60,988,322.2184,0
+Leslie,9/4/2012 18:00,tropical storm,0,60,988,345.234,0
+Leslie,9/5/2012 0:00,tropical storm,0,60,988,345.234,0
+Leslie,9/5/2012 6:00,hurricane,1,65,985,391.2652,17.2617
+Leslie,9/5/2012 12:00,hurricane,1,70,982,391.2652,23.0156
+Leslie,9/5/2012 18:00,hurricane,1,70,982,391.2652,40.2773
+Leslie,9/6/2012 0:00,hurricane,1,65,984,368.2496,40.2773
+Leslie,9/6/2012 6:00,hurricane,1,65,984,368.2496,40.2773
+Leslie,9/6/2012 12:00,hurricane,1,65,983,368.2496,40.2773
+Leslie,9/6/2012 18:00,hurricane,1,65,982,322.2184,40.2773
+Leslie,9/7/2012 0:00,hurricane,1,65,982,322.2184,69.0468
+Leslie,9/7/2012 6:00,hurricane,1,65,982,322.2184,69.0468
+Leslie,9/7/2012 12:00,tropical storm,0,60,981,322.2184,0
+Leslie,9/7/2012 18:00,tropical storm,0,60,981,333.7262,0
+Leslie,9/8/2012 0:00,tropical storm,0,60,983,333.7262,0
+Leslie,9/8/2012 6:00,tropical storm,0,55,985,333.7262,0
+Leslie,9/8/2012 12:00,tropical storm,0,55,987,333.7262,0
+Leslie,9/8/2012 18:00,tropical storm,0,55,988,333.7262,0
+Leslie,9/9/2012 0:00,tropical storm,0,55,988,333.7262,0
+Leslie,9/9/2012 6:00,tropical storm,0,55,988,345.234,0
+Leslie,9/9/2012 12:00,tropical storm,0,55,988,345.234,0
+Leslie,9/9/2012 18:00,tropical storm,0,55,988,345.234,0
+Leslie,9/10/2012 0:00,tropical storm,0,55,988,345.234,0
+Leslie,9/10/2012 6:00,tropical storm,0,60,985,379.7574,0
+Leslie,9/10/2012 12:00,hurricane,1,65,980,379.7574,23.0156
+Leslie,9/10/2012 18:00,hurricane,1,65,975,379.7574,23.0156
+Leslie,9/11/2012 0:00,hurricane,1,65,970,379.7574,23.0156
+Leslie,9/11/2012 6:00,hurricane,1,65,968,517.851,34.5234
+Michael,9/3/2012 6:00,tropical depression,-1,25,1015,0,0
+Michael,9/3/2012 12:00,tropical depression,-1,25,1014,0,0
+Michael,9/3/2012 18:00,tropical depression,-1,30,1013,0,0
+Michael,9/4/2012 0:00,tropical depression,-1,30,1011,0,0
+Michael,9/4/2012 6:00,tropical storm,0,35,1009,34.5234,0
+Michael,9/4/2012 12:00,tropical storm,0,40,1007,57.539,0
+Michael,9/4/2012 18:00,tropical storm,0,45,1006,57.539,0
+Michael,9/5/2012 0:00,tropical storm,0,45,1005,57.539,0
+Michael,9/5/2012 6:00,tropical storm,0,45,1005,69.0468,0
+Michael,9/5/2012 12:00,tropical storm,0,50,1001,80.5546,0
+Michael,9/5/2012 18:00,hurricane,1,65,992,80.5546,11.5078
+Michael,9/6/2012 0:00,hurricane,1,80,981,92.0624,23.0156
+Michael,9/6/2012 6:00,hurricane,2,95,968,115.078,28.7695
+Michael,9/6/2012 12:00,hurricane,3,100,964,115.078,28.7695
+Michael,9/6/2012 18:00,hurricane,2,95,968,115.078,28.7695
+Michael,9/7/2012 0:00,hurricane,2,90,970,126.5858,40.2773
+Michael,9/7/2012 6:00,hurricane,2,90,970,126.5858,40.2773
+Michael,9/7/2012 12:00,hurricane,2,90,970,126.5858,40.2773
+Michael,9/7/2012 18:00,hurricane,2,85,973,126.5858,40.2773
+Michael,9/8/2012 0:00,hurricane,1,80,977,115.078,40.2773
+Michael,9/8/2012 6:00,hurricane,1,80,978,115.078,40.2773
+Michael,9/8/2012 12:00,hurricane,2,85,975,115.078,40.2773
+Michael,9/8/2012 18:00,hurricane,2,90,972,115.078,40.2773
+Michael,9/9/2012 0:00,hurricane,2,90,973,115.078,40.2773
+Michael,9/9/2012 6:00,hurricane,2,85,976,115.078,40.2773
+Michael,9/9/2012 12:00,hurricane,2,85,976,138.0936,46.0312
+Michael,9/9/2012 18:00,hurricane,1,80,979,138.0936,46.0312
+Michael,9/10/2012 0:00,hurricane,1,75,982,149.6014,40.2773
+Michael,9/10/2012 6:00,hurricane,1,70,985,149.6014,40.2773
+Michael,9/10/2012 12:00,hurricane,1,70,986,149.6014,40.2773
+Michael,9/10/2012 18:00,hurricane,1,65,988,149.6014,34.5234
+Michael,9/11/2012 0:00,tropical storm,0,60,991,115.078,0
+Michael,9/11/2012 6:00,tropical storm,0,55,994,80.5546,0
+Michael,9/11/2012 12:00,tropical storm,0,45,997,80.5546,0
+Nadine,9/10/2012 12:00,tropical depression,-1,25,1008,0,0
+Nadine,9/10/2012 18:00,tropical depression,-1,25,1007,0,0
+Nadine,9/11/2012 0:00,tropical depression,-1,25,1007,0,0
+Nadine,9/11/2012 6:00,tropical depression,-1,25,1007,0,0
+Nadine,9/11/2012 12:00,tropical depression,-1,30,1006,0,0
+Nadine,9/11/2012 18:00,tropical depression,-1,30,1006,0,0
+Nadine,9/12/2012 0:00,tropical storm,0,35,1004,115.078,0
+Nadine,9/12/2012 6:00,tropical storm,0,45,1001,138.0936,0
+Nadine,9/12/2012 12:00,tropical storm,0,50,997,207.1404,0
+Nadine,9/12/2012 18:00,tropical storm,0,55,994,230.156,0
+Nadine,9/13/2012 0:00,tropical storm,0,60,990,264.6794,0
+Nadine,9/13/2012 6:00,tropical storm,0,60,990,276.1872,0
+Nadine,9/13/2012 12:00,tropical storm,0,60,990,322.2184,0
+Nadine,9/13/2012 18:00,tropical storm,0,60,989,356.7418,0
+Nadine,9/14/2012 0:00,tropical storm,0,60,989,379.7574,0
+Nadine,9/14/2012 6:00,tropical storm,0,60,987,379.7574,0
+Nadine,9/14/2012 12:00,tropical storm,0,60,986,379.7574,0
+Nadine,9/14/2012 18:00,hurricane,1,65,984,379.7574,34.5234
+Nadine,9/15/2012 0:00,hurricane,1,70,981,368.2496,34.5234
+Nadine,9/15/2012 6:00,hurricane,1,70,980,368.2496,34.5234
+Nadine,9/15/2012 12:00,hurricane,1,70,980,345.234,46.0312
+Nadine,9/15/2012 18:00,hurricane,1,70,980,345.234,46.0312
+Nadine,9/16/2012 0:00,hurricane,1,70,981,345.234,46.0312
+Nadine,9/16/2012 6:00,hurricane,1,65,984,345.234,46.0312
+Nadine,9/16/2012 12:00,hurricane,1,65,985,345.234,57.539
+Nadine,9/16/2012 18:00,hurricane,1,65,985,345.234,57.539
+Nadine,9/17/2012 0:00,tropical storm,0,60,986,345.234,0
+Nadine,9/17/2012 6:00,tropical storm,0,60,987,356.7418,0
+Nadine,9/17/2012 12:00,tropical storm,0,55,988,356.7418,0
+Nadine,9/17/2012 18:00,tropical storm,0,55,988,356.7418,0
+Nadine,9/18/2012 0:00,tropical storm,0,50,989,356.7418,0
+Nadine,9/18/2012 6:00,tropical storm,0,50,989,368.2496,0
+Nadine,9/18/2012 12:00,tropical storm,0,50,989,368.2496,0
+Nadine,9/18/2012 18:00,tropical storm,0,50,989,437.2964,0
+Nadine,9/19/2012 0:00,tropical storm,0,50,989,437.2964,0
+Nadine,9/19/2012 6:00,tropical storm,0,50,989,437.2964,0
+Nadine,9/19/2012 12:00,tropical storm,0,50,989,437.2964,0
+Nadine,9/19/2012 18:00,tropical storm,0,50,987,437.2964,0
+Nadine,9/20/2012 0:00,tropical storm,0,50,986,448.8042,0
+Nadine,9/20/2012 6:00,tropical storm,0,50,986,448.8042,0
+Nadine,9/20/2012 12:00,tropical storm,0,50,986,483.3276,0
+Nadine,9/20/2012 18:00,tropical storm,0,55,984,517.851,0
+Nadine,9/21/2012 0:00,tropical storm,0,55,984,575.39,0
+Nadine,9/21/2012 6:00,tropical storm,0,55,984,575.39,0
+Nadine,9/21/2012 12:00,tropical storm,0,50,984,540.8666,0
+Nadine,9/23/2012 0:00,tropical storm,0,45,987,425.7886,0
+Nadine,9/23/2012 6:00,tropical storm,0,50,987,425.7886,0
+Nadine,9/23/2012 12:00,tropical storm,0,50,987,391.2652,0
+Nadine,9/23/2012 18:00,tropical storm,0,50,988,391.2652,0
+Nadine,9/24/2012 0:00,tropical storm,0,45,990,391.2652,0
+Nadine,9/24/2012 6:00,tropical storm,0,45,992,391.2652,0
+Nadine,9/24/2012 12:00,tropical storm,0,45,995,368.2496,0
+Nadine,9/24/2012 18:00,tropical storm,0,45,996,322.2184,0
+Nadine,9/25/2012 0:00,tropical storm,0,40,996,287.695,0
+Nadine,9/25/2012 6:00,tropical storm,0,40,996,287.695,0
+Nadine,9/25/2012 12:00,tropical storm,0,40,997,287.695,0
+Nadine,9/25/2012 18:00,tropical storm,0,40,997,287.695,0
+Nadine,9/26/2012 0:00,tropical storm,0,40,998,264.6794,0
+Nadine,9/26/2012 6:00,tropical storm,0,40,998,218.6482,0
+Nadine,9/26/2012 12:00,tropical storm,0,45,995,218.6482,0
+Nadine,9/26/2012 18:00,tropical storm,0,50,993,218.6482,0
+Nadine,9/27/2012 0:00,tropical storm,0,50,993,218.6482,0
+Nadine,9/27/2012 6:00,tropical storm,0,50,993,218.6482,0
+Nadine,9/27/2012 12:00,tropical storm,0,50,993,218.6482,0
+Nadine,9/27/2012 18:00,tropical storm,0,55,993,230.156,0
+Nadine,9/28/2012 0:00,tropical storm,0,55,993,230.156,0
+Nadine,9/28/2012 6:00,tropical storm,0,60,991,230.156,0
+Nadine,9/28/2012 12:00,hurricane,1,65,988,218.6482,28.7695
+Nadine,9/28/2012 18:00,hurricane,1,65,988,218.6482,28.7695
+Nadine,9/29/2012 0:00,hurricane,1,65,988,184.1248,28.7695
+Nadine,9/29/2012 6:00,hurricane,1,65,988,184.1248,28.7695
+Nadine,9/29/2012 12:00,hurricane,1,65,988,184.1248,28.7695
+Nadine,9/29/2012 18:00,hurricane,1,70,986,184.1248,28.7695
+Nadine,9/30/2012 0:00,hurricane,1,75,983,184.1248,28.7695
+Nadine,9/30/2012 6:00,hurricane,1,75,982,184.1248,28.7695
+Nadine,9/30/2012 12:00,hurricane,1,80,978,184.1248,46.0312
+Nadine,9/30/2012 18:00,hurricane,1,80,978,207.1404,57.539
+Nadine,10/1/2012 0:00,hurricane,1,75,980,207.1404,57.539
+Nadine,10/1/2012 6:00,hurricane,1,65,988,218.6482,34.5234
+Nadine,10/1/2012 12:00,tropical storm,0,60,991,230.156,0
+Nadine,10/1/2012 18:00,tropical storm,0,55,995,230.156,0
+Nadine,10/2/2012 0:00,tropical storm,0,55,995,218.6482,0
+Nadine,10/2/2012 6:00,tropical storm,0,55,995,218.6482,0
+Nadine,10/2/2012 12:00,tropical storm,0,55,995,184.1248,0
+Nadine,10/2/2012 18:00,tropical storm,0,55,995,172.617,0
+Nadine,10/3/2012 0:00,tropical storm,0,50,998,172.617,0
+Nadine,10/3/2012 6:00,tropical storm,0,45,1000,172.617,0
+Nadine,10/3/2012 12:00,tropical storm,0,45,1000,207.1404,0
+Nadine,10/3/2012 18:00,tropical storm,0,40,1000,207.1404,0
+Oscar,10/3/2012 6:00,tropical depression,-1,30,1006,0,0
+Oscar,10/3/2012 12:00,tropical depression,-1,30,1006,0,0
+Oscar,10/3/2012 18:00,tropical storm,0,35,1005,138.0936,0
+Oscar,10/4/2012 0:00,tropical storm,0,40,1002,161.1092,0
+Oscar,10/4/2012 6:00,tropical storm,0,40,1001,184.1248,0
+Oscar,10/4/2012 12:00,tropical storm,0,45,998,207.1404,0
+Oscar,10/4/2012 18:00,tropical storm,0,45,996,207.1404,0
+Oscar,10/5/2012 0:00,tropical storm,0,45,995,207.1404,0
+Oscar,10/5/2012 6:00,tropical storm,0,45,994,207.1404,0
+Oscar,10/5/2012 12:00,tropical storm,0,45,994,207.1404,0
+Patty,10/11/2012 0:00,tropical depression,-1,30,1010,0,0
+Patty,10/11/2012 6:00,tropical storm,0,35,1009,69.0468,0
+Patty,10/11/2012 12:00,tropical storm,0,35,1008,69.0468,0
+Patty,10/11/2012 18:00,tropical storm,0,35,1007,69.0468,0
+Patty,10/12/2012 0:00,tropical storm,0,40,1005,92.0624,0
+Patty,10/12/2012 6:00,tropical storm,0,40,1005,80.5546,0
+Patty,10/12/2012 12:00,tropical storm,0,40,1006,69.0468,0
+Patty,10/12/2012 18:00,tropical storm,0,35,1007,57.539,0
+Patty,10/13/2012 0:00,tropical storm,0,35,1007,34.5234,0
+Patty,10/13/2012 6:00,tropical depression,-1,30,1008,0,0
+Rafael,10/12/2012 18:00,tropical storm,0,35,1006,172.617,0
+Rafael,10/13/2012 0:00,tropical storm,0,35,1007,172.617,0
+Rafael,10/13/2012 6:00,tropical storm,0,35,1006,172.617,0
+Rafael,10/13/2012 12:00,tropical storm,0,35,1006,172.617,0
+Rafael,10/13/2012 18:00,tropical storm,0,40,1004,172.617,0
+Rafael,10/14/2012 0:00,tropical storm,0,45,1004,172.617,0
+Rafael,10/14/2012 6:00,tropical storm,0,45,1003,172.617,0
+Rafael,10/14/2012 12:00,tropical storm,0,50,999,241.6638,0
+Rafael,10/14/2012 18:00,tropical storm,0,55,994,287.695,0
+Rafael,10/15/2012 0:00,tropical storm,0,60,989,287.695,0
+Rafael,10/15/2012 6:00,hurricane,1,65,986,287.695,57.539
+Rafael,10/15/2012 12:00,hurricane,1,70,983,310.7106,57.539
+Rafael,10/15/2012 18:00,hurricane,1,75,979,345.234,57.539
+Rafael,10/16/2012 0:00,hurricane,1,80,974,345.234,57.539
+Rafael,10/16/2012 6:00,hurricane,1,80,972,356.7418,69.0468
+Rafael,10/16/2012 12:00,hurricane,1,80,969,356.7418,69.0468
+Rafael,10/16/2012 18:00,hurricane,1,75,970,345.234,69.0468
+Rafael,10/17/2012 0:00,hurricane,1,75,970,345.234,80.5546
+Rafael,10/17/2012 6:00,hurricane,1,70,972,414.2808,103.5702
+Rafael,10/17/2012 12:00,hurricane,1,65,972,483.3276,103.5702
+Sandy,10/22/2012 12:00,tropical depression,-1,30,1002,0,0
+Sandy,10/22/2012 18:00,tropical storm,0,35,1000,69.0468,0
+Sandy,10/23/2012 0:00,tropical storm,0,40,998,69.0468,0
+Sandy,10/23/2012 6:00,tropical storm,0,40,998,92.0624,0
+Sandy,10/23/2012 12:00,tropical storm,0,40,995,115.078,0
+Sandy,10/23/2012 18:00,tropical storm,0,45,993,138.0936,0
+Sandy,10/24/2012 0:00,tropical storm,0,55,990,218.6482,0
+Sandy,10/24/2012 6:00,tropical storm,0,60,987,230.156,0
+Sandy,10/24/2012 12:00,hurricane,1,65,981,264.6794,23.0156
+Sandy,10/24/2012 18:00,hurricane,1,75,972,287.695,63.2929
+Sandy,10/24/2012 19:00,hurricane,1,75,971,287.695,63.2929
+Sandy,10/25/2012 0:00,hurricane,2,85,964,356.7418,63.2929
+Sandy,10/25/2012 5:00,hurricane,3,100,954,414.2808,63.2929
+Sandy,10/25/2012 6:00,hurricane,3,100,954,414.2808,51.7851
+Sandy,10/25/2012 9:00,hurricane,2,95,960,483.3276,51.7851
+Sandy,10/25/2012 12:00,hurricane,2,95,966,552.3744,57.539
+Sandy,10/25/2012 18:00,hurricane,2,90,963,621.4212,57.539
+Sandy,10/26/2012 0:00,hurricane,1,75,965,655.9446,69.0468
+Sandy,10/26/2012 6:00,hurricane,1,70,968,621.4212,92.0624
+Sandy,10/26/2012 12:00,hurricane,1,65,970,609.9134,103.5702
+Sandy,10/26/2012 18:00,hurricane,1,65,971,655.9446,103.5702
+Sandy,10/27/2012 0:00,tropical storm,0,60,969,724.9914,0
+Sandy,10/27/2012 6:00,tropical storm,0,60,968,724.9914,0
+Sandy,10/27/2012 12:00,hurricane,1,70,956,759.5148,138.0936
+Sandy,10/27/2012 18:00,hurricane,1,70,960,794.0382,207.1404
+Sandy,10/28/2012 0:00,hurricane,1,65,960,897.6084,207.1404
+Sandy,10/28/2012 6:00,hurricane,1,65,959,863.085,207.1404
+Sandy,10/28/2012 12:00,hurricane,1,65,954,863.085,207.1404
+Sandy,10/28/2012 18:00,hurricane,1,65,952,920.624,207.1404
+Sandy,10/29/2012 0:00,hurricane,1,70,950,978.163,172.617
+Sandy,10/29/2012 6:00,hurricane,1,80,947,1001.1786,172.617
+Sandy,10/29/2012 12:00,hurricane,2,85,945,943.6396,138.0936
+Sandy,10/29/2012 18:00,hurricane,1,80,940,966.6552,345.234
+Tony,10/22/2012 18:00,tropical depression,-1,30,1006,0,0
+Tony,10/23/2012 0:00,tropical depression,-1,30,1006,0,0
+Tony,10/23/2012 6:00,tropical depression,-1,30,1006,0,0
+Tony,10/23/2012 12:00,tropical depression,-1,30,1006,0,0
+Tony,10/23/2012 18:00,tropical depression,-1,30,1005,0,0
+Tony,10/24/2012 0:00,tropical storm,0,35,1004,46.0312,0
+Tony,10/24/2012 6:00,tropical storm,0,40,1003,103.5702,0
+Tony,10/24/2012 12:00,tropical storm,0,45,1000,103.5702,0
+Tony,10/24/2012 18:00,tropical storm,0,45,1000,103.5702,0
+Tony,10/25/2012 0:00,tropical storm,0,45,1000,115.078,0
+Tony,10/25/2012 6:00,tropical storm,0,45,1000,149.6014,0
+Tony,10/25/2012 12:00,tropical storm,0,35,1000,138.0936,0
+Andrea,6/5/2013 18:00,tropical storm,0,35,1006,138.0936,0
+Andrea,6/6/2013 0:00,tropical storm,0,40,1002,138.0936,0
+Andrea,6/6/2013 6:00,tropical storm,0,50,999,138.0936,0
+Andrea,6/6/2013 12:00,tropical storm,0,55,995,138.0936,0
+Andrea,6/6/2013 18:00,tropical storm,0,55,993,207.1404,0
+Andrea,6/6/2013 22:00,tropical storm,0,50,992,207.1404,0
+Andrea,6/7/2013 0:00,tropical storm,0,40,993,138.0936,0
+Andrea,6/7/2013 6:00,tropical storm,0,40,996,138.0936,0
+Andrea,6/7/2013 12:00,tropical storm,0,40,996,207.1404,0
+Barry,6/17/2013 12:00,tropical depression,-1,30,1007,0,0
+Barry,6/17/2013 18:00,tropical depression,-1,30,1007,0,0
+Barry,6/17/2013 22:00,tropical depression,-1,30,1006,0,0
+Barry,6/18/2013 0:00,tropical depression,-1,30,1007,0,0
+Barry,6/18/2013 6:00,tropical depression,-1,25,1009,0,0
+Barry,6/18/2013 12:00,tropical depression,-1,30,1008,0,0
+Barry,6/18/2013 18:00,tropical depression,-1,30,1008,0,0
+Barry,6/19/2013 0:00,tropical depression,-1,30,1007,0,0
+Barry,6/19/2013 6:00,tropical depression,-1,30,1007,0,0
+Barry,6/19/2013 12:00,tropical storm,0,35,1006,57.539,0
+Barry,6/19/2013 18:00,tropical storm,0,40,1005,115.078,0
+Barry,6/20/2013 0:00,tropical storm,0,40,1003,115.078,0
+Barry,6/20/2013 6:00,tropical storm,0,40,1003,115.078,0
+Barry,6/20/2013 11:00,tropical storm,0,40,1003,115.078,0
+Barry,6/20/2013 12:00,tropical storm,0,40,1004,80.5546,0
+Barry,6/20/2013 18:00,tropical depression,-1,30,1007,0,0
+Chantal,7/7/2013 12:00,tropical storm,0,35,1011,34.5234,0
+Chantal,7/7/2013 18:00,tropical storm,0,35,1011,46.0312,0
+Chantal,7/8/2013 0:00,tropical storm,0,35,1010,46.0312,0
+Chantal,7/8/2013 6:00,tropical storm,0,35,1009,46.0312,0
+Chantal,7/8/2013 12:00,tropical storm,0,40,1008,138.0936,0
+Chantal,7/8/2013 18:00,tropical storm,0,45,1007,138.0936,0
+Chantal,7/9/2013 0:00,tropical storm,0,50,1006,161.1092,0
+Chantal,7/9/2013 6:00,tropical storm,0,50,1005,161.1092,0
+Chantal,7/9/2013 12:00,tropical storm,0,55,1003,161.1092,0
+Chantal,7/9/2013 18:00,tropical storm,0,55,1006,161.1092,0
+Chantal,7/10/2013 0:00,tropical storm,0,45,1008,138.0936,0
+Chantal,7/10/2013 6:00,tropical storm,0,40,1010,92.0624,0
+Chantal,7/10/2013 12:00,tropical storm,0,40,1011,92.0624,0
+Dorian,7/23/2013 18:00,tropical depression,-1,25,1008,0,0
+Dorian,7/24/2013 0:00,tropical depression,-1,30,1007,0,0
+Dorian,7/24/2013 6:00,tropical storm,0,35,1006,46.0312,0
+Dorian,7/24/2013 12:00,tropical storm,0,40,1005,46.0312,0
+Dorian,7/24/2013 18:00,tropical storm,0,45,1004,46.0312,0
+Dorian,7/25/2013 0:00,tropical storm,0,45,1004,46.0312,0
+Dorian,7/25/2013 6:00,tropical storm,0,50,1002,80.5546,0
+Dorian,7/25/2013 12:00,tropical storm,0,50,1002,80.5546,0
+Dorian,7/25/2013 18:00,tropical storm,0,50,1003,80.5546,0
+Dorian,7/26/2013 0:00,tropical storm,0,45,1005,80.5546,0
+Dorian,7/26/2013 6:00,tropical storm,0,45,1006,80.5546,0
+Dorian,7/26/2013 12:00,tropical storm,0,45,1008,57.539,0
+Dorian,7/26/2013 18:00,tropical storm,0,40,1010,57.539,0
+Dorian,7/27/2013 0:00,tropical storm,0,35,1012,57.539,0
+Dorian,7/27/2013 6:00,tropical storm,0,35,1012,57.539,0
+Dorian,7/27/2013 12:00,tropical storm,0,35,1012,69.0468,0
+Dorian,8/2/2013 18:00,tropical depression,-1,25,1013,0,0
+Dorian,8/3/2013 0:00,tropical depression,-1,30,1013,0,0
+Dorian,8/3/2013 6:00,tropical depression,-1,30,1013,0,0
+Dorian,8/3/2013 12:00,tropical depression,-1,30,1013,0,0
+Erin,8/15/2013 0:00,tropical depression,-1,30,1008,0,0
+Erin,8/15/2013 6:00,tropical storm,0,35,1007,34.5234,0
+Erin,8/15/2013 12:00,tropical storm,0,35,1007,34.5234,0
+Erin,8/15/2013 18:00,tropical storm,0,35,1007,34.5234,0
+Erin,8/16/2013 0:00,tropical storm,0,35,1007,34.5234,0
+Erin,8/16/2013 6:00,tropical storm,0,35,1007,34.5234,0
+Erin,8/16/2013 12:00,tropical storm,0,35,1007,34.5234,0
+Erin,8/16/2013 18:00,tropical storm,0,35,1007,34.5234,0
+Erin,8/17/2013 0:00,tropical storm,0,40,1006,126.5858,0
+Erin,8/17/2013 6:00,tropical storm,0,40,1006,126.5858,0
+Erin,8/17/2013 12:00,tropical storm,0,35,1007,69.0468,0
+Erin,8/17/2013 18:00,tropical storm,0,35,1007,69.0468,0
+Erin,8/18/2013 0:00,tropical storm,0,35,1007,69.0468,0
+Fernand,8/25/2013 12:00,tropical depression,-1,30,1006,0,0
+Fernand,8/25/2013 18:00,tropical storm,0,45,1004,57.539,0
+Fernand,8/26/2013 0:00,tropical storm,0,50,1001,69.0468,0
+Fernand,8/26/2013 4:00,tropical storm,0,50,1001,69.0468,0
+Fernand,8/26/2013 6:00,tropical storm,0,45,1002,69.0468,0
+Fernand,8/26/2013 12:00,tropical depression,-1,30,1005,0,0
+Gabrielle,9/4/2013 18:00,tropical depression,-1,30,1010,0,0
+Gabrielle,9/5/2013 0:00,tropical depression,-1,30,1008,0,0
+Gabrielle,9/5/2013 6:00,tropical depression,-1,30,1008,0,0
+Gabrielle,9/5/2013 12:00,tropical depression,-1,30,1010,0,0
+Gabrielle,9/10/2013 0:00,tropical depression,-1,30,1007,0,0
+Gabrielle,9/10/2013 6:00,tropical storm,0,40,1005,115.078,0
+Gabrielle,9/10/2013 12:00,tropical storm,0,55,1003,184.1248,0
+Gabrielle,9/10/2013 18:00,tropical storm,0,50,1004,184.1248,0
+Gabrielle,9/11/2013 0:00,tropical storm,0,50,1004,184.1248,0
+Gabrielle,9/11/2013 6:00,tropical storm,0,45,1008,138.0936,0
+Gabrielle,9/11/2013 12:00,tropical storm,0,40,1009,126.5858,0
+Gabrielle,9/11/2013 18:00,tropical storm,0,35,1009,103.5702,0
+Gabrielle,9/12/2013 0:00,tropical depression,-1,30,1009,0,0
+Gabrielle,9/12/2013 6:00,tropical depression,-1,30,1009,0,0
+Gabrielle,9/12/2013 12:00,tropical storm,0,35,1008,103.5702,0
+Gabrielle,9/12/2013 18:00,tropical storm,0,35,1008,92.0624,0
+Gabrielle,9/13/2013 0:00,tropical storm,0,35,1008,69.0468,0
+Gabrielle,9/13/2013 6:00,tropical depression,-1,30,1007,0,0
+Gabrielle,9/13/2013 12:00,tropical depression,-1,30,1005,0,0
+Eight,9/6/2013 12:00,tropical depression,-1,30,1009,0,0
+Eight,9/6/2013 18:00,tropical depression,-1,30,1008,0,0
+Eight,9/7/2013 0:00,tropical depression,-1,25,1009,0,0
+Humberto,9/8/2013 18:00,tropical depression,-1,25,1008,0,0
+Humberto,9/9/2013 0:00,tropical depression,-1,30,1007,0,0
+Humberto,9/9/2013 6:00,tropical storm,0,35,1006,69.0468,0
+Humberto,9/9/2013 12:00,tropical storm,0,40,1005,115.078,0
+Humberto,9/9/2013 18:00,tropical storm,0,45,1004,138.0936,0
+Humberto,9/10/2013 0:00,tropical storm,0,50,1002,149.6014,0
+Humberto,9/10/2013 6:00,tropical storm,0,55,1000,172.617,0
+Humberto,9/10/2013 12:00,tropical storm,0,55,1000,184.1248,0
+Humberto,9/10/2013 18:00,tropical storm,0,55,999,184.1248,0
+Humberto,9/11/2013 0:00,tropical storm,0,55,998,207.1404,0
+Humberto,9/11/2013 6:00,tropical storm,0,60,994,218.6482,0
+Humberto,9/11/2013 12:00,hurricane,1,70,987,218.6482,34.5234
+Humberto,9/11/2013 18:00,hurricane,1,80,979,218.6482,46.0312
+Humberto,9/12/2013 0:00,hurricane,1,80,979,253.1716,69.0468
+Humberto,9/12/2013 6:00,hurricane,1,80,979,299.2028,69.0468
+Humberto,9/12/2013 12:00,hurricane,1,75,980,345.234,69.0468
+Humberto,9/12/2013 18:00,hurricane,1,75,980,356.7418,69.0468
+Humberto,9/13/2013 0:00,hurricane,1,70,982,368.2496,69.0468
+Humberto,9/13/2013 6:00,tropical storm,0,60,986,368.2496,0
+Humberto,9/13/2013 12:00,tropical storm,0,55,988,368.2496,0
+Humberto,9/13/2013 18:00,tropical storm,0,45,995,345.234,0
+Humberto,9/15/2013 0:00,tropical storm,0,35,1004,207.1404,0
+Humberto,9/15/2013 6:00,tropical storm,0,35,1004,218.6482,0
+Humberto,9/15/2013 12:00,tropical storm,0,35,1004,230.156,0
+Humberto,9/15/2013 18:00,tropical storm,0,35,1004,230.156,0
+Humberto,9/16/2013 0:00,tropical storm,0,35,1004,230.156,0
+Humberto,9/16/2013 6:00,tropical storm,0,35,1004,218.6482,0
+Humberto,9/16/2013 12:00,tropical storm,0,40,1000,207.1404,0
+Humberto,9/16/2013 18:00,tropical storm,0,40,1000,195.6326,0
+Humberto,9/17/2013 0:00,tropical storm,0,35,1002,184.1248,0
+Humberto,9/17/2013 6:00,tropical storm,0,35,1002,161.1092,0
+Ingrid,9/12/2013 18:00,tropical depression,-1,30,1004,0,0
+Ingrid,9/13/2013 0:00,tropical depression,-1,30,1003,0,0
+Ingrid,9/13/2013 6:00,tropical depression,-1,30,1002,0,0
+Ingrid,9/13/2013 12:00,tropical storm,0,35,1000,92.0624,0
+Ingrid,9/13/2013 18:00,tropical storm,0,40,996,103.5702,0
+Ingrid,9/14/2013 0:00,tropical storm,0,50,993,138.0936,0
+Ingrid,9/14/2013 6:00,tropical storm,0,55,990,138.0936,0
+Ingrid,9/14/2013 12:00,tropical storm,0,60,989,138.0936,0
+Ingrid,9/14/2013 18:00,hurricane,1,65,986,138.0936,23.0156
+Ingrid,9/15/2013 0:00,hurricane,1,75,983,161.1092,34.5234
+Ingrid,9/15/2013 6:00,hurricane,1,75,985,161.1092,34.5234
+Ingrid,9/15/2013 12:00,hurricane,1,65,989,149.6014,23.0156
+Ingrid,9/15/2013 18:00,hurricane,1,65,987,161.1092,23.0156
+Ingrid,9/16/2013 0:00,hurricane,1,70,989,149.6014,17.2617
+Ingrid,9/16/2013 6:00,tropical storm,0,60,990,138.0936,0
+Ingrid,9/16/2013 11:00,tropical storm,0,55,991,103.5702,0
+Ingrid,9/16/2013 12:00,tropical storm,0,55,991,103.5702,0
+Ingrid,9/16/2013 18:00,tropical storm,0,40,998,92.0624,0
+Ingrid,9/17/2013 0:00,tropical depression,-1,25,1006,0,0
+Jerry,9/29/2013 0:00,tropical depression,-1,30,1010,0,0
+Jerry,9/29/2013 6:00,tropical depression,-1,30,1010,0,0
+Jerry,9/29/2013 12:00,tropical depression,-1,30,1010,0,0
+Jerry,9/29/2013 18:00,tropical depression,-1,30,1010,0,0
+Jerry,9/30/2013 0:00,tropical depression,-1,30,1009,0,0
+Jerry,9/30/2013 6:00,tropical storm,0,35,1008,34.5234,0
+Jerry,9/30/2013 12:00,tropical storm,0,35,1008,46.0312,0
+Jerry,9/30/2013 18:00,tropical storm,0,40,1006,80.5546,0
+Jerry,10/1/2013 0:00,tropical storm,0,45,1005,103.5702,0
+Jerry,10/1/2013 6:00,tropical storm,0,40,1006,103.5702,0
+Jerry,10/1/2013 12:00,tropical storm,0,40,1007,80.5546,0
+Jerry,10/1/2013 18:00,tropical storm,0,40,1007,80.5546,0
+Jerry,10/2/2013 0:00,tropical storm,0,35,1007,80.5546,0
+Jerry,10/2/2013 6:00,tropical storm,0,35,1007,80.5546,0
+Jerry,10/2/2013 12:00,tropical storm,0,35,1007,80.5546,0
+Jerry,10/2/2013 18:00,tropical storm,0,35,1007,92.0624,0
+Jerry,10/3/2013 0:00,tropical storm,0,35,1007,69.0468,0
+Jerry,10/3/2013 6:00,tropical storm,0,35,1007,69.0468,0
+Jerry,10/3/2013 12:00,tropical storm,0,35,1007,69.0468,0
+Karen,10/3/2013 6:00,tropical storm,0,45,1006,80.5546,0
+Karen,10/3/2013 12:00,tropical storm,0,55,1004,172.617,0
+Karen,10/3/2013 18:00,tropical storm,0,55,1001,195.6326,0
+Karen,10/3/2013 21:00,tropical storm,0,55,998,195.6326,0
+Karen,10/4/2013 0:00,tropical storm,0,50,999,195.6326,0
+Karen,10/4/2013 6:00,tropical storm,0,45,1002,195.6326,0
+Karen,10/4/2013 12:00,tropical storm,0,45,1002,195.6326,0
+Karen,10/4/2013 18:00,tropical storm,0,45,1002,149.6014,0
+Karen,10/5/2013 0:00,tropical storm,0,40,1004,149.6014,0
+Karen,10/5/2013 6:00,tropical storm,0,40,1007,115.078,0
+Karen,10/5/2013 12:00,tropical storm,0,40,1008,69.0468,0
+Karen,10/5/2013 18:00,tropical storm,0,35,1008,34.5234,0
+Karen,10/6/2013 0:00,tropical depression,-1,30,1008,0,0
+Karen,10/6/2013 6:00,tropical depression,-1,25,1009,0,0
+Lorenzo,10/21/2013 6:00,tropical depression,-1,30,1012,0,0
+Lorenzo,10/21/2013 12:00,tropical storm,0,35,1010,69.0468,0
+Lorenzo,10/21/2013 18:00,tropical storm,0,35,1008,69.0468,0
+Lorenzo,10/22/2013 0:00,tropical storm,0,35,1008,69.0468,0
+Lorenzo,10/22/2013 6:00,tropical storm,0,40,1005,69.0468,0
+Lorenzo,10/22/2013 12:00,tropical storm,0,45,1000,115.078,0
+Lorenzo,10/22/2013 18:00,tropical storm,0,45,1000,115.078,0
+Lorenzo,10/23/2013 0:00,tropical storm,0,45,1001,115.078,0
+Lorenzo,10/23/2013 6:00,tropical storm,0,45,1004,115.078,0
+Lorenzo,10/23/2013 12:00,tropical storm,0,40,1006,115.078,0
+Lorenzo,10/23/2013 18:00,tropical storm,0,35,1007,115.078,0
+Lorenzo,10/24/2013 0:00,tropical depression,-1,30,1008,0,0
+Lorenzo,10/24/2013 6:00,tropical depression,-1,30,1009,0,0
+Melissa,11/20/2013 6:00,tropical storm,0,45,988,345.234,0
+Melissa,11/20/2013 12:00,tropical storm,0,45,988,345.234,0
+Melissa,11/20/2013 18:00,tropical storm,0,45,988,345.234,0
+Melissa,11/21/2013 0:00,tropical storm,0,45,984,379.7574,0
+Melissa,11/21/2013 6:00,tropical storm,0,50,984,379.7574,0
+Melissa,11/21/2013 12:00,tropical storm,0,55,980,379.7574,0
+Melissa,11/21/2013 18:00,tropical storm,0,55,980,379.7574,0
+Arthur,7/1/2014 0:00,tropical depression,-1,30,1008,0,0
+Arthur,7/1/2014 6:00,tropical depression,-1,30,1007,0,0
+Arthur,7/1/2014 12:00,tropical storm,0,35,1005,46.0312,0
+Arthur,7/1/2014 18:00,tropical storm,0,40,1003,115.078,0
+Arthur,7/2/2014 0:00,tropical storm,0,45,999,126.5858,0
+Arthur,7/2/2014 6:00,tropical storm,0,50,995,126.5858,0
+Arthur,7/2/2014 12:00,tropical storm,0,55,995,126.5858,0
+Arthur,7/2/2014 18:00,tropical storm,0,60,994,149.6014,0
+Arthur,7/3/2014 0:00,hurricane,1,65,987,149.6014,17.2617
+Arthur,7/3/2014 6:00,hurricane,1,70,984,149.6014,17.2617
+Arthur,7/3/2014 12:00,hurricane,1,80,981,184.1248,23.0156
+Arthur,7/3/2014 18:00,hurricane,1,80,978,218.6482,57.539
+Arthur,7/4/2014 0:00,hurricane,2,85,975,218.6482,69.0468
+Arthur,7/4/2014 3:00,hurricane,2,85,973,218.6482,69.0468
+Arthur,7/4/2014 6:00,hurricane,2,85,972,218.6482,69.0468
+Arthur,7/4/2014 8:00,hurricane,2,85,973,218.6482,69.0468
+Arthur,7/4/2014 12:00,hurricane,1,80,976,218.6482,63.2929
+Arthur,7/4/2014 18:00,hurricane,1,70,978,253.1716,80.5546
+Arthur,7/5/2014 0:00,hurricane,1,65,976,253.1716,103.5702
+Arthur,7/5/2014 6:00,tropical storm,0,60,981,253.1716,0
+Two,7/21/2014 12:00,tropical depression,-1,30,1012,0,0
+Two,7/21/2014 18:00,tropical depression,-1,30,1012,0,0
+Two,7/22/2014 0:00,tropical depression,-1,30,1012,0,0
+Two,7/22/2014 6:00,tropical depression,-1,30,1012,0,0
+Two,7/22/2014 12:00,tropical depression,-1,30,1012,0,0
+Two,7/22/2014 18:00,tropical depression,-1,30,1012,0,0
+Two,7/23/2014 0:00,tropical depression,-1,30,1012,0,0
+Two,7/23/2014 6:00,tropical depression,-1,30,1012,0,0
+Two,7/23/2014 12:00,tropical depression,-1,30,1012,0,0
+Cristobal,8/23/2014 18:00,tropical depression,-1,30,1005,0,0
+Cristobal,8/24/2014 0:00,tropical depression,-1,30,1004,0,0
+Cristobal,8/24/2014 6:00,tropical storm,0,35,1002,69.0468,0
+Cristobal,8/24/2014 12:00,tropical storm,0,40,1001,80.5546,0
+Cristobal,8/24/2014 18:00,tropical storm,0,45,1001,80.5546,0
+Cristobal,8/25/2014 0:00,tropical storm,0,45,998,92.0624,0
+Cristobal,8/25/2014 6:00,tropical storm,0,45,996,138.0936,0
+Cristobal,8/25/2014 12:00,tropical storm,0,50,993,138.0936,0
+Cristobal,8/25/2014 18:00,tropical storm,0,50,992,207.1404,0
+Cristobal,8/26/2014 0:00,hurricane,1,65,989,241.6638,46.0312
+Cristobal,8/26/2014 6:00,hurricane,1,65,989,241.6638,46.0312
+Cristobal,8/26/2014 12:00,hurricane,1,65,988,241.6638,46.0312
+Cristobal,8/26/2014 18:00,hurricane,1,65,987,310.7106,57.539
+Cristobal,8/27/2014 0:00,hurricane,1,70,983,356.7418,69.0468
+Cristobal,8/27/2014 6:00,hurricane,1,70,983,322.2184,69.0468
+Cristobal,8/27/2014 12:00,hurricane,1,70,983,322.2184,69.0468
+Cristobal,8/27/2014 18:00,hurricane,1,65,984,287.695,80.5546
+Cristobal,8/28/2014 0:00,hurricane,1,65,984,287.695,80.5546
+Cristobal,8/28/2014 6:00,hurricane,1,65,982,287.695,80.5546
+Cristobal,8/28/2014 12:00,hurricane,1,70,979,287.695,80.5546
+Cristobal,8/28/2014 18:00,hurricane,1,75,971,333.7262,80.5546
+Cristobal,8/29/2014 0:00,hurricane,1,75,965,460.312,92.0624
+Cristobal,8/29/2014 6:00,hurricane,1,70,967,471.8198,80.5546
+Edouard,9/11/2014 12:00,tropical depression,-1,30,1008,0,0
+Edouard,9/11/2014 18:00,tropical depression,-1,30,1007,0,0
+Edouard,9/12/2014 0:00,tropical storm,0,35,1006,46.0312,0
+Edouard,9/12/2014 6:00,tropical storm,0,35,1005,69.0468,0
+Edouard,9/12/2014 12:00,tropical storm,0,40,1000,69.0468,0
+Edouard,9/12/2014 18:00,tropical storm,0,40,999,69.0468,0
+Edouard,9/13/2014 0:00,tropical storm,0,40,998,69.0468,0
+Edouard,9/13/2014 6:00,tropical storm,0,45,997,69.0468,0
+Edouard,9/13/2014 12:00,tropical storm,0,45,996,69.0468,0
+Edouard,9/13/2014 18:00,tropical storm,0,50,995,69.0468,0
+Edouard,9/14/2014 0:00,tropical storm,0,55,994,195.6326,0
+Edouard,9/14/2014 6:00,tropical storm,0,60,991,253.1716,0
+Edouard,9/14/2014 12:00,hurricane,1,70,985,253.1716,34.5234
+Edouard,9/14/2014 18:00,hurricane,1,75,980,253.1716,34.5234
+Edouard,9/15/2014 0:00,hurricane,1,80,975,253.1716,34.5234
+Edouard,9/15/2014 6:00,hurricane,2,85,970,287.695,46.0312
+Edouard,9/15/2014 12:00,hurricane,2,90,966,287.695,46.0312
+Edouard,9/15/2014 18:00,hurricane,2,95,962,322.2184,69.0468
+Edouard,9/16/2014 0:00,hurricane,2,95,960,322.2184,80.5546
+Edouard,9/16/2014 6:00,hurricane,3,100,956,322.2184,92.0624
+Edouard,9/16/2014 12:00,hurricane,3,105,955,322.2184,103.5702
+Edouard,9/16/2014 18:00,hurricane,2,95,958,333.7262,103.5702
+Edouard,9/17/2014 0:00,hurricane,2,85,959,333.7262,115.078
+Edouard,9/17/2014 6:00,hurricane,2,85,958,333.7262,115.078
+Edouard,9/17/2014 12:00,hurricane,1,80,957,333.7262,115.078
+Edouard,9/17/2014 18:00,hurricane,1,80,955,345.234,103.5702
+Edouard,9/18/2014 0:00,hurricane,1,75,958,345.234,103.5702
+Edouard,9/18/2014 6:00,hurricane,1,70,964,356.7418,92.0624
+Edouard,9/18/2014 12:00,hurricane,1,70,969,333.7262,103.5702
+Edouard,9/18/2014 18:00,hurricane,1,65,973,333.7262,103.5702
+Edouard,9/19/2014 0:00,tropical storm,0,60,980,333.7262,0
+Edouard,9/19/2014 6:00,tropical storm,0,55,988,276.1872,0
+Edouard,9/19/2014 12:00,tropical storm,0,45,994,115.078,0
+Fay,10/11/2014 6:00,tropical storm,0,55,994,184.1248,0
+Fay,10/11/2014 12:00,tropical storm,0,60,990,230.156,0
+Fay,10/11/2014 18:00,tropical storm,0,60,988,310.7106,0
+Fay,10/12/2014 0:00,tropical storm,0,60,987,310.7106,0
+Fay,10/12/2014 6:00,hurricane,1,65,985,310.7106,23.0156
+Fay,10/12/2014 8:00,hurricane,1,70,984,310.7106,23.0156
+Fay,10/12/2014 12:00,hurricane,1,70,983,310.7106,23.0156
+Fay,10/12/2014 18:00,tropical storm,0,60,986,345.234,0
+Fay,10/13/2014 0:00,tropical storm,0,50,990,345.234,0
+Gonzalo,10/12/2014 0:00,tropical depression,-1,30,1010,0,0
+Gonzalo,10/12/2014 6:00,tropical depression,-1,30,1008,0,0
+Gonzalo,10/12/2014 12:00,tropical storm,0,35,1006,103.5702,0
+Gonzalo,10/12/2014 18:00,tropical storm,0,40,1004,103.5702,0
+Gonzalo,10/13/2014 0:00,tropical storm,0,45,1001,103.5702,0
+Gonzalo,10/13/2014 6:00,tropical storm,0,55,996,115.078,0
+Gonzalo,10/13/2014 12:00,hurricane,1,65,992,149.6014,17.2617
+Gonzalo,10/13/2014 14:00,hurricane,1,65,990,149.6014,17.2617
+Gonzalo,10/13/2014 18:00,hurricane,1,70,988,172.617,28.7695
+Gonzalo,10/13/2014 22:00,hurricane,1,75,984,172.617,28.7695
+Gonzalo,10/13/2014 23:00,hurricane,1,75,984,172.617,28.7695
+Gonzalo,10/14/2014 0:00,hurricane,1,80,983,172.617,34.5234
+Gonzalo,10/14/2014 6:00,hurricane,2,90,976,172.617,40.2773
+Gonzalo,10/14/2014 12:00,hurricane,2,95,973,172.617,40.2773
+Gonzalo,10/14/2014 18:00,hurricane,3,100,968,172.617,40.2773
+Gonzalo,10/15/2014 18:00,hurricane,3,110,953,218.6482,57.539
+Gonzalo,10/16/2014 0:00,hurricane,3,110,953,230.156,69.0468
+Gonzalo,10/17/2014 12:00,hurricane,3,110,947,299.2028,115.078
+Gonzalo,10/17/2014 18:00,hurricane,3,105,949,299.2028,115.078
+Gonzalo,10/18/2014 0:00,hurricane,2,95,952,299.2028,115.078
+Gonzalo,10/18/2014 0:00,hurricane,2,95,952,299.2028,115.078
+Gonzalo,10/18/2014 6:00,hurricane,2,90,955,299.2028,115.078
+Gonzalo,10/18/2014 12:00,hurricane,2,85,960,333.7262,126.5858
+Gonzalo,10/18/2014 18:00,hurricane,2,85,964,391.2652,138.0936
+Gonzalo,10/19/2014 0:00,hurricane,2,85,965,414.2808,138.0936
+Gonzalo,10/19/2014 6:00,hurricane,1,80,968,414.2808,138.0936
+Gonzalo,10/19/2014 12:00,hurricane,1,70,970,414.2808,138.0936
+Hanna,10/22/2014 0:00,tropical depression,-1,30,1000,0,0
+Hanna,10/22/2014 6:00,tropical depression,-1,30,1001,0,0
+Hanna,10/22/2014 12:00,tropical depression,-1,30,1002,0,0
+Hanna,10/22/2014 18:00,tropical depression,-1,30,1003,0,0
+Hanna,10/27/2014 0:00,tropical depression,-1,30,1006,0,0
+Hanna,10/27/2014 6:00,tropical storm,0,35,1005,80.5546,0
+Hanna,10/27/2014 12:00,tropical storm,0,35,1005,80.5546,0
+Hanna,10/27/2014 16:00,tropical storm,0,35,1005,80.5546,0
+Hanna,10/27/2014 18:00,tropical depression,-1,30,1006,0,0
+Hanna,10/28/2014 0:00,tropical depression,-1,30,1007,0,0
+Ana,5/9/2015 6:00,tropical storm,0,50,998,230.156,0
+Ana,5/9/2015 12:00,tropical storm,0,50,1001,230.156,0
+Ana,5/9/2015 18:00,tropical storm,0,45,1001,230.156,0
+Ana,5/10/2015 0:00,tropical storm,0,45,1001,184.1248,0
+Ana,5/10/2015 6:00,tropical storm,0,40,1002,172.617,0
+Ana,5/10/2015 10:00,tropical storm,0,40,1002,172.617,0
+Ana,5/10/2015 12:00,tropical storm,0,35,1002,149.6014,0
+Ana,5/10/2015 18:00,tropical depression,-1,30,1006,0,0
+Ana,5/11/2015 0:00,tropical depression,-1,30,1009,0,0
+Ana,5/11/2015 6:00,tropical depression,-1,30,1010,0,0
+Ana,5/11/2015 12:00,tropical depression,-1,30,1012,0,0
+Ana,5/11/2015 18:00,tropical depression,-1,30,1012,0,0
+Bill,6/16/2015 0:00,tropical storm,0,45,1005,161.1092,0
+Bill,6/16/2015 6:00,tropical storm,0,45,1001,149.6014,0
+Bill,6/16/2015 12:00,tropical storm,0,50,997,184.1248,0
+Bill,6/16/2015 16:00,tropical storm,0,50,997,184.1248,0
+Bill,6/16/2015 18:00,tropical storm,0,50,997,184.1248,0
+Bill,6/17/2015 0:00,tropical storm,0,40,998,149.6014,0
+Bill,6/17/2015 6:00,tropical depression,-1,30,999,0,0
+Bill,6/17/2015 12:00,tropical depression,-1,30,999,0,0
+Bill,6/17/2015 18:00,tropical depression,-1,25,999,0,0
+Bill,6/18/2015 0:00,tropical depression,-1,25,1000,0,0
+Bill,6/18/2015 6:00,tropical depression,-1,25,1002,0,0
+Bill,6/18/2015 12:00,tropical depression,-1,20,1003,0,0
+Claudette,7/13/2015 6:00,tropical depression,-1,30,1008,0,0
+Claudette,7/13/2015 12:00,tropical storm,0,40,1005,92.0624,0
+Claudette,7/13/2015 18:00,tropical storm,0,45,1003,92.0624,0
+Claudette,7/14/2015 0:00,tropical storm,0,45,1004,92.0624,0
+Claudette,7/14/2015 6:00,tropical storm,0,45,1004,115.078,0
+Claudette,7/14/2015 12:00,tropical storm,0,45,1004,138.0936,0
+Claudette,7/14/2015 18:00,tropical storm,0,40,1004,138.0936,0
+Danny,8/18/2015 6:00,tropical depression,-1,30,1009,0,0
+Danny,8/18/2015 12:00,tropical storm,0,35,1008,46.0312,0
+Danny,8/18/2015 18:00,tropical storm,0,40,1006,80.5546,0
+Danny,8/19/2015 0:00,tropical storm,0,45,1005,80.5546,0
+Danny,8/19/2015 6:00,tropical storm,0,45,1003,80.5546,0
+Danny,8/19/2015 12:00,tropical storm,0,45,1002,92.0624,0
+Danny,8/19/2015 18:00,tropical storm,0,50,1001,80.5546,0
+Danny,8/20/2015 0:00,tropical storm,0,55,1000,80.5546,0
+Danny,8/20/2015 6:00,tropical storm,0,60,998,80.5546,0
+Danny,8/20/2015 12:00,hurricane,1,65,995,92.0624,23.0156
+Danny,8/20/2015 18:00,hurricane,1,75,990,92.0624,23.0156
+Danny,8/21/2015 0:00,hurricane,2,85,981,92.0624,23.0156
+Danny,8/21/2015 6:00,hurricane,2,95,973,92.0624,23.0156
+Danny,8/21/2015 12:00,hurricane,3,110,960,92.0624,28.7695
+Danny,8/21/2015 18:00,hurricane,3,105,966,92.0624,28.7695
+Danny,8/22/2015 0:00,hurricane,2,95,973,92.0624,28.7695
+Danny,8/22/2015 6:00,hurricane,2,85,980,92.0624,28.7695
+Danny,8/22/2015 12:00,hurricane,1,75,985,92.0624,28.7695
+Danny,8/22/2015 18:00,hurricane,1,65,990,92.0624,11.5078
+Danny,8/23/2015 0:00,tropical storm,0,55,999,92.0624,0
+Danny,8/23/2015 6:00,tropical storm,0,50,1001,92.0624,0
+Danny,8/23/2015 12:00,tropical storm,0,45,1002,80.5546,0
+Danny,8/23/2015 18:00,tropical storm,0,40,1004,80.5546,0
+Danny,8/24/2015 0:00,tropical storm,0,40,1007,57.539,0
+Danny,8/24/2015 6:00,tropical storm,0,35,1008,57.539,0
+Danny,8/24/2015 12:00,tropical depression,-1,30,1009,0,0
+Erika,8/24/2015 18:00,tropical storm,0,40,1003,80.5546,0
+Erika,8/25/2015 0:00,tropical storm,0,40,1003,80.5546,0
+Erika,8/25/2015 6:00,tropical storm,0,40,1003,80.5546,0
+Erika,8/25/2015 12:00,tropical storm,0,40,1003,80.5546,0
+Erika,8/25/2015 18:00,tropical storm,0,35,1004,80.5546,0
+Erika,8/26/2015 0:00,tropical storm,0,35,1006,103.5702,0
+Erika,8/26/2015 6:00,tropical storm,0,35,1005,103.5702,0
+Erika,8/26/2015 12:00,tropical storm,0,40,1005,103.5702,0
+Erika,8/26/2015 18:00,tropical storm,0,40,1005,103.5702,0
+Erika,8/27/2015 0:00,tropical storm,0,40,1006,103.5702,0
+Erika,8/27/2015 6:00,tropical storm,0,45,1001,115.078,0
+Erika,8/27/2015 12:00,tropical storm,0,45,1004,138.0936,0
+Erika,8/27/2015 18:00,tropical storm,0,45,1006,138.0936,0
+Erika,8/28/2015 0:00,tropical storm,0,45,1006,138.0936,0
+Erika,8/28/2015 6:00,tropical storm,0,45,1006,161.1092,0
+Erika,8/28/2015 12:00,tropical storm,0,45,1008,161.1092,0
+Fred,8/30/2015 0:00,tropical depression,-1,30,1007,0,0
+Fred,8/30/2015 6:00,tropical storm,0,35,1005,69.0468,0
+Fred,8/30/2015 12:00,tropical storm,0,45,1004,92.0624,0
+Fred,8/30/2015 18:00,tropical storm,0,55,998,126.5858,0
+Fred,8/31/2015 0:00,hurricane,1,65,992,149.6014,23.0156
+Fred,8/31/2015 6:00,hurricane,1,70,989,149.6014,28.7695
+Fred,8/31/2015 12:00,hurricane,1,75,986,149.6014,28.7695
+Fred,8/31/2015 18:00,hurricane,1,70,988,149.6014,28.7695
+Fred,9/1/2015 0:00,hurricane,1,65,991,149.6014,23.0156
+Fred,9/1/2015 6:00,tropical storm,0,60,994,149.6014,0
+Fred,9/1/2015 12:00,tropical storm,0,50,1000,126.5858,0
+Fred,9/1/2015 18:00,tropical storm,0,45,1003,126.5858,0
+Fred,9/2/2015 0:00,tropical storm,0,45,1003,126.5858,0
+Fred,9/2/2015 6:00,tropical storm,0,40,1004,126.5858,0
+Fred,9/2/2015 12:00,tropical storm,0,40,1005,103.5702,0
+Fred,9/2/2015 18:00,tropical storm,0,35,1006,92.0624,0
+Fred,9/3/2015 0:00,tropical storm,0,35,1006,92.0624,0
+Fred,9/3/2015 6:00,tropical storm,0,40,1005,92.0624,0
+Fred,9/3/2015 12:00,tropical storm,0,40,1005,92.0624,0
+Fred,9/3/2015 18:00,tropical storm,0,35,1005,92.0624,0
+Fred,9/4/2015 0:00,tropical storm,0,35,1005,92.0624,0
+Fred,9/4/2015 6:00,tropical storm,0,35,1005,92.0624,0
+Fred,9/4/2015 12:00,tropical depression,-1,30,1005,0,0
+Fred,9/4/2015 18:00,tropical depression,-1,30,1006,0,0
+Fred,9/5/2015 0:00,tropical storm,0,35,1006,34.5234,0
+Fred,9/5/2015 6:00,tropical storm,0,35,1007,34.5234,0
+Fred,9/5/2015 12:00,tropical depression,-1,30,1008,0,0
+Fred,9/5/2015 18:00,tropical depression,-1,30,1008,0,0
+Fred,9/6/2015 0:00,tropical depression,-1,30,1009,0,0
+Fred,9/6/2015 6:00,tropical depression,-1,30,1010,0,0
+Fred,9/6/2015 12:00,tropical depression,-1,25,1010,0,0
+Henri,9/8/2015 18:00,tropical depression,-1,30,1011,0,0
+Henri,9/9/2015 0:00,tropical storm,0,35,1009,92.0624,0
+Henri,9/9/2015 6:00,tropical storm,0,35,1007,92.0624,0
+Henri,9/9/2015 12:00,tropical storm,0,40,1005,92.0624,0
+Henri,9/9/2015 18:00,tropical storm,0,45,1003,138.0936,0
+Henri,9/10/2015 0:00,tropical storm,0,45,1003,172.617,0
+Henri,9/10/2015 6:00,tropical storm,0,45,1005,172.617,0
+Henri,9/10/2015 12:00,tropical storm,0,40,1006,172.617,0
+Henri,9/10/2015 18:00,tropical storm,0,40,1007,172.617,0
+Henri,9/11/2015 0:00,tropical storm,0,40,1009,172.617,0
+Henri,9/11/2015 6:00,tropical storm,0,40,1010,172.617,0
+Nine,9/16/2015 12:00,tropical depression,-1,25,1009,0,0
+Nine,9/16/2015 18:00,tropical depression,-1,25,1009,0,0
+Nine,9/17/2015 0:00,tropical depression,-1,25,1008,0,0
+Nine,9/17/2015 6:00,tropical depression,-1,30,1006,0,0
+Nine,9/17/2015 12:00,tropical depression,-1,30,1006,0,0
+Nine,9/17/2015 18:00,tropical depression,-1,25,1007,0,0
+Nine,9/18/2015 0:00,tropical depression,-1,25,1007,0,0
+Nine,9/18/2015 6:00,tropical depression,-1,25,1007,0,0
+Nine,9/18/2015 12:00,tropical depression,-1,25,1007,0,0
+Nine,9/18/2015 18:00,tropical depression,-1,25,1007,0,0
+Nine,9/19/2015 0:00,tropical depression,-1,25,1008,0,0
+Nine,9/19/2015 6:00,tropical depression,-1,25,1009,0,0
+Nine,9/19/2015 12:00,tropical depression,-1,25,1009,0,0
+Ida,9/18/2015 6:00,tropical depression,-1,25,1007,0,0
+Ida,9/18/2015 12:00,tropical depression,-1,25,1007,0,0
+Ida,9/18/2015 18:00,tropical depression,-1,30,1006,0,0
+Ida,9/19/2015 0:00,tropical storm,0,35,1005,126.5858,0
+Ida,9/19/2015 6:00,tropical storm,0,35,1005,138.0936,0
+Ida,9/19/2015 12:00,tropical storm,0,35,1005,138.0936,0
+Ida,9/19/2015 18:00,tropical storm,0,35,1005,149.6014,0
+Ida,9/20/2015 0:00,tropical storm,0,40,1004,172.617,0
+Ida,9/20/2015 6:00,tropical storm,0,40,1004,184.1248,0
+Ida,9/20/2015 12:00,tropical storm,0,40,1004,195.6326,0
+Ida,9/20/2015 18:00,tropical storm,0,40,1003,207.1404,0
+Ida,9/21/2015 0:00,tropical storm,0,40,1003,218.6482,0
+Ida,9/21/2015 6:00,tropical storm,0,45,1002,230.156,0
+Ida,9/21/2015 12:00,tropical storm,0,45,1001,241.6638,0
+Ida,9/21/2015 18:00,tropical storm,0,45,1001,253.1716,0
+Ida,9/22/2015 0:00,tropical storm,0,40,1002,253.1716,0
+Ida,9/22/2015 6:00,tropical storm,0,40,1002,241.6638,0
+Ida,9/22/2015 12:00,tropical storm,0,40,1002,230.156,0
+Ida,9/22/2015 18:00,tropical storm,0,40,1003,230.156,0
+Ida,9/23/2015 0:00,tropical storm,0,35,1004,218.6482,0
+Ida,9/23/2015 6:00,tropical storm,0,35,1004,207.1404,0
+Ida,9/23/2015 12:00,tropical storm,0,35,1004,195.6326,0
+Ida,9/23/2015 18:00,tropical storm,0,35,1004,149.6014,0
+Ida,9/24/2015 0:00,tropical storm,0,35,1004,138.0936,0
+Ida,9/24/2015 6:00,tropical depression,-1,30,1005,0,0
+Ida,9/24/2015 12:00,tropical depression,-1,30,1005,0,0
+Ida,9/24/2015 18:00,tropical depression,-1,30,1005,0,0
+Ida,9/25/2015 0:00,tropical depression,-1,30,1006,0,0
+Ida,9/25/2015 6:00,tropical depression,-1,30,1006,0,0
+Ida,9/25/2015 12:00,tropical depression,-1,30,1006,0,0
+Ida,9/25/2015 18:00,tropical depression,-1,30,1006,0,0
+Ida,9/26/2015 0:00,tropical depression,-1,30,1006,0,0
+Ida,9/26/2015 6:00,tropical depression,-1,30,1006,0,0
+Ida,9/26/2015 12:00,tropical depression,-1,30,1006,0,0
+Ida,9/26/2015 18:00,tropical depression,-1,30,1006,0,0
+Ida,9/27/2015 0:00,tropical depression,-1,30,1006,0,0
+Ida,9/27/2015 6:00,tropical depression,-1,25,1007,0,0
+Joaquin,9/28/2015 0:00,tropical depression,-1,30,1007,0,0
+Joaquin,9/28/2015 6:00,tropical depression,-1,30,1007,0,0
+Joaquin,9/28/2015 12:00,tropical depression,-1,30,1006,0,0
+Joaquin,9/28/2015 18:00,tropical depression,-1,30,1003,0,0
+Joaquin,9/29/2015 0:00,tropical storm,0,35,1002,69.0468,0
+Joaquin,9/29/2015 6:00,tropical storm,0,35,1002,69.0468,0
+Joaquin,9/29/2015 12:00,tropical storm,0,45,999,80.5546,0
+Joaquin,9/29/2015 18:00,tropical storm,0,55,992,92.0624,0
+Joaquin,9/30/2015 0:00,tropical storm,0,60,985,126.5858,0
+Joaquin,9/30/2015 6:00,hurricane,1,65,978,149.6014,57.539
+Joaquin,9/30/2015 12:00,hurricane,1,70,971,195.6326,57.539
+Joaquin,9/30/2015 18:00,hurricane,1,80,961,230.156,57.539
+Joaquin,10/1/2015 0:00,hurricane,3,100,951,253.1716,57.539
+Joaquin,10/1/2015 6:00,hurricane,3,110,947,276.1872,63.2929
+Joaquin,10/2/2015 16:00,hurricane,3,110,940,345.234,103.5702
+Joaquin,10/2/2015 18:00,hurricane,3,110,941,345.234,109.3241
+Joaquin,10/2/2015 21:00,hurricane,3,110,942,345.234,109.3241
+Joaquin,10/4/2015 6:00,hurricane,3,105,949,333.7262,92.0624
+Joaquin,10/4/2015 12:00,hurricane,2,95,956,322.2184,92.0624
+Joaquin,10/4/2015 18:00,hurricane,2,85,958,333.7262,80.5546
+Joaquin,10/5/2015 0:00,hurricane,1,75,961,345.234,74.8007
+Joaquin,10/5/2015 6:00,hurricane,1,75,964,345.234,74.8007
+Joaquin,10/5/2015 12:00,hurricane,1,75,964,356.7418,74.8007
+Joaquin,10/5/2015 18:00,hurricane,1,75,964,368.2496,69.0468
+Joaquin,10/6/2015 0:00,hurricane,1,75,967,368.2496,69.0468
+Joaquin,10/6/2015 6:00,hurricane,1,75,970,379.7574,74.8007
+Joaquin,10/6/2015 12:00,hurricane,1,70,974,402.773,80.5546
+Joaquin,10/6/2015 18:00,hurricane,1,70,974,414.2808,80.5546
+Joaquin,10/7/2015 0:00,hurricane,1,70,974,437.2964,86.3085
+Joaquin,10/7/2015 6:00,hurricane,1,65,977,448.8042,80.5546
+Joaquin,10/7/2015 12:00,tropical storm,0,60,977,471.8198,0
+Joaquin,10/7/2015 18:00,tropical storm,0,60,977,483.3276,0
+Kate,11/8/2015 18:00,tropical depression,-1,30,1010,0,0
+Kate,11/9/2015 0:00,tropical depression,-1,30,1010,0,0
+Kate,11/9/2015 6:00,tropical storm,0,35,1010,57.539,0
+Kate,11/9/2015 12:00,tropical storm,0,40,1008,69.0468,0
+Kate,11/9/2015 18:00,tropical storm,0,45,1008,80.5546,0
+Kate,11/10/2015 0:00,tropical storm,0,50,1006,80.5546,0
+Kate,11/10/2015 6:00,tropical storm,0,55,1003,103.5702,0
+Kate,11/10/2015 12:00,tropical storm,0,60,998,103.5702,0
+Kate,11/10/2015 18:00,tropical storm,0,60,993,103.5702,0
+Kate,11/11/2015 0:00,hurricane,1,65,990,161.1092,23.0156
+Kate,11/11/2015 6:00,hurricane,1,70,985,207.1404,23.0156
+Kate,11/11/2015 12:00,hurricane,1,75,980,345.234,34.5234
+Kate,11/11/2015 18:00,hurricane,1,65,980,379.7574,46.0312

@@ -1,0 +1,87 @@
+---
+title: "Create_Plots"
+author: "eCornell"
+date: "10/7/2021"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Step 1: Load your data and the R packages.
+Load data from the National Oceanic and Atmospheric Administration's Atlantic hurricane database and convert variables to factors where necessary.
+
+```{r}
+library(ggplot2)
+library(tidyverse)
+
+# read in the storm data:
+storms <- read.csv("storms.csv")
+
+# set the storm category to be a factor:
+storms$Category <- factor(storms$Category, levels = -1:5) 
+
+# set the measurement date/time to be a factor:
+storms$Date <- factor(storms$Date, levels = unique(storms$Date)) 
+# View(storms) # Look at the storms data
+```
+
+## Step 2: Set up a blank plotting region.
+You can run the ggplot() command with no arguments to set up a blank plot: 
+
+```{r}
+ggplot()
+```
+
+## Step 3: Specify the data set, x-, and y-axis variables.
+The first argument that ggplot() takes is the name of the data set. The second argument is the aes() function.
+The x- and y-axis variables are specified within the aes() function:
+
+```{r}
+ggplot(storms, aes(x = TS_diameter, y = Pressure))
+```
+
+## Step 4: Add a geometric object.
+You're creating a scatterplot, so you want to add a layer of points on top of your labeled plotting region. You can do so by adding the function geom_point() to the ggplot() command: 
+
+```{r}
+ggplot(storms, aes(x = TS_diameter, y = Pressure))+
+   geom_point()
+```
+
+## Step 5: Increase the size of the geometric object.
+If you want to make the points on your plot bigger, you can do so by adding an argument that specifies size within the geom_point() function: 
+
+```{r}
+ggplot(storms, aes(x = TS_diameter, y = Pressure))+
+   geom_point(size = 4)
+```
+
+## Step 6: Create and add the theme to your plot.
+Create a theme: 
+
+```{r}
+theme <-  theme(plot.margin = margin(5, 5, 5, 5, "pt"),
+          panel.grid.major = element_blank(),
+          panel.grid.minor = element_blank(),
+          panel.background = element_blank(),
+          panel.border = element_rect(colour = "#393f47", fill = NA, size = 2),
+          axis.text = element_text(size = 20),
+          axis.title.x = element_text(size = 24),
+          axis.title.y = element_text(size = 24),
+          plot.title = element_text(face = "bold", size = 30))
+
+ourTheme <- list(theme, scale_color_manual(values = c('#393f47', '#b31b1b',
+       '#fbb040', '#92b2c4')))
+```
+
+You can then add a theme to your plot by including a plus sign and the name of your theme. In this case, the theme is called ourTheme:
+
+```{r}
+ggplot(storms, aes(x = TS_diameter, y = Pressure))+
+  geom_point(size = 4) +
+  ourTheme
+```
