@@ -1,0 +1,41 @@
+---
+title: "Summarize and Group Data"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Step 1: Load your data.
+
+```{r loading data and library,warning=FALSE,message=FALSE}
+library(tidyverse)
+library(utf8)
+library(ellipsis)
+Credit <- read.csv("credit_cards.csv")
+```
+
+## Step 2: Calculate the income range for students versus non-students.
+First, use the group_by() function to group the Credit data set according to whether an individual is a student. Then, create a summary statistic with the summarise() function. Here, the summary statistic is IncomeRange = max(Income) - min(Income):
+
+```{r}
+Credit %>% 
+  group_by(Student) %>% 
+  summarise(IncomeRange = max(Income)- min(Income))
+```
+Note that if the pipe operators were not being used here, you'd need to include the data set as the first argument in these functions.
+
+
+## Step 3: Calculate the income range for groups of multiple variables.
+The setup to use group_by() and summarise() is the same as the previous step, but instead of only summarizing by students, you are also going to summarize by married people. You can do that by including both Student and Married in the group_by() function:
+
+```{r}
+Credit %>% 
+ group_by(Student, Married) %>% 
+ summarise(MaxLimit = max(Limit))
+```
+
+  

@@ -1,0 +1,42 @@
+---
+title: "Summarize_Group_Quiz.Rmd"
+author: "eCornell"
+date: "3/15/2021"
+output:
+  pdf_document: default
+  html_document: default
+---
+Use these libraries and this data set for all questions:
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(ellipsis)
+Credit <- read.csv("credit_cards.csv")
+```
+
+*CQ1:* 
+Complete the rest of the starter code in the code chunk below to determine which group of individuals — those who are 50 or under versus those who are over 50 — have a higher median credit limit. Call your new summary statistic MedianLimit and assign your new data frame to the variable CQ1.
+```{r, echo=FALSE}
+Credit <- read.csv("credit_cards.csv")
+
+#Starter code: 
+CQ1<- Credit %>%
+         mutate(Over50 = Age > 50) %>% 
+         group_by(Over50) %>%
+         summarise(MedianLimit=median(Limit))
+```
+
+*CQ2:* 
+Use the count function, n(), to find the number of individuals who are: 
+(a) Not a student and not married
+(b) Not a student and married 
+(c) A student and not married 
+(d) A student and married
+Call your new summary statistic NumInGroup and assign your new data frame to the variable CQ2.
+
+```{r, echo=FALSE}
+Credit <- read.csv("credit_cards.csv")
+CQ2 <- Credit %>% 
+  group_by(Student,Married) %>%
+  summarize(NumInGroup = n())
+```

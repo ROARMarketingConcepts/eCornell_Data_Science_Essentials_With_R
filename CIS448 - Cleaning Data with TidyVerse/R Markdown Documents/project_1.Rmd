@@ -1,0 +1,51 @@
+---
+title: "project_1"
+author: "Ken Wood"
+date: "8/7/2024"
+output: html_document
+---
+
+## Project Description
+
+In Part One of the course project, you'll use the functions you practiced in this module to alter the Credit data set and perform exploratory data analysis to answer the question: Is there a difference in how married and unmarried people use a credit card? 
+
+More specifically, you will assess whether married and unmarried people have different credit utilization ratios. Credit utilization ratios measure how much credit a person is currently using compared to how much credit they could be using. To perform this exploratory data analysis, answer the questions below. 
+
+Run the following code chunk to see the Credit data set: 
+
+```{r, echo=FALSE}
+library(tidyverse)
+library(utf8)
+library(ellipsis)
+Credit<- read.csv("credit_cards_v2.csv", stringsAsFactors = F)
+head(Credit)
+```
+
+## Question 1:
+Create a new data set called Credit1 that includes only individuals with one credit card. Information on how many cards an individual has is provided in the Cards variable. By considering only those people who have one credit card, you won't have to worry about how people spread their credit utilization across multiple cards. Use the Credit1 data set throughout the rest of this assignment. 
+
+```{r, echo=FALSE}
+Credit1 <- filter(Credit, Cards==1)
+head(Credit1)
+```
+
+## Question 2: 
+Create a new variable called CreditUtil that gives each individual’s credit utilization, which is balance divided by limit.
+
+```{r, echo=FALSE}
+Credit1$CreditUtil <- Credit1$Balance/Credit1$Limit
+head(Credit1)
+```
+
+## Question 3
+Create a table that displays the mean and standard deviation of credit utilization for married versus unmarried people. 
+
+```{r, echo=FALSE}
+Credit1 %>% group_by(Married) %>% summarize(mean=mean(CreditUtil), sd=sd(CreditUtil))
+```
+
+## Question 4
+
+Use the summary statistics you calculated in Step 3 to briefly compare, in one to three sentences, how married and unmarried people use their credit cards.
+
+**We see that the mean `CreditUtil` value is higher for non-married people than for married people. This suggests that non-married people use their credit cards more than married people.**

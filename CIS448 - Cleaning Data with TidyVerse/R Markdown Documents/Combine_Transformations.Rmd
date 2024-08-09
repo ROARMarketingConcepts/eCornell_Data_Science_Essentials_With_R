@@ -1,0 +1,53 @@
+---
+title: "Combining Transformations Efficiently With Pipe Operators"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Step 1: Load your data.
+
+```{r loading data and library,warning=FALSE,message=FALSE}
+library(tidyverse)
+Credit <- read.csv("credit_cards.csv")
+```
+
+## Step 2: Create a variable that is TRUE if education is greater than 13.
+
+Recall that the mutate() function takes two arguments: the argument for the data set and the argument for how you want to change a particular variable.
+
+Here, you'll use the mutate() function to label individuals who've had more than 13 years of education TRUE and other individuals FALSE. These TRUE and FALSE values are placed in the new variable HigherEd.
+
+```{r}
+mutate(Credit, HigherEd = Education > 13)
+```
+
+## Step 3: Apply a square root transformation to the Limit variable.
+Now add a variable, SqrtLimit, that displays the square root of the Limit variable.
+
+```{r}
+mutate(Credit, SqrtLimit = sqrt(Limit))
+```
+
+## Step 4: Create multiple new variables at once.
+You can combine Steps 2 and 3 by adding both new variables as arguments to the mutate() function:
+
+```{r}
+mutate(Credit, HigherEd = Education > 13, SqrtLimit = sqrt(Limit))
+```
+
+## Step 5: Use a pipe operator to apply both filter() and mutate().
+The pipe operator can be read as "and then" and makes your code more efficient because you don't need to save each intermediate step as you change your data set. When you use the pipe operator, you don't need to include the data set within the function because you're "piping it in" to the code with the pipe operator.
+
+Here, filter() and mutate() are used together to create a new data set that includes only students and contains the new LimitPerc variable:
+
+```{r}
+Credit %>%
+filter(Student == "Yes") %>%
+mutate(LimitPerc = Limit/(Income*10000))
+```
+

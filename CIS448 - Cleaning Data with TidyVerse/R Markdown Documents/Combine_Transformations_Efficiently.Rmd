@@ -1,0 +1,46 @@
+---
+title: "Combine_Transformations_Efficiently.Rmd"
+author: "eCornell"
+date: "3/15/2021"
+output:
+  pdf_document: default
+  html_document: default
+---
+Use these libraries and this data set for all questions:
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(ellipsis)
+Credit <- read.csv("credit_cards.csv")
+```
+
+*CQ1:* 
+Use the pipe operator, %>%, to combine transformations to create a data frame called CQ1 that satisfies the following criteria:
+(a) Includes only those individuals with two or more credit cards 
+(b) Only displays the variables Income and Cards
+```{r, echo=FALSE}
+Credit <- read.csv("credit_cards.csv")
+CQ1 = Credit %>% filter(Cards >= 2) %>% select(Income,Cards)
+```
+
+*CQ2:*
+Use the pipe operator, %>%, to combine transformations to create a data frame called CQ2 that satisfies the following criteria:
+(a) Does not include the ID variable 
+(b) Contains a variable named HigherEd that is TRUE if the person has more than 13 years of education and FALSE otherwise 
+(c) Contains a variable named Unused that gives the unspent portion of the credit limit (i.e., the limit minus the balance)
+```{r, echo=FALSE}
+Credit <- read.csv("credit_cards.csv")
+CQ2 <- Credit %>% 
+  select(-c(ID)) %>% 
+  mutate(HigherEd = Education>13) %>% 
+  mutate(Unused = Limit-Balance)
+```
+
+*CQ3*
+Use the pipe operator, %>%, to combine transformations to create a data frame called CQ3 that satisfies the following criteria:
+(a) Contains a variable named Unused that gives the unspent portion of the credit limit (i.e., the limit less the balance) 
+(b) Contains only those individuals for whom the unspent portion of their credit limit is at least $1,000
+```{r, echo=FALSE}
+Credit <- read.csv("credit_cards.csv")
+CQ3 <- Credit %>% mutate(Unused=Limit-Balance) %>% filter(Unused >=1000)
+```
