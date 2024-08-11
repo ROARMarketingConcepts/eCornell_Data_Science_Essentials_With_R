@@ -1,6 +1,8 @@
 ---
 title: "Address Missing Data"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -15,7 +17,7 @@ gdp <- read.csv("country_gdp_data.csv", header = TRUE)
 # perform a full join on the langDiv and gdp data sets
 joinDF <- full_join(x = langDiv, y = gdp, by = "Country")
 
-View(joinDF)
+head(joinDF)
 ```
 
 ## Step 2: Identify complete rows.
@@ -55,6 +57,6 @@ And, second, using the is.na() function to find NA values and replace them with 
  
 ```{r imputing missing data with the mean}
 joinDF[is.na(joinDF$GDP), "GDP"] <- mg
-View(joinDF)
+head(joinDF)
 ```
 
