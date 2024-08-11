@@ -1,0 +1,75 @@
+Country,Langs,Area,Population,Continent,GS
+Algeria,18,2381741,25660,Africa,6.6
+Angola,42,1246700,10303,Africa,6.22
+Australia,234,7713364,17336,Oceania,6
+Bangladesh,37,143998,118745,Asia,7.4
+Benin,52,112622,4889,Africa,7.14
+Bolivia,38,1098581,7612,Americas,6.92
+Botswana,27,581730,1348,Africa,4.6
+Brazil,209,8511965,153322,Americas,9.71
+Burkina Faso,75,274000,9242,Africa,5.17
+CAR,94,622984,3127,Africa,8.08
+Cambodia,18,181035,8442,Asia,8.44
+Cameroon,275,475422,12239,Africa,9.17
+Chad,126,1284000,5819,Africa,4
+Colombia,79,1138914,33613,Americas,11.37
+Congo,60,342000,2346,Africa,9.6
+Costa Rica,10,51100,3064,Americas,8.92
+Cote d'Ivoire,75,322463,12464,Africa,8.67
+Cuba,1,110861,10736,Americas,7.46
+Ecuador,22,283561,10851,Americas,8.14
+Egypt,11,1001449,54688,Africa,0.89
+Ethiopia,112,1221900,53383,Africa,7.28
+French Guiana,11,90000,102,Americas,10.4
+Gabon,40,267667,1212,Africa,8.79
+Ghana,73,238553,15509,Africa,8.79
+Guatemala,52,108889,9467,Americas,9.31
+Guinea,29,245857,5931,Africa,7.38
+Guyana,14,214969,800,Americas,12
+Honduras,9,112088,5265,Americas,8.54
+India,405,3287590,849638,Asia,5.32
+Indonesia,701,1904569,187765,Asia,10.67
+Kenya,58,580367,25905,Africa,7.26
+Laos,93,236800,4262,Asia,7.14
+Liberia,34,111369,2705,Africa,10.62
+Libya,13,1759540,4712,Africa,2.43
+Madagascar,4,587041,11493,Africa,7.33
+Malawi,14,118484,8556,Africa,5.8
+Malaysia,140,329749,18333,Asia,11.92
+Mali,31,1240192,9507,Africa,3.59
+Mauritania,8,1025520,2036,Africa,0.75
+Mexico,243,1958201,87836,Americas,5.84
+Mozambique,36,801590,16084,Africa,6.07
+Myanmar,105,676578,42561,Asia,6.93
+Namibia,21,824292,1837,Africa,2.5
+Nepal,102,140797,19605,Asia,6.39
+Nicaragua,7,130000,3999,Americas,8.13
+Niger,21,1267000,7984,Africa,2.4
+Nigeria,427,923768,112163,Africa,7
+Oman,8,212457,1559,Asia,0
+Panama,13,75517,2466,Americas,9.2
+Papua New Guinea,862,462840,3772,Oceania,10.88
+Paraguay,21,406752,4397,Americas,10.25
+Peru,91,1285216,21998,Americas,2.65
+Philippines,168,3.00E+05,62868,Asia,10.34
+Saudi Arabia,8,2149690,14691,Asia,0.4
+Senegal,42,196722,7533,Africa,3.58
+Sierra Leone,23,71740,4260,Africa,8.22
+Solomon Islands,66,28896,3301,Oceania,12
+Somalia,14,637657,7691,Africa,3
+South Africa,32,1221037,36070,Africa,6.05
+Sri Lanka,7,65610,17240,Asia,9.59
+Sudan,134,2505813,25941,Africa,4.02
+Suriname,17,163265,429,Americas,12
+Tanzania,131,945087,28359,Africa,7.02
+Thailand,82,513115,56293,Asia,8.04
+Togo,43,56785,3643,Africa,7.91
+UAE,9,83600,1629,Asia,0.83
+Uganda,43,235880,19517,Africa,10.14
+Vanuatu,111,12189,163,Oceania,12
+Venezuela,40,912050,20226,Americas,7.98
+Vietnam,88,331689,68183,Asia,8.8
+Yemen,6,527968,12302,Asia,0
+Zaire,219,2344858,36672,Africa,9.44
+Zambia,38,752618,8780,Africa,5.43
+Zimbabwe,18,390759,10019,Africa,5.29

@@ -1,0 +1,297 @@
+Country,Continent,Measurement,Value
+Algeria,Africa,Langs,18
+Angola,Africa,Langs,42
+Australia,Oceania,Langs,234
+Bangladesh,Asia,Langs,37
+Benin,Africa,Langs,52
+Bolivia,Americas,Langs,38
+Botswana,Africa,Langs,27
+Brazil,Americas,Langs,209
+Burkina Faso,Africa,Langs,75
+CAR,Africa,Langs,94
+Cambodia,Asia,Langs,18
+Cameroon,Africa,Langs,275
+Chad,Africa,Langs,126
+Colombia,Americas,Langs,79
+Congo,Africa,Langs,60
+Costa Rica,Americas,Langs,10
+Cote d'Ivoire,Africa,Langs,75
+Cuba,Americas,Langs,1
+Ecuador,Americas,Langs,22
+Egypt,Africa,Langs,11
+Ethiopia,Africa,Langs,112
+French Guiana,Americas,Langs,11
+Gabon,Africa,Langs,40
+Ghana,Africa,Langs,73
+Guatemala,Americas,Langs,52
+Guinea,Africa,Langs,29
+Guyana,Americas,Langs,14
+Honduras,Americas,Langs,9
+India,Asia,Langs,405
+Indonesia,Asia,Langs,701
+Kenya,Africa,Langs,58
+Laos,Asia,Langs,93
+Liberia,Africa,Langs,34
+Libya,Africa,Langs,13
+Madagascar,Africa,Langs,4
+Malawi,Africa,Langs,14
+Malaysia,Asia,Langs,140
+Mali,Africa,Langs,31
+Mauritania,Africa,Langs,8
+Mexico,Americas,Langs,243
+Mozambique,Africa,Langs,36
+Myanmar,Asia,Langs,105
+Namibia,Africa,Langs,21
+Nepal,Asia,Langs,102
+Nicaragua,Americas,Langs,7
+Niger,Africa,Langs,21
+Nigeria,Africa,Langs,427
+Oman,Asia,Langs,8
+Panama,Americas,Langs,13
+Papua New Guinea,Oceania,Langs,862
+Paraguay,Americas,Langs,21
+Peru,Americas,Langs,91
+Philippines,Asia,Langs,168
+Saudi Arabia,Asia,Langs,8
+Senegal,Africa,Langs,42
+Sierra Leone,Africa,Langs,23
+Solomon Islands,Oceania,Langs,66
+Somalia,Africa,Langs,14
+South Africa,Africa,Langs,32
+Sri Lanka,Asia,Langs,7
+Sudan,Africa,Langs,134
+Suriname,Americas,Langs,17
+Tanzania,Africa,Langs,131
+Thailand,Asia,Langs,82
+Togo,Africa,Langs,43
+UAE,Asia,Langs,9
+Uganda,Africa,Langs,43
+Vanuatu,Oceania,Langs,111
+Venezuela,Americas,Langs,40
+Vietnam,Asia,Langs,88
+Yemen,Asia,Langs,6
+Zaire,Africa,Langs,219
+Zambia,Africa,Langs,38
+Zimbabwe,Africa,Langs,18
+Algeria,Africa,Area,2381741
+Angola,Africa,Area,1246700
+Australia,Oceania,Area,7713364
+Bangladesh,Asia,Area,143998
+Benin,Africa,Area,112622
+Bolivia,Americas,Area,1098581
+Botswana,Africa,Area,581730
+Brazil,Americas,Area,8511965
+Burkina Faso,Africa,Area,274000
+CAR,Africa,Area,622984
+Cambodia,Asia,Area,181035
+Cameroon,Africa,Area,475422
+Chad,Africa,Area,1284000
+Colombia,Americas,Area,1138914
+Congo,Africa,Area,342000
+Costa Rica,Americas,Area,51100
+Cote d'Ivoire,Africa,Area,322463
+Cuba,Americas,Area,110861
+Ecuador,Americas,Area,283561
+Egypt,Africa,Area,1001449
+Ethiopia,Africa,Area,1221900
+French Guiana,Americas,Area,90000
+Gabon,Africa,Area,267667
+Ghana,Africa,Area,238553
+Guatemala,Americas,Area,108889
+Guinea,Africa,Area,245857
+Guyana,Americas,Area,214969
+Honduras,Americas,Area,112088
+India,Asia,Area,3287590
+Indonesia,Asia,Area,1904569
+Kenya,Africa,Area,580367
+Laos,Asia,Area,236800
+Liberia,Africa,Area,111369
+Libya,Africa,Area,1759540
+Madagascar,Africa,Area,587041
+Malawi,Africa,Area,118484
+Malaysia,Asia,Area,329749
+Mali,Africa,Area,1240192
+Mauritania,Africa,Area,1025520
+Mexico,Americas,Area,1958201
+Mozambique,Africa,Area,801590
+Myanmar,Asia,Area,676578
+Namibia,Africa,Area,824292
+Nepal,Asia,Area,140797
+Nicaragua,Americas,Area,130000
+Niger,Africa,Area,1267000
+Nigeria,Africa,Area,923768
+Oman,Asia,Area,212457
+Panama,Americas,Area,75517
+Papua New Guinea,Oceania,Area,462840
+Paraguay,Americas,Area,406752
+Peru,Americas,Area,1285216
+Phillipines,Asia,Area,3.00E+05
+Saudi Arabia,Asia,Area,2149690
+Senegal,Africa,Area,196722
+Sierra Leone,Africa,Area,71740
+Solomon Islands,Oceania,Area,28896
+Somalia,Africa,Area,637657
+South Africa,Africa,Area,1221037
+Sri Lanka,Asia,Area,65610
+Sudan,Africa,Area,2505813
+Suriname,Americas,Area,163265
+Tanzania,Africa,Area,945087
+Thailand,Asia,Area,513115
+Togo,Africa,Area,56785
+UAE,Asia,Area,83600
+Uganda,Africa,Area,235880
+Vanuatu,Oceania,Area,12189
+Venezuela,Americas,Area,912050
+Vietnam,Asia,Area,331689
+Yemen,Asia,Area,527968
+Zaire,Africa,Area,2344858
+Zambia,Africa,Area,752618
+Zimbabwe,Africa,Area,390759
+Algeria,Africa,Population,25660
+Angola,Africa,Population,10303
+Australia,Oceania,Population,17336
+Bangladesh,Asia,Population,118745
+Benin,Africa,Population,4889
+Bolivia,Americas,Population,7612
+Botswana,Africa,Population,1348
+Brazil,Americas,Population,153322
+Burkina Faso,Africa,Population,9242
+CAR,Africa,Population,3127
+Cambodia,Asia,Population,8442
+Cameroon,Africa,Population,12239
+Chad,Africa,Population,5819
+Colombia,Americas,Population,33613
+Congo,Africa,Population,2346
+Costa Rica,Americas,Population,3064
+Cote d'Ivoire,Africa,Population,12464
+Cuba,Americas,Population,10736
+Ecuador,Americas,Population,10851
+Egypt,Africa,Population,54688
+Ethiopia,Africa,Population,53383
+French Guiana,Americas,Population,102
+Gabon,Africa,Population,1212
+Ghana,Africa,Population,15509
+Guatemala,Americas,Population,9467
+Guinea,Africa,Population,5931
+Guyana,Americas,Population,800
+Honduras,Americas,Population,5265
+India,Asia,Population,849638
+Indonesia,Asia,Population,187765
+Kenya,Africa,Population,25905
+Laos,Asia,Population,4262
+Liberia,Africa,Population,2705
+Libya,Africa,Population,4712
+Madagascar,Africa,Population,11493
+Malawi,Africa,Population,8556
+Malaysia,Asia,Population,18333
+Mali,Africa,Population,9507
+Mauritania,Africa,Population,2036
+Mexico,Americas,Population,87836
+Mozambique,Africa,Population,16084
+Myanmar,Asia,Population,42561
+Namibia,Africa,Population,1837
+Nepal,Asia,Population,19605
+Nicaragua,Americas,Population,3999
+Niger,Africa,Population,7984
+Nigeria,Africa,Population,112163
+Oman,Asia,Population,1559
+Panama,Americas,Population,2466
+Papua New Guinea,Oceania,Population,3772
+Paraguay,Americas,Population,4397
+Peru,Americas,Population,21998
+Phillipines,Asia,Population,62868
+Saudi Arabia,Asia,Population,14691
+Senegal,Africa,Population,7533
+Sierra Leone,Africa,Population,4260
+Solomon Islands,Oceania,Population,3301
+Somalia,Africa,Population,7691
+South Africa,Africa,Population,36070
+Sri Lanka,Asia,Population,17240
+Sudan,Africa,Population,25941
+Suriname,Americas,Population,429
+Tanzania,Africa,Population,28359
+Thailand,Asia,Population,56293
+Togo,Africa,Population,3643
+UAE,Asia,Population,1629
+Uganda,Africa,Population,19517
+Vanuatu,Oceania,Population,163
+Venezuela,Americas,Population,20226
+Vietnam,Asia,Population,68183
+Yemen,Asia,Population,12302
+Zaire,Africa,Population,36672
+Zambia,Africa,Population,8780
+Zimbabwe,Africa,Population,10019
+Algeria,Africa,GS,6.6
+Angola,Africa,GS,6.22
+Australia,Oceania,GS,6
+Bangladesh,Asia,GS,7.4
+Benin,Africa,GS,7.14
+Bolivia,Americas,GS,6.92
+Botswana,Africa,GS,4.6
+Brazil,Americas,GS,9.71
+Burkina Faso,Africa,GS,5.17
+CAR,Africa,GS,8.08
+Cambodia,Asia,GS,8.44
+Cameroon,Africa,GS,9.17
+Chad,Africa,GS,4
+Colombia,Americas,GS,11.37
+Congo,Africa,GS,9.6
+Costa Rica,Americas,GS,8.92
+Cote d'Ivoire,Africa,GS,8.67
+Cuba,Americas,GS,7.46
+Ecuador,Americas,GS,8.14
+Egypt,Africa,GS,0.89
+Ethiopia,Africa,GS,7.28
+French Guiana,Americas,GS,10.4
+Gabon,Africa,GS,8.79
+Ghana,Africa,GS,8.79
+Guatemala,Americas,GS,9.31
+Guinea,Africa,GS,7.38
+Guyana,Americas,GS,12
+Honduras,Americas,GS,8.54
+India,Asia,GS,5.32
+Indonesia,Asia,GS,10.67
+Kenya,Africa,GS,7.26
+Laos,Asia,GS,7.14
+Liberia,Africa,GS,10.62
+Libya,Africa,GS,2.43
+Madagascar,Africa,GS,7.33
+Malawi,Africa,GS,5.8
+Malaysia,Asia,GS,11.92
+Mali,Africa,GS,3.59
+Mauritania,Africa,GS,0.75
+Mexico,Americas,GS,5.84
+Mozambique,Africa,GS,6.07
+Myanmar,Asia,GS,6.93
+Namibia,Africa,GS,2.5
+Nepal,Asia,GS,6.39
+Nicaragua,Americas,GS,8.13
+Niger,Africa,GS,2.4
+Nigeria,Africa,GS,7
+Oman,Asia,GS,0
+Panama,Americas,GS,9.2
+Papua New Guinea,Oceania,GS,10.88
+Paraguay,Americas,GS,10.25
+Peru,Americas,GS,2.65
+Phillipines,Asia,GS,10.34
+Saudi Arabia,Asia,GS,0.4
+Senegal,Africa,GS,3.58
+Sierra Leone,Africa,GS,8.22
+Solomon Islands,Oceania,GS,12
+Somalia,Africa,GS,3
+South Africa,Africa,GS,6.05
+Sri Lanka,Asia,GS,9.59
+Sudan,Africa,GS,4.02
+Suriname,Americas,GS,12
+Tanzania,Africa,GS,7.02
+Thailand,Asia,GS,8.04
+Togo,Africa,GS,7.91
+UAE,Asia,GS,0.83
+Uganda,Africa,GS,10.14
+Vanuatu,Oceania,GS,12
+Venezuela,Americas,GS,7.98
+Vietnam,Asia,GS,8.8
+Yemen,Asia,GS,0
+Zaire,Africa,GS,9.44
+Zambia,Africa,GS,5.43
+Zimbabwe,Africa,GS,5.29

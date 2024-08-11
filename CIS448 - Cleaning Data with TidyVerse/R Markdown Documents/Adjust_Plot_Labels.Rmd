@@ -1,0 +1,96 @@
+---
+title: "Adjust Plot Labels"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Step 1: Set the theme and load your data.
+```{r, warning = FALSE, message = FALSE}
+# 1) Set up the themes used in these videos:
+library(ggplot2)
+
+theme1 <-  theme(plot.margin = margin(5, 5, 5, 5, "pt"),
+        panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank(), 
+        panel.background = element_blank(), 
+        panel.border = element_rect(colour = "#393f47", fill = NA, size = 2),
+        axis.text = element_text(size = 15),
+        axis.title.x = element_text(size = 15),
+        axis.title.y = element_text(size = 15),
+        plot.title = element_text(face = "bold", size = 20))
+ourTheme1 <- list(theme1, scale_color_manual(values = c('#393f47', '#b31b1b', '#fbb040', '#92b2c4')))
+
+theme2 <-  theme(plot.margin = margin(10, 10, 10, 10, "pt"),
+        panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank(), 
+        panel.background = element_blank(), 
+        panel.border = element_rect(colour = "#393f47", fill = NA, size = 2),
+        axis.text = element_text(size = 15),
+        axis.title.x = element_text(size = 15),
+        axis.title.y = element_text(size = 15),
+        plot.title = element_text(face = "bold", size = 20))
+ourTheme2 <- list(theme2, scale_color_manual(values = c('#393f47', '#b31b1b', '#fbb040', '#92b2c4')))
+
+# 2) Load data from the National Oceanic and Atmospheric Administration's 
+# Atlantic hurricane
+# database and convert variables to factors where necessary.
+library(tidyverse)
+
+# read in the storm data:
+storms <- read.csv("storms.csv")
+
+# set the storm category to be a factor:
+storms$Category <- factor(storms$Category, levels = -1:5) 
+
+# set the measurement date/time to be a factor:
+storms$Date <- factor(storms$Date, levels = unique(storms$Date)) 
+
+# look at the storm data:
+view(storms)
+
+# 3) Filter the data to only use observations for Hurricane Sandy:
+sandy <- storms %>% filter(Name == "Sandy")
+
+# 4) Create a data set with observations only for Hurricanes Katrina, Sandy, and Wilma:
+sampleStorms <- storms %>%
+filter(Name %in% c("Katrina", "Sandy", "Wilma"))
+```
+
+## Step 2: Show Hurricane Sandy's wind speed over time.
+Use geom_line() to make a line plot that shows how Sandy's wind speed changed over time:
+
+```{r unadjusted line plot}
+ggplot(sandy, aes(x = Date, y = Wind, group = 1)) + 
+  geom_line(size = 3) + 
+  ourTheme1
+```
+
+## Step 3: Add axis labels and a plot title.
+The function xlab() changes the x-axis label, the function ylab() changes the y-axis label, and the function ggtitle() changes the title:
+
+```{r changing axis labels and title}
+ggplot(sandy, aes(x = Date, y = Wind, group = 1)) + geom_line(size = 3) + 
+  xlab("Time of Measurement") + 
+  ylab("Wind Speed (knots)") + 
+  ggtitle("Hurricane Sandy Wind Speed Over Time") + 
+  ourTheme1
+```
+
+## Step 4: Rotate the x-axis tick-mark labels.
+The timepoint labels in the previous graph were impossible to see since they overlapped each other. You can use the function theme(axis.text.x = element_text(angle = 90, hjust = 1)) to rotate the x-axis labels so they're vertical:
+
+```{r rotating x-axis tick mark labels}
+# theme(axis.text.x = element_text(angle = 90, hjust = 1)) rotates the x-axis tick labels so that they're vertical
+ggplot(sandy, aes(x = Date, y = Wind, group = 1)) + 
+  geom_line(size = 3) + 
+  xlab("Time of Measurement") + 
+  ylab("Wind Speed (knots)") + 
+  ggtitle("Hurricane Sandy Wind Speed Over Time") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) + 
+  ourTheme2
+```

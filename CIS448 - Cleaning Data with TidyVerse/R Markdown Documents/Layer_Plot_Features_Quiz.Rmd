@@ -1,0 +1,28 @@
+---
+title: "Layer_Plot_Features.Rmd"
+author: "eCornell"
+date: "3/15/2021"
+output:
+  pdf_document: default
+  html_document: default
+---
+Use these libraries and the storms data set, as modified below, as a starting point for the following question:
+
+```{r, echo=FALSE}
+library(tidyverse)
+library(ellipsis)
+library(utf8)
+storms <- read.csv("storms.csv")
+storms$Category <- factor(storms$Category, levels = -1:5) # set the storm category to be a factor
+storms$Date <- factor(storms$Date, levels = unique(storms$Date)) # set the measurement date/time to be a factor
+sampleStorms <- storms %>%
+filter(Name == "Sandy" | Name == "Joaquin" |  Name == "Humberto")
+```
+
+*CQ1:*
+The following code creates a scatterplot that displays the relationship between wind speed and air pressure for the three storms Sandy, Joaquin, and Humberto. Add to the code below to create a line overlay for each of these storms. Do not adjust the size of the points. Your final plot should have three lines, each a different color. Your plot will be saved as CQ1. 
+```{r, echo=FALSE}
+CQ1<- ggplot(data = sampleStorms, aes(x = Wind, y = Pressure, color = Name)) + 
+  geom_point() + geom_smooth(se=FALSE)
+CQ1
+```

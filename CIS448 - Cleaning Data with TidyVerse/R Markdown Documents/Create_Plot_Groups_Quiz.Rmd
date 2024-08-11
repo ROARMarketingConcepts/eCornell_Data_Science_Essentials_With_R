@@ -1,0 +1,39 @@
+---
+title: "Create_Plot_Groups_Quiz.Rmd"
+author: "eCornell"
+date: "3/15/2021"
+output:
+  pdf_document: default
+  html_document: default
+---
+Use these libraries and the storms data set, as modified below, as a starting point for the following questions:
+
+```{r, echo=FALSE}
+library(tidyverse)
+library(ellipsis)
+library(utf8)
+storms <- read.csv("storms.csv")
+storms$Category <- factor(storms$Category, levels = -1:5) # set the storm category to be a factor
+storms$Date <- factor(storms$Date, levels = unique(storms$Date)) # set the measurement date/time to be a factor
+sandy <- storms %>% filter(Name == "Sandy")
+sampleStorms <- storms %>%
+filter(Name == "Sandy" | Name == "Joaquin" |  Name == "Humberto"& HU_diameter > 0 )
+```
+
+*CQ1:*
+Modify the code below to create scatterplots showing "TS_diameter" (x-axis) vs. "Pressure" (y-axis) for Sandy. There should be three plots: one for tropical storms, one for tropical depressions, and one for hurricanes. Your plots will be saved as CQ1. 
+```{r, echo=FALSE}
+CQ1<- ggplot(data = sandy, aes(x=TS_diameter,y=Pressure)) + 
+  geom_point() +
+  facet_wrap(~Status)  
+CQ1
+```
+
+*CQ2:*
+Modify the code below to create scatterplots showing "TS_diameter" (x-axis) vs. "Pressure" (y-axis) for the storms Sandy, Joaquin, and Humberto. You should make a group of nine plots, with storm status (tropical storm, tropical depression, and hurricane) on the rows and storm name on the columns. Save your plots as CQ2. 
+```{r, echo=FALSE}
+CQ2<- ggplot(data = sampleStorms, aes(x=TS_diameter,y=Pressure)) + 
+  geom_point() +
+  facet_grid(Status~Name)  
+CQ2
+```

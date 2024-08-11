@@ -1,0 +1,34 @@
+---
+title: "Use_Pivot_Functions_Quiz.Rmd"
+author: "eCornell"
+date: "3/15/2021"
+output:
+  pdf_document: default
+  html_document: default
+---
+Use these libraries and this data set to answer the questions below.
+
+```{r, include=FALSE}
+library(tidyverse)
+library(ellipsis)
+highways1 <- read.csv("state_traffic_data_needs_pivot_longer.csv")
+highways2 <- read.csv("state_traffic_data_needs_pivot_wider.csv")
+```
+
+*CQ1:*
+The highways1 data set gives the state-by-state expenditures broken down by year (2015, 2016, 2017). Right now, each year is in a different column. All the years should be in the same column, however, because they are actually values of a single variable that we could call Year. Use the function pivot_longer() to fix this. Save your new data set as CQ1. 
+
+```{r, include=FALSE}
+CQ1 <- pivot_longer(data = highways1,
+  cols = c(Y2015,Y2016,Y2017),
+  names_to = "Year")
+head(CQ1)
+```
+
+*CQ2*
+The highways2 data set contains information from the Bureau of Transportation Statistics on the amount of money each state spends on its highways, as well as the number of fatalities that occur on those highways. As it's currently organized, the data is untidy, but it can be made tidy using pivot_wider(). Use the pivot_wider() function to make this data set tidy. Save your tidied data set as CQ2.
+```{r, include=FALSE}
+CQ2 <- pivot_wider(data = highways2,
+  names_from = "Type",
+  values_from = 'Number')
+```

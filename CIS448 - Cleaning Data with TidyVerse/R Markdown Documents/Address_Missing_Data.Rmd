@@ -1,0 +1,60 @@
+---
+title: "Address Missing Data"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Step 1: Load your data.
+```{r load libraries and data sets, warning=FALSE, message=FALSE}
+library(tidyverse)
+langDiv <- read.csv("language_diversity.csv") 
+gdp <- read.csv("country_gdp_data.csv", header = TRUE)
+# perform a full join on the langDiv and gdp data sets
+joinDF <- full_join(x = langDiv, y = gdp, by = "Country")
+
+View(joinDF)
+```
+
+## Step 2: Identify complete rows.
+Use the complete.cases() function to determine which rows of your data set are complete, which means that they don't contain NAs. The argument to complete cases is the data set you want to examine: 
+
+```{r complete vs. incomplete cases}
+temp <- complete.cases(joinDF)
+head(temp)
+```
+
+## Step 3: Keep rows that are complete.
+Using complete.cases() in conjunction with filter() will allow you to keep only the rows that have data in every cell and are therefore complete:
+
+```{r using complete.cases() to get complete rows}
+joinDF %>%
+  filter(complete.cases(joinDF))
+```
+
+## Step 4: Keep rows that are incomplete.
+You can also use complete.cases() with filter() to keep only rows that are incomplete:
+
+```{r using complete.cases() to get incomplete rows}
+joinDF %>%
+  filter(! complete.cases(joinDF))
+```
+
+## Step 5: Find and replace incomplete data.
+If you want to replace missing values with the average of those values from the existing data, you can do so by, first, finding the average:  
+
+```{r calculate mean}
+# calculate the average GDP
+mg <- mean(joinDF$GDP, na.rm = TRUE)
+mg
+```
+
+And, second, using the is.na() function to find NA values and replace them with the mean:
+ 
+```{r imputing missing data with the mean}
+joinDF[is.na(joinDF$GDP), "GDP"] <- mg
+View(joinDF)
+```
+

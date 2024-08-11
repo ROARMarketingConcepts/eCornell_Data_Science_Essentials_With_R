@@ -1,0 +1,95 @@
+---
+title: "Layer Aesthetic and Geometric Plot Features"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+ 
+## Step 1: Set the theme and load your data.
+
+```{r, warning = FALSE, message = FALSE}
+# 1) Set up the theme used in these videos:
+library(ggplot2)
+
+theme <-  theme(plot.margin = margin(5, 5, 5, 5, "pt"),
+          panel.grid.major = element_blank(),
+          panel.grid.minor = element_blank(),
+          panel.background = element_blank(),
+          panel.border = element_rect(colour = "#393f47", fill = NA, size = 2),
+          axis.text = element_text(size = 20),
+          axis.title.x = element_text(size = 24),
+          axis.title.y = element_text(size = 24),
+          plot.title = element_text(face = "bold", size = 30))
+
+ourTheme <- list(theme,
+
+scale_color_manual(values = c('#393f47', '#b31b1b', '#fbb040', '#92b2c4')))
+
+# 2) Load data from the National Oceanic and Atmospheric Administration's 
+# Atlantic hurricane database and convert variables to factors where necessary:
+library(tidyverse)
+
+# read in the storm data:
+storms <- read.csv("storms.csv")
+
+# set the storm category to be a factor:
+storms$Category <- factor(storms$Category, levels = -1:5) 
+
+# set the measurement date/time to be a factor:
+storms$Date <- factor(storms$Date, levels = unique(storms$Date)) 
+
+# look at the storm data:
+# View(storms)
+
+# 3) Filter the data to only use observations for Hurricane Sandy:
+sandy <- storms %>% filter(Name == "Sandy")
+
+# 4) Create a data set with observations only for Hurricanes Katrina, Sandy, and Wilma:
+sampleStorms <- storms %>%
+filter(Name %in% c("Katrina", "Sandy", "Wilma"))
+```
+
+## Step 2: Make a scatterplot relating TS_diameter to pressure.
+Create a scatterplot:
+
+```{r basic scatterplot}
+ggplot(data = sampleStorms, aes(x = TS_diameter, y = Pressure)) + 
+        geom_point(size = 4) + 
+        ourTheme
+```
+
+## Step 3. Overlay a curve on the scatterplot.
+Use the function geom_smooth() to add a curve to the scatterplot. The geom_smooth() function takes size and color as arguments, as well as an argument called se that tells R whether or not to plot confidence intervals:
+
+```{r scatterplot with curve, message = FALSE}
+# use geom_smooth() to add a curve to the scatterplot
+# the size (thickness) and color of the line are adjusted to make viewing easier
+ggplot(data = sampleStorms, aes(x = TS_diameter, y = Pressure)) + 
+        geom_point(size = 4) + 
+        geom_smooth(se = FALSE, size = 3, color = '#92b2c4') + 
+        ourTheme
+```
+
+## Step 4: Color points by group and overlay a curve for each group.
+Adding color = Name to the aes() function means that each storm will be displayed in a different color. Since color = Name is inside the aesthetic function of the main layer, these colors will be used for both geometric objects (points as well as curves): 
+
+```{r scatterplot with curve - color points and curves, message = FALSE}
+ggplot(data = sampleStorms, aes(x = TS_diameter, y = Pressure, color = Name)) + 
+        geom_point(size = 4) + 
+        geom_smooth(se = FALSE, size = 3) + 
+        ourTheme
+```
+
+## Step 5: Color points by group but overlay a curve for all points.
+If you only want to make a change to one layer of a plot, you can adjust the aes() function in the individual plot layer. Here, there is a second aes() function within the geom_point() function, so the color = Name aesthetic only applies to points: 
+
+```{r scatterplot with curve - color points, but not curve, message = FALSE}
+ggplot(data = sampleStorms, aes(x = TS_diameter, y = Pressure)) + 
+        geom_point(aes(color = Name), size = 4) + 
+        geom_smooth(se = FALSE, size = 3, color = "#92b2c4") + 
+        ourTheme
+```

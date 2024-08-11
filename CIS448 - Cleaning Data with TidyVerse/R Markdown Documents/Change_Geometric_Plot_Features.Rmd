@@ -1,0 +1,96 @@
+---
+title: "Change Geometric Plot Features"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Step 1: Set the theme and load your data.
+
+```{r, warning = FALSE, message = FALSE}
+# 1) Set up the theme used in these videos:
+library(ggplot2)
+
+theme <-  theme(plot.margin = margin(5, 5, 5, 5, "pt"),
+          panel.grid.major = element_blank(),
+          panel.grid.minor = element_blank(),
+          panel.background = element_blank(),
+          panel.border = element_rect(colour = "#393f47", fill = NA, size = 2),
+          axis.text = element_text(size = 20),
+          axis.title.x = element_text(size = 24),
+          axis.title.y = element_text(size = 24),
+          plot.title = element_text(face = "bold", size = 30))
+
+ourTheme <- list(theme,
+
+scale_color_manual(values = c('#393f47', '#b31b1b', '#fbb040', '#92b2c4')),
+        scale_fill_manual(values = c('#b31b1b', '#cecece', '#393f47', '#92b2c4', '#fbb040')))
+
+# 2) Load data from the National Oceanic and Atmospheric Administration's 
+# Atlantic hurricane database and convert variables to factors where necessary:
+
+library(tidyverse)
+
+# read in the storm data:
+storms <- read.csv("storms.csv")
+
+# set the storm category to be a factor:
+storms$Category <- factor(storms$Category, levels = -1:5) 
+
+# set the measurement date/time to be a factor:
+storms$Date <- factor(storms$Date, levels = unique(storms$Date)) 
+
+# look at the storm data
+view(storms)
+
+# 3) Filter the data to only use observations for Hurricane Sandy:
+
+sandy <- storms %>% filter(Name == "Sandy")
+
+# 4) Create a data set with observations only for Hurricanes Katrina, Sandy, and Wilma:
+
+sampleStorms <- storms %>% filter(Name %in% c("Katrina", "Sandy", "Wilma"))
+
+head(sampleStorms)
+```
+
+## Step 2: Make a barplot of the number of observations for each storm.
+Using geom_bar() instead of geom_point() makes the geometry of this plot a bar. Since this is a barplot of number of observations, there is no need to specify a y variable in the aesthetic function because R does this calculation for you. The color of the bars is specified by the argument fill:
+
+```{r barplot}
+# use geom_bar() for barplots
+ggplot(sampleStorms, aes(x = Name)) + 
+        geom_bar(fill = '#b31b1b') + 
+        ourTheme
+```
+
+## Step 3: Create a stacked barplot. 
+To create a stacked barplot, you can adjust the fill argument within the aes() function. The groups within the barplot are created by setting fill = Category:
+
+```{r stacked barplot}
+ggplot(sampleStorms, aes(x = Name, fill = Category)) +
+        geom_bar() + 
+        ourTheme
+```
+
+## Step 4: Create a side-by-side barplot.
+Adding the argument position = "dodge" within the geom_bar() function makes the barplot a side-by-side barplot, instead of a stacked barplot:
+
+```{r side-by-side barplot}
+ggplot(sampleStorms, aes(x = Name, fill = Category)) + 
+        geom_bar(position = "dodge") + 
+        ourTheme
+```
+
+## Step 5: Make a line plot of wind speed over time for Hurricane Sandy.
+Use the geom_line() function to make a line plot. Make sure to set group = 1 within the aes() function since the x-axis variable is a factor:
+
+```{r line plot}
+ggplot(sandy, aes(x = Date, y = Wind, group = 1)) + 
+        geom_line(size = 3) + 
+        ourTheme
+```

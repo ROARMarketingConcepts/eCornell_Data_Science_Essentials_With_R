@@ -1,0 +1,49 @@
+---
+title: "Use pivot_wider and pivot_longer"
+author: "eCornell"
+date: "10/8/2021"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Step 1: Load your data.
+
+```{r}
+library(tidyverse)
+langDivLengthen <- read.csv("language_diversity_pl.csv") 
+head(langDivLengthen)
+```
+```{r}
+langDivWiden <- read.csv("language_diversity_pw.csv") 
+head(langDivWiden)
+```
+
+
+
+## Step 2: Lengthen a data set.
+Use the pivot_longer() function to lengthen a data set. pivot_longer() takes the arguments data for the data set, cols for the columns whose names are values of a variable, names_to for what to call the new column, and values_to for what to call the column into which the cells of the data frame will be moved.
+
+Note that even though this code lengthens your data set, it still needs additional manipulation before it is tidy. 
+```{r}
+langDiv1 <- pivot_longer(data = langDivLengthen, 
+                cols = -Measurement, 
+                names_to = "Country",
+                values_to = "Value")
+head(langDiv1)
+```
+
+## Step 3: Widen a data set.
+Use the pivot_wider() function to widen a data set. pivot_wider() takes the arguments data for the data set, names_from for the column of data that contains the names of the new columns, and values_from for the column of data that contains the values for the new columns.
+
+```{r}
+langDiv2 <- pivot_wider(data = langDivWiden,
+            names_from = Measurement,
+            values_from = Value)
+
+head(langDiv2)
+```

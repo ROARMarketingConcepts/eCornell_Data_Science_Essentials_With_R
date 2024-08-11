@@ -1,0 +1,53 @@
+---
+title: "Join Related Data Sets"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Step 1: Load your data.
+```{r, warning=FALSE, message=FALSE}
+library(tidyverse)
+
+langDiv <- read.csv("langDiv.csv") 
+head(langDiv)
+
+gdp <- read.csv("country_gdp_data.csv", header = TRUE)
+head(gdp)
+```
+
+## Step 2: Keep all rows and columns.
+Use the full_join() function if you want to keep all of the rows and columns from both data sets when you combine them. When you join two data sets, you need to join them by a variable that is in both data sets. In this case, we want to use the variable Country, so we include the argument by = "Country".
+
+```{r full_join()}
+# join the langDiv and gdp data sets by the Country variable
+# keep all rows and all columns from both data sets
+full_join(x = langDiv, y = gdp, by = "Country")
+
+# Note: If the variable specifying the country name were different across the two data frames (for instance, one data frame had a "Country" variable and the other had a "CountryName" variable), then we would provide both variable names to the full_join() function.
+# Example: if "Country" in langDiv and "CountryName" in gdp, use full_join(x = langDiv, y = gdp, by = c("Country" = "CountryName"))
+```
+
+## Step 3: Keep all data from the rightmost data set.
+Use the right_join() function to keep all data from the rightmost data set. The rightmost data set is the one referred to with the argument y. If you don't include the arguments x and y, R will assume the one on the right is y.
+
+In this example, all the data from the gdp data set is kept. 
+
+```{r right_join()}
+# join the langDiv and gdp data sets by the Country variable
+# keep all rows from gdp and all columns from both data sets
+right_join(x = langDiv, y = gdp, by = "Country")
+```
+
+Use inner_join() to join two data sets, keeping only the rows that are present in both data sets and all of the columns from both data sets.
+
+## Step 4: Keep only data that occurs in both data sets.
+Use the inner_join() function to keep only data that is present in the joined variable in both data sets. 
+
+```{r inner_join()}
+inner_join(x = langDiv, y = gdp, by = "Country")
+```

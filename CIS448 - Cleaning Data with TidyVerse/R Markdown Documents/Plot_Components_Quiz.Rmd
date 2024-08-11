@@ -1,0 +1,36 @@
+---
+title: "Plot_Components_Quiz.Rmd"
+author: "eCornell"
+date: "3/15/2021"
+output:
+  pdf_document: default
+  html_document: default
+---
+Use these libraries and the storms data set, as modified below, as a starting point for the following questions:
+
+```{r setup, include=FALSE}
+library(tidyverse)
+storms <- read.csv("storms.csv")
+storms$Category <- factor(storms$Category, levels = -1:5) # set the storms category to be a factor
+storms$Date <- factor(storms$Date, levels = unique(storms$Date)) # set the measurement date/time to be a factor
+```
+
+*CQ1:* 
+The storms2 data set, which is created in the code below, contains information on 861 storms that progressed into hurricanes. The variables Pressure and HU_diameter give the air pressure and the diameter of the area experiencing hurricane-strength winds, respectively. 
+Edit the code below to create a scatterplot that displays HU_diameter on the x-axis and pressure on the y-axis. Your plot will be saved as CQ1. 
+```{r, echo=FALSE}
+storms2 <- storms %>%
+  filter(HU_diameter > 0)
+CQ1<- ggplot(storms2, aes(x = HU_diameter, y = Pressure)) + 
+  geom_point(size = 4) 
+CQ1 # Display the plot
+```
+
+*CQ2:* 
+The following code creates a scatterplot with tropical storm diameter on the x-axis and pressure on the y-axis. Adjust the geom_point() function so that the points are of size 5. Your plot will be saved as CQ2.
+```{r, echo=FALSE}
+CQ2<- ggplot(storms, aes(x = TS_diameter, y = Pressure)) + 
+  geom_point(size=5)
+CQ2 # Display the plot
+
+```

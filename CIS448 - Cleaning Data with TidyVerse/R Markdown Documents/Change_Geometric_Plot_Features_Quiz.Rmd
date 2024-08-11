@@ -1,0 +1,36 @@
+---
+title: "Change_Geometric_Plot_Features_Quiz.Rmd"
+author: "eCornell"
+date: "3/15/2021"
+output:
+  pdf_document: default
+  html_document: default
+---
+Use these libraries and the storms data set, as modified below, as a starting point for the following questions:
+
+```{r setup}
+library(tidyverse)
+library(ellipsis)
+storms <- read.csv("storms.csv")
+storms$Category <- factor(storms$Category, levels = -1:5) # set the storm category to be a factor
+storms$Date <- factor(storms$Date, levels = unique(storms$Date)) # set the measurement date/time to be a factor
+sampleStorms <- storms %>%
+filter(Name == "Sandy" | Name == "Joaquin" |  Name == "Humberto")
+```
+
+*CQ1:* 
+Create a line plot showing how Hurricane Sandy's air pressure changed over time; in other words, you should have "Date" on the x-axis and "Pressure" on the y-axis. To do this, you'll first need to filter the storms data set to contain only observations of Hurricane Sandy. Save the plot as CQ1. 
+```{r}
+sandy <- sampleStorms %>% filter(Name == "Sandy")
+CQ1 <- ggplot(sandy, aes(x = Date, y = Pressure, group=1)) +
+geom_line(size = 3)
+CQ1
+```
+
+*CQ2:* 
+Create a stacked barplot displaying the number of observations for each of the three storms in sampleStorms (Sandy, Joaquin, and Humberto). The stacks should reflect the amount of time that the storm was a tropical depression, tropical storm, and hurricane. (Recall that this information is provided in the Status variable.) Save your answer as CQ2.
+```{r}
+CQ2 <- ggplot(sampleStorms, aes(x = Name, fill = Status)) +
+geom_bar()
+CQ2
+```
