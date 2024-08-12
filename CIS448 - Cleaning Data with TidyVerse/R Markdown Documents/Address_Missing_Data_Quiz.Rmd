@@ -1,0 +1,22 @@
+---
+title: "Address_Missing_Data_Quiz.Rmd"
+author: "eCornell"
+date: "3/15/2021"
+output:
+  pdf_document: default
+  html_document: default
+---
+Use these libraries and this data set to answer the question below.
+
+```{r, include=FALSE}
+library(tidyverse)
+library(ellipsis)
+highways <- read.csv("state_highway_expenditures_and_fatalities.csv")
+```
+
+*CQ1:*
+The data frame "highways" displays expenditure and fatality information for each state in the U.S. However, some of the expenditure data is missing (NA). Fill in the following code chunk to replace missing expenditure data with the *median* highway expenditures. 
+```{r, include=FALSE}
+mexp <- median(highways$Expenditures, na.rm=TRUE)
+highways[is.na(highways$Expenditures), 'Expenditures' ] <- mexp
+```

@@ -1,0 +1,78 @@
+---
+title: "Splitting Strings Into Useable Pieces"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Step 1: Load and examine your data.
+```{r load packages and data set, warning = FALSE, message = FALSE}
+# Load the calls data set: 
+library(tidyverse)
+calls <- read.csv("calls.csv", stringsAsFactors = FALSE)
+
+# Then, examine it to see how it is organized: 
+head(calls)
+```
+
+## Step 2: Split the description of the first call in the data set.
+Extract the description of the first call and assign it to the variable temp:
+
+```{r}
+temp <- calls$desc[1]
+temp
+```
+Since the description uses semicolons to split each fragment, that is what you'll use to separate your data when you use the str_split() function:
+```{r}
+head(calls)
+```
+
+Split the first call description into components.
+
+```{r split a single string with str_split()}
+str_split(temp, ";", simplify = TRUE)
+```
+
+## Step 3: Split all call descriptions with a for loop.
+To separate the descriptions of each call in the whole data set quickly, you'll want to write a for loop. The comments within the following for loop describe what each step of the loop does.   
+
+```{r loop to split multiple strings with str_split()}
+# Initialize vectors to store each of the new variables:
+
+address <- c()
+town <- c()
+dt <- c()
+
+for(i in 1:nrow(calls)) { # loop over emergency calls
+  
+  # get the description of the i^th call
+  callI <- calls[i, "desc"] 
+  
+  # split the description text based on ";" --> gives a matrix of substrings
+  splitCallDesc <- str_split(callI, ";", simplify = TRUE) 
+  
+  # store the street address, town, and date/time
+  address[i] <- splitCallDesc[1]
+  town[i] <- splitCallDesc[2]
+  dt[i] <- splitCallDesc[3]
+  
+}
+```
+
+## Step 4: Store the new vectors in the calls data frame.
+Now that you've created the address, town, and date-time (dt) vectors, you can add them to the data frame as new variables:
+
+```{r add new variables to the data frame}
+calls$address <- address
+calls$towns <- town
+calls$dt <- dt
+```
+
+## Step 5: Examine the new data set.
+```{r}
+head(calls)
+```

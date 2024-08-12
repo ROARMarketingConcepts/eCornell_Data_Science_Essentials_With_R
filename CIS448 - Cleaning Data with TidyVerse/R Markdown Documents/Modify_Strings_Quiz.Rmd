@@ -1,0 +1,41 @@
+---
+title: "Modify_Strings_Quiz.Rmd"
+author: "eCornell"
+date: "3/16/2021"
+output:
+  pdf_document: default
+  html_document: default
+---
+Use these libraries and this data set as the starting point to answer all of the questions below.
+
+```{r, include=FALSE}
+library(tidyverse)
+library(lubridate)
+library(utf8)
+
+```
+
+*CQ1:*
+Use the code in the code chunk below as a starting point, then write code so that intersections in the Address variable, currently denoted with a `&`, are expressed with the `@` symbol instead; e.g., MAIN ST @ BUTTONWOOD ST. Be sure to keep track of any white space that is needed. 
+```{r, echo=FALSE}
+calls<-read.csv("calls_CQ1_Q2.csv", stringsAsFactors = F)
+calls$address <- str_replace(calls$address, " & ", " @ ")
+```
+
+*CQ2:*
+Use the code in the code chunk below as a starting point, then write code to remove excess white space around the values of the reason, towns, time, and date variables.
+```{r, echo=FALSE}
+calls<-read.csv("calls_CQ1_Q2.csv", stringsAsFactors = F)
+
+calls$reason <- str_trim(calls$reason)
+calls$towns <- str_trim(calls$towns)
+calls$time <- str_trim(calls$time)
+calls$date <- str_trim(calls$date)
+
+```
+*CQ3:* 
+Use the code in the code chunk below as a starting point, then write code to convert all of the values of reason to lowercase.
+```{r, echo=FALSE}
+calls<-read.csv("calls_CQ1_Q2.csv", stringsAsFactors = F)
+calls$reason <- tolower(calls$reason)
+```

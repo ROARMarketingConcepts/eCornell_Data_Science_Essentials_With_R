@@ -1,0 +1,63 @@
+---
+title: "Extract Particular Information From Strings Where It Exists"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Step 1: Load and process your data.
+Load the calls data set and process it to split the address, town, and date-time variables: 
+
+```{r load packages and data set, warning = FALSE, message = FALSE}
+library(tidyverse)
+calls <- read.csv("calls.csv", stringsAsFactors = FALSE)
+
+# Initialize vectors to store each of the new variables
+address <- c()
+town <- c()
+dt <- c()
+
+for(i in 1:nrow(calls)) { # loop over emergency calls
+  
+  # get the description of the i^th call
+  callI <- calls[i, "desc"] 
+  
+  # split the description text based on ";" --> gives a matrix of substrings
+  splitCallDesc <- str_split(callI, ";", simplify = TRUE) 
+  
+  # store the street address, town, and date/time
+  address[i] <- splitCallDesc[1]
+  town[i] <- splitCallDesc[2]
+  dt[i] <- splitCallDesc[3]
+}
+
+# add the new variables to the data frame
+calls$address <- address
+calls$towns <- town
+calls$dt <- dt
+```
+
+## Step 2: Find rows that contain the string "VEHICLE".
+Use str_which() to find the indices of the vehicle-related emergency calls, then count how many of them there were with the length() function.
+
+```{r finding whether match exists with str_which()}
+# find which strings in the vector calls$title contain the pattern "VEHICLE"
+indices <- str_which(calls$title, "VEHICLE")
+head(indices)
+```
+
+In this case, we wanted to find a word, but this function can find any string that exactly matches the second argument. Then, we can find those rows in our data set:
+
+```{r finding number of strings for which match exists}
+calls[indices,]
+```
+
+## Step 3: Find strings that contain the string "VEHICLE".
+To find all the strings in which a word or pattern appears, use the str_subset() function: 
+```{r extracting the match with str_subset()}
+temp <- str_subset(calls$title, "VEHICLE")
+head(temp)
+```
+

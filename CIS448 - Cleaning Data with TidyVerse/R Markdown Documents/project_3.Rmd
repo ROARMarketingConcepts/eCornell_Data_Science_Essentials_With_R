@@ -1,0 +1,87 @@
+---
+title: "Tidying and Joining Data Project"
+author: "Ken Wood"
+date: "8/11/2024"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+In Part Three of the project, you'll take the information presented in two data frames and create a single, tidy data set that contains all the variables you need and is ready for analysis. 
+
+The file state_education_and_income.csv lists the proportion of adults (25 and older) who had earned a Bachelor's degree by 2019 and the median income in 2019. This data is provided for most states in the U.S., as well as the District of Columbia and Puerto Rico. The file state_poverty_and_population.csv gives the poverty rate and population of each state in 2019. Run the following code chunk to load the tidyverse and view these data sets:
+
+```{r load in data sets}
+library(tidyverse)
+library(ellipsis)
+library(utf8)
+edu <- read.csv("state_education_and_income.csv", check.names = FALSE)
+pop <- read.csv("state_poverty_and_population.csv", check.names = FALSE)
+head(edu)
+head(pop)
+```
+
+
+## Question 1
+
+For the edu data set, the college completion rate and median income are provided on the rows and each state is listed on a column. Create a tidy version of this data set that has each state listed on a different row and has the college completion rate and the median income in separate columns.
+
+```{r}
+edu1 <-  pivot_longer(data = edu,
+                      cols = -Measurement,  
+                      names_to = "State")
+
+edu2 <- pivot_wider(data = edu1,
+                     names_from = Measurement,
+                     values_from = value)
+
+head(edu2)  # Dataframe edu2 is the desired result.
+```
+
+
+## Question 2
+
+For the pop data set, the poverty rate and population are provided on the rows and each state is listed on a column. Create a tidy version of this data set that has each state listed on a different row and the poverty rate and the population in separate columns.
+
+```{r}
+pop1 <-  pivot_longer(data = pop,
+                      cols = -Measurement,  
+                      names_to = "State")
+
+pop2 <- pivot_wider(data = pop1,
+                     names_from = Measurement,
+                     values_from = value)  # Dataframe pop2 is the desired result.
+
+head(pop2)
+```
+
+## Question 3
+
+Once both the edu and pop data sets are tidy, join the two data sets to create a *single* data set that displays the college completion percentage, median income, poverty rate, and population for each state. Keep all rows and all columns from each of the two data frames you're joining.
+
+```{r}
+
+joinedDF <- full_join(x=edu2, y=pop2, by="State")
+head(joinedDF)
+```
+
+## Question 4
+
+When you joined the two data frames, you created a data frame that contains some missing values. Check which variable(s) contain missing data, then fill in any missing data with the **average** value of the variable.
+
+```{r}
+
+# Values for `MedianIncome`, `PovertyRate` and `Population` are missing for Puerto Rico.
+
+avg_med_income = mean(joinedDF$MedianIncome, na.rm=TRUE)
+joinedDF[is.na(joinedDF$MedianIncome), 'MedianIncome' ] <- avg_med_income
+
+avg_pov_rate = mean(joinedDF$PovertyRate, na.rm=TRUE)
+joinedDF[is.na(joinedDF$PovertyRate), 'PovertyRate' ] <- avg_pov_rate
+
+avg_pop = mean(joinedDF$Population, na.rm=TRUE)
+joinedDF[is.na(joinedDF$Population), 'Population' ] <- avg_pop
+
+joinedDF
+```
+

@@ -1,0 +1,74 @@
+---
+title: "Split_Strings_Quiz.Rmd"
+author: "eCornell"
+date: "3/15/2021"
+output:
+  pdf_document: default
+  html_document: default
+---
+Use these libraries and this data set to answer the questions below.
+
+```{r}
+library(tidyverse)
+library(lubridate)
+library(utf8)
+
+calls <- read.csv("calls_Q1_Q1.csv", stringsAsFactors = FALSE)
+```
+
+*CQ1:*
+Just like there was a structure to the desc variable (i.e., components were separated by a semicolon), there is structure to the date/time variable, dt, because the date and the time are separated by @. 
+Fill in the code below to split each dt value at @ and save the results in two new columns within the calls data frame called date and time. Save the data frame as CQ1. 
+```{r}
+# Initialize vectors to store each of the new variables
+dates <- c()
+times <- c()
+
+for(i in 1:nrow(calls)){ # loop over emergency calls
+  
+  # get the i^th date/time
+  dtI <- calls[i, "dt"] 
+  
+  # split the date/time text based on "@" --> gives a vector of substrings
+  splitCallDT <- str_split(dtI, "@", simplify = TRUE)
+    
+    # store the date and the time
+    dates[i] <- splitCallDT[1]
+    times[i] <- splitCallDT[2]
+    
+}
+
+# Add new variables to the data frame
+calls$date <- dates
+calls$time <- times
+head(calls)
+```
+
+*CQ2:*
+There's also structure to the title variable: The type of first responders (EMS vs. Fire vs. Traffic) is separated from the reason for the call (e.g., "Syncopal episode", "Fracture", etc.) by a colon, :. Continue modifying the calls data set by separating the title variable.
+First, load the modified calls data set using the code in the first line of the code chunk below. Then, fill in the code below to split the title variable into two new variables (representing the responder type and the call reason). Add these variables to the data frame as two new columns called responder and reason. 
+```{r}
+calls <- read.csv("calls_Q2_Q1.csv", stringsAsFactors = FALSE)
+
+# Initialize vectors to store each of the new variables
+responders <- c()
+reasons <- c()
+
+for(i in 1:nrow(calls)) { # loop over emergency calls
+  
+  # get the i^th call title
+  titleI <- calls[i, "title"]
+  
+  # split the title text 
+  splitCallTitle <- str_split(titleI, ":", simplify = TRUE)
+  
+  # store the responder and reason
+  responders[i] <- splitCallTitle[1]
+  reasons[i] <- splitCallTitle[2] 
+}
+
+# Add new variables to the data frame
+calls$responder <- responders
+calls$reason <- reasons
+head(calls)
+```

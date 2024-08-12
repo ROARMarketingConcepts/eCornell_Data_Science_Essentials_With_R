@@ -1,0 +1,33 @@
+---
+title: "Extract_Information_Quiz.Rmd"
+author: "eCornell"
+date: "3/16/2021"
+output:
+  pdf_document: default
+  html_document: default
+---
+Use these libraries and data set in the following code chunk as the starting point to answer all of the questions below.
+
+```{r, include=FALSE}
+library(tidyverse)
+library(lubridate)
+library(utf8)
+calls <- read.csv("calls_CQ1_Q2.csv", stringsAsFactors = FALSE)
+calls$address<- str_replace(calls$address, " & ", " @ ")
+
+```
+
+*CQ1:*
+Write code to extract the specific reasons for all cardiac-related calls (i.e., extract any values of calls$reason that have the word "CARDIAC" in them), and save this subset as a vector called reasons.
+```{r, echo=FALSE}
+indices <- str_which(calls$reason, "CARDIAC")
+reasons = calls[indices,]$reason
+```
+
+*CQ2:*
+Earlier we saw that some of the addresses specify an intersection (e.g., MAIN ST @ BUTTONWOOD ST), but others only give one street (e.g., W MAIN ST). We might want to count how many addresses only contain one street since these are clearly less detailed. Edit the str_which() function below to do so.
+```{r, echo=FALSE}
+temp <- str_which(calls$address, " @ ") # how many locations have an intersection
+                    #(remember that "@" is used to denote an intersection)
+length(temp) # how many calls have an intersection
+```
