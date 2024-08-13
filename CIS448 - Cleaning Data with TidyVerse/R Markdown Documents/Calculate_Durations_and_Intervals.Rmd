@@ -1,0 +1,90 @@
+---
+title: "Calculate Durations and Intervals"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Step 1: Load and process your data.
+Load the calls data set: 
+
+```{r load packages and data set, warning = FALSE, message = FALSE}
+library(tidyverse)
+library(lubridate)
+calls <- read.csv("calls.csv", stringsAsFactors = FALSE)
+```
+Process the data:
+```{r}
+# Initialize vectors to store each of the new variables
+address <- c()
+town <- c()
+dt <- c()
+
+for(i in 1:nrow(calls)) { # loop over emergency calls
+  
+  # get the description of the i^th call
+  callI <- calls[i, "desc"] 
+  
+  # split the description text based on ";" --> gives a matrix of substrings
+  splitCallDesc <- str_split(callI, ";", simplify = TRUE) 
+  
+  # store the street address, town, and date/time
+  address[i] <- splitCallDesc[1]
+  town[i] <- splitCallDesc[2]
+  dt[i] <- splitCallDesc[3]
+  
+}
+
+# add the new variables to the data frame
+calls$address <- address
+calls$towns <- town
+calls$dt <- dt
+```
+
+##Step 2: Create POSIXct objects for the date-times.
+Examine the calls$dt variable to see how the date information is currently organized: 
+```{r}
+head(calls$dt)
+```
+
+Since the date is organized year-month-day-hour-minute-second, you can use the function ymd_hms() to create the POSIXct object: 
+```{r}
+calls$dtBetter <- ymd_hms(calls$dt)
+```
+
+## Step 3: Create a time interval.
+When you create an interval, you need to specify the start and end you want as POSIXct objects in the same format as your date-times. We'll look at the interval between January 1, 2020, and January 3, 2020. 
+```{r creating an interval}
+# specify the start and end of the interval as POSIXct objects
+start <- ymd_hms("2020-01-01 00:00:00") 
+end <- ymd_hms("2020-01-03 23:59:00")
+
+# create the interval
+newYears <- interval(start, end)
+newYears
+```
+
+## Step 4: Check whether a date falls within an interval.
+You can filter your data set so that it only contains dates within a certain interval by using the %within% function inside of the filter() function:
+```{r checking whether date is in interval}
+calls %>% filter(dtBetter %within% newYears)
+head(calls)
+```
+
+## Step 5: Calculate duration between calls.
+The first step to calculate a duration is to specify the interval between the calls in which you're interested. Here, we're interested in the duration between the first and second emergency calls, so we'll create an interval between them: 
+
+```{r calculate duration between two calls}
+# create interval from 1st to 2nd emergency call
+firstToSecond <- interval(calls$dtBetter[1], calls$dtBetter[2])
+```
+
+Once you've created an interval, you can calculate the duration with the function as.duration(): 
+```{r}
+as.duration(firstToSecond)
+```
+

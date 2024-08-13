@@ -1,0 +1,117 @@
+---
+title: "Create and Alter Date-Time Objects From Strings"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## Step 1: Load your data.
+
+```{r load packages and data set, warning=FALSE, message=FALSE}
+library(tidyverse)
+calls <- read.csv("calls.csv", stringsAsFactors = FALSE)
+
+# Prepare data:
+
+# Initialize vectors to store each of the new variables
+address <- c()
+town <- c()
+dt <- c()
+
+for(i in 1:nrow(calls)) { # loop over emergency calls
+  
+  # get the description of the i^th call
+  callI <- calls[i, "desc"] 
+  
+  # split the description text based on ";" --> gives a matrix of substrings
+  splitCallDesc <- str_split(callI, ";", simplify = TRUE) 
+  
+  # store the street address, town, and date/time
+  address[i] <- splitCallDesc[1]
+  town[i] <- splitCallDesc[2]
+  dt[i] <- splitCallDesc[3]
+  
+}
+
+# add the new variables to the data frame
+calls$address <- address
+calls$towns <- town
+calls$dt <- dt
+
+# For plot:
+theme <-  theme(plot.margin = margin(5, 5, 5, 5, "pt"),
+        panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank(), 
+        panel.background = element_blank(), 
+        panel.border = element_rect(colour = "#393f47", fill = NA, size = 2),
+        axis.text = element_text(size = 30),
+        axis.title.x = element_text(size = 30),
+        axis.title.y = element_text(size = 30),
+        plot.title = element_text(face = "bold", size = 30))
+ourTheme <- list(theme, scale_size_manual(values = c(1.5)))
+```
+
+## Step 2: Examine your data.
+Look at the first few rows of the data. Notice that the dt variable contains date-times.
+
+```{r looking at date-time variable}
+head(calls$dt)
+```
+
+## Step 3: Load the lubridate package.
+This package is useful for working with date-times.  
+
+```{r loading lubridate, warning = FALSE, message = FALSE}
+library(lubridate)
+```
+
+## Step 4: Convert date-times from strings to POSIXct objects.
+
+```{r creating a POSIXct object}
+# convert date-times from strings to POSIXct objects
+# need to specify the order in which the components appear -- in this case, year-month-day-hour-minute-second
+calls$dtBetter <- ymd_hms(calls$dt)
+head(calls$dtBetter)
+```
+
+## Step 5: Set the time zone to follow New York.
+
+```{r creating a POSIXct object with time zone specified}
+# convert date-times from strings to POSIX objects, but with the time zone specified
+temp <- ymd_hms(calls$dt, tz = "America/New_York")
+head(temp)
+```
+
+## Step 6: Extract components from the date-time of the first call.
+
+```{r extracting components of date-time}
+# Date and time of first call
+firstCall <- calls$dtBetter[1]
+firstCall
+
+# Pull out components
+year(firstCall)
+month(firstCall)
+day(firstCall)
+hour(firstCall)
+minute(firstCall)
+second(firstCall)
+```
+
+## Step 7: Make a new variable giving the hour of each 911 call.
+
+```{r make hour variable}
+# create a new variable called "hour" that gives the hour (0-23) of the emergency call
+calls$hour <- hour(calls$dtBetter)
+head(calls)
+```
+
+## Step 8: Create a barplot that illustrates how call volume changes over the course of the day.
+
+```{r barplot of number of calls}
+# make a barplot of the number of calls in each hour
+ggplot(calls, aes(x = hour)) + geom_bar(fill = "#b31b1b") + ourTheme
+```
